@@ -26,6 +26,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 020 | speech acts, felicity, role/authority, misfire/abuse, and perlocutionary effect | reinterpretation | coherence / predefinition / constitutive-act boundary analysis |
 | 021 | institutional language, role/delegation/jurisdiction, constitutive rules, and institutional effect | reinterpretation | coherence / predefinition / institutional-bridge analysis |
 | 022 | social roles, directional authority/power, legitimacy/compliance, and authority conflict | reinterpretation | coherence / predefinition / relation-direction audit |
+| 023 | syntax-semantics interface, focus/topic, alternative sets, and reduced-output loss | reinterpretation | coherence / predefinition / structural-information audit |
 
 ## Purpose folders
 
