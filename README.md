@@ -52,6 +52,18 @@ The repository is not a numerical benchmark repository and does not treat cross-
 - Operational result: feeding the external sentinel back into Stage V as an ordinary value changes the assignment graph and can create an additional Stage-VI channel.
 - Roadmap refinement: distinguish original partial semantics, faithful lifted representation, and semantic identification.
 
+## Case 006 — Public Announcement Logic and observer/update boundaries
+
+- Domain: Mathematical and philosophical logic
+- Core test: separate factual truth, epistemic information state, and DSD structural describability; test whether public-announcement restriction can be identified with DSD restriction or candidate deletion.
+- Primary DSD target: Primitive Axiom III, Closure Clause IV, full candidate retention, and Remark 6.9.
+- Initial result: **not falsified**.
+- Leakage result: external/meta-level knowledge of a formation model does not force `Descfg_L(p)` when the declared Clause-IV witness fails.
+- Paired-regime result: identical underlying material/configuration data can be non-describable in one regime and describable in another when primitive regime data differ, but Formation does not derive one regime from another by learning.
+- Non-correspondence: PAL accessibility, knowledge, and announcement update are not DSD restriction, describability, or Closure Clause IV.
+- Submodel result: PAL-style deletion of alternatives cannot be identified with arbitrary deletion of DSD candidate records because witness closure can be destroyed.
+- Scope boundary: a direct observer-information update requires an additional bridge from epistemic state/update to DSD primitive regime data.
+
 ## Repository structure
 
 - `methodology/` — common analysis protocol and case template
@@ -69,3 +81,5 @@ Case 003 completed its initial mathematical analysis on branch `analysis/case-00
 Case 004 completed its initial mathematical analysis on branch `analysis/case-004-free-logic`, including source notes, finite status-space witnesses, a realization-without-describability witness, and the predefinition/promotion-rule test.
 
 Case 005 completed its initial mathematical analysis on branch `analysis/case-005-strong-kleene`, including a faithful lifted-totalization theorem, a three-state non-equivalence witness, and the Stage-VI sentinel-substitution test.
+
+Case 006 completed its initial mathematical analysis on branch `analysis/case-006-public-announcement-logic`, including a two-world PAL witness, an external-knowledge leakage test, a paired-regime contrast, and a PAL-style deletion/submodel stress test.
