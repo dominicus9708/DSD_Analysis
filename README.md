@@ -10,6 +10,7 @@ The repository is not a numerical benchmark repository and does not treat cross-
 - Topic: Partial functions and undefinedness
 - Core test: compare a domain-preserving partial assignment with totalization by a default value (especially zero), and identify which distinctions are lost.
 - Primary DSD target: undefined assignment vs defined zero; downstream channel absence vs admitted zero-valued channel.
+- Initial result: **not falsified**. Naive zero-totalization is non-injective when domain/status information is discarded; status-preserving encodings remain possible.
 
 ## Repository structure
 
@@ -19,4 +20,4 @@ The repository is not a numerical benchmark repository and does not treat cross-
 
 ## Status
 
-The first case is in preparation on branch `prep/partial-functions-undefined-zero`.
+Case 001 has completed its initial mathematical analysis on branch `prep/partial-functions-undefined-zero`. The branch contains source notes, a rigorous finite witness, strengthened totalization theorems, the Stage-VI channel consequence, and the case verdict.
