@@ -20,6 +20,17 @@ The repository is not a numerical benchmark repository and does not treat cross-
 - Roadmap correction: a wrong-sort input is not DSD `unavailable input`; it is outside the property's typed input product. `Unavailable input` means a required profile carrier is unavailable at the configuration.
 - Boundary: ordinary many-sorted logic does not by itself establish DSD carrier-unavailability or partial undefinedness.
 
+## Case 003 — Institution Theory and strict equivalence
+
+- Domain: Mathematical and philosophical logic.
+- Core test: separate pure renaming, equal downstream composite, and satisfaction-preserving signature translation/reduct.
+- Primary DSD target: Formation Definition 6.10 strict base-fixed formation isomorphism and its relation to composite coincidence.
+- Initial result: **not falsified** for the tested equivalence layer.
+- Renaming test: strict equivalence is invariant under structure-preserving relabeling over the fixed anchored base.
+- Same-output test: equal composites do not force strict formation equivalence.
+- Roadmap refinement: Institution-Theory satisfaction preservation is not DSD strict equivalence; it is only a methodological/structural comparison node.
+- Boundary: a future weaker signature-translation/reduct or observational-equivalence layer could be studied without replacing strict equivalence.
+
 ## Repository structure
 
 - `methodology/` — common analysis protocol and case template
@@ -31,3 +42,5 @@ The repository is not a numerical benchmark repository and does not treat cross-
 Case 001 has completed its initial mathematical analysis on branch `prep/partial-functions-undefined-zero`.
 
 Case 002 has completed its initial mathematical analysis on branch `analysis/case-002-many-sorted-logic`, including source notes, a finite type-erasure witness, a corrected correspondence map, and the local verdict.
+
+Case 003 has completed its initial mathematical analysis on branch `analysis/case-003-institution-theory`, including source notes, three comparison witnesses, an additional strictness-boundary witness, and the local verdict.
