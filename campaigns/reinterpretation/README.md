@@ -12,6 +12,10 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 - ontology and knowledge representation
 - philosophy, epistemology, and thought-experiment audit
 
+## Active analyses
+
+- `LAW-001 / Global Case 012` — meeting nonattendance, non-exercise versus invalid ballot, and presumption-of-innocence staging. Primary result: external institutional rules independently preserve several of the same state separations that DSD Formation keeps distinct; the legal burden-of-proof asymmetry remains external normative data rather than a DSD theorem.
+
 ## Questions
 
 1. Does DSD remove a real ambiguity, omitted state, or invalid composition step?
