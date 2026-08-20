@@ -76,6 +76,19 @@ The repository is not a numerical benchmark repository and does not treat cross-
 - Cross-layer result: property-record reuse must be explicitly declared downstream, and dynamics does not silently duplicate inherited channels.
 - Clarification opportunity: use “channel multiplicity” for multiplicity of distinct operational tags; occurrence-sensitive applications need an explicit multiset/occurrence-index/counting extension.
 
+## Case 008 — Primitive PI direct attack
+
+- Domain: Direct internal axiom stress test.
+- Core test: attempt to force failure of total axis-line realization from the inherited Stage-VI formation structure.
+- Primary DSD target: Definition 2.7 and Primitive Axis-Property Axiom PI.
+- Initial result: **PI not falsified**.
+- Existence result: any selected inherited-channel family can satisfy PI by choosing the one-dimensional ambient carrier `F` and mapping every selected channel to its unique one-dimensional line; no injectivity or cardinality obstruction arises.
+- Derived boundary: a nonempty selected family cannot coexist with a zero-dimensional ambient carrier in a full model.
+- Main vulnerability found: at-most-one-line-per-selected-channel is not supplied by PI. It is already imposed by the pre-axiom partial-function type of `AxLine` in Definition 2.7; PI adds only totality.
+- Branching boundary: a single inherited channel simultaneously realizing multiple distinct lines is outside the present core signature rather than an internal countermodel to PI.
+- Eligibility boundary: Formation and PI do not determine which admitted channels are axes; axis selection remains primitive extension data unless an additional eligibility bridge/predicate is supplied.
+- Revision status: no correction required; optional clarification is recommended to separate single-valued typing, PI totality, and external axis-eligibility rules.
+
 ## Repository structure
 
 - `methodology/` — common analysis protocol and case template
@@ -97,3 +110,5 @@ Case 005 completed its initial mathematical analysis on branch `analysis/case-00
 Case 006 completed its initial mathematical analysis on branch `analysis/case-006-public-announcement-logic`, including a two-world PAL witness, an external-knowledge leakage test, a paired-regime contrast, and a PAL-style deletion/submodel stress test.
 
 Case 007 completed its initial mathematical analysis on branch `analysis/case-007-linear-logic`, including distinct-tag multiplicity, same-tag multiset obstruction, weakening/contraction non-correspondence, and cross-layer reuse bookkeeping checks.
+
+Case 008 completed the first direct primitive-axiom attack on branch `analysis/case-008-primitive-pi`, including arbitrary-selection PI satisfiability, the zero-dimensional-carrier obstruction, the branching/multiline exclusion witness, and separation of axis eligibility from PI.
