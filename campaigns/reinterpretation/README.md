@@ -16,6 +16,7 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 
 - `LAW-001 / Global Case 012` — meeting nonattendance, non-exercise versus invalid ballot, and presumption-of-innocence staging. Primary result: external institutional rules independently preserve several of the same state separations that DSD Formation keeps distinct; the legal burden-of-proof asymmetry remains external normative data rather than a DSD theorem.
 - `LAW-002 / Global Case 013` — criminal-trial multi-regime describability. Minimal model separates world reference, evidence sources, prosecution, defence, court, evidence rules, and decision rules. Primary result: one regime's missing description cannot be silently totalized into another regime's positive result; admitted court records may fail to identify a unique world state. Cross-regime transfer and legal norms remain application-supplied structure.
+- `LING-001 / Global Case 014` — expression availability, semantic typing, denotation/reference, and defined truth output. Primary result: formal semantics independently distinguishes several stages and status classes, especially non-denotation versus defined falsity, but no unique one-to-one DSD encoding is forced by linguistics.
 
 ## Questions
 
