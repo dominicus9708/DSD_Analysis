@@ -20,6 +20,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 014 | expression availability, semantic typing, denotation/reference, and defined truth output | reinterpretation | coherence / predefinition audit |
 | 015 | presupposition support, assertion, context update, and accommodation | reinterpretation | coherence / predefinition / context-boundary analysis |
 | 016 | conversational implicature, cancellation, speaker/hearer inference separation | reinterpretation | coherence / predefinition / pragmatic-bridge analysis |
+| 017 | ambiguity, multiple legitimate interpretation candidates, and disambiguation | reinterpretation | coherence / predefinition / representation-boundary analysis |
 
 ## Purpose folders
 
