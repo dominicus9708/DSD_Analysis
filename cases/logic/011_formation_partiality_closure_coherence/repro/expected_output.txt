@@ -1,0 +1,7 @@
+Axiom I: True
+Axiom II: True
+Axiom III: True
+Axiom V: True
+Describable configurations: ['p']
+A*: ['a']
+Channels: [('p', 'a', 'lambda', 0, 'rho')]
