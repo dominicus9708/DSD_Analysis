@@ -12,7 +12,20 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 - ontology and knowledge representation
 - philosophy, epistemology, and thought-experiment audit
 
-## Active analyses
+## Completed domain synthesis
+
+### Linguistics / formal semantics — first pass
+
+`LING-001`–`LING-010` / Global Cases `014`–`023` are organized as one completed first-pass domain campaign.
+
+- synthesis: `../../synthesis/LINGUISTICS_CAMPAIGN_014_023.md`
+- case evidence: `../../cases/linguistics/`
+
+The campaign-level result is not that DSD supplied new linguistic theory. Its main result is a source-preserving audit discipline: distinguish status, candidate selection, context update, pragmatic inference, role/authority relations, ordered relational structure, and reduction loss; keep all linguistic/institutional bridge rules external unless explicitly modeled.
+
+Routine variants of the ten recorded phenomena should not be counted as new independent evidence. New cases should add a genuinely new structural node, counterpressure, applied real-world case, or empirical/computational test.
+
+## Active analyses and domain records
 
 - `LAW-001 / Global Case 012` — meeting nonattendance, non-exercise versus invalid ballot, and presumption-of-innocence staging. Primary result: external institutional rules independently preserve several of the same state separations that DSD Formation keeps distinct; the legal burden-of-proof asymmetry remains external normative data rather than a DSD theorem.
 - `LAW-002 / Global Case 013` — criminal-trial multi-regime describability. Minimal model separates world reference, evidence sources, prosecution, defence, court, evidence rules, and decision rules. Primary result: one regime's missing description cannot be silently totalized into another regime's positive result; admitted court records may fail to identify a unique world state. Cross-regime transfer and legal norms remain application-supplied structure.
