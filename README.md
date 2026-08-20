@@ -1,129 +1,77 @@
 # DSD Analysis
 
-This repository records structured applications of DSD Analysis (DSD 분석론).
+This repository records structured applications of **DSD Analysis (DSD 분석론)**.
 
-The repository is not a numerical benchmark repository and does not treat cross-domain similarity as a proof of the DSD axioms. Each case preserves the source discipline first, then tests which DSD distinctions are directly preserved, partially preserved, recoverable only after explicit encoding, or not preserved.
+DSD Analysis is not a numerical benchmark repository and does not treat cross-domain similarity as proof of the DSD axioms. Each case preserves the source discipline first, then tests which DSD distinctions are preserved, require extra encoding, fail to correspond, or reveal an actual contradiction.
 
-## Case 001 — Partial functions and undefinedness
+## Repository organization
 
-- Domain: Mathematical and philosophical logic
-- Core test: compare a domain-preserving partial assignment with totalization by a default value, especially zero.
-- Primary DSD target: undefined assignment vs defined zero; downstream channel absence vs admitted zero-valued channel.
-- Initial result: **not falsified**. Naive zero-totalization is non-injective when domain/status information is discarded; status-preserving encodings remain possible.
+The repository now uses two independent classification axes.
 
-## Case 002 — Many-Sorted Logic and typed applicability
+### 1. Analysis purpose
 
-- Domain: Mathematical and philosophical logic
-- Core test: compare a well-sorted defined-zero application with an ill-sorted attempted application after type erasure.
-- Primary DSD target: typed property profile and applicability-before-value discipline in the Axis-Property System.
-- Initial result: **not falsified** for the tested typing layer.
-- Roadmap correction: a wrong-sort input is not DSD `unavailable input`; it is outside the property's typed input product. `Unavailable input` means a required profile carrier is unavailable at the configuration.
-- Boundary: ordinary many-sorted logic does not by itself establish DSD carrier-unavailability or partial undefinedness.
+See `campaigns/`.
 
-## Case 003 — Institution Theory and strict equivalence
+- `campaigns/falsification/` — direct countermodel, contradiction, and integration stress tests
+- `campaigns/coherence/` — consistency and compatibility with independent formal frameworks
+- `campaigns/predefinition/` — tests of hidden assumptions, premature promotion, typing/signature exclusion, and describability prerequisites
+- `campaigns/reinterpretation/` — structural decomposition and application to external problem domains
 
-- Domain: Mathematical and philosophical logic
-- Core test: separate pure renaming, same-output/different-structure, and satisfaction-preserving translation across signatures.
-- Primary DSD target: strict base-fixed formation isomorphism.
-- Initial result: **not falsified**. Pure renaming is preserved; aggregate coincidence does not collapse distinct channel structures; satisfaction-preserving translation is a different and generally weaker comparison notion.
-- Roadmap refinement: Institution Theory is retained only as a methodological/structural partial correspondence, not as an identity with DSD strict equivalence.
-- Future design opportunity: a separate weaker translation/reduct or observational-equivalence layer could be studied without replacing strict equivalence.
+### 2. External domain
 
-## Case 004 — Free Logic and existential/formation import
+Existing case paths are preserved under `cases/` so that prior links and case history remain stable.
 
-- Domain: Mathematical and philosophical logic
-- Core test: determine whether candidacy, admission, or realization silently promotes a record to stronger formation status.
-- Primary DSD target: Primitive Axioms I–III and Closure Clause IV.
-- Initial result: **not falsified**.
-- Exact expression-status result: under Primitive Axiom I the permitted `(Adm,Des)` states are `(0,0)`, `(1,0)`, and `(1,1)`; `(0,1)` alone is excluded.
-- Realization result: a sound `Realize(h,p)` relation does not by itself imply `Descfg(p)`.
-- DSD Analysis significance: adding `candidate => admitted`, `admitted => describable`, or `realized => describable configuration` strictly removes models currently admitted by the system. Such promotion rules are genuine extra assumptions rather than hidden consequences.
-- External mapping: Free Logic supplies a partial structural analogue by rejecting automatic existential import from individual constants, but its term/denotation/existence notions are not identified with DSD formation statuses.
-- Roadmap refinement: replace the oversimplified unary `candidate -> admitted -> realized` mnemonic with the actual typed expression/restriction/configuration structure.
+- `cases/logic/001_...` through `cases/logic/010_...` — completed mathematical/philosophical logic and direct axiom stress-test cases
+- new cases continue in their domain path and are cross-indexed from the relevant campaign page
 
-## Case 005 — Strong Kleene K3 and undefined-as-value
+This avoids moving the same case between folders when one case is relevant to more than one analysis purpose.
 
-- Domain: Mathematical and philosophical logic
-- Core test: determine whether DSD domain-exclusion undefinedness can be identified with the third semantic truth value of Strong Kleene K3.
-- Primary DSD target: Formation Stage V–VI and Axis-Property application status.
-- Initial result: **not falsified**; classified as an important **non-correspondence** node.
-- Type result: DSD undefinedness is absence of an assigned value because an input lies outside a partial-map domain, whereas K3's third state is an element of a semantic truth-value carrier.
-- Encoding result: adjoining a fresh disjoint sentinel can faithfully totalize and reconstruct a partial map; therefore `undefined is not a value` must be scoped to the original assignment/value carrier, not all possible external representations.
-- Operational result: feeding the external sentinel back into Stage V as an ordinary value changes the assignment graph and can create an additional Stage-VI channel.
-- Roadmap refinement: distinguish original partial semantics, faithful lifted representation, and semantic identification.
+## Common methodology
 
-## Case 006 — Public Announcement Logic and observer/update boundaries
+- `methodology/case_template.md` — base case template
+- `methodology/analysis_taxonomy.md` — purpose classification rules
+- `methodology/reproducibility_contract.md` — minimum evidence and rerun requirements
 
-- Domain: Mathematical and philosophical logic
-- Core test: separate factual truth, epistemic information state, and DSD structural describability; test whether public-announcement restriction can be identified with DSD restriction or candidate deletion.
-- Primary DSD target: Primitive Axiom III, Closure Clause IV, full candidate retention, and Remark 6.9.
-- Initial result: **not falsified**.
-- Leakage result: external/meta-level knowledge of a formation model does not force `Descfg_L(p)` when the declared Clause-IV witness fails.
-- Paired-regime result: identical underlying material/configuration data can be non-describable in one regime and describable in another when primitive regime data differ, but Formation does not derive one regime from another by learning.
-- Non-correspondence: PAL accessibility, knowledge, and announcement update are not DSD restriction, describability, or Closure Clause IV.
-- Submodel result: PAL-style deletion of alternatives cannot be identified with arbitrary deletion of DSD candidate records because witness closure can be destroyed.
-- Scope boundary: a direct observer-information update requires an additional bridge from epistemic state/update to DSD primitive regime data.
+## DSD paper references
 
-## Case 007 — Linear Logic and resource-sensitive multiplicity
+- `references/DSD_PAPERS.md` — current project paper titles, stable citation roles, and DOI registry notes
 
-- Domain: Mathematical and philosophical logic
-- Core test: distinguish multiplicity of distinct operational channel tags from repeated occurrence of one identical tag; test weakening/contraction analogies.
-- Primary DSD target: Formation Stage VI–VII, Axis-Property tag multiplicity, Static Aggregation reuse bookkeeping, and dynamic support identity.
-- Initial result: **not falsified**; an explicit **scope boundary** was identified.
-- Preserved multiplicity: distinct admitted tags remain distinct even if they realize the same line or component term.
-- Core limitation: `Pfin(C_L)` is an unordered set without repetition, so the core cannot encode occurrence multiplicity `m(c)>1` for one unchanged operational tag inside one composite family.
-- Non-correspondence: set extensionality is not Linear-Logic contraction, and selecting a smaller finite family is not a weakening inference rule.
-- Cross-layer result: property-record reuse must be explicitly declared downstream, and dynamics does not silently duplicate inherited channels.
-- Clarification opportunity: use “channel multiplicity” for multiplicity of distinct operational tags; occurrence-sensitive applications need an explicit multiset/occurrence-index/counting extension.
+Each case must state exactly which DSD paper, section, definition, axiom, theorem, or closure clause it uses. A paper title alone is not sufficient for a completed case.
 
-## Case 008 — Primitive PI direct attack
+## Completed campaign
 
-- Domain: Direct internal axiom stress test.
-- Core test: attempt to force failure of total axis-line realization from the inherited Stage-VI formation structure.
-- Primary DSD target: Definition 2.7 and Primitive Axis-Property Axiom PI.
-- Initial result: **PI not falsified**.
-- Existence result: any selected inherited-channel family can satisfy PI by choosing the one-dimensional ambient carrier `F` and mapping every selected channel to its unique one-dimensional line; no injectivity or cardinality obstruction arises.
-- Derived boundary: a nonempty selected family cannot coexist with a zero-dimensional ambient carrier in a full model.
-- Main vulnerability found: at-most-one-line-per-selected-channel is not supplied by PI. It is already imposed by the pre-axiom partial-function type of `AxLine` in Definition 2.7; PI adds only totality.
-- Branching boundary: a single inherited channel simultaneously realizing multiple distinct lines is outside the present core signature rather than an internal countermodel to PI.
-- Eligibility boundary: Formation and PI do not determine which admitted channels are axes; axis selection remains primitive extension data unless an additional eligibility bridge/predicate is supplied.
-- Revision status: no correction required; optional clarification is recommended to separate single-valued typing, PI totality, and external axis-eligibility rules.
+Cases 001–010 contain the first logic/falsification campaign. The aggregate record remains in:
 
-## Case 009 — Primitive PII direct attack
+- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md`
 
-- Domain: Direct internal axiom stress test.
-- Core test: attempt to break bilinear-dependency compatibility across the primitive bilinear layer, dependent property assignments, and closure declarations.
-- Primary DSD target: `Pi_bil_A`, `K_bil_A`, symmetric bilinear datum `b_A,p`, Primitive PII, and the P3/P4/P5/P7 dependency order.
-- Initial result: **PII not falsified**.
-- Main result: PII enforces **availability/dependency compatibility**, not semantic-value compatibility. A locally instantiated bilinear-dependent application or an active formal closure declared bilinear-dependent forces the presence of symmetric bilinear data, but PII contains no equation tying arbitrary property values to that datum.
-- Satisfiability result: the zero symmetric bilinear form satisfies the PII data-presence requirement on any ambient vector space, so PII alone does not impose nondegeneracy, positive definiteness, rank, or signature constraints.
-- Partiality result: a globally declared bilinear-dependent kind with empty local application domain does not trigger PII; declaration alone is distinct from local instantiation.
-- Typing result: normal-input properties are already gated by `p in K_bil_A`, so they do not create a circular proof of bilinear availability.
-- Scope result: symmetric-bilinear dependency and kind-level dependency classification are pre-axiom type/declaration choices; other dependency structures require a signature extension or separate kind.
-- Revision status: no corrective revision required. The distinction between availability compatibility and semantic-value compatibility is retained as a major finding for the planned falsification-analysis paper.
+Existing case directories and historical branches are intentionally preserved.
 
-## Repository structure
+## Next prepared analysis
 
-- `methodology/` — common analysis protocol and case template
-- `cases/` — case-by-case analysis records
-- `cross_domain/` — recurring patterns and cross-domain convergence records after multiple completed cases
+The next non-falsification workstream is **coherence / consistency comparison**.
 
-## Status
+Prepared case:
 
-Case 001 completed its initial mathematical analysis on branch `prep/partial-functions-undefined-zero`.
+- Global case: `011`
+- Purpose ID: `COH-001`
+- Path: `cases/logic/011_formation_partiality_closure_coherence/`
+- Primary target: the DSD Formation Axiom System
+- Core question: whether its partiality, typed formation stages, primitive/closure separation, and structure-preserving comparison layers can be jointly interpreted without hidden contradiction in standard set-theoretic and typed formal settings.
 
-Case 002 completed its initial mathematical analysis on branch `analysis/case-002-many-sorted-logic`.
+The preparation separates source notes, analysis plan, reproducibility requirements, and result recording so the conclusion is not embedded in the setup.
 
-Case 003 completed its initial mathematical analysis on branch `analysis/case-003-institution-theory`.
+## Reproducibility rule
 
-Case 004 completed its initial mathematical analysis on branch `analysis/case-004-free-logic`, including source notes, finite status-space witnesses, a realization-without-describability witness, and the predefinition/promotion-rule test.
+A completed case should contain, as applicable:
 
-Case 005 completed its initial mathematical analysis on branch `analysis/case-005-strong-kleene`, including a faithful lifted-totalization theorem, a three-state non-equivalence witness, and the Stage-VI sentinel-substitution test.
+1. `PLAN.md` — question and falsifiable/decidable criteria
+2. `SOURCE_NOTES.md` — external and DSD source claims actually used
+3. `RESULT.md` — derivation and judgment, including non-correspondence and boundaries
+4. an explicit finite witness/countermodel file when a small construction is possible
+5. `REPRODUCIBILITY.md` or `repro/` — exact inputs, commands/scripts when needed, and expected outputs
 
-Case 006 completed its initial mathematical analysis on branch `analysis/case-006-public-announcement-logic`, including a two-world PAL witness, an external-knowledge leakage test, a paired-regime contrast, and a PAL-style deletion/submodel stress test.
+Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience in reproducibility code.
 
-Case 007 completed its initial mathematical analysis on branch `analysis/case-007-linear-logic`, including distinct-tag multiplicity, same-tag multiset obstruction, weakening/contraction non-correspondence, and cross-layer reuse bookkeeping checks.
+## Branch note
 
-Case 008 completed the first direct primitive-axiom attack on branch `analysis/case-008-primitive-pi`, including arbitrary-selection PI satisfiability, the zero-dimensional-carrier obstruction, the branching/multiline exclusion witness, and separation of axis eligibility from PI.
-
-Case 009 completed the second direct primitive-axiom attack on branch `analysis/case-009-primitive-pii`, including missing-data rejection, empty-domain non-triggering, zero-form satisfiability, semantic-value mismatch, normal-profile typing, and the formal-closure trigger asymmetry.
+The repository's historical analysis branches are retained. This reclassification work is prepared on `reorg/analysis-taxonomy`, based on the cumulative `analysis/case-010-integrated-countermodel` state. The default `main` branch is not force-moved by this reorganization.
