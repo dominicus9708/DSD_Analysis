@@ -64,6 +64,18 @@ The repository is not a numerical benchmark repository and does not treat cross-
 - Submodel result: PAL-style deletion of alternatives cannot be identified with arbitrary deletion of DSD candidate records because witness closure can be destroyed.
 - Scope boundary: a direct observer-information update requires an additional bridge from epistemic state/update to DSD primitive regime data.
 
+## Case 007 — Linear Logic and resource-sensitive multiplicity
+
+- Domain: Mathematical and philosophical logic
+- Core test: distinguish multiplicity of distinct operational channel tags from repeated occurrence of one identical tag; test weakening/contraction analogies.
+- Primary DSD target: Formation Stage VI–VII, Axis-Property tag multiplicity, Static Aggregation reuse bookkeeping, and dynamic support identity.
+- Initial result: **not falsified**; an explicit **scope boundary** was identified.
+- Preserved multiplicity: distinct admitted tags remain distinct even if they realize the same line or component term.
+- Core limitation: `Pfin(C_L)` is an unordered set without repetition, so the core cannot encode occurrence multiplicity `m(c)>1` for one unchanged operational tag inside one composite family.
+- Non-correspondence: set extensionality is not Linear-Logic contraction, and selecting a smaller finite family is not a weakening inference rule.
+- Cross-layer result: property-record reuse must be explicitly declared downstream, and dynamics does not silently duplicate inherited channels.
+- Clarification opportunity: use “channel multiplicity” for multiplicity of distinct operational tags; occurrence-sensitive applications need an explicit multiset/occurrence-index/counting extension.
+
 ## Repository structure
 
 - `methodology/` — common analysis protocol and case template
@@ -83,3 +95,5 @@ Case 004 completed its initial mathematical analysis on branch `analysis/case-00
 Case 005 completed its initial mathematical analysis on branch `analysis/case-005-strong-kleene`, including a faithful lifted-totalization theorem, a three-state non-equivalence witness, and the Stage-VI sentinel-substitution test.
 
 Case 006 completed its initial mathematical analysis on branch `analysis/case-006-public-announcement-logic`, including a two-world PAL witness, an external-knowledge leakage test, a paired-regime contrast, and a PAL-style deletion/submodel stress test.
+
+Case 007 completed its initial mathematical analysis on branch `analysis/case-007-linear-logic`, including distinct-tag multiplicity, same-tag multiset obstruction, weakening/contraction non-correspondence, and cross-layer reuse bookkeeping checks.
