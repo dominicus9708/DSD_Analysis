@@ -21,6 +21,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 015 | presupposition support, assertion, context update, and accommodation | reinterpretation | coherence / predefinition / context-boundary analysis |
 | 016 | conversational implicature, cancellation, speaker/hearer inference separation | reinterpretation | coherence / predefinition / pragmatic-bridge analysis |
 | 017 | ambiguity, multiple legitimate interpretation candidates, and disambiguation | reinterpretation | coherence / predefinition / representation-boundary analysis |
+| 018 | vagueness, borderline cases, and theory-relative semantic status | reinterpretation | coherence / predefinition / status-boundary analysis |
 
 ## Purpose folders
 
