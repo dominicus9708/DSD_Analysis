@@ -19,6 +19,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 013 | criminal-trial world/source/prosecution/defence/court multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis |
 | 014 | expression availability, semantic typing, denotation/reference, and defined truth output | reinterpretation | coherence / predefinition audit |
 | 015 | presupposition support, assertion, context update, and accommodation | reinterpretation | coherence / predefinition / context-boundary analysis |
+| 016 | conversational implicature, cancellation, speaker/hearer inference separation | reinterpretation | coherence / predefinition / pragmatic-bridge analysis |
 
 ## Purpose folders
 
