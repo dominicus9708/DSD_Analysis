@@ -89,6 +89,19 @@ The repository is not a numerical benchmark repository and does not treat cross-
 - Eligibility boundary: Formation and PI do not determine which admitted channels are axes; axis selection remains primitive extension data unless an additional eligibility bridge/predicate is supplied.
 - Revision status: no correction required; optional clarification is recommended to separate single-valued typing, PI totality, and external axis-eligibility rules.
 
+## Case 009 — Primitive PII direct attack
+
+- Domain: Direct internal axiom stress test.
+- Core test: attempt to break bilinear-dependency compatibility across the primitive bilinear layer, dependent property assignments, and closure declarations.
+- Primary DSD target: `Pi_bil_A`, `K_bil_A`, symmetric bilinear datum `b_A,p`, Primitive PII, and the P3/P4/P5/P7 dependency order.
+- Initial result: **PII not falsified**.
+- Main result: PII enforces **availability/dependency compatibility**, not semantic-value compatibility. A locally instantiated bilinear-dependent application or an active formal closure declared bilinear-dependent forces the presence of symmetric bilinear data, but PII contains no equation tying arbitrary property values to that datum.
+- Satisfiability result: the zero symmetric bilinear form satisfies the PII data-presence requirement on any ambient vector space, so PII alone does not impose nondegeneracy, positive definiteness, rank, or signature constraints.
+- Partiality result: a globally declared bilinear-dependent kind with empty local application domain does not trigger PII; declaration alone is distinct from local instantiation.
+- Typing result: normal-input properties are already gated by `p in K_bil_A`, so they do not create a circular proof of bilinear availability.
+- Scope result: symmetric-bilinear dependency and kind-level dependency classification are pre-axiom type/declaration choices; other dependency structures require a signature extension or separate kind.
+- Revision status: no corrective revision required. The distinction between availability compatibility and semantic-value compatibility is retained as a major finding for the planned falsification-analysis paper.
+
 ## Repository structure
 
 - `methodology/` — common analysis protocol and case template
@@ -112,3 +125,5 @@ Case 006 completed its initial mathematical analysis on branch `analysis/case-00
 Case 007 completed its initial mathematical analysis on branch `analysis/case-007-linear-logic`, including distinct-tag multiplicity, same-tag multiset obstruction, weakening/contraction non-correspondence, and cross-layer reuse bookkeeping checks.
 
 Case 008 completed the first direct primitive-axiom attack on branch `analysis/case-008-primitive-pi`, including arbitrary-selection PI satisfiability, the zero-dimensional-carrier obstruction, the branching/multiline exclusion witness, and separation of axis eligibility from PI.
+
+Case 009 completed the second direct primitive-axiom attack on branch `analysis/case-009-primitive-pii`, including missing-data rejection, empty-domain non-triggering, zero-form satisfiability, semantic-value mismatch, normal-profile typing, and the formal-closure trigger asymmetry.
