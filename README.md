@@ -22,14 +22,24 @@ The repository is not a numerical benchmark repository and does not treat cross-
 
 ## Case 003 — Institution Theory and strict equivalence
 
-- Domain: Mathematical and philosophical logic.
-- Core test: separate pure renaming, equal downstream composite, and satisfaction-preserving signature translation/reduct.
-- Primary DSD target: Formation Definition 6.10 strict base-fixed formation isomorphism and its relation to composite coincidence.
-- Initial result: **not falsified** for the tested equivalence layer.
-- Renaming test: strict equivalence is invariant under structure-preserving relabeling over the fixed anchored base.
-- Same-output test: equal composites do not force strict formation equivalence.
-- Roadmap refinement: Institution-Theory satisfaction preservation is not DSD strict equivalence; it is only a methodological/structural comparison node.
-- Boundary: a future weaker signature-translation/reduct or observational-equivalence layer could be studied without replacing strict equivalence.
+- Domain: Mathematical and philosophical logic
+- Core test: separate pure renaming, same-output/different-structure, and satisfaction-preserving translation across signatures.
+- Primary DSD target: strict base-fixed formation isomorphism.
+- Initial result: **not falsified**. Pure renaming is preserved; aggregate coincidence does not collapse distinct channel structures; satisfaction-preserving translation is a different and generally weaker comparison notion.
+- Roadmap refinement: Institution Theory is retained only as a methodological/structural partial correspondence, not as an identity with DSD strict equivalence.
+- Future design opportunity: a separate weaker translation/reduct or observational-equivalence layer could be studied without replacing strict equivalence.
+
+## Case 004 — Free Logic and existential/formation import
+
+- Domain: Mathematical and philosophical logic
+- Core test: determine whether candidacy, admission, or realization silently promotes a record to stronger formation status.
+- Primary DSD target: Primitive Axioms I–III and Closure Clause IV.
+- Initial result: **not falsified**.
+- Exact expression-status result: under Primitive Axiom I the permitted `(Adm,Des)` states are `(0,0)`, `(1,0)`, and `(1,1)`; `(0,1)` alone is excluded.
+- Realization result: a sound `Realize(h,p)` relation does not by itself imply `Descfg(p)`.
+- DSD Analysis significance: adding `candidate => admitted`, `admitted => describable`, or `realized => describable configuration` strictly removes models currently admitted by the system. Such promotion rules are genuine extra assumptions rather than hidden consequences.
+- External mapping: Free Logic supplies a partial structural analogue by rejecting automatic existential import from individual constants, but its term/denotation/existence notions are not identified with DSD formation statuses.
+- Roadmap refinement: replace the oversimplified unary `candidate -> admitted -> realized` mnemonic with the actual typed expression/restriction/configuration structure.
 
 ## Repository structure
 
@@ -39,8 +49,10 @@ The repository is not a numerical benchmark repository and does not treat cross-
 
 ## Status
 
-Case 001 has completed its initial mathematical analysis on branch `prep/partial-functions-undefined-zero`.
+Case 001 completed its initial mathematical analysis on branch `prep/partial-functions-undefined-zero`.
 
-Case 002 has completed its initial mathematical analysis on branch `analysis/case-002-many-sorted-logic`, including source notes, a finite type-erasure witness, a corrected correspondence map, and the local verdict.
+Case 002 completed its initial mathematical analysis on branch `analysis/case-002-many-sorted-logic`.
 
-Case 003 has completed its initial mathematical analysis on branch `analysis/case-003-institution-theory`, including source notes, three comparison witnesses, an additional strictness-boundary witness, and the local verdict.
+Case 003 completed its initial mathematical analysis on branch `analysis/case-003-institution-theory`.
+
+Case 004 completed its initial mathematical analysis on branch `analysis/case-004-free-logic`, including source notes, finite status-space witnesses, a realization-without-describability witness, and the predefinition/promotion-rule test.
