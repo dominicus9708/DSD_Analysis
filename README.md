@@ -41,6 +41,17 @@ The repository is not a numerical benchmark repository and does not treat cross-
 - External mapping: Free Logic supplies a partial structural analogue by rejecting automatic existential import from individual constants, but its term/denotation/existence notions are not identified with DSD formation statuses.
 - Roadmap refinement: replace the oversimplified unary `candidate -> admitted -> realized` mnemonic with the actual typed expression/restriction/configuration structure.
 
+## Case 005 — Strong Kleene K3 and undefined-as-value
+
+- Domain: Mathematical and philosophical logic
+- Core test: determine whether DSD domain-exclusion undefinedness can be identified with the third semantic truth value of Strong Kleene K3.
+- Primary DSD target: Formation Stage V–VI and Axis-Property application status.
+- Initial result: **not falsified**; classified as an important **non-correspondence** node.
+- Type result: DSD undefinedness is absence of an assigned value because an input lies outside a partial-map domain, whereas K3's third state is an element of a semantic truth-value carrier.
+- Encoding result: adjoining a fresh disjoint sentinel can faithfully totalize and reconstruct a partial map; therefore `undefined is not a value` must be scoped to the original assignment/value carrier, not all possible external representations.
+- Operational result: feeding the external sentinel back into Stage V as an ordinary value changes the assignment graph and can create an additional Stage-VI channel.
+- Roadmap refinement: distinguish original partial semantics, faithful lifted representation, and semantic identification.
+
 ## Repository structure
 
 - `methodology/` — common analysis protocol and case template
@@ -56,3 +67,5 @@ Case 002 completed its initial mathematical analysis on branch `analysis/case-00
 Case 003 completed its initial mathematical analysis on branch `analysis/case-003-institution-theory`.
 
 Case 004 completed its initial mathematical analysis on branch `analysis/case-004-free-logic`, including source notes, finite status-space witnesses, a realization-without-describability witness, and the predefinition/promotion-rule test.
+
+Case 005 completed its initial mathematical analysis on branch `analysis/case-005-strong-kleene`, including a faithful lifted-totalization theorem, a three-state non-equivalence witness, and the Stage-VI sentinel-substitution test.
