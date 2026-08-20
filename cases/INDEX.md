@@ -28,6 +28,13 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 022 | social roles, directional authority/power, legitimacy/compliance, and authority conflict | reinterpretation | coherence / predefinition / relation-direction audit |
 | 023 | syntax-semantics interface, focus/topic, alternative sets, and reduced-output loss | reinterpretation | coherence / predefinition / structural-information audit |
 
+## Domain syntheses
+
+- Global Cases `001–010`: `../synthesis/FALSIFICATION_CAMPAIGN_001_010.md`
+- Global Cases `014–023` / `LING-001–010`: `../synthesis/LINGUISTICS_CAMPAIGN_014_023.md`
+
+A synthesis is a navigation and cross-case judgment layer. Case-level `PLAN`, `SOURCE_NOTES`, `FINITE_WITNESS`/reproducibility records, and `RESULT` files remain the evidentiary source.
+
 ## Purpose folders
 
 - `../campaigns/falsification/`
