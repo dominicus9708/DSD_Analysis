@@ -24,6 +24,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 018 | vagueness, borderline cases, and theory-relative semantic status | reinterpretation | coherence / predefinition / status-boundary analysis |
 | 019 | dynamic semantics, discourse-state update, anaphoric accessibility, and order effects | reinterpretation | coherence / predefinition / transformation-history analysis |
 | 020 | speech acts, felicity, role/authority, misfire/abuse, and perlocutionary effect | reinterpretation | coherence / predefinition / constitutive-act boundary analysis |
+| 021 | institutional language, role/delegation/jurisdiction, constitutive rules, and institutional effect | reinterpretation | coherence / predefinition / institutional-bridge analysis |
 
 ## Purpose folders
 
