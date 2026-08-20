@@ -6,7 +6,7 @@ DSD Analysis is not a numerical benchmark repository and does not treat cross-do
 
 ## Repository organization
 
-The repository now uses two independent classification axes.
+The repository uses two independent classification axes.
 
 ### 1. Analysis purpose
 
@@ -19,12 +19,26 @@ See `campaigns/`.
 
 ### 2. External domain
 
-Existing case paths are preserved under `cases/` so that prior links and case history remain stable.
+Case paths are preserved under `cases/` so historical links remain stable.
 
-- `cases/logic/001_...` through `cases/logic/010_...` — completed mathematical/philosophical logic and direct axiom stress-test cases
-- new cases continue in their domain path and are cross-indexed from the relevant campaign page
+- `cases/logic/` — logic, formal-framework comparison, and direct axiom stress tests
+- `cases/law/` — legal / institutional decision-structure analyses
+- `cases/linguistics/` — linguistics, formal semantics, pragmatics, speech acts, and adjacent institutional-language analyses
+- `cases/INDEX.md` — global case number, topic, and purpose cross-index
 
-This avoids moving the same case between folders when one case is relevant to more than one analysis purpose.
+This avoids moving or duplicating the same evidence when one case contributes to more than one campaign purpose.
+
+## First-pass linguistics domain
+
+`LING-001`–`LING-010` correspond to Global Cases `014`–`023`.
+
+The first-pass domain campaign is closed as a structural reinterpretation campaign. Its aggregate record is:
+
+- `synthesis/LINGUISTICS_CAMPAIGN_014_023.md`
+
+The campaign preserves source-theory distinctions first and records where Formation, Axis-Property, Static Aggregation, or no stronger DSD layer is actually needed. It does not claim a DSD theory of linguistics.
+
+New linguistic cases should be added only when they introduce a genuinely new structural node, meaningful counterpressure, a real applied case, or an empirical/computational benchmark; routine variants of already-recorded phenomena should not be counted as independent evidence.
 
 ## Common methodology
 
@@ -38,27 +52,16 @@ This avoids moving the same case between folders when one case is relevant to mo
 
 Each case must state exactly which DSD paper, section, definition, axiom, theorem, or closure clause it uses. A paper title alone is not sufficient for a completed case.
 
-## Completed campaign
+## Campaign syntheses
 
-Cases 001–010 contain the first logic/falsification campaign. The aggregate record remains in:
+See `synthesis/README.md`.
 
-- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md`
+Current synthesis records include:
 
-Existing case directories and historical branches are intentionally preserved.
+- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md` — first logic / falsification-oriented stress-test campaign
+- `synthesis/LINGUISTICS_CAMPAIGN_014_023.md` — first-pass linguistics / formal-semantics campaign
 
-## Next prepared analysis
-
-The next non-falsification workstream is **coherence / consistency comparison**.
-
-Prepared case:
-
-- Global case: `011`
-- Purpose ID: `COH-001`
-- Path: `cases/logic/011_formation_partiality_closure_coherence/`
-- Primary target: the DSD Formation Axiom System
-- Core question: whether its partiality, typed formation stages, primitive/closure separation, and structure-preserving comparison layers can be jointly interpreted without hidden contradiction in standard set-theoretic and typed formal settings.
-
-The preparation separates source notes, analysis plan, reproducibility requirements, and result recording so the conclusion is not embedded in the setup.
+Synthesis files summarize patterns and boundaries; they do not replace case-level evidence.
 
 ## Reproducibility rule
 
@@ -70,8 +73,8 @@ A completed case should contain, as applicable:
 4. an explicit finite witness/countermodel file when a small construction is possible
 5. `REPRODUCIBILITY.md` or `repro/` — exact inputs, commands/scripts when needed, and expected outputs
 
-Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience in reproducibility code.
+Missing, unknown, unavailable, undefined, inapplicable, absent, defined-zero, graded, and unresolved-candidate states must not be collapsed merely for implementation convenience. A source theory may identify some of these, but that identification must be explicit and source-supported.
 
-## Branch note
+## Branch policy
 
-The repository's historical analysis branches are retained. This reclassification work is prepared on `reorg/analysis-taxonomy`, based on the cumulative `analysis/case-010-integrated-countermodel` state. The default `main` branch is not force-moved by this reorganization.
+Historical analysis branches are retained. Domain synthesis is prepared on dedicated synthesis branches; the default `main` branch is not force-moved by synthesis work.
