@@ -15,6 +15,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 009 | Primitive PII direct attack | falsification | coherence boundary |
 | 010 | integrated Formation + Axis countermodel search | falsification | coherence |
 | 011 | Formation partiality, typing, and closure coherence | coherence | predefinition audit |
+| 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition audit |
 
 ## Purpose folders
 
