@@ -17,7 +17,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 011 | Formation partiality, typing, and closure coherence | coherence | predefinition audit |
 | 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition audit |
 | 013 | criminal-trial world/source/prosecution/defence/court multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis |
-| 014 | agency, delegation, representation, authority, and attribution | reinterpretation | coherence / role-tag analysis — prepared |
+| 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-regime boundary — completed |
 
 ## Domain folders
 
