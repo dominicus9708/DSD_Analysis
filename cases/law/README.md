@@ -24,23 +24,31 @@ A case counts as a coherence-supporting external node only when the source disci
 |---|---:|---|---|---|
 | LAW-001 | 012 | meeting procedure / voting / presumption | completed | reinterpretation + coherence |
 | LAW-002 | 013 | criminal trial / multi-regime evidence and decision | completed | reinterpretation + coherence |
+| LAW-003 | 014 | agency / mandate / representation / authority | completed | reinterpretation + coherence + predefinition audit |
 
-## Prepared sequence
+### LAW-003 result note
 
-The remaining law/institution sequence is organized so that each case adds a substantially independent external node rather than repeating LAW-001 or LAW-002.
+The selected Korean Civil Act and Supreme Court sources independently require distinctions among the same human performer, legally operative capacity, mandate relation, agency authority, authority scope, exceptional attribution rules, and principal effect. No direct contradiction with the Formation distinctions remained after those coordinates were aligned.
+
+A key type-audit result is that the natural person should not be used naively as the sole Formation material item when role-specific legal-effect values differ. The faithful application carrier is the role/context-sensitive legal act-instance, while the common human remains shared provenance.
+
+Axis-Property structure was not required because the selected legal sources do not supply realized-axis semantics merely by having role-sensitive legal relations.
+
+## Remaining sequence
+
+The remaining law/institution sequence is organized so that each case adds a substantially independent external node rather than repeating LAW-001 through LAW-003.
 
 | Order | Planned ID | Cluster | Main distinction to stress |
 |---:|---|---|---|
-| 1 | LAW-003 / Global 014 | agency, delegation, representation | person identity vs role/tag vs authority vs valid attributed act |
-| 2 | LAW-004 / Global 015 | evidence submission, admissibility, probative weight | existence vs submission vs admissibility vs weight vs finding |
-| 3 | LAW-005 / Global 016 | procedural formation, validity, invalidity | candidate act vs formed act vs effective act vs void/voidable state |
-| 4 | LAW-006 / Global 017 | obligation, permission, prohibition, exemption | possible vs permitted vs obligatory vs prohibited |
-| 5 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of a legal capacity/power vs availability vs actual exercise |
-| 6 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
+| 1 | LAW-004 / Global 015 | evidence submission, admissibility, probative weight | existence vs submission vs admissibility vs weight vs finding |
+| 2 | LAW-005 / Global 016 | procedural formation, validity, invalidity | candidate act vs formed act vs effective act vs void/voidable state |
+| 3 | LAW-006 / Global 017 | obligation, permission, prohibition, exemption | possible vs permitted vs obligatory vs prohibited |
+| 4 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of a legal capacity/power vs availability vs actual exercise |
+| 5 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
 
 ## Later extension pool
 
-These are retained as later independent nodes after LAW-003 through LAW-008 are assessed:
+These are retained as later independent nodes after LAW-004 through LAW-008 are assessed:
 
 - legal acts and contract formation/effect
 - administrative and organizational decision chains
@@ -50,7 +58,7 @@ These are retained as later independent nodes after LAW-003 through LAW-008 are 
 
 Formation Axiom System is the default first comparison layer because it already distinguishes staged admission/realization, partial assignment, role-bearing channel identity, and composition.
 
-Axis-Property structure is used only when an already formed tagged role requires additional tag-sensitive, relational, mixed-profile, or closure-associated properties. It must not be added merely because a legal actor has a name or institutional title.
+Axis-Property structure is used only when an already formed tagged role requires additional tag-sensitive, relational, mixed-profile, or closure-associated properties **and** the application supplies a justified realized-axis interpretation. It must not be added merely because a legal actor has a name or institutional title.
 
 Static aggregation and dynamics are outside the core of this law-domain roadmap unless a later case genuinely requires numerical aggregation or temporal transition analysis.
 
@@ -60,7 +68,6 @@ Only the next case is prepared in detail. Later IDs reserve order and scope but 
 
 ## Current next case
 
-- `LAW-003 / Global Case 014`
-- path: `cases/law/014_agency_delegation_representation/`
-- preparation branch: `prep/law-institutions-decision-roadmap`
-- planned analysis branch: `analysis/law-003-agency-delegation-representation`
+- `LAW-004 / Global Case 015`
+- topic: evidence submission, admissibility, probative weight, and finding
+- detailed preparation: not yet created; LAW-003 is the current frozen result to be recorded first
