@@ -17,6 +17,14 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 011 | Formation partiality, typing, and closure coherence | coherence | predefinition audit |
 | 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition audit |
 | 013 | criminal-trial world/source/prosecution/defence/court multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis |
+| 014 | agency, delegation, representation, authority, and attribution | reinterpretation | coherence / role-tag analysis — prepared |
+
+## Domain folders
+
+- `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
+- `law/` — law, institutions, authority, procedure, evidence, and decision structures
+
+The law-domain sequence and reserved follow-up case order are documented in `law/README.md`.
 
 ## Purpose folders
 
@@ -28,3 +36,5 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 ## Rule
 
 A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate case evidence into multiple campaign folders.
+
+A prepared case is an analysis plan, not a completed coherence node. It enters the accumulated evidence set only after source claims, mapping, contradiction audit, and result boundaries are recorded.
