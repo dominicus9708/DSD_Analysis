@@ -17,13 +17,22 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 - `LAW-001 / Global Case 012` — meeting nonattendance, non-exercise versus invalid ballot, and presumption-of-innocence staging. Primary result: external institutional rules independently preserve several of the same state separations that DSD Formation keeps distinct; the legal burden-of-proof asymmetry remains external normative data rather than a DSD theorem.
 - `LAW-002 / Global Case 013` — criminal-trial multi-regime describability. Minimal model separates world reference, evidence sources, prosecution, defence, court, evidence rules, and decision rules. Primary result: one regime's missing description cannot be silently totalized into another regime's positive result; admitted court records may fail to identify a unique world state. Cross-regime transfer and legal norms remain application-supplied structure.
 
+## Prepared next analysis
+
+- `LAW-003 / Global Case 014` — agency, delegation, representation, authority scope, and attribution. The preparation tests whether one underlying actor must be distinguished from role-tagged legal capacities and whether Formation role identity is sufficient before any Axis-Property extension is invoked. No legal or DSD conclusion is precommitted in the preparation.
+- path: `cases/law/014_agency_delegation_representation/`
+- domain sequence: `cases/law/README.md`
+
 ## Questions
 
 1. Does DSD remove a real ambiguity, omitted state, or invalid composition step?
 2. Is the result merely a renaming of an existing source-theory distinction?
 3. Which DSD layer is actually needed: Formation, Axis-Property, both, or neither?
 4. Does the case require empirical or numerical testing and therefore belong to a separate benchmark/validation track?
+5. After source types, roles, stages, and regimes are matched, does any direct contradiction remain?
 
 ## Rule
 
-External terminology remains primary. DSD correspondence is recorded separately as `direct / partial / after encoding / no mapping`.
+External terminology remains primary. DSD correspondence is recorded separately as `direct / partial / after encoding / complementary layer / apparent conflict resolved / direct contradiction candidate / no mapping`.
+
+A prepared case is not counted as supporting evidence until the source-side structure, DSD mapping, contradiction audit, and explicit limitations are all completed.
