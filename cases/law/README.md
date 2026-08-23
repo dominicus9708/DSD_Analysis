@@ -1,6 +1,6 @@
 # Law, Institutions, and Decision Structures
 
-This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, legal capacity/power, rule conflict, and collective decision rules.
+This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, legal capacity/power, rule conflict, irreversibility, and collective decision rules.
 
 ## Foundational orientation
 
@@ -38,15 +38,21 @@ These states are not identified without an explicit rule:
 
 `event occurred != claim made != usable grounds != responsibility established != specific disposition required`.
 
-LAW-006 extends this model to rule applicability and normativity. LAW-007 adds that failure to establish effective exercise of a power does not by itself prove absence of the underlying status/right/power. LAW-008 adds that existence of a rule does not by itself establish that the rule controls the case after source-side conflict, exception, hierarchy, or priority analysis.
+LAW-006 extends this model to rule applicability and normativity. LAW-007 adds that failure to establish effective exercise of a power does not by itself prove absence of the underlying status/right/power. LAW-008 adds that existence of a rule does not by itself establish that the rule controls the case after source-side conflict, exception, hierarchy, or priority analysis. LAW-009 adds that responsibility or sentence existence does not automatically authorize an irreversible consequence before finality, review, and safeguard gates are satisfied.
 
-## Human-centered and irreversibility research boundary
+## Human-centered and irreversibility result
 
-The domain records, for later explicit analysis, the hypothesis that legal systems exist to regulate human conflict, harm, responsibility, prevention, restoration where possible, and institutional intervention rather than to make persons subordinate to law as an end in itself.
+The domain treats law as a human institution for managing conflict, harm, responsibility, prevention, restoration where possible, and institutional intervention. This is an analytical orientation rather than a complete moral theory.
 
-Some harms and some legal interventions are irreversible or only partially reversible. A later foundational case may test whether greater irreversibility of an imposed consequence structurally requires stronger formation and justification safeguards.
+LAW-009 directly tested the earlier hypothesis that greater irreversibility should require stronger justification or procedural safeguards.
 
-This is currently a research hypothesis, not a DSD theorem and not yet a completed LAW case.
+The strong monotone form was rejected:
+
+`greater irreversibility -> universally stronger safeguards`.
+
+The surviving candidate is narrower:
+
+**where a source legal regime recognizes irreparable or effectively non-restorable risk, especially one capable of defeating the practical value of later adjudication, that risk can activate or intensify source-defined anticipatory or heightened safeguards; irreparability alone is not sufficient and no universal safeguard-strength scale is established.**
 
 ## Evaluation rule
 
@@ -74,90 +80,63 @@ A case counts as a coherence-supporting external node only when the source disci
 | LAW-006 | 017 | normative status is rule/context indexed; possibility/applicability/obligation/permission/prohibition/exception-exemption must not be collapsed | ILO C029, ICCPR/HRC, UNIDROIT public-permission rules, deontic-logic counterpressure | reinterpretation + coherence + predefinition / rule-scope audit |
 | LAW-007 | 018 | recognized status/right/power != present exercisability != exercise event != downstream effect unless the source rule identifies them | CRPD Article 12/GC1, UNIDROIT rights/limitation/termination rules, VCLT Articles 6-8 | reinterpretation + coherence + predefinition / status-power audit |
 | LAW-008 | 019 | rule difference != unresolved contradiction; conflict relation and consequence are source-rule indexed | VCLT Arts.30/53, UN Charter Art.103, ILC Fragmentation Conclusions | reinterpretation + coherence + predefinition / conflict-resolution audit |
+| LAW-009 | 020 | irreparability can be legally relevant to anticipatory/heightened safeguards, but no universal monotone irreversibility->safeguard theorem | HRC GC36, ECOSOC 1984/50 & 1989/64, ECHR Rule 39, ICJ provisional measures | reinterpretation + falsification + coherence / temporal-preservation audit |
 
 LAW-001 through LAW-004 contain `SCOPE.md` files recording their post-analysis universal reclassification while preserving their original `RESULT.md` files as historical first-pass analyses.
 
-LAW-005 through LAW-008 were executed directly under the universal-first framework.
+LAW-005 through LAW-009 were executed directly under the universal-first framework.
 
-## LAW-001 through LAW-008 reinterpretation
+## LAW-009 special result
 
-### LAW-001
+LAW-009 is the first case in the law sequence where the motivating universal hypothesis is not merely narrowed but explicitly rejected in its strong form.
 
-The universal candidate is the structural non-collapse between nonaction, formed action, valid institutional input, and downstream result, plus the non-implication from failure to establish responsibility to proof of the opposite factual proposition.
+The case distinguishes:
 
-### LAW-002
+- historical irreversibility;
+- restorative irreversibility;
+- adjudicative irreversibility;
+- legal uncertainty/finality/review status;
+- source-defined preservation or heightened safeguards.
 
-The `W + S + P + D + J + R_E + R_L` model is functional. `P`, `D`, and `J` are attribution, defence, and judgment functions before they are concrete offices.
-
-### LAW-003
-
-Underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical.
-
-### LAW-004
-
-Information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding are not automatically identical.
-
-### LAW-005
-
-Preserve every source-distinct formation, present-effect, defect, remedial/defeasibility, recognition/enforcement, and temporal status until the governing rule explicitly identifies or transforms them.
-
-### LAW-006
-
-Preserve physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence as rule- and context-indexed statuses unless the source system itself licenses an identification.
-
-### LAW-007
-
-When the source distinguishes recognition/possession of a status, right, capacity or power from present exercisability, enabling support/authority, actual exercise, enforcement, or downstream effect, preserve those distinctions until the source rule performs the transition.
-
-### LAW-008
-
-The initial roadmap phrase `rule conflict -> exception/priority -> one result` was too coarse.
-
-The surviving candidate is:
-
-**a difference between rules is not yet an unresolved contradiction, and even a genuine conflict does not determine one universal consequence. Preserve source-side applicability, interpretation, harmonization, speciality, hierarchy, party/time relation, invalidity and any residual conflict until the source rule determines the relation.**
-
-VCLT Article 30 shows party- and compatibility-sensitive successive-treaty relations. UN Charter Article 103 supplies a priority relation. VCLT Article 53 supplies invalidity for jus-cogens conflict. The ILC Fragmentation Conclusions distinguish interpretation from conflict, encourage harmonization, and state that lex specialis does not normally extinguish general law.
+The selected sources show capital-specific heightened protection and interim mechanisms designed to prevent irreparable defeat of later adjudication. They also show that irreparability is not sufficient by itself: urgency, protected-right status, procedural posture, jurisdiction, and other source conditions remain relevant.
 
 ## DSD layer discipline
 
-Formation Axiom System is the default first comparison layer because it already distinguishes staged admission/realization, partial assignment, role-bearing channel identity, and composition.
+Formation Axiom System is the default first comparison layer because it distinguishes staged admission/realization, partial assignment, role-bearing channel identity, and composition.
 
-Axis-Property structure is used only when the application supplies a justified realized-axis interpretation. Legal hierarchy, superiority or priority are not by themselves realized-axis semantics.
+Axis-Property structure is used only when the application supplies a justified realized-axis interpretation. Legal hierarchy, superiority, capacity, harm, or priority are not by themselves realized-axis semantics.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, normative force, legal power, or rule priority. A separate mathematical bridge is required.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, normative force, harm severity, irreversibility, or safeguard strength. A separate mathematical bridge is required.
 
-Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, irreversibility, repeal, waiver, derogation, expiry, revocation, confirmation, treaty succession, suspension, or reactivation.
+Dynamics becomes meaningfully relevant when the case concerns temporal transition, restoration, irreversibility, repeal, waiver, derogation, expiry, revocation, confirmation, treaty succession, suspension, reactivation, or later status change. LAW-009 is the first completed law case where a source-supplied time-transition/recoverability bridge is analytically useful.
 
 ## Predefinition rule for the legal domain
 
 The cross-case rule is now:
 
-**Do not promote, demote, activate, suspend, attribute, resolve, or globally normalize one legal or institutional status or rule relation into another without the source rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, preserve, attribute, resolve, or globally normalize one legal or institutional status, rule relation, review state, or time-dependent consequence into another without the source rule that performs that transition or identification.**
 
-This includes positive and negative totalization, defect consequences, normative status, right/power exercise, and conflict resolution.
+This includes positive and negative totalization, defect consequences, normative status, right/power exercise, conflict resolution, finality, and irreversible intervention.
 
 ## Remaining sequence
 
-The original LAW-001 through LAW-008 sequence is now complete.
+The original LAW-001 through LAW-008 decomposition sequence is complete, and LAW-009 completed the first foundational irreversibility test.
 
-The next candidate cluster is foundational rather than another routine doctrinal separation:
+The next candidate is:
 
 | Order | Candidate ID | Cluster | Main distinction to stress |
 |---:|---|---|---|
-| 1 | LAW-009 / Global 020 | irreversibility and justification safeguards | irreversible harm/intervention vs epistemic uncertainty and required safeguards |
-
-LAW-009 remains a candidate until its universal structure and normative boundary are explicitly reviewed.
+| 1 | LAW-010 / Global 021 | responsibility, sanction, restoration, prevention | responsibility recognition != punishment != victim restoration != future-risk management |
 
 ## Later extension pool
 
-- legal acts and contract formation/effect beyond LAW-005
+- administrative and organizational decision chains
+- elections and collective-choice rules
+- legal acts and contract effects beyond LAW-005
 - normative conflicts and permissions beyond LAW-006
 - legal capacity/power transitions beyond LAW-007
 - rule conflicts and temporal priority beyond LAW-008
-- administrative and organizational decision chains
-- elections and collective-choice rules
-- foundational irreversibility and justification-safeguard analysis
+- restoration, compensation, rehabilitation and prevention after LAW-009
 
 ## One-case-at-a-time rule
 
@@ -169,6 +148,6 @@ Use this order:
 
 ## Current next candidate
 
-- `LAW-009 / Global Case 020`
-- topic candidate: foundational irreversibility and justification safeguards
-- detailed preparation: not yet created; LAW-008 is the current completed result
+- `LAW-010 / Global Case 021`
+- topic candidate: responsibility, sanction, restoration, prevention, and their non-equivalence
+- detailed preparation: not yet created; LAW-009 is the current completed result
