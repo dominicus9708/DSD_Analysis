@@ -19,11 +19,12 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 013 | responsibility-attribution multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis |
 | 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-regime boundary — completed |
 | 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | coherence / predefinition / regime boundary — completed |
+| 016 | procedural formation, validity, defect consequence, effect, recognition/enforcement | reinterpretation | coherence / predefinition / universal-claim falsification — completed |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
-- `law/` — law, institutions, authority, procedure, evidence, and decision structures
+- `law/` — law, institutions, authority, procedure, evidence, legal effect, and decision structures
 
 The law-domain foundation and sequence are documented in:
 
@@ -32,16 +33,19 @@ The law-domain foundation and sequence are documented in:
 
 ## Law-domain generalization status
 
-LAW-001 through LAW-004 are now read at two levels:
+LAW cases are read at two levels:
 
 1. a **universal structural candidate**;
 2. one or more **jurisdictional / institutional witnesses**.
 
-Their current generalization status is:
+LAW-001 through LAW-004 were reclassified after their original source-specific first passes. Their Korean-law materials remain valid witnesses but do not by themselves establish universality.
 
-`universal candidate under active falsification`.
+LAW-005 was executed directly under the universal-first workflow and uses multiple transnational/international witness families.
 
-The Korean-law materials already collected remain valid source witnesses but do not by themselves prove legal universality. Each affected case folder contains `SCOPE.md` recording the reclassification while preserving the original first-pass `RESULT.md`.
+Current generalization status:
+
+- LAW-001 through LAW-004: `universal candidates under active falsification`;
+- LAW-005: `universal candidate supported by multiple independent witness families; active falsification remains open`.
 
 ## Purpose folders
 
@@ -54,4 +58,4 @@ The Korean-law materials already collected remain valid source witnesses but do 
 
 A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate case evidence into multiple campaign folders.
 
-For legal cases, source-specific completion and universal generalization are separate judgments. A case may be a completed jurisdictional witness while its universal structural claim remains under active falsification.
+For legal cases, source-specific completion and universal generalization are separate judgments. A completed legal analysis may support a universal candidate without constituting a proof of legal universality.
