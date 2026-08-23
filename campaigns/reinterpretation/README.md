@@ -17,11 +17,11 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 - `LAW-001 / Global Case 012` — meeting nonattendance, non-exercise versus invalid ballot, and presumption-of-innocence staging. Primary result: external institutional rules independently preserve several of the same state separations that DSD Formation keeps distinct; the legal burden-of-proof asymmetry remains external normative data rather than a DSD theorem.
 - `LAW-002 / Global Case 013` — criminal-trial multi-regime describability. Minimal model separates world reference, evidence sources, prosecution, defence, court, evidence rules, and decision rules. Primary result: one regime's missing description cannot be silently totalized into another regime's positive result; admitted court records may fail to identify a unique world state. Cross-regime transfer and legal norms remain application-supplied structure.
 - `LAW-003 / Global Case 014` — agency, mandate, representation, authority scope, and attribution. Korean Civil Act and Supreme Court sources independently separate the same human performer from legally operative capacity, mandate from agency authority, actual authority/scope from attributed effect, unauthorized act existence from principal effect, and ordinary agency from apparent-agency/ratification routes. No direct contradiction with the Formation distinctions remained after typing the action instance, role, rule regime, and effect status separately. Axis-Property structure was not required because the source domain does not itself provide realized-axis semantics.
+- `LAW-004 / Global Case 015` — evidence submission, admissibility/legal use, probative weight, and factual finding. Korean criminal/civil evidence rules independently separate existence, submission/application, investigation/use, probative evaluation, and final finding. Supreme Court 2024Da222212 additionally shows that `unlawfully collected` does not determine one universal civil admissibility result without the governing statutory/procedural rule. No direct contradiction with Formation remained after typing the evidence-use instance, proposition, proceeding, regime, and status. Static Aggregation was audited but not used as a legal evidence-weight model.
 
 ## Next reserved analysis
 
-- `LAW-004 / Global Case 015` — evidence submission, admissibility, probative weight, and finding.
-- Detailed files are not created until LAW-003 is recorded as the current law-domain result.
+- `LAW-005 / Global Case 016` — procedural formation, validity, invalidity.
 - law sequence: `cases/law/README.md`
 
 ## Questions
