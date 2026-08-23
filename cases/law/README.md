@@ -1,6 +1,6 @@
 # Law, Institutions, and Decision Structures
 
-This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, and collective decision rules.
+This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, and collective decision rules.
 
 ## Foundational orientation
 
@@ -38,6 +38,8 @@ These states are not identified without an explicit rule:
 
 `event occurred != claim made != usable grounds != responsibility established != specific disposition required`.
 
+LAW-006 extends this functional model: defeating one asserted prohibition/obligation route does not itself prove an opposite global normative status.
+
 ## Human-centered and irreversibility research boundary
 
 The domain records, for later explicit analysis, the hypothesis that legal systems exist to regulate human conflict, harm, responsibility, prevention, restoration where possible, and institutional intervention rather than to make persons subordinate to law as an end in itself.
@@ -69,12 +71,13 @@ A case counts as a coherence-supporting external node only when the source disci
 | LAW-003 | 014 | person/entity != role != authority != act != attributed effect | Korean agency/representation law is one witness | reinterpretation + coherence + predefinition audit |
 | LAW-004 | 015 | existence != submission != usability != probative evaluation != finding | Korean criminal/civil evidence law is one witness family | reinterpretation + coherence + predefinition / regime audit |
 | LAW-005 | 016 | source-distinct formation/effect/defect/remedy/enforcement statuses must not be collapsed; defect consequence is rule-indexed | CISG, UNIDROIT Principles, UNCITRAL Model Law on Arbitration | reinterpretation + coherence + predefinition / universal-claim audit |
+| LAW-006 | 017 | normative status is rule/context indexed; possibility/applicability/obligation/permission/prohibition/exception-exemption must not be collapsed | ILO C029, ICCPR/HRC, UNIDROIT public-permission rules, deontic-logic counterpressure | reinterpretation + coherence + predefinition / rule-scope audit |
 
 LAW-001 through LAW-004 contain `SCOPE.md` files recording their post-analysis universal reclassification while preserving their original `RESULT.md` files as historical first-pass analyses.
 
-LAW-005 was executed directly under the universal-first framework.
+LAW-005 and LAW-006 were executed directly under the universal-first framework.
 
-## LAW-001 through LAW-005 reinterpretation
+## LAW-001 through LAW-006 reinterpretation
 
 ### LAW-001
 
@@ -96,13 +99,27 @@ The universal candidate is the separation of information/evidence existence, sub
 
 The initial roadmap phrase `candidate act vs formed act vs effective act vs void/voidable state` was too rigid as a universal sequence.
 
-Counterpressure from the witness systems narrowed the surviving candidate to:
+The surviving candidate is:
 
 **preserve every source-distinct formation, present-effect, defect, remedial/defeasibility, recognition/enforcement, and temporal status until the governing rule explicitly identifies or transforms them.**
 
-A defect does not have one universal consequence. CISG separates formation from validity; UNIDROIT separates conclusion, binding force, avoidance, conditions, and rule-dependent illegality effects; the UNCITRAL Model Law separates award existence/binding status from recognition and enforcement.
+A defect does not have one universal consequence.
 
-The term `invalid` is therefore not used as one universal DSD state.
+### LAW-006
+
+The initial roadmap phrase `possible vs permitted vs obligatory vs prohibited` was also too simple if interpreted as a mutually exclusive value set.
+
+The surviving candidate is:
+
+**preserve physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence as rule- and context-indexed statuses unless the source system itself licenses an identification.**
+
+In particular:
+
+- `not yet permitted != prohibited`;
+- `exception != universal opposite value`;
+- `exemption != automatically affirmative permission`;
+- `obligation` and `permission` need not be disjoint;
+- failure of an asserted prohibition route does not prove global permission.
 
 ## DSD layer discipline
 
@@ -110,17 +127,17 @@ Formation Axiom System is the default first comparison layer because it already 
 
 Axis-Property structure is used only when an already formed tagged role requires additional tag-sensitive, relational, mixed-profile, or closure-associated properties **and** the application supplies a justified realized-axis interpretation.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, or legal validity merely because those domains use words such as weight or validity. A separate mathematical bridge is required.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, or normative force merely because those domains use words such as weight, validity, force, or priority. A separate mathematical bridge is required.
 
-Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, or irreversibility. LAW-005 keeps later avoidance/confirmation/setting-aside transitions external in its first-pass static analysis.
+Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, irreversibility, repeal, waiver, derogation, expiry, or revocation.
 
 ## Predefinition rule for the legal domain
 
 The cross-case rule is now:
 
-**Do not promote or demote one legal or institutional status into another status without the rule that performs that transition.**
+**Do not promote, demote, or globally normalize one legal or institutional status into another without the rule that performs that transition or identification.**
 
-This applies both positively and negatively. Failure of an ordinary route does not prove that every exceptional route is absent, failure of one side's factual construction does not automatically generate the opposing factual proposition, and the presence of a defect does not itself determine one universal invalidity consequence.
+This includes positive and negative totalization, defect consequences, and normative status. Failure of one rule's applicability or one side's construction does not automatically generate the opposite legal or factual proposition.
 
 ## Remaining sequence
 
@@ -128,13 +145,13 @@ Future cases continue to start from the universal candidate before selecting jur
 
 | Order | Planned ID | Cluster | Main distinction to stress |
 |---:|---|---|---|
-| 1 | LAW-006 / Global 017 | obligation, permission, prohibition, exemption | possible vs permitted vs obligatory vs prohibited |
-| 2 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of capacity/power vs availability vs actual exercise |
-| 3 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
+| 1 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of capacity/power vs availability vs actual exercise |
+| 2 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
 
 ## Later extension pool
 
 - legal acts and contract formation/effect beyond LAW-005
+- normative conflicts and permissions beyond LAW-006
 - administrative and organizational decision chains
 - elections and collective-choice rules
 - foundational irreversibility and justification-safeguard analysis
@@ -149,6 +166,6 @@ Use this order:
 
 ## Current next case
 
-- `LAW-006 / Global Case 017`
-- topic: obligation, permission, prohibition, exemption
-- detailed preparation: not yet created; LAW-005 is the current completed result
+- `LAW-007 / Global Case 018`
+- topic: legal status, competence, authority, exercise
+- detailed preparation: not yet created; LAW-006 is the current completed result
