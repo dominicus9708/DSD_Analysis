@@ -20,11 +20,12 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-regime boundary — completed |
 | 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | coherence / predefinition / regime boundary — completed |
 | 016 | procedural formation, validity, defect consequence, effect, recognition/enforcement | reinterpretation | coherence / predefinition / universal-claim falsification — completed |
+| 017 | obligation, permission, prohibition, exception/exemption, normative rule scope | reinterpretation | coherence / predefinition / rule-scope / universal-claim falsification — completed |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
-- `law/` — law, institutions, authority, procedure, evidence, legal effect, and decision structures
+- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, and decision structures
 
 The law-domain foundation and sequence are documented in:
 
@@ -40,12 +41,13 @@ LAW cases are read at two levels:
 
 LAW-001 through LAW-004 were reclassified after their original source-specific first passes. Their Korean-law materials remain valid witnesses but do not by themselves establish universality.
 
-LAW-005 was executed directly under the universal-first workflow and uses multiple transnational/international witness families.
+LAW-005 and LAW-006 were executed directly under the universal-first workflow and use multiple independent international/transnational witness families.
 
 Current generalization status:
 
 - LAW-001 through LAW-004: `universal candidates under active falsification`;
-- LAW-005: `universal candidate supported by multiple independent witness families; active falsification remains open`.
+- LAW-005: `universal candidate supported by multiple independent witness families; active falsification remains open`;
+- LAW-006: `rule-indexed normative-status candidate supported by multiple independent witness families and narrowed under deontic-logic counterpressure; active falsification remains open`.
 
 ## Purpose folders
 
