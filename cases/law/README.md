@@ -25,6 +25,7 @@ A case counts as a coherence-supporting external node only when the source disci
 | LAW-001 | 012 | meeting procedure / voting / presumption | completed | reinterpretation + coherence |
 | LAW-002 | 013 | criminal trial / multi-regime evidence and decision | completed | reinterpretation + coherence |
 | LAW-003 | 014 | agency / mandate / representation / authority | completed | reinterpretation + coherence + predefinition audit |
+| LAW-004 | 015 | evidence submission / admissibility / probative weight / finding | completed | reinterpretation + coherence + predefinition / regime audit |
 
 ### LAW-003 result note
 
@@ -34,21 +35,28 @@ A key type-audit result is that the natural person should not be used naively as
 
 Axis-Property structure was not required because the selected legal sources do not supply realized-axis semantics merely by having role-sensitive legal relations.
 
+### LAW-004 result note
+
+The selected Korean criminal/civil evidence rules independently separate evidence existence, submission/application, legal use or investigation, probative evaluation, and final factual finding. The 2026 Supreme Court civil-evidence decision additionally shows that a common label such as `unlawfully collected` does not determine one universal admissibility result without the governing statute and procedural regime.
+
+The faithful application carrier is a typed evidence-use instance `(item, proposition, proceeding, purpose, source_status)`, not the physical evidence object alone. This avoids artificial conflicts when one item is used under different regimes or for different propositions.
+
+Formation provides the useful non-totalization/status-preservation layer. Static Aggregation is not required: legal probative weight is not identified with an analytic weight or linear sum without a separately supplied legal-analytic bridge.
+
 ## Remaining sequence
 
-The remaining law/institution sequence is organized so that each case adds a substantially independent external node rather than repeating LAW-001 through LAW-003.
+The remaining law/institution sequence is organized so that each case adds a substantially independent external node rather than repeating LAW-001 through LAW-004.
 
 | Order | Planned ID | Cluster | Main distinction to stress |
 |---:|---|---|---|
-| 1 | LAW-004 / Global 015 | evidence submission, admissibility, probative weight | existence vs submission vs admissibility vs weight vs finding |
-| 2 | LAW-005 / Global 016 | procedural formation, validity, invalidity | candidate act vs formed act vs effective act vs void/voidable state |
-| 3 | LAW-006 / Global 017 | obligation, permission, prohibition, exemption | possible vs permitted vs obligatory vs prohibited |
-| 4 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of a legal capacity/power vs availability vs actual exercise |
-| 5 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
+| 1 | LAW-005 / Global 016 | procedural formation, validity, invalidity | candidate act vs formed act vs effective act vs void/voidable state |
+| 2 | LAW-006 / Global 017 | obligation, permission, prohibition, exemption | possible vs permitted vs obligatory vs prohibited |
+| 3 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of a legal capacity/power vs availability vs actual exercise |
+| 4 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
 
 ## Later extension pool
 
-These are retained as later independent nodes after LAW-004 through LAW-008 are assessed:
+These are retained as later independent nodes after LAW-005 through LAW-008 are assessed:
 
 - legal acts and contract formation/effect
 - administrative and organizational decision chains
@@ -68,6 +76,6 @@ Only the next case is prepared in detail. Later IDs reserve order and scope but 
 
 ## Current next case
 
-- `LAW-004 / Global Case 015`
-- topic: evidence submission, admissibility, probative weight, and finding
-- detailed preparation: not yet created; LAW-003 is the current frozen result to be recorded first
+- `LAW-005 / Global Case 016`
+- topic: procedural formation, validity, invalidity
+- detailed preparation: not yet created; LAW-004 is the current frozen result
