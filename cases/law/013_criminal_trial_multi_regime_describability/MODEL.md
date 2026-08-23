@@ -1,21 +1,29 @@
 # Structural Model — LAW-002 / Global Case 013
 
-## 1. Sorts and regimes
+## 1. Functional sorts and regimes
 
 Let:
 
 - `Omega` be the set of possible world/event states;
-- `S_i` be evidence-source carriers for victim, witness, device, document, or physical trace;
-- `P` be prosecution-side descriptive records;
-- `D` be defence-side descriptive records;
-- `J` be judicially available evidentiary/fact-finding records;
-- `V_J` be legal verdict states.
+- `S_i` be information/evidence-source carriers for victim, witness, device, document, physical trace, or other source roles;
+- `P` be attribution/prosecution-function records;
+- `D` be defence/counterargument-function records;
+- `J` be judgment-function evidentiary/fact-finding records;
+- `V_J` be institutionally operative decision states.
 
 `Omega` is not a descriptive agent. It is the reference layer against which information loss and non-identifiability can be discussed.
 
+The symbols `P`, `D`, and `J` are now defined **functionally before jurisdictional office**:
+
+- `P`: constructs and advances a case for specified responsibility or attribution;
+- `D`: challenges formation conditions, evidence, inference, applicability, or attribution, or supplies an alternative account;
+- `J`: forms the operative decision under the governing evidence/ground-use and decision rules.
+
+A prosecutor, accused, defence counsel, judge, jury, tribunal, disciplinary committee, administrative body, or other office may instantiate one or more parts of these functions depending on the legal or institutional system. No one-to-one mapping is assumed universally.
+
 ## 2. Source observation
 
-For each evidence source `i`, use a partial observation map
+For each information source `i`, use a partial observation map
 
 `O_i : Omega ⇀ S_i`.
 
@@ -26,9 +34,9 @@ The map may be partial and non-injective.
 
 Therefore source description need not identify the world state.
 
-## 3. Party-side constructions
+## 3. Attribution-side and defence-side constructions
 
-The prosecution and defence receive overlapping but not necessarily identical information and form different structured records:
+The `P` and `D` functions receive overlapping but not necessarily identical information and form different structured records:
 
 `T_P : S* ⇀ P`
 
@@ -38,31 +46,33 @@ where `S*` abbreviates the finite package of available source records.
 
 No symmetry is assumed.
 
-- prosecution may seek to establish the charged elements;
-- defence may deny a link, challenge admissibility/reliability, or provide an alternative account;
-- defence need not produce a complete factual-innocence world model merely because prosecution advances a guilt model.
+- `P` may seek to establish the elements required for responsibility;
+- `D` may deny a link, challenge usability/reliability, challenge applicability, or provide an alternative account;
+- `D` need not produce a complete factual-opposite world model merely because `P` advances a responsibility model.
 
-## 4. Evidence rule
+The familiar criminal-trial roles of prosecution and defence are one jurisdictional implementation of these functions, not their definition.
+
+## 4. Ground/evidence-use rule
 
 Let
 
-`R_E : CandidateEvidence(P,D,S*) ⇀ E_adm`
+`R_E : CandidateGrounds(P,D,S*) ⇀ E_use`
 
-be an application-level evidentiary filter supplied by the legal regime.
+be an application-level rule supplied by the governing legal or institutional regime that determines what grounds/evidence may enter the judgment process and for what purpose.
 
-This map is not DSD Formation admission itself. It is a legal map that can be encoded using analogous staged distinctions if desired.
+This map is not DSD Formation admission itself. It is an external rule that can be encoded using analogous staged distinctions if desired.
 
-Korean criminal procedure supplies concrete reasons for the filter to be nontrivial: facts must be based on evidence, illegally collected evidence is excluded, some confessions cannot be used for guilt, and evidence applications are decided by the court.
+For the Korean criminal-procedure witness used in the original LAW-002 analysis, statutory evidence and admissibility rules supply concrete reasons for this filter to be nontrivial. Those rules are retained as a jurisdictional witness rather than generalized into the definition of `R_E`.
 
-## 5. Judicial descriptive state
+## 5. Judgment-function descriptive state
 
-The court's evidentiary state is built from legally usable inputs and the court's assessment:
+The judgment state is built from usable inputs, arguments, procedural records, and the governing assessment rule:
 
-`J = Assess_J(E_adm, party_arguments, procedural_record)`.
+`J = Assess_J(E_use, function_records, procedural_record)`.
 
 `J` is not identified with `Omega`.
 
-The same judicial record may be compatible with more than one world state, and a world fact may fail to enter `J` because it was never observed, never submitted, excluded, or insufficiently supported.
+The same judgment record may be compatible with more than one world state, and a world fact may fail to enter `J` because it was never observed, never submitted, excluded, outside the relevant purpose, or insufficiently supported.
 
 ## 6. Decision rule
 
@@ -70,27 +80,45 @@ Let
 
 `R_L : J ⇀ V_J`
 
-be the legal decision rule.
+be the external legal/institutional decision rule.
 
-For the Korean criminal-trial instantiation used here, the rule includes at least:
+`R_L` may include burdens, presumptions, proof thresholds, voting rules, competence rules, or other decision gates depending on the system.
 
-- presumption of innocence;
-- requirement that crime facts be proved without reasonable doubt;
-- judicial evaluation of probative value.
+For the Korean criminal-trial witness used here, the instantiated rule includes presumption-of-innocence and criminal-proof requirements. Those are external legal norms and are not included in the universal definition of `R_L`.
 
-The international presumption-of-innocence standard additionally places the burden of proving the charge on the prosecution.
-
-These are external legal norms.
-
-## 7. Overall pipeline
+## 7. Overall functional pipeline
 
 A schematic path is:
 
-`Omega --O_i--> S* --T_P/T_D--> P,D --R_E--> E_adm --Assess_J--> J --R_L--> V_J`
+`Omega --O_i--> S* --T_P/T_D--> P,D --R_E--> E_use --Assess_J--> J --R_L--> V_J`.
 
-with the victim occupying one or more source/statement roles rather than being collapsed into the prosecution.
+This skeleton is deliberately more general than one criminal code. It represents a candidate architecture for responsibility-attribution procedures.
 
-## 8. DSD correspondence
+A concrete legal system may:
+
+- split one function among several offices;
+- combine functions in one institutional actor;
+- omit a familiar office name;
+- use different evidence or decision gates;
+- provide additional review or appeal functions.
+
+Such differences are test cases for the general model, not deviations to be normalized away.
+
+## 8. Korean criminal-procedure instantiation
+
+The original LAW-002 source notes and finite witness are retained as one concrete implementation:
+
+- prosecutor-side conduct instantiates part of `P`;
+- accused/defence-counsel conduct instantiates part of `D`;
+- court fact-finding and judgment instantiate part of `J`;
+- statutory evidence rules instantiate part of `R_E`;
+- presumption, burden, proof threshold, and verdict rules instantiate part of `R_L`.
+
+Victim/witness/device/document roles remain source-side or statement-side unless a particular procedural rule gives them an additional function.
+
+This mapping is jurisdiction-specific. It is evidence that the abstract separation can be instantiated, not proof that the abstract structure is universally mandatory.
+
+## 9. DSD correspondence
 
 ### Formation correspondence
 
@@ -98,8 +126,8 @@ An application may encode distinctions such as:
 
 - candidate material;
 - realized statement/submission;
-- legally usable evidence;
-- defined evidentiary status;
+- legally/institutionally usable ground;
+- defined ground/evidentiary status;
 - downstream fact finding;
 - final judgment.
 
@@ -111,20 +139,26 @@ The role coordinate `rho` in Formation channel identity is sufficient to preserv
 
 Axis-Property data become useful only if the application needs additional typed, tag-sensitive properties or relations attached to already formed role-tagged channels, e.g. a declared relation between a source statement and a specific evidentiary role.
 
-They are not required merely to say `prosecutor != defendant != victim`.
+They are not required merely to distinguish `P`, `D`, `J`, or concrete office-holders.
 
-## 9. Central non-implications
+## 10. Central non-implications
 
-`world truth -> legally admitted evidence` is not automatic.
+`world truth -> legally/institutionally usable ground` is not automatic.
 
-`victim statement -> world truth` is not automatic.
+`source statement -> world truth` is not automatic.
 
-`prosecution allegation -> proved guilt` is not automatic.
+`P allegation -> established responsibility` is not automatic.
 
-`defence failure to prove innocence -> proved guilt` is not automatic.
+`D failure to prove the opposite proposition -> established responsibility` is not automatic.
 
-`legal acquittal -> metaphysical proof of factual innocence` is not automatic.
+`non-responsibility verdict -> metaphysical proof of the opposite factual proposition` is not automatic.
 
-`same court record -> unique world state` is not automatic.
+`same judgment record -> unique world state` is not automatic.
 
-Every arrow that an application wants to strengthen requires an explicit legal, evidentiary, or semantic bridge.
+Every arrow that an application wants to strengthen requires an explicit legal, evidentiary, institutional, or semantic bridge.
+
+## 11. Generalization status
+
+This model is a **universal candidate under active falsification**.
+
+The Korean criminal-procedure materials remain a strong jurisdictional witness, but cross-jurisdictional corroboration and counterexamples are required before stronger universality claims are made.
