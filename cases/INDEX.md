@@ -18,6 +18,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition audit |
 | 013 | criminal-trial world/source/prosecution/defence/court multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis |
 | 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-regime boundary — completed |
+| 015 | evidence submission, admissibility/legal use, probative weight, and factual finding | reinterpretation | coherence / predefinition / regime-boundary analysis — completed |
 
 ## Domain folders
 
