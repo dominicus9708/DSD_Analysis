@@ -1,6 +1,6 @@
 # Law, Institutions, and Decision Structures
 
-This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, legal capacity/power, and collective decision rules.
+This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, legal capacity/power, rule conflict, and collective decision rules.
 
 ## Foundational orientation
 
@@ -38,7 +38,7 @@ These states are not identified without an explicit rule:
 
 `event occurred != claim made != usable grounds != responsibility established != specific disposition required`.
 
-LAW-006 extends this model to rule applicability and normativity. LAW-007 adds that failure to establish effective exercise of a power does not by itself prove absence of the underlying legal status/right/power.
+LAW-006 extends this model to rule applicability and normativity. LAW-007 adds that failure to establish effective exercise of a power does not by itself prove absence of the underlying status/right/power. LAW-008 adds that existence of a rule does not by itself establish that the rule controls the case after source-side conflict, exception, hierarchy, or priority analysis.
 
 ## Human-centered and irreversibility research boundary
 
@@ -73,12 +73,13 @@ A case counts as a coherence-supporting external node only when the source disci
 | LAW-005 | 016 | source-distinct formation/effect/defect/remedy/enforcement statuses must not be collapsed; defect consequence is rule-indexed | CISG, UNIDROIT Principles, UNCITRAL Model Law on Arbitration | reinterpretation + coherence + predefinition / universal-claim audit |
 | LAW-006 | 017 | normative status is rule/context indexed; possibility/applicability/obligation/permission/prohibition/exception-exemption must not be collapsed | ILO C029, ICCPR/HRC, UNIDROIT public-permission rules, deontic-logic counterpressure | reinterpretation + coherence + predefinition / rule-scope audit |
 | LAW-007 | 018 | recognized status/right/power != present exercisability != exercise event != downstream effect unless the source rule identifies them | CRPD Article 12/GC1, UNIDROIT rights/limitation/termination rules, VCLT Articles 6-8 | reinterpretation + coherence + predefinition / status-power audit |
+| LAW-008 | 019 | rule difference != unresolved contradiction; conflict relation and consequence are source-rule indexed | VCLT Arts.30/53, UN Charter Art.103, ILC Fragmentation Conclusions | reinterpretation + coherence + predefinition / conflict-resolution audit |
 
 LAW-001 through LAW-004 contain `SCOPE.md` files recording their post-analysis universal reclassification while preserving their original `RESULT.md` files as historical first-pass analyses.
 
-LAW-005 through LAW-007 were executed directly under the universal-first framework.
+LAW-005 through LAW-008 were executed directly under the universal-first framework.
 
-## LAW-001 through LAW-007 reinterpretation
+## LAW-001 through LAW-008 reinterpretation
 
 ### LAW-001
 
@@ -106,45 +107,54 @@ Preserve physical possibility, rule applicability, obligation, permission, prohi
 
 ### LAW-007
 
-The initial roadmap phrase `possession of capacity/power vs availability vs actual exercise` was too rigid if treated as one universal legal vocabulary.
+When the source distinguishes recognition/possession of a status, right, capacity or power from present exercisability, enabling support/authority, actual exercise, enforcement, or downstream effect, preserve those distinctions until the source rule performs the transition.
 
-CRPD counterpressure shows that `legal capacity` may itself include both holding rights and acting under law. The surviving candidate is therefore source-sensitive:
+### LAW-008
 
-**when the source distinguishes recognition/possession of a status, right, capacity or power from present exercisability, enabling support/authority, actual exercise, enforcement, or downstream effect, preserve those distinctions until the source rule performs the transition.**
+The initial roadmap phrase `rule conflict -> exception/priority -> one result` was too coarse.
 
-UNIDROIT supplies direct witnesses separating right existence, exercisability, notice-based exercise, and enforcement. VCLT Articles 6-8 separate State treaty capacity, actor authority, exercise event, effect, and later confirmation.
+The surviving candidate is:
+
+**a difference between rules is not yet an unresolved contradiction, and even a genuine conflict does not determine one universal consequence. Preserve source-side applicability, interpretation, harmonization, speciality, hierarchy, party/time relation, invalidity and any residual conflict until the source rule determines the relation.**
+
+VCLT Article 30 shows party- and compatibility-sensitive successive-treaty relations. UN Charter Article 103 supplies a priority relation. VCLT Article 53 supplies invalidity for jus-cogens conflict. The ILC Fragmentation Conclusions distinguish interpretation from conflict, encourage harmonization, and state that lex specialis does not normally extinguish general law.
 
 ## DSD layer discipline
 
 Formation Axiom System is the default first comparison layer because it already distinguishes staged admission/realization, partial assignment, role-bearing channel identity, and composition.
 
-Axis-Property structure is used only when the application supplies a justified realized-axis interpretation. The presence of legal words such as property, status, capacity, competence, or power does not itself justify Axis-Property.
+Axis-Property structure is used only when the application supplies a justified realized-axis interpretation. Legal hierarchy, superiority or priority are not by themselves realized-axis semantics.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, normative force, or legal power. A separate mathematical bridge is required.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, normative force, legal power, or rule priority. A separate mathematical bridge is required.
 
-Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, irreversibility, repeal, waiver, derogation, expiry, revocation, confirmation, or restoration of a right/power.
+Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, irreversibility, repeal, waiver, derogation, expiry, revocation, confirmation, treaty succession, suspension, or reactivation.
 
 ## Predefinition rule for the legal domain
 
 The cross-case rule is now:
 
-**Do not promote, demote, activate, suspend, attribute, or globally normalize one legal or institutional status into another without the source rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, attribute, resolve, or globally normalize one legal or institutional status or rule relation into another without the source rule that performs that transition or identification.**
 
-This includes positive and negative totalization, defect consequences, normative status, and the relation between possession of a right/power and its exercise/effect.
+This includes positive and negative totalization, defect consequences, normative status, right/power exercise, and conflict resolution.
 
 ## Remaining sequence
 
-Future cases continue to start from the universal candidate before selecting jurisdictional or institutional witnesses.
+The original LAW-001 through LAW-008 sequence is now complete.
 
-| Order | Planned ID | Cluster | Main distinction to stress |
+The next candidate cluster is foundational rather than another routine doctrinal separation:
+
+| Order | Candidate ID | Cluster | Main distinction to stress |
 |---:|---|---|---|
-| 1 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
+| 1 | LAW-009 / Global 020 | irreversibility and justification safeguards | irreversible harm/intervention vs epistemic uncertainty and required safeguards |
+
+LAW-009 remains a candidate until its universal structure and normative boundary are explicitly reviewed.
 
 ## Later extension pool
 
 - legal acts and contract formation/effect beyond LAW-005
 - normative conflicts and permissions beyond LAW-006
 - legal capacity/power transitions beyond LAW-007
+- rule conflicts and temporal priority beyond LAW-008
 - administrative and organizational decision chains
 - elections and collective-choice rules
 - foundational irreversibility and justification-safeguard analysis
@@ -157,8 +167,8 @@ Use this order:
 
 `universal structural candidate -> counterpressure -> jurisdictional/institutional witnesses -> DSD mapping -> contradiction audit -> generalization status`.
 
-## Current next case
+## Current next candidate
 
-- `LAW-008 / Global Case 019`
-- topic: rule conflict, exception, priority
-- detailed preparation: not yet created; LAW-007 is the current completed result
+- `LAW-009 / Global Case 020`
+- topic candidate: foundational irreversibility and justification safeguards
+- detailed preparation: not yet created; LAW-008 is the current completed result
