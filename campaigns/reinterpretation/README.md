@@ -40,13 +40,14 @@ Concrete offices are source-system implementations and need not map one-to-one.
 - `LAW-004 / Global Case 015` — information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding are not automatically identical.
 - `LAW-005 / Global Case 016` — source-distinct legal formation, present effect, defect, remedial/defeasibility, recognition/enforcement, and temporal statuses must not be collapsed into one `valid/invalid` value; defect consequence is rule-indexed.
 - `LAW-006 / Global Case 017` — physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence are rule/context indexed; a four-value deontic enum was rejected under counterpressure.
-- `LAW-007 / Global Case 018` — source-defined recognition/possession of a legal status, right, capacity or power must be separated from present exercisability, enabling support/authority, exercise event, enforcement, and downstream effect whenever the source makes those distinctions. CRPD Article 12 prevents a rigid universal capacity/exercise vocabulary; UNIDROIT separates right existence, exercisability, exercise and enforcement; VCLT Articles 6-8 separate State capacity, actor authority, attempted act, effect and later confirmation.
+- `LAW-007 / Global Case 018` — source-defined recognition/possession of legal status, right, capacity or power is separated from present exercisability, enabling support/authority, exercise event, enforcement, and downstream effect whenever the source makes those distinctions.
+- `LAW-008 / Global Case 019` — rule difference is not automatically unresolved contradiction, and conflict does not determine one universal consequence. VCLT Article 30 gives party/compatibility-sensitive successive-treaty relations; UN Charter Article 103 supplies priority; VCLT Article 53 supplies invalidity; ILC Fragmentation Conclusions distinguish interpretation from conflict, encourage harmonization, and treat lex specialis as contextual without normally extinguishing general law.
 
 ## Cross-case law result
 
 The recurring candidate rule is now:
 
-**Do not promote, demote, activate, suspend, attribute, or globally normalize one legal or institutional status into another without the source rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, attribute, resolve, or globally normalize one legal or institutional status or rule relation into another without the source rule that performs that transition or identification.**
 
 This includes:
 
@@ -56,9 +57,11 @@ This includes:
 - evidence existence/submission does not automatically generate usability or finding;
 - a legal defect does not automatically generate one universal invalidity result;
 - an action's factual possibility or one rule's status does not determine one global normative value;
-- possession of a legal right/power does not by itself imply present exercisability, actual exercise, or downstream effect, and failed exercise/effect does not by itself erase the underlying status.
+- possession of a legal right/power does not by itself imply present exercisability, actual exercise, or downstream effect;
+- rule difference does not automatically become unresolved contradiction;
+- a conflict does not automatically become priority, deletion, invalidity, or another single consequence.
 
-For responsibility-attribution disputes, failure to establish one link does not itself establish the opposite global proposition.
+For responsibility-attribution disputes, failure to establish one link does not itself establish the opposite global proposition. Likewise, proving that one rule exists does not establish that it controls the case after applicability and conflict-resolution rules are applied.
 
 This is a structural reinterpretation principle, not a legal norm derived from DSD.
 
@@ -66,14 +69,16 @@ This is a structural reinterpretation principle, not a legal norm derived from D
 
 LAW-001 through LAW-004 remain universal candidates under active falsification after source-specific first passes.
 
-LAW-005 through LAW-007 were executed directly under the universal-first workflow. Their candidates are supported by multiple independent international/transnational witness families, but universal proof is not claimed and counterexample search remains open.
+LAW-005 through LAW-008 were executed directly under the universal-first workflow. Their candidates are supported by multiple independent international/transnational witness families, but universal proof is not claimed and counterexample search remains open.
 
-LAW-006 survives deontic counterpressure only in narrowed, rule-indexed form. LAW-007 survives CRPD vocabulary counterpressure only in source-sensitive, vocabulary-neutral form.
+LAW-006 survives deontic counterpressure only in narrowed, rule-indexed form. LAW-007 survives CRPD vocabulary counterpressure only in source-sensitive, vocabulary-neutral form. LAW-008 survives conflict-analysis counterpressure only in a source-sensitive form that distinguishes applicability, harmonization, speciality, priority, invalidity and residual conflict.
 
-## Next reserved analysis
+## Next candidate analysis
 
-- `LAW-008 / Global Case 019` — rule conflict, exception, and priority.
+- `LAW-009 / Global Case 020` — foundational irreversibility and justification safeguards.
 - law sequence: `cases/law/README.md`
+
+LAW-009 is a candidate foundational case rather than a routine continuation. Its normative boundary must be reviewed before execution.
 
 Required order:
 
@@ -88,7 +93,7 @@ Required order:
 5. After source types, roles, stages, and regimes are matched, does any direct contradiction remain?
 6. Is the apparent general claim supported by multiple independent jurisdictions/institutions, or only by one witness family?
 7. Is there a jurisdictional or institutional counterexample that falsifies the proposed universal form?
-8. If rules conflict, does the source itself provide a hierarchy/priority/exception rule, or is the conflict being silently repaired by the application?
+8. If rules conflict, does the source itself provide a hierarchy/priority/exception/invalidity rule, or is the conflict being silently repaired by the application?
 
 ## Rule
 
