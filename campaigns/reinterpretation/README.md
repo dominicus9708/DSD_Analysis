@@ -30,27 +30,23 @@ For responsibility-attribution analyses, `P`, `D`, and `J` are functional roles 
 - `D` — defence/counterargument function;
 - `J` — judgment function.
 
-Concrete prosecutors, defence counsel, accused persons, judges, juries, tribunals, committees, or administrative bodies are jurisdictional implementations and need not map one-to-one.
+Concrete offices are source-system implementations and need not map one-to-one.
 
 ## Active completed law analyses
 
-- `LAW-001 / Global Case 012` — universal candidate: nonaction is not automatically an opposite action, and failure to establish responsibility is not automatically proof of the opposite factual proposition. Parliamentary and presumption-of-innocence materials are witnesses; the Korean constitutional rule is one domestic witness. Original result remains preserved; see case `SCOPE.md` for reclassification.
-
-- `LAW-002 / Global Case 013` — universal candidate: event/world reference, source information, attribution function, defence function, judgment function, evidence/ground-use rule, and decision rule are distinct regimes. The `W + S + P + D + J + R_E + R_L` model is functional rather than office-defined. Korean criminal procedure is one concrete witness. The finite non-identifiability result remains valid under this reclassification.
-
-- `LAW-003 / Global Case 014` — universal candidate: underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical. Korean agency/representation law is a detailed jurisdictional witness. The original type-audit result is retained: use a role/context-sensitive legal act-instance rather than the natural person alone as the application carrier.
-
-- `LAW-004 / Global Case 015` — universal candidate: information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding are not automatically identical. Korean criminal/civil evidence law is a jurisdictional witness family and demonstrates a concrete regime-sensitive admissibility boundary. Static Aggregation remains explicitly non-identified with legal probative weight.
-
-- `LAW-005 / Global Case 016` — universal candidate: source-distinct legal formation, present effect, defect, remedial/defeasibility, recognition/enforcement, and temporal statuses must not be collapsed into one `valid/invalid` value, and a defect does not determine one universal consequence without a governing rule. Witnesses are CISG/UNCITRAL formation-validity separation, UNIDROIT conclusion/avoidance/condition/illegality architecture, and UNCITRAL Model Law award-recognition-enforcement separation. The initial universal stage ladder was narrowed under counterpressure rather than preserved dogmatically.
-
-- `LAW-006 / Global Case 017` — universal candidate: physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence are rule- and context-indexed and must not be collapsed into one context-free value. Witnesses are ILO Convention No. 29, ICCPR/Human Rights Committee rights-restriction-derogation structure, and UNIDROIT public-permission rules. Formal deontic logic was used as counterpressure, revealing that obligation and permission cannot safely be treated as mutually exclusive universal values and that permission itself has multiple semantics.
+- `LAW-001 / Global Case 012` — nonaction is not automatically an opposite action, and failure to establish responsibility is not automatically proof of the opposite factual proposition.
+- `LAW-002 / Global Case 013` — world/event reference, source information, attribution function, defence function, judgment function, evidence/ground-use rule, and decision rule are distinct regimes.
+- `LAW-003 / Global Case 014` — underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical.
+- `LAW-004 / Global Case 015` — information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding are not automatically identical.
+- `LAW-005 / Global Case 016` — source-distinct legal formation, present effect, defect, remedial/defeasibility, recognition/enforcement, and temporal statuses must not be collapsed into one `valid/invalid` value; defect consequence is rule-indexed.
+- `LAW-006 / Global Case 017` — physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence are rule/context indexed; a four-value deontic enum was rejected under counterpressure.
+- `LAW-007 / Global Case 018` — source-defined recognition/possession of a legal status, right, capacity or power must be separated from present exercisability, enabling support/authority, exercise event, enforcement, and downstream effect whenever the source makes those distinctions. CRPD Article 12 prevents a rigid universal capacity/exercise vocabulary; UNIDROIT separates right existence, exercisability, exercise and enforcement; VCLT Articles 6-8 separate State capacity, actor authority, attempted act, effect and later confirmation.
 
 ## Cross-case law result
 
 The recurring candidate rule is now:
 
-**Do not promote, demote, or globally normalize one legal or institutional status into another without the rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, attribute, or globally normalize one legal or institutional status into another without the source rule that performs that transition or identification.**
 
 This includes:
 
@@ -59,9 +55,10 @@ This includes:
 - one person or relation does not automatically generate authority/effect;
 - evidence existence/submission does not automatically generate usability or finding;
 - a legal defect does not automatically generate one universal invalidity result;
-- an action's factual possibility or one rule's status does not determine one global normative value.
+- an action's factual possibility or one rule's status does not determine one global normative value;
+- possession of a legal right/power does not by itself imply present exercisability, actual exercise, or downstream effect, and failed exercise/effect does not by itself erase the underlying status.
 
-For responsibility-attribution disputes, failure to establish the applicability of a prohibition does not itself establish affirmative permission under every other rule.
+For responsibility-attribution disputes, failure to establish one link does not itself establish the opposite global proposition.
 
 This is a structural reinterpretation principle, not a legal norm derived from DSD.
 
@@ -69,13 +66,13 @@ This is a structural reinterpretation principle, not a legal norm derived from D
 
 LAW-001 through LAW-004 remain universal candidates under active falsification after source-specific first passes.
 
-LAW-005 and LAW-006 were executed directly under the universal-first workflow. Their candidates are supported by multiple independent international/transnational witness families, but universal proof is not claimed and counterexample search remains open.
+LAW-005 through LAW-007 were executed directly under the universal-first workflow. Their candidates are supported by multiple independent international/transnational witness families, but universal proof is not claimed and counterexample search remains open.
 
-LAW-006 additionally survives formal deontic counterpressure only in narrowed, rule-indexed form; no universal O/P/F/exemption algebra is asserted.
+LAW-006 survives deontic counterpressure only in narrowed, rule-indexed form. LAW-007 survives CRPD vocabulary counterpressure only in source-sensitive, vocabulary-neutral form.
 
 ## Next reserved analysis
 
-- `LAW-007 / Global Case 018` — legal status, competence, authority, and exercise.
+- `LAW-008 / Global Case 019` — rule conflict, exception, and priority.
 - law sequence: `cases/law/README.md`
 
 Required order:
@@ -91,7 +88,7 @@ Required order:
 5. After source types, roles, stages, and regimes are matched, does any direct contradiction remain?
 6. Is the apparent general claim supported by multiple independent jurisdictions/institutions, or only by one witness family?
 7. Is there a jurisdictional or institutional counterexample that falsifies the proposed universal form?
-8. If normative rules conflict, does the source itself provide a hierarchy/priority/exception rule, or is the conflict being silently repaired by the application?
+8. If rules conflict, does the source itself provide a hierarchy/priority/exception rule, or is the conflict being silently repaired by the application?
 
 ## Rule
 
