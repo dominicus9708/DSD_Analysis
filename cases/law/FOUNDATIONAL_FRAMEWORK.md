@@ -6,12 +6,13 @@ Status: active domain framework.
 
 This file defines the primary comparison level for DSD Analysis in the legal and institutional domain.
 
-The primary target is **not the positive law of one jurisdiction**. National statutes, cases, constitutions, procedural codes, parliamentary rules, and institutional practices are treated as jurisdictional or institutional witnesses that can instantiate, refine, challenge, or falsify a more general structural claim.
+The primary target is **not the positive law of one jurisdiction**. National statutes, cases, constitutions, procedural codes, international instruments, parliamentary rules, and institutional practices are treated as witnesses that can instantiate, refine, challenge, or falsify a more general structural claim.
 
-The domain therefore distinguishes two levels:
+The domain distinguishes:
 
-1. **Universal structural claim** — a candidate structure about persons, events, claims, defence, evidence, judgment, authority, or irreversible intervention that does not depend on one jurisdiction's terminology.
-2. **Jurisdictional witness** — a concrete legal system or institutional rule showing one way that the structure is implemented, limited, or contradicted.
+1. **Universal structural claim** — a candidate structure about persons, events, claims, defence, evidence, judgment, authority, normativity, or irreversible intervention that does not depend on one jurisdiction's terminology.
+2. **Jurisdictional / institutional witness** — a concrete legal system, treaty, model law, case, or institutional rule showing one implementation, boundary, or counterexample.
+3. **Generalization status** — how far the available witness families actually justify cross-system generalization.
 
 A universal claim is not established merely because one jurisdiction instantiates it. Repeated independent witnesses strengthen the external-node network, while counterexamples must be retained.
 
@@ -49,31 +50,33 @@ The following statuses must not be identified without an explicit rule:
 
 `!= a specific disposition is required`.
 
-The exact legal gates and terminology remain jurisdiction-dependent.
+The exact legal gates and terminology remain source-dependent.
 
 ## 4. Functional roles before legal offices
 
 For criminal or responsibility-attribution analyses, use the following abstract roles first:
 
 - `P` — **attribution/prosecution function**: constructs and advances the case that specified responsibility should be attributed.
-- `D` — **defence/counterargument function**: challenges formation conditions, evidence, inference, applicability, attribution, or supplies an alternative account.
+- `D` — **defence/counterargument function**: challenges formation conditions, evidence, inference, rule applicability, attribution, or supplies an alternative account.
 - `J` — **judgment function**: forms the institutionally operative decision under the governing evidence and decision rules.
 
-Prosecutor, defence counsel, accused, judge, jury, tribunal, disciplinary committee, administrative body, or other offices are **jurisdictional/institutional implementations** of these functions. The mapping is not assumed to be one-to-one.
+Prosecutor, defence counsel, accused, judge, jury, tribunal, disciplinary committee, administrative body, or other offices are jurisdictional/institutional implementations of these functions. The mapping is not assumed to be one-to-one.
 
 A system may distribute one function among several actors or combine functions differently. Such differences are counterpressure on the general model rather than errors to be normalized away.
+
+LAW-006 adds a normative clarification: `D` can defeat an asserted prohibition/obligation by attacking applicability, scope, exception, exemption, or priority without proving an opposite global normative status.
 
 ## 5. DSD comparison discipline
 
 The DSD layer is selected only after the source structure is fixed.
 
-Formation is useful when the source independently requires separation among candidate status, realized act, partial assignment, role-bearing channel identity, legal/institutional usability, and downstream result.
+Formation is useful when the source independently requires separation among candidate status, realized act, partial assignment, role-bearing identity, rule applicability, legal/institutional usability, normative status, and downstream result.
 
 Axis-Property is not invoked merely because a legal role has attributes. It requires a justified realized-axis interpretation.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, or proportionality without an independently supplied mathematical bridge.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, legal validity, or normative force without an independently supplied mathematical bridge.
 
-Dynamics may become relevant when the analysis explicitly concerns temporal transition, restoration, irreversibility, or later status change.
+Dynamics may become relevant when the analysis explicitly concerns temporal transition, restoration, irreversibility, repeal, derogation, waiver, revocation, expiry, or later status change.
 
 ## 6. Jurisdictional-witness rule
 
@@ -85,7 +88,7 @@ The jurisdiction-independent candidate distinction or relation being tested.
 
 ### Jurisdictional / institutional witness
 
-The concrete rules, cases, or practices used to show one implementation or boundary.
+The concrete rules, cases, instruments, or practices used to show one implementation or boundary.
 
 ### Mapping status
 
@@ -103,30 +106,67 @@ The concrete rules, cases, or practices used to show one implementation or bound
 - cross-jurisdiction corroborated
 - institutionally general but not legally universal
 - universal candidate under active falsification
+- universal candidate supported by multiple independent witness families, falsification open
 - falsified as universal
 
-No case may move from the first category to a stronger category merely by restating the same jurisdiction in different doctrinal forms.
+No case may move to a stronger generalization category merely by restating the same jurisdiction or source family in different doctrinal forms.
 
-## 7. Reinterpretation of LAW-001 through LAW-004
+## 7. LAW-001 through LAW-006 cumulative structure
 
-The existing analyses remain valid as source-specific witnesses, but their evidential status is reclassified:
+- `LAW-001`: nonaction is not automatically an opposite action; failure to establish responsibility is not automatically proof of the opposite factual proposition.
+- `LAW-002`: world/event, information source, attribution function, defence function, judgment function, evidence-use rule, and decision rule are distinct regimes.
+- `LAW-003`: underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical.
+- `LAW-004`: information/evidence existence, submission, legal usability, probative evaluation, and final finding are not automatically identical.
+- `LAW-005`: formation, current effect, defect, defeasibility/remedy, recognition/enforcement, and later status are source-rule indexed; a defect does not determine one universal invalidity consequence.
+- `LAW-006`: physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence are source-rule and context indexed; no universal mutually-exclusive O/P/F/exemption value set is assumed.
 
-- `LAW-001`: universal candidate — nonaction is not automatically an opposite action; failure to establish responsibility is not automatically proof of the opposite factual proposition. Parliamentary and presumption rules are witnesses.
-- `LAW-002`: universal candidate — world/event, information source, attribution function, defence function, judgment function, evidence-use rule, and decision rule are distinct regimes. Korean criminal procedure is one witness.
-- `LAW-003`: universal candidate — underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical. Korean agency/representation law is one witness.
-- `LAW-004`: universal candidate — information/evidence existence, submission, legal usability, probative evaluation, and final finding are not automatically identical. Korean criminal/civil evidence law is one witness.
-
-The prior source notes and finite witnesses are preserved. They are not rewritten as universal law.
+LAW-001 through LAW-004 preserve their original source-specific results as witness records. LAW-005 and LAW-006 were executed directly under the universal-first workflow.
 
 ## 8. Predefinition rule for the legal domain
 
-The recurring cross-case rule is:
+The recurring cross-case rule is now:
 
-**Do not promote one legal or institutional status into another status without the rule that performs that promotion.**
+**Do not promote, demote, or globally normalize one legal or institutional status into another without the rule that performs that transition or identification.**
 
-This includes both positive and negative totalization. For example, absence of one ordinary route does not prove the absence of every exceptional route, and failure of one party's construction does not automatically generate the opposing factual proposition.
+This includes both positive and negative totalization.
 
-## 9. Irreversibility research extension
+Examples:
+
+- absence of one ordinary route does not prove absence of every exceptional route;
+- failure of one party's construction does not automatically generate the opposing factual proposition;
+- a defect does not automatically determine one universal invalidity result;
+- failure of a prohibition rule to apply does not automatically establish affirmative permission under every other rule;
+- a source-side normative conflict is not repaired by choosing one value unless a source-side priority/conflict rule does so.
+
+## 9. Rule-indexed normativity boundary
+
+LAW-006 adds a general boundary for normative analysis.
+
+A bare action token is usually too coarse. At minimum, the analysis may need:
+
+`(actor, action, role, context, time, purpose, regime, governing rule)`.
+
+The following are not universally identical:
+
+`possible`
+
+`!= rule-applicable`
+
+`!= obligatory`
+
+`!= permitted`
+
+`!= prohibited`
+
+`!= excepted/exempted`
+
+`!= derogated`
+
+`!= consequence imposed`.
+
+This is not a universal algebra of deontic operators. It is a source-fidelity constraint requiring the source system's own semantics and conflict rules to be retained.
+
+## 10. Irreversibility research extension
 
 A later foundational analysis may examine whether the following relation can be made precise without smuggling in a substantive moral theory:
 
