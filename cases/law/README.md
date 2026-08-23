@@ -1,6 +1,6 @@
 # Law, Institutions, and Decision Structures
 
-This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, and collective decision rules.
+This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, legal capacity/power, and collective decision rules.
 
 ## Foundational orientation
 
@@ -28,7 +28,7 @@ For responsibility-attribution analyses, the default abstract roles are function
 - `R_E` — evidence/ground-use rule;
 - `R_L` — responsibility/decision rule.
 
-A prosecutor, defence counsel, accused, judge, jury, tribunal, disciplinary committee, administrative body, or other office may instantiate one or more of these functions depending on the system. The mapping is not assumed to be one-to-one.
+A prosecutor, defence counsel, accused, judge, jury, tribunal, disciplinary committee, administrative body, or other office may instantiate one or more functions depending on the system. The mapping is not assumed to be one-to-one.
 
 The minimal functional skeleton is:
 
@@ -38,7 +38,7 @@ These states are not identified without an explicit rule:
 
 `event occurred != claim made != usable grounds != responsibility established != specific disposition required`.
 
-LAW-006 extends this functional model: defeating one asserted prohibition/obligation route does not itself prove an opposite global normative status.
+LAW-006 extends this model to rule applicability and normativity. LAW-007 adds that failure to establish effective exercise of a power does not by itself prove absence of the underlying legal status/right/power.
 
 ## Human-centered and irreversibility research boundary
 
@@ -72,72 +72,65 @@ A case counts as a coherence-supporting external node only when the source disci
 | LAW-004 | 015 | existence != submission != usability != probative evaluation != finding | Korean criminal/civil evidence law is one witness family | reinterpretation + coherence + predefinition / regime audit |
 | LAW-005 | 016 | source-distinct formation/effect/defect/remedy/enforcement statuses must not be collapsed; defect consequence is rule-indexed | CISG, UNIDROIT Principles, UNCITRAL Model Law on Arbitration | reinterpretation + coherence + predefinition / universal-claim audit |
 | LAW-006 | 017 | normative status is rule/context indexed; possibility/applicability/obligation/permission/prohibition/exception-exemption must not be collapsed | ILO C029, ICCPR/HRC, UNIDROIT public-permission rules, deontic-logic counterpressure | reinterpretation + coherence + predefinition / rule-scope audit |
+| LAW-007 | 018 | recognized status/right/power != present exercisability != exercise event != downstream effect unless the source rule identifies them | CRPD Article 12/GC1, UNIDROIT rights/limitation/termination rules, VCLT Articles 6-8 | reinterpretation + coherence + predefinition / status-power audit |
 
 LAW-001 through LAW-004 contain `SCOPE.md` files recording their post-analysis universal reclassification while preserving their original `RESULT.md` files as historical first-pass analyses.
 
-LAW-005 and LAW-006 were executed directly under the universal-first framework.
+LAW-005 through LAW-007 were executed directly under the universal-first framework.
 
-## LAW-001 through LAW-006 reinterpretation
+## LAW-001 through LAW-007 reinterpretation
 
 ### LAW-001
 
-The universal candidate is not a Korean voting or criminal-procedure rule. It is the structural non-collapse between nonaction, formed action, valid institutional input, and downstream result, plus the non-implication from failure to establish responsibility to proof of the opposite factual proposition.
+The universal candidate is the structural non-collapse between nonaction, formed action, valid institutional input, and downstream result, plus the non-implication from failure to establish responsibility to proof of the opposite factual proposition.
 
 ### LAW-002
 
-The `W + S + P + D + J + R_E + R_L` model is functional. `P`, `D`, and `J` are attribution, defence, and judgment functions before they are prosecutor, defence counsel, or court offices. Korean criminal-trial materials are one implementation witness.
+The `W + S + P + D + J + R_E + R_L` model is functional. `P`, `D`, and `J` are attribution, defence, and judgment functions before they are concrete offices.
 
 ### LAW-003
 
-The universal candidate is the separation of underlying person/entity, operative role, authority, act, and attributed effect. Korean Civil Act and Supreme Court materials remain a detailed witness, not the foundation of the general claim.
+Underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical.
 
 ### LAW-004
 
-The universal candidate is the separation of information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding. Korean criminal/civil evidence doctrine provides a concrete witness and regime-boundary example.
+Information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding are not automatically identical.
 
 ### LAW-005
 
-The initial roadmap phrase `candidate act vs formed act vs effective act vs void/voidable state` was too rigid as a universal sequence.
-
-The surviving candidate is:
-
-**preserve every source-distinct formation, present-effect, defect, remedial/defeasibility, recognition/enforcement, and temporal status until the governing rule explicitly identifies or transforms them.**
-
-A defect does not have one universal consequence.
+Preserve every source-distinct formation, present-effect, defect, remedial/defeasibility, recognition/enforcement, and temporal status until the governing rule explicitly identifies or transforms them.
 
 ### LAW-006
 
-The initial roadmap phrase `possible vs permitted vs obligatory vs prohibited` was also too simple if interpreted as a mutually exclusive value set.
+Preserve physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence as rule- and context-indexed statuses unless the source system itself licenses an identification.
 
-The surviving candidate is:
+### LAW-007
 
-**preserve physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence as rule- and context-indexed statuses unless the source system itself licenses an identification.**
+The initial roadmap phrase `possession of capacity/power vs availability vs actual exercise` was too rigid if treated as one universal legal vocabulary.
 
-In particular:
+CRPD counterpressure shows that `legal capacity` may itself include both holding rights and acting under law. The surviving candidate is therefore source-sensitive:
 
-- `not yet permitted != prohibited`;
-- `exception != universal opposite value`;
-- `exemption != automatically affirmative permission`;
-- `obligation` and `permission` need not be disjoint;
-- failure of an asserted prohibition route does not prove global permission.
+**when the source distinguishes recognition/possession of a status, right, capacity or power from present exercisability, enabling support/authority, actual exercise, enforcement, or downstream effect, preserve those distinctions until the source rule performs the transition.**
+
+UNIDROIT supplies direct witnesses separating right existence, exercisability, notice-based exercise, and enforcement. VCLT Articles 6-8 separate State treaty capacity, actor authority, exercise event, effect, and later confirmation.
 
 ## DSD layer discipline
 
 Formation Axiom System is the default first comparison layer because it already distinguishes staged admission/realization, partial assignment, role-bearing channel identity, and composition.
 
-Axis-Property structure is used only when an already formed tagged role requires additional tag-sensitive, relational, mixed-profile, or closure-associated properties **and** the application supplies a justified realized-axis interpretation.
+Axis-Property structure is used only when the application supplies a justified realized-axis interpretation. The presence of legal words such as property, status, capacity, competence, or power does not itself justify Axis-Property.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, or normative force merely because those domains use words such as weight, validity, force, or priority. A separate mathematical bridge is required.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, normative force, or legal power. A separate mathematical bridge is required.
 
-Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, irreversibility, repeal, waiver, derogation, expiry, or revocation.
+Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, irreversibility, repeal, waiver, derogation, expiry, revocation, confirmation, or restoration of a right/power.
 
 ## Predefinition rule for the legal domain
 
 The cross-case rule is now:
 
-**Do not promote, demote, or globally normalize one legal or institutional status into another without the rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, attribute, or globally normalize one legal or institutional status into another without the source rule that performs that transition or identification.**
 
-This includes positive and negative totalization, defect consequences, and normative status. Failure of one rule's applicability or one side's construction does not automatically generate the opposite legal or factual proposition.
+This includes positive and negative totalization, defect consequences, normative status, and the relation between possession of a right/power and its exercise/effect.
 
 ## Remaining sequence
 
@@ -145,13 +138,13 @@ Future cases continue to start from the universal candidate before selecting jur
 
 | Order | Planned ID | Cluster | Main distinction to stress |
 |---:|---|---|---|
-| 1 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of capacity/power vs availability vs actual exercise |
-| 2 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
+| 1 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
 
 ## Later extension pool
 
 - legal acts and contract formation/effect beyond LAW-005
 - normative conflicts and permissions beyond LAW-006
+- legal capacity/power transitions beyond LAW-007
 - administrative and organizational decision chains
 - elections and collective-choice rules
 - foundational irreversibility and justification-safeguard analysis
@@ -166,6 +159,6 @@ Use this order:
 
 ## Current next case
 
-- `LAW-007 / Global Case 018`
-- topic: legal status, competence, authority, exercise
-- detailed preparation: not yet created; LAW-006 is the current completed result
+- `LAW-008 / Global Case 019`
+- topic: rule conflict, exception, priority
+- detailed preparation: not yet created; LAW-007 is the current completed result
