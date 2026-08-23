@@ -14,4 +14,6 @@
 - Dynamics required: not for first pass
 - Active falsification: open
 - Main result: conflict relation and conflict consequence must remain source-rule indexed; difference/priority/invalidity are not one status
-- Next planned case: LAW-009 / Global Case 020 — foundational irreversibility and justification safeguards (candidate; sequence review required before execution)
+- Original LAW-001 through LAW-008 decomposition sequence: completed
+- Next candidate: LAW-009 / Global Case 020 — foundational irreversibility and justification safeguards
+- LAW-009 boundary: candidate only; normative premise and structurally derivable claim must be separated before execution
