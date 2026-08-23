@@ -44,11 +44,13 @@ Concrete prosecutors, defence counsel, accused persons, judges, juries, tribunal
 
 - `LAW-005 / Global Case 016` — universal candidate: source-distinct legal formation, present effect, defect, remedial/defeasibility, recognition/enforcement, and temporal statuses must not be collapsed into one `valid/invalid` value, and a defect does not determine one universal consequence without a governing rule. Witnesses are CISG/UNCITRAL formation-validity separation, UNIDROIT conclusion/avoidance/condition/illegality architecture, and UNCITRAL Model Law award-recognition-enforcement separation. The initial universal stage ladder was narrowed under counterpressure rather than preserved dogmatically.
 
+- `LAW-006 / Global Case 017` — universal candidate: physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence are rule- and context-indexed and must not be collapsed into one context-free value. Witnesses are ILO Convention No. 29, ICCPR/Human Rights Committee rights-restriction-derogation structure, and UNIDROIT public-permission rules. Formal deontic logic was used as counterpressure, revealing that obligation and permission cannot safely be treated as mutually exclusive universal values and that permission itself has multiple semantics.
+
 ## Cross-case law result
 
 The recurring candidate rule is now:
 
-**Do not promote or demote one legal or institutional status into another status without the rule that performs that transition.**
+**Do not promote, demote, or globally normalize one legal or institutional status into another without the rule that performs that transition or identification.**
 
 This includes:
 
@@ -56,7 +58,10 @@ This includes:
 - one regime's missing result does not become another regime's positive result;
 - one person or relation does not automatically generate authority/effect;
 - evidence existence/submission does not automatically generate usability or finding;
-- a legal defect does not automatically generate one universal invalidity result.
+- a legal defect does not automatically generate one universal invalidity result;
+- an action's factual possibility or one rule's status does not determine one global normative value.
+
+For responsibility-attribution disputes, failure to establish the applicability of a prohibition does not itself establish affirmative permission under every other rule.
 
 This is a structural reinterpretation principle, not a legal norm derived from DSD.
 
@@ -64,11 +69,13 @@ This is a structural reinterpretation principle, not a legal norm derived from D
 
 LAW-001 through LAW-004 remain universal candidates under active falsification after source-specific first passes.
 
-LAW-005 is the first law case executed directly under the universal-first workflow. Its candidate is supported by multiple independent transnational/international witness families, but universal proof is not claimed and counterexample search remains open.
+LAW-005 and LAW-006 were executed directly under the universal-first workflow. Their candidates are supported by multiple independent international/transnational witness families, but universal proof is not claimed and counterexample search remains open.
+
+LAW-006 additionally survives formal deontic counterpressure only in narrowed, rule-indexed form; no universal O/P/F/exemption algebra is asserted.
 
 ## Next reserved analysis
 
-- `LAW-006 / Global Case 017` — obligation, permission, prohibition, exemption.
+- `LAW-007 / Global Case 018` — legal status, competence, authority, and exercise.
 - law sequence: `cases/law/README.md`
 
 Required order:
@@ -84,6 +91,7 @@ Required order:
 5. After source types, roles, stages, and regimes are matched, does any direct contradiction remain?
 6. Is the apparent general claim supported by multiple independent jurisdictions/institutions, or only by one witness family?
 7. Is there a jurisdictional or institutional counterexample that falsifies the proposed universal form?
+8. If normative rules conflict, does the source itself provide a hierarchy/priority/exception rule, or is the conflict being silently repaired by the application?
 
 ## Rule
 
