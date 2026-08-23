@@ -1,8 +1,50 @@
 # Law, Institutions, and Decision Structures
 
-This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, and collective decision rules.
+This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, and collective decision rules.
 
-The domain objective is not to derive legal norms from DSD. It is to test whether independently established legal/institutional distinctions can be represented without contradiction with the relevant DSD distinctions after type, role, procedural stage, and regime boundaries are aligned.
+## Foundational orientation
+
+The primary comparison target is **not the positive law of the Republic of Korea or any other single jurisdiction**.
+
+The domain first formulates a jurisdiction-independent structural candidate and then uses concrete legal systems, cases, constitutions, procedural codes, parliamentary rules, and institutional practices as **jurisdictional or institutional witnesses**.
+
+See `FOUNDATIONAL_FRAMEWORK.md`.
+
+Each legal case must now distinguish:
+
+1. **Universal structural claim** — the cross-jurisdictional candidate being tested;
+2. **Jurisdictional / institutional witness** — the concrete rule or practice used as one implementation, boundary, or counterexample;
+3. **Generalization status** — how far the available evidence actually supports generalization.
+
+A single jurisdiction cannot establish universality merely by supplying many doctrinal examples from within the same system.
+
+## Functional responsibility-attribution model
+
+For responsibility-attribution analyses, the default abstract roles are functional before they are offices:
+
+- `P` — attribution/prosecution function;
+- `D` — defence/counterargument function;
+- `J` — judgment function;
+- `R_E` — evidence/ground-use rule;
+- `R_L` — responsibility/decision rule.
+
+A prosecutor, defence counsel, accused, judge, jury, tribunal, disciplinary committee, administrative body, or other office may instantiate one or more of these functions depending on the system. The mapping is not assumed to be one-to-one.
+
+The minimal functional skeleton is:
+
+`event/reference -> claim or attribution attempt -> defence/counterargument -> grounds/evidence -> judgment -> intervention/disposition`.
+
+These states are not identified without an explicit rule:
+
+`event occurred != claim made != usable grounds != responsibility established != specific disposition required`.
+
+## Human-centered and irreversibility research boundary
+
+The domain records, for later explicit analysis, the hypothesis that legal systems exist to regulate human conflict, harm, responsibility, prevention, restoration where possible, and institutional intervention rather than to make persons subordinate to law as an end in itself.
+
+Some harms and some legal interventions are irreversible or only partially reversible. A later foundational case may test whether greater irreversibility of an imposed consequence structurally requires stronger formation and justification safeguards.
+
+This is currently a research hypothesis, not a DSD theorem and not yet a completed LAW case.
 
 ## Evaluation rule
 
@@ -20,62 +62,79 @@ A case counts as a coherence-supporting external node only when the source disci
 
 ## Completed cases
 
-| Law ID | Global case | Cluster | Status | Primary result class |
+| Law ID | Global case | Universal candidate | Jurisdictional / institutional witness status | Primary result class |
 |---|---:|---|---|---|
-| LAW-001 | 012 | meeting procedure / voting / presumption | completed | reinterpretation + coherence |
-| LAW-002 | 013 | criminal trial / multi-regime evidence and decision | completed | reinterpretation + coherence |
-| LAW-003 | 014 | agency / mandate / representation / authority | completed | reinterpretation + coherence + predefinition audit |
-| LAW-004 | 015 | evidence submission / admissibility / probative weight / finding | completed | reinterpretation + coherence + predefinition / regime audit |
+| LAW-001 | 012 | nonaction != opposite action; unproved responsibility != proved opposite fact | parliamentary + presumption witnesses; Korea is one domestic witness | reinterpretation + coherence |
+| LAW-002 | 013 | world/source/P/D/J/rules are distinct functional regimes | Korean criminal procedure is one concrete instantiation | reinterpretation + coherence |
+| LAW-003 | 014 | person/entity != role != authority != act != attributed effect | Korean agency/representation law is one witness | reinterpretation + coherence + predefinition audit |
+| LAW-004 | 015 | existence != submission != usability != probative evaluation != finding | Korean criminal/civil evidence law is one witness family | reinterpretation + coherence + predefinition / regime audit |
 
-### LAW-003 result note
+Each case folder contains `SCOPE.md` recording this reclassification while preserving the original `RESULT.md` as the historical first-pass analysis.
 
-The selected Korean Civil Act and Supreme Court sources independently require distinctions among the same human performer, legally operative capacity, mandate relation, agency authority, authority scope, exceptional attribution rules, and principal effect. No direct contradiction with the Formation distinctions remained after those coordinates were aligned.
+## LAW-001 through LAW-004 reinterpretation
 
-A key type-audit result is that the natural person should not be used naively as the sole Formation material item when role-specific legal-effect values differ. The faithful application carrier is the role/context-sensitive legal act-instance, while the common human remains shared provenance.
+### LAW-001
 
-Axis-Property structure was not required because the selected legal sources do not supply realized-axis semantics merely by having role-sensitive legal relations.
+The universal candidate is not a Korean voting or criminal-procedure rule. It is the structural non-collapse between nonaction, formed action, valid institutional input, and downstream result, plus the non-implication from failure to establish responsibility to proof of the opposite factual proposition.
 
-### LAW-004 result note
+### LAW-002
 
-The selected Korean criminal/civil evidence rules independently separate evidence existence, submission/application, legal use or investigation, probative evaluation, and final factual finding. The 2026 Supreme Court civil-evidence decision additionally shows that a common label such as `unlawfully collected` does not determine one universal admissibility result without the governing statute and procedural regime.
+The `W + S + P + D + J + R_E + R_L` model is now functional. `P`, `D`, and `J` are attribution, defence, and judgment functions before they are prosecutor, defence counsel, or court offices. The Korean criminal-trial materials are one implementation witness.
 
-The faithful application carrier is a typed evidence-use instance `(item, proposition, proceeding, purpose, source_status)`, not the physical evidence object alone. This avoids artificial conflicts when one item is used under different regimes or for different propositions.
+### LAW-003
 
-Formation provides the useful non-totalization/status-preservation layer. Static Aggregation is not required: legal probative weight is not identified with an analytic weight or linear sum without a separately supplied legal-analytic bridge.
+The universal candidate is the separation of underlying person/entity, operative role, authority, act, and attributed effect. Korean Civil Act and Supreme Court materials remain a detailed witness, not the foundation of the general claim.
 
-## Remaining sequence
+### LAW-004
 
-The remaining law/institution sequence is organized so that each case adds a substantially independent external node rather than repeating LAW-001 through LAW-004.
-
-| Order | Planned ID | Cluster | Main distinction to stress |
-|---:|---|---|---|
-| 1 | LAW-005 / Global 016 | procedural formation, validity, invalidity | candidate act vs formed act vs effective act vs void/voidable state |
-| 2 | LAW-006 / Global 017 | obligation, permission, prohibition, exemption | possible vs permitted vs obligatory vs prohibited |
-| 3 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of a legal capacity/power vs availability vs actual exercise |
-| 4 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
-
-## Later extension pool
-
-These are retained as later independent nodes after LAW-005 through LAW-008 are assessed:
-
-- legal acts and contract formation/effect
-- administrative and organizational decision chains
-- elections and collective-choice rules
+The universal candidate is the separation of information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding. Korean criminal/civil evidence doctrine provides a concrete witness and regime-boundary example.
 
 ## DSD layer discipline
 
 Formation Axiom System is the default first comparison layer because it already distinguishes staged admission/realization, partial assignment, role-bearing channel identity, and composition.
 
-Axis-Property structure is used only when an already formed tagged role requires additional tag-sensitive, relational, mixed-profile, or closure-associated properties **and** the application supplies a justified realized-axis interpretation. It must not be added merely because a legal actor has a name or institutional title.
+Axis-Property structure is used only when an already formed tagged role requires additional tag-sensitive, relational, mixed-profile, or closure-associated properties **and** the application supplies a justified realized-axis interpretation.
 
-Static aggregation and dynamics are outside the core of this law-domain roadmap unless a later case genuinely requires numerical aggregation or temporal transition analysis.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, or social value merely because those domains use words such as weight or balance. A separate mathematical bridge is required.
+
+Dynamics is considered only when the case actually concerns temporal transition, later status change, restoration, or irreversibility.
+
+## Predefinition rule for the legal domain
+
+The cross-case rule is:
+
+**Do not promote one legal or institutional status into another status without the rule that performs that promotion.**
+
+This applies both positively and negatively. Failure of an ordinary route does not prove that every exceptional route is absent, and failure of one side's factual construction does not automatically generate the opposing factual proposition.
+
+## Remaining sequence
+
+The remaining sequence is retained, but future cases must start from the universal candidate before selecting jurisdictional witnesses.
+
+| Order | Planned ID | Cluster | Main distinction to stress |
+|---:|---|---|---|
+| 1 | LAW-005 / Global 016 | procedural formation, validity, invalidity | candidate act vs formed act vs effective act vs void/voidable state |
+| 2 | LAW-006 / Global 017 | obligation, permission, prohibition, exemption | possible vs permitted vs obligatory vs prohibited |
+| 3 | LAW-007 / Global 018 | legal status, competence, authority, exercise | possession of capacity/power vs availability vs actual exercise |
+| 4 | LAW-008 / Global 019 | rule conflict, exception, priority | true contradiction vs regime/priority-conditioned result |
+
+## Later extension pool
+
+- legal acts and contract formation/effect
+- administrative and organizational decision chains
+- elections and collective-choice rules
+- foundational irreversibility and justification-safeguard analysis
 
 ## One-case-at-a-time rule
 
-Only the next case is prepared in detail. Later IDs reserve order and scope but do not contain prewritten conclusions. Source law and external doctrine are collected before DSD mapping, and the result file is written only after the comparison has been performed.
+Only the next case is prepared in detail. Later IDs reserve order and scope but do not contain prewritten conclusions.
+
+From LAW-005 onward, use this order:
+
+`universal structural candidate -> counterpressure -> jurisdictional/institutional witnesses -> DSD mapping -> contradiction audit -> generalization status`.
 
 ## Current next case
 
 - `LAW-005 / Global Case 016`
 - topic: procedural formation, validity, invalidity
-- detailed preparation: not yet created; LAW-004 is the current frozen result
+- preparation not yet created
