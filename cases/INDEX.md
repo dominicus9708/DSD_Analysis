@@ -16,16 +16,32 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 010 | integrated Formation + Axis countermodel search | falsification | coherence |
 | 011 | Formation partiality, typing, and closure coherence | coherence | predefinition audit |
 | 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition audit |
-| 013 | criminal-trial world/source/prosecution/defence/court multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis |
+| 013 | responsibility-attribution multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis |
 | 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-regime boundary — completed |
-| 015 | evidence submission, admissibility/legal use, probative weight, and factual finding | reinterpretation | coherence / predefinition / regime-boundary analysis — completed |
+| 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | coherence / predefinition / regime boundary — completed |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
 - `law/` — law, institutions, authority, procedure, evidence, and decision structures
 
-The law-domain sequence and reserved follow-up case order are documented in `law/README.md`.
+The law-domain foundation and sequence are documented in:
+
+- `law/FOUNDATIONAL_FRAMEWORK.md`
+- `law/README.md`
+
+## Law-domain generalization status
+
+LAW-001 through LAW-004 are now read at two levels:
+
+1. a **universal structural candidate**;
+2. one or more **jurisdictional / institutional witnesses**.
+
+Their current generalization status is:
+
+`universal candidate under active falsification`.
+
+The Korean-law materials already collected remain valid source witnesses but do not by themselves prove legal universality. Each affected case folder contains `SCOPE.md` recording the reclassification while preserving the original first-pass `RESULT.md`.
 
 ## Purpose folders
 
@@ -38,4 +54,4 @@ The law-domain sequence and reserved follow-up case order are documented in `law
 
 A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate case evidence into multiple campaign folders.
 
-A prepared case is an analysis plan, not a completed coherence node. It enters the accumulated evidence set only after source claims, mapping, contradiction audit, and result boundaries are recorded.
+For legal cases, source-specific completion and universal generalization are separate judgments. A case may be a completed jurisdictional witness while its universal structural claim remains under active falsification.
