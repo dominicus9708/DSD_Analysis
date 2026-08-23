@@ -12,17 +12,58 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 - ontology and knowledge representation
 - philosophy, epistemology, and thought-experiment audit
 
-## Active analyses
+## Law-domain evidence discipline
 
-- `LAW-001 / Global Case 012` — meeting nonattendance, non-exercise versus invalid ballot, and presumption-of-innocence staging. Primary result: external institutional rules independently preserve several of the same state separations that DSD Formation keeps distinct; the legal burden-of-proof asymmetry remains external normative data rather than a DSD theorem.
-- `LAW-002 / Global Case 013` — criminal-trial multi-regime describability. Minimal model separates world reference, evidence sources, prosecution, defence, court, evidence rules, and decision rules. Primary result: one regime's missing description cannot be silently totalized into another regime's positive result; admitted court records may fail to identify a unique world state. Cross-regime transfer and legal norms remain application-supplied structure.
-- `LAW-003 / Global Case 014` — agency, mandate, representation, authority scope, and attribution. Korean Civil Act and Supreme Court sources independently separate the same human performer from legally operative capacity, mandate from agency authority, actual authority/scope from attributed effect, unauthorized act existence from principal effect, and ordinary agency from apparent-agency/ratification routes. No direct contradiction with the Formation distinctions remained after typing the action instance, role, rule regime, and effect status separately. Axis-Property structure was not required because the source domain does not itself provide realized-axis semantics.
-- `LAW-004 / Global Case 015` — evidence submission, admissibility/legal use, probative weight, and factual finding. Korean criminal/civil evidence rules independently separate existence, submission/application, investigation/use, probative evaluation, and final finding. Supreme Court 2024Da222212 additionally shows that `unlawfully collected` does not determine one universal civil admissibility result without the governing statutory/procedural rule. No direct contradiction with Formation remained after typing the evidence-use instance, proposition, proceeding, regime, and status. Static Aggregation was audited but not used as a legal evidence-weight model.
+For law and institutions, reinterpretation now distinguishes:
+
+- **universal structural claim** — the jurisdiction-independent candidate being tested;
+- **jurisdictional / institutional witness** — a concrete legal rule, case, constitution, procedure, or institutional practice;
+- **generalization status** — how far the available witnesses justify generalization.
+
+Positive law from one country is not the foundation of the universal claim. It is one implementation, boundary, or counterexample source.
+
+The current law-domain foundational file is `cases/law/FOUNDATIONAL_FRAMEWORK.md`.
+
+For responsibility-attribution analyses, `P`, `D`, and `J` are functional roles first:
+
+- `P` — attribution/prosecution function;
+- `D` — defence/counterargument function;
+- `J` — judgment function.
+
+Concrete prosecutors, defence counsel, accused persons, judges, juries, tribunals, committees, or administrative bodies are jurisdictional implementations and need not map one-to-one.
+
+## Active completed law analyses
+
+- `LAW-001 / Global Case 012` — universal candidate: nonaction is not automatically an opposite action, and failure to establish responsibility is not automatically proof of the opposite factual proposition. Parliamentary and presumption-of-innocence materials are witnesses; the Korean constitutional rule is one domestic witness. Original result remains preserved; see case `SCOPE.md` for reclassification.
+
+- `LAW-002 / Global Case 013` — universal candidate: event/world reference, source information, attribution function, defence function, judgment function, evidence/ground-use rule, and decision rule are distinct regimes. The `W + S + P + D + J + R_E + R_L` model is now functional rather than office-defined. Korean criminal procedure is one concrete witness. The finite non-identifiability result remains valid under this reclassification.
+
+- `LAW-003 / Global Case 014` — universal candidate: underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical. Korean agency/representation law is a detailed jurisdictional witness. The original type-audit result is retained: use a role/context-sensitive legal act-instance rather than the natural person alone as the application carrier.
+
+- `LAW-004 / Global Case 015` — universal candidate: information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding are not automatically identical. Korean criminal/civil evidence law is a jurisdictional witness family and demonstrates a concrete regime-sensitive admissibility boundary. Static Aggregation remains explicitly non-identified with legal probative weight.
+
+## Cross-case law result
+
+The recurring candidate rule is:
+
+**Do not promote one legal or institutional status into another status without the rule that performs that promotion.**
+
+This is a structural reinterpretation principle, not a legal norm derived from DSD.
+
+The law-domain generalization status for LAW-001 through LAW-004 is currently:
+
+`universal candidates under active falsification`.
+
+No claim of legal universality is made merely from repeated Korean-law witnesses.
 
 ## Next reserved analysis
 
 - `LAW-005 / Global Case 016` — procedural formation, validity, invalidity.
 - law sequence: `cases/law/README.md`
+
+From LAW-005 onward, the required order is:
+
+`universal structural candidate -> counterpressure -> jurisdictional/institutional witnesses -> DSD mapping -> contradiction audit -> generalization status`.
 
 ## Questions
 
@@ -31,9 +72,11 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 3. Which DSD layer is actually needed: Formation, Axis-Property, both, or neither?
 4. Does the case require empirical or numerical testing and therefore belong to a separate benchmark/validation track?
 5. After source types, roles, stages, and regimes are matched, does any direct contradiction remain?
+6. Is the apparent general claim supported by multiple independent jurisdictions/institutions, or only by one witness family?
+7. Is there a jurisdictional or institutional counterexample that falsifies the proposed universal form?
 
 ## Rule
 
 External terminology remains primary. DSD correspondence is recorded separately as `direct / partial / after encoding / complementary layer / apparent conflict resolved / direct contradiction candidate / no mapping`.
 
-A prepared case is not counted as supporting evidence until the source-side structure, DSD mapping, contradiction audit, and explicit limitations are all completed.
+A completed jurisdictional witness is not automatically a completed proof of universality. Generalization strength must be recorded independently.
