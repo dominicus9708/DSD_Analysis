@@ -1,6 +1,6 @@
 # Law, Institutions, and Decision Structures
 
-This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, legal capacity/power, rule conflict, irreversibility, and collective decision rules.
+This domain groups DSD Analysis cases whose source problems belong to law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, legal capacity/power, rule conflict, irreversibility, social response, and collective decision rules.
 
 ## Foundational orientation
 
@@ -106,27 +106,46 @@ Formation Axiom System is the default first comparison layer because it distingu
 
 Axis-Property structure is used only when the application supplies a justified realized-axis interpretation. Legal hierarchy, superiority, capacity, harm, or priority are not by themselves realized-axis semantics.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, normative force, harm severity, irreversibility, or safeguard strength. A separate mathematical bridge is required.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, legal validity, normative force, harm severity, irreversibility, safeguard strength, grief, public condemnation, legitimacy, or social cost. A separate empirical or normative bridge is required before any such quantities are aggregated.
 
-Dynamics becomes meaningfully relevant when the case concerns temporal transition, restoration, irreversibility, repeal, waiver, derogation, expiry, revocation, confirmation, treaty succession, suspension, reactivation, or later status change. LAW-009 is the first completed law case where a source-supplied time-transition/recoverability bridge is analytically useful.
+Dynamics becomes meaningfully relevant when the case concerns temporal transition, restoration, irreversibility, repeal, waiver, derogation, expiry, revocation, confirmation, treaty succession, suspension, reactivation, rehabilitation, moratorium, non-use, or later status change. LAW-009 is the first completed law case where a source-supplied time-transition/recoverability bridge is analytically useful.
 
 ## Predefinition rule for the legal domain
 
 The cross-case rule is now:
 
-**Do not promote, demote, activate, suspend, preserve, attribute, resolve, or globally normalize one legal or institutional status, rule relation, review state, or time-dependent consequence into another without the source rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, preserve, attribute, resolve, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, or social-cost coordinate into another without the source rule that performs that transition or identification.**
 
-This includes positive and negative totalization, defect consequences, normative status, right/power exercise, conflict resolution, finality, and irreversible intervention.
+This includes positive and negative totalization, defect consequences, normative status, right/power exercise, conflict resolution, finality, irreversible intervention, and social-emotional response.
+
+## Social-emotional and social-cost boundary for LAW-010
+
+LAW-010 will treat emotion and social cost as structured source-side inputs rather than as one numerical utility value.
+
+At minimum it distinguishes:
+
+- victim/bereaved-family grief, anger, condemnation, forgiveness, support or opposition;
+- broader public condemnation, fear, retributive demand, restraint demand, and institutional distrust;
+- institutional/fiscal/procedural maintenance costs;
+- irreversible error cost, including wrongful execution;
+- political-execution, discriminatory-enforcement, and authoritarian/state-violence abuse risk or historical memory;
+- legitimacy cost of punishment perceived as too weak;
+- legitimacy cost of punishment perceived as arbitrary, discriminatory, abusive, or constitutionally unacceptable;
+- formal retention, non-use/moratorium, abolition in practice, and abolition in law.
+
+These coordinates may pull in opposite directions. DSD does not select retention, abolition, retribution, rehabilitation, or prevention as the correct policy.
+
+Victims and bereaved families are not treated as one homogeneous preference-bearing actor. Their reactions remain actor-, event-, time-, and source-indexed.
 
 ## Remaining sequence
 
 The original LAW-001 through LAW-008 decomposition sequence is complete, and LAW-009 completed the first foundational irreversibility test.
 
-The next candidate is:
+The next prepared case is:
 
 | Order | Candidate ID | Cluster | Main distinction to stress |
 |---:|---|---|---|
-| 1 | LAW-010 / Global 021 | responsibility, sanction, restoration, prevention | responsibility recognition != punishment != victim restoration != future-risk management |
+| 1 | LAW-010 / Global 021 | responsibility, sanction, recovery, emotion, social cost | responsibility recognition != punishment != victim restoration != social-emotional response != social/institutional cost |
 
 ## Later extension pool
 
@@ -149,5 +168,6 @@ Use this order:
 ## Current next candidate
 
 - `LAW-010 / Global Case 021`
-- topic candidate: responsibility, sanction, restoration, prevention, and their non-equivalence
-- detailed preparation: not yet created; LAW-009 is the current completed result
+- topic: responsibility, sanction, victim recovery, compensation, rehabilitation, prevention, emotion, public response, social cost, and capital-punishment retention/non-use/abolition as a high-contrast witness
+- preparation: `cases/law/021_responsibility_sanction_recovery_social_cost/PLAN.md` and `SOURCE_NOTES.md`
+- full analysis: not yet completed; LAW-009 remains the current completed result
