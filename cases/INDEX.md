@@ -29,11 +29,13 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 023 | distributed responsibility, command/superior control, individual liability, State attribution | reinterpretation | falsification / coherence / predefinition / distributed-responsibility audit — **first-pass cross-jurisdiction complete** |
 | 024 | legal temporality: commencement, provisional application, retroactivity, repeal, termination, residual effects | reinterpretation | falsification / coherence / predefinition / temporal-rule audit — **first-pass cross-jurisdiction complete** |
 | 025 | collective decision formation, voting, quorum, thresholds, veto/blocking, institutional attribution | reinterpretation | falsification / coherence / predefinition / collective-decision audit — **first-pass cross-jurisdiction complete** |
+| 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | falsification / coherence / predefinition / instruction-interface audit — **first-pass cross-domain complete** |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
 - `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, legal temporality, collective decisions, and decision structures
+- `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, and operational decision structures
 
 The law-domain foundation and sequence are documented in:
 
@@ -42,37 +44,23 @@ The law-domain foundation and sequence are documented in:
 - `law/LAW_001_014_FINAL_SYNTHESIS.md`
 - `law/README.md`
 
-## Law-domain generalization status
+The administration/organization sequence is documented in:
 
-LAW-001 through LAW-004 began as source-specific first passes and completed universal-first, multi-jurisdiction falsification refreshes.
+- `administration/README.md`
 
-LAW-005 through LAW-010 were executed directly under the universal-first workflow.
+## Cross-domain status
 
-LAW-011 through LAW-014 are extension/closing cases after the LAW-001 through LAW-010 cross-case synthesis.
+Legal foundation status: **closed for prerequisite cross-domain testing; falsification and specialized legal extensions remain open**.
 
-Current status:
+Administration/organization status: **opened**.
 
-- LAW-001: cross-jurisdiction corroborated non-totalization candidate; falsification open;
-- LAW-002: cross-jurisdiction corroborated functional-interface candidate; fixed office/module taxonomy rejected;
-- LAW-003: role-authority-attribution non-totalization candidate; binary authority-effect model rejected;
-- LAW-004: evidence/fact-interface candidate; fixed five-stage pipeline rejected;
-- LAW-005: source-indexed validity/effect/defect candidate;
-- LAW-006: rule-indexed normative-status candidate;
-- LAW-007: source-sensitive status/capacity/power candidate;
-- LAW-008: source-sensitive rule-conflict candidate;
-- LAW-009: strong monotone irreversibility->safeguard theorem falsified; narrower candidate survives;
-- LAW-010: rigid universal responsibility/sanction/remedy taxonomy rejected;
-- LAW-011: investigative-epistemic non-collapse candidate; exact triangulation/monotone intersection rejected;
-- LAW-012: distributed-responsibility non-totalization candidate; automatic upward guilt and individual/State identity rejected;
-- LAW-013: legal-temporality non-totalization candidate; temporal overwrite and universal retroactivity model rejected;
-- LAW-014: collective-decision non-totalization candidate; generic simple-majority/scalar model rejected.
+- ADMIN-001 / Global Case 026: `cross-domain corroborated instruction-interface non-totalization candidate; universal detail/clarity monotonicity, issue=understand, acknowledgement=understanding, discretion=defect, and outcome-back-inference models rejected; active falsification remains open`.
 
-## Closing-case witness families
+ADMIN-001 witness families:
 
-- LAW-011: National Academies eyewitness research; UK College of Policing; US NIJ; German StPO §160.
-- LAW-012: ICTY command-responsibility jurisprudence; ICC responsibility modes; ILC State Responsibility Arts. 4, 7, 8 and 58.
-- LAW-013: VCLT Arts. 24, 25, 28 and 70; Canada Interpretation Act ss. 43-44; US Ex Post Facto doctrine; ECHR Article 7.
-- LAW-014: UN General Assembly Article 18/Rules 83-87; UN Security Council Article 27/voting guidance; EU Council qualified-majority/unanimity rules; US Constitution Article I §§5 and 7.
+- U.S. Army mission command / commander's intent / mission orders / disciplined initiative;
+- FAA ATC acknowledgement, readback, correction, clarification and execution procedures;
+- FEMA/NIMS ICS unity of command, objectives/strategies/tactics, Incident Action Planning, execution/evaluation/revision.
 
 ## Purpose folders
 
@@ -85,19 +73,15 @@ Current status:
 
 A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate case evidence into multiple campaign folders.
 
-For legal cases, source-specific completion and universal generalization are separate judgments. A completed legal analysis may support a structural candidate without constituting proof of legal universality.
+Cross-domain recurrence is not treated as proof by analogy. Each new domain must independently preserve its own source concepts and may falsify a DSD-style application assumption.
 
-## Current law-analysis phase
+## Current phase
 
-Completed:
+Completed legal foundation:
 
-- LAW-001 through LAW-010 initial foundation sequence;
-- LAW-001 through LAW-004 cross-jurisdiction revalidation;
-- LAW-001 through LAW-010 first cross-case synthesis;
-- LAW-011 investigation/historical reconstruction;
-- LAW-012 distributed responsibility;
-- LAW-013 legal temporality;
-- LAW-014 collective decision formation;
-- **LAW-001 through LAW-014 final legal-domain synthesis and closure audit**.
+- LAW-001 through LAW-014 plus final legal-domain synthesis and closure audit.
 
-Legal foundation status: **closed for prerequisite cross-domain testing; falsification and specialized legal extensions remain open**.
+Administration/organization:
+
+- ADMIN-001 first-pass instruction/interpretation/execution analysis complete.
+- Next candidate: ADMIN-002 delegation, escalation, review and approval chains.
