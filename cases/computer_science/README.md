@@ -1,6 +1,6 @@
 # Computer Science, Types, and Program Semantics
 
-Status: CS-001~005 / Global Cases 029~033 first-pass analyses complete; broader computer-science campaign remains open.
+Status: CS-001~005 / Global Cases 029~033 first-pass foundational series provisionally closed; active falsification and specialized extensions remain open.
 
 This domain tests DSD Analysis against computational structures where static admissibility, runtime state, security policy, temporal validity, parser context, workflow reachability, evaluation, and failure can be formally distinct.
 
@@ -64,17 +64,9 @@ Detailed record: `032_data_syntax_reinterpretation/`.
 
 Topic: workflow/state-machine reachability, predecessor enforcement, and transition provenance.
 
-Witness families:
-
-- MITRE CWE-841 improper enforcement of behavioral workflow;
-- TLS 1.3 protocol-defined handshake ordering and `unexpected_message` handling;
-- WebSocket opening-handshake boundary before data transfer.
-
 Surviving separation:
 
 `current state/action form != source transition relation != valid successor reachability != successor state/effect != transition provenance`.
-
-Finite witnesses show that a downstream state or action can be representable, correctly typed, or protocol-grammatical without being validly reachable from the present state.
 
 Important DSD application boundaries:
 
@@ -83,12 +75,32 @@ Important DSD application boundaries:
 - Dynamics lineage gives time-directed structural succession, not workflow authorization by itself;
 - same final effect does not reconstruct a valid predecessor path.
 
-No direct contradiction with the current DSD systems was found. CS-005 qualifies as an independent node because it adds transition-path/reachability provenance beyond current-state applicability, access control, stale-state transfer, and parser reinterpretation.
-
 Detailed record: `033_workflow_reachability/`.
 
-## Next-case selection rule
+## First-pass synthesis
+
+Detailed synthesis: `CS_001_005_FIRST_PASS_SYNTHESIS.md`.
+
+The five nodes are convergent but non-duplicative:
+
+1. CS-001 — local computational semantics;
+2. CS-002 — relational access policy;
+3. CS-003 — temporal persistence/currentness;
+4. CS-004 — interpretation grammar/context;
+5. CS-005 — transition reachability/path provenance.
+
+Conservative common audit rule:
+
+`local status != relational admissibility != temporal validity != interpretation role != path reachability/provenance != effect/result`.
+
+This is an audit schema, not a universal literal software pipeline.
+
+No direct contradiction with the current DSD systems was found. The campaign instead removed multiple naive mappings and strengthened the requirement that source-native semantics, identity, persistence, parser role, and transition rules be supplied before DSD interpretation.
+
+## Campaign closure rule
+
+The CS-001~005 foundational first-pass series is provisionally closed.
 
 Do not open a follow-up merely to repeat undefined/zero, authentication/authorization, ordinary TOCTOU, parser injection boundaries, or another skipped-step workflow.
 
-The next case should be selected only after an overlap audit and must add a genuinely different computational interface or direct falsification pressure.
+A later CS case should be opened only if overlap audit identifies a genuinely new computational interface or direct falsification pressure that cannot be reduced to the five retained nodes.
