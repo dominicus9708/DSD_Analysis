@@ -1,272 +1,248 @@
 # Foundational Framework for Law, Institutions, and Decision Structures
 
-Status: active domain framework.
+Status: active domain framework; LAW-001 through LAW-010 initial sequence complete; LAW-001 through LAW-004 cross-jurisdiction revalidation complete; first cross-case synthesis complete.
+
+See `LAW_001_010_CROSS_CASE_SYNTHESIS.md` for the full first synthesis.
 
 ## 1. Scope
 
-The primary comparison target is **not the positive law of one jurisdiction**. National statutes, constitutions, cases, international instruments, procedures and institutional practices are used as witnesses that can instantiate, refine, challenge or falsify more general structural candidates.
+The primary comparison target is **not the positive law of one jurisdiction**.
+
+National statutes, constitutions, cases, international instruments, procedures and institutional practices are used as witnesses that can instantiate, refine, challenge or falsify more general structural candidates.
 
 Each legal analysis distinguishes:
 
-1. **Universal structural claim** — jurisdiction-independent candidate;
-2. **Jurisdictional / institutional witness** — concrete rule, case, instrument or practice;
+1. **Universal structural candidate** — the jurisdiction-independent claim under test;
+2. **Jurisdictional / institutional witnesses** — concrete source structures that can support, narrow or falsify the candidate;
 3. **Generalization status** — how far independent witness families justify generalization.
 
-A single jurisdiction cannot establish universality merely by supplying many doctrinal examples.
+A single jurisdiction cannot establish universality merely by supplying many examples.
 
-## 2. Human-centered and irreversibility boundary
+Analysis and design are separate. The external field is not redesigned to fit DSD, and DSD application mappings are not altered merely to force agreement.
 
-The framework treats law as a human institution for managing conflict, harm, responsibility, prevention, restoration where possible and institutional intervention. It does not encode one comprehensive moral theory.
+## 2. Core responsibility-attribution orientation
 
-LAW-009 tested and rejected the strong monotone hypothesis:
-
-`greater irreversibility -> universally stronger safeguards`.
-
-The narrower surviving candidate is:
-
-**where a source regime recognizes irreparable or effectively non-restorable risk, especially one capable of defeating later adjudication, that risk may activate or intensify source-defined anticipatory or heightened safeguards; irreparability alone is not sufficient and no universal safeguard-strength scale is established.**
-
-LAW-009 distinguishes historical, restorative and adjudicative irreversibility. These are application coordinates, not DSD axioms.
-
-## 3. General responsibility-attribution pipeline
-
-A minimal functional skeleton is:
+A minimal analytical skeleton may be written:
 
 `event/reference -> attribution attempt -> defence/counterargument -> grounds/evidence -> judgment -> intervention/disposition`.
 
-Do not identify without an explicit rule:
+This is a functional shorthand, not a universal mandatory stage chain.
+
+Do not identify without an explicit source rule:
 
 `event occurred != claim made != grounds exist != grounds usable != responsibility established != specific disposition required`.
 
-LAW-002 revalidation adds that the elements of this skeleton are **functions/interfaces rather than one-office-per-function modules**.
-
-LAW-009 adds:
-
-`responsibility/sentence exists != irreversible consequence authorized now`.
-
-LAW-010 adds:
-
-`responsibility established != one mandatory sanction != victim restored`.
-
-## 4. Functional roles before offices
-
-For responsibility-attribution analyses:
+`P`, `D`, and `J` are functional coordinates before they are offices:
 
 - `P` — attribution/prosecution function;
 - `D` — defence/counterargument function;
-- `J` — judgment function.
+- `J` — adjudicative finding/decision function.
 
-Concrete offices are source-system implementations and need not map one-to-one.
+`R_E` and `R_L` are source-defined rule families/interfaces rather than universal atomic modules.
 
-After LAW-002 revalidation the mapping is explicitly many-to-many:
+LAW-002 establishes that actor/institution and function mappings can be many-to-many.
 
-`actors/institutions <-> procedural functions`.
+## 3. LAW-001 through LAW-010 cumulative structure
 
-A prosecutor may also carry truth-seeking and exculpatory-investigation duties; a court may actively develop evidence; a victim may have an independent participation route; an agency may house multiple functions while source rules separate particular personnel.
+- `LAW-001`: **cross-jurisdiction revalidated.** A nonformed/nonperformed act does not by itself acquire affirmative, negative, opposite, invalid or otherwise formed identity. Source rules may nevertheless assign nonaction a default, sanction, assent, quorum or other downstream consequence. Failure to establish responsibility under the governing burden/threshold is not positive proof of the opposite factual proposition.
+- `LAW-002`: **cross-jurisdiction revalidated.** Event/reference, source/record, attribution, response/defence, evidentiary-use and adjudicative-decision functions remain source-distinct where the source distinguishes them. Fixed one-office-per-function and seven-module readings are rejected.
+- `LAW-003`: **cross-jurisdiction revalidated.** Person/entity, role/capacity, actual authority/scope, act occurrence, attribution/effect and later confirmation are not one binary authority-effect state. Apparent authority, ratification, subsequent confirmation and ultra vires attribution are source-defined alternative routes.
+- `LAW-004`: **cross-jurisdiction revalidated.** Source/material state, acquisition/submission, relevance, use/exclusion, evaluation, proof-free or substitute routes and factual determination form a source-indexed interface graph. A universal five-stage evidence pipeline is rejected.
+- `LAW-005`: formation, current effect, defect, remedy/defeasibility, recognition/enforcement and later status are source-rule indexed. A defect does not determine one universal invalidity consequence.
+- `LAW-006`: possibility, applicability, obligation, permission, prohibition, exception/exemption, derogation and consequence are source/context indexed. One rule's failure does not create one global normative value.
+- `LAW-007`: recognized status/right/capacity/power does not determine present exercisability, actual exercise, enforcement or downstream effect without source rules.
+- `LAW-008`: rule difference is not unresolved contradiction. Harmonization, speciality, priority, invalidity, party/time relations and residual conflict are source-rule indexed.
+- `LAW-009`: the strong monotone theorem `greater irreversibility -> universally stronger safeguards` is falsified. A narrower source-defined irreparability-relevance candidate survives.
+- `LAW-010`: a rigid universal punishment/remedy taxonomy is rejected. Responsibility, sanction, victim remedy, rehabilitation, prevention/non-repetition, emotion/social response, institutional/social cost, formal legal status and actual practice remain source-sensitive coordinates.
 
-LAW-006: `D` may attack applicability, scope, exception, exemption or priority without proving an opposite global normative status.
+## 4. Refined cross-case predefinition rule
 
-LAW-007: failure to establish effective exercise does not prove absence of the underlying right/power.
+The strongest recurring legal-domain rule is:
 
-LAW-008: proving rule existence does not prove the rule controls the case after conflict/priority analysis.
+**do not infer an input, function, authority, evidentiary status, normative status, conflict status, responsibility state or practical status from a downstream effect, office title, role label, apparent truth or later outcome; and do not pre-fill either a positive or negative downstream state without the source or independently justified external rule that performs the relevant transition, transfer, identification, exclusion, substitution, aggregation or normalization.**
 
-LAW-009: blocking an irreversible consequence does not prove the underlying offence absent.
+This rule is two-sided.
 
-LAW-010: establishing responsibility does not collapse later decisions on sanction, reparation, compensation, rehabilitation, prevention/non-repetition, review or execution.
+Do not predefine:
 
-## 5. DSD comparison discipline
+- `nonaction -> opposition/assent`;
+- `submitted -> admissible`;
+- `admissible -> proved`;
+- `authority defect -> permanent no effect`;
+- `rule not prohibiting -> globally permitted`;
+- `right possessed -> successfully exercised`;
+- `rule difference -> unresolved contradiction`;
+- `responsibility established -> one mandatory sanction`.
 
-Formation is useful when the source independently requires separation among typed status, partial assignment, role-bearing identity, rule applicability, proof, authority, review/finality, social response, remedy, institutional cost and downstream effect.
+Do not predefine the opposite negatives either:
 
-Axis-Property is not invoked merely because law uses hierarchy, capacity, severity or power language. A realized-axis interpretation must be independently justified.
+- `no ordinary authority -> no possible source-defined attribution`;
+- `no ordinary party-submitted evidence -> no possible procedural fact-treatment`;
+- `one proof route failed -> opposite fact established`;
+- `one ordinary resolution route absent -> all source-defined alternative routes absent`.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, social value, grief, public condemnation, legitimacy, social cost, harm severity, irreversibility or safeguard strength without a separately justified mathematical bridge.
+## 5. Source-indexed interface graph rule
 
-Dynamics becomes relevant when the case concerns source-defined temporal transition: restoration, review, repeal, revocation, expiry, rehabilitation, moratorium, non-use, abolition, reintroduction or later status change. Dynamics does not itself provide the legal or empirical transition rule.
+Source distinctions should not be forced into one universal linear architecture.
 
-## 6. Jurisdictional-witness rule
+A safer abstract representation is:
 
-For every case record separately:
+`G = (V, E_R)`
 
-### Universal structural claim
+where:
 
-The jurisdiction-independent candidate being tested.
+- `V` contains source-distinct typed states;
+- `E_R` contains only transitions, substitutions, identifications, exclusions, review relations or transfers licensed by source rules or separately justified external bridge rules `R`.
 
-### Jurisdictional / institutional witness
+Branches, bypasses, later confirmation, judicial notice, admissions, presumptions, court-initiated routes, review, exceptions and loops are legitimate where the source supplies them.
 
-Concrete rules, cases, instruments or practices.
+**Stage distinction does not imply one mandatory real-world stage order.**
 
-### Mapping status
+## 6. Non-identity is not mutual exclusion
 
-- direct structural correspondence
-- partial correspondence
-- correspondence after explicit encoding
-- complementary different layer
-- apparent conflict resolved by type/role/regime
-- direct contradiction candidate
-- no meaningful mapping
+Across the legal campaign:
 
-### Generalization status
+`A != B`
 
-- single-jurisdiction witness only
-- cross-jurisdiction corroborated
-- institutionally general but not legally universal
-- universal candidate under active falsification
-- universal candidate supported by multiple independent witness families, falsification open
-- falsified as universal
+does not imply
 
-A strong universal claim may be falsified while a narrower source-sensitive candidate survives, as in LAW-009 and LAW-010.
+`A intersection B = empty`.
 
-## 7. LAW-001 through LAW-010 cumulative structure
+Actors may carry multiple functions; one function may be distributed across actors; sanction and remedy can coexist; legal statuses can overlap while remaining conceptually distinct.
 
-- `LAW-001`: **cross-jurisdiction revalidated.** A nonformed/nonperformed act does not by itself acquire affirmative, negative, opposite, invalid, or otherwise formed identity. Source rules may nevertheless assign nonaction a default, sanction, assent effect, quorum effect, or other downstream consequence. Failure to establish responsibility under the governing burden/threshold is not positive proof of the opposite factual proposition.
-- `LAW-002`: **cross-jurisdiction revalidated.** Event/reference, source/record, responsibility-attribution, defence/counterargument, evidentiary-use and adjudicative-decision functions remain distinct where the source gives them distinct roles, conditions, information states or effects. The fixed seven-module office taxonomy is rejected; source-indexed separation/fusion and many-to-many actor/function allocation are retained.
-- `LAW-003`: person/entity, role, authority, act and attributed effect are not automatically identical.
-- `LAW-004`: evidence existence, submission, usability, probative evaluation and finding are not automatically identical.
-- `LAW-005`: formation, current effect, defect, remedy/defeasibility, recognition/enforcement and later status are source-rule indexed; a defect does not determine one universal invalidity consequence.
-- `LAW-006`: physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation and consequence are source/context indexed.
-- `LAW-007`: recognition/possession of status/right/capacity/power does not determine present exercisability, actual exercise, enforcement or downstream effect.
-- `LAW-008`: rule difference is not unresolved contradiction; harmonization, speciality, priority, invalidity, party/time relation and residual conflict are source-rule indexed.
-- `LAW-009`: the strong monotone irreversibility->safeguard theorem is rejected; narrower irreparability-relevance and adjudicative-preservation candidates survive.
-- `LAW-010`: rigid universal doctrinal separation is too strong, but source-distinct responsibility, sanction, victim remedy, rehabilitation, prevention/non-repetition, social-emotional response, institutional/social cost, formal legal status and practical use must not be collapsed without a source/external rule.
+Use non-collapse as the default claim. Assert disjointness only where the source supports it.
 
-LAW-001 and LAW-002 preserve source-specific first passes and now have separate multi-jurisdiction revalidation packets.
+## 7. DSD comparison discipline
 
-LAW-003 and LAW-004 preserve source-specific first passes and remain scheduled for universal-first multi-jurisdiction refresh.
+### Formation
 
-LAW-005 through LAW-010 were executed directly under the universal-first workflow.
-
-## 8. LAW-001 explicit-default and nonaction boundary
-
-The revalidated LAW-001 rule is:
-
-**do not infer an institutional/legal input's identity from its downstream effect. A missing or nonformed act does not itself contain a YES, NO, invalid, assent, opposition, or other formed value. If the source system assigns nonaction a consequence, that consequence is a separate rule-indexed relation.**
-
-Independent witnesses include UN General Assembly voting/quorum rules, EU Council abstention rules, Australian and UK election materials, UNIDROIT silence/inactivity rules, ICC Article 66, ECHR presumption doctrine, US jury instructions and UK CPS materials.
-
-## 9. LAW-001 presumption-of-innocence boundary
-
-The revalidation distinguishes:
-
-`charge/accusation != proof status != guilty verdict != acquittal/not-guilty != positive factual innocence`.
-
-The universal statement `every criminal burden always lies on prosecution` is rejected.
-
-The surviving candidate is:
-
-**failure to establish guilt/responsibility under the governing burden and threshold blocks the source-defined guilty/responsibility result but does not itself prove the opposite factual proposition; any subsidiary presumption, defence burden, or positive contrary finding requires its own source rule/evidence path.**
-
-## 10. LAW-002 regime-interface and office/function boundary
-
-The earlier shorthand
-
-`W + S + P + D + J + R_E + R_L`
-
-is retained only as an analytical schema.
-
-The revalidation establishes:
-
-- ICC Article 54 and German StPO §160: a prosecutor office may investigate both incriminating and exonerating circumstances;
-- German StPO §244: a court may extend evidence-taking ex officio;
-- ICC Article 68(3): victims can have an independent participation route not reducible to prosecution or defence;
-- ECHR Article 6: an independent/impartial deciding tribunal and defence rights can require real source-side separation;
-- US APA §§554, 556, 557: one agency may house several functions while source rules separate particular investigative/prosecuting and decisional personnel and distinguish evidence reception, initial decision and review.
-
-Therefore:
-
-`office identity != function identity`.
-
-`P`, `D`, and `J` are functions; `R_E` and `R_L` are rule families/interfaces rather than universal atomic modules.
-
-The surviving rule is:
-
-**preserve source-defined distinctions among event/reference, source/record, attribution, response/defence, evidentiary usability, adjudicative finding and decision/consequence states, and separately record the source rules that allocate, combine, separate or transfer functions across actors and stages.**
-
-## 11. Predefinition rule for the legal domain
-
-The recurring cross-case rule is now:
-
-**Do not infer the identity of a legal/institutional input or function from its downstream effect or office title, and do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, function, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition, transfer, combination or identification.**
-
-Examples:
-
-- nonaction can receive a source-defined effect without becoming a formed opposite/affirmative action;
-- prosecutor office does not imply guilt-only function;
-- court office does not imply passive evidence reception;
-- failure of one proof route does not create the opposite positive proposition;
-- a defect does not generate one universal invalidity result;
-- a prohibition rule's failure does not create global permission;
-- possession of a right/power does not imply exercise or effect;
-- rule difference does not become unresolved contradiction automatically;
-- priority does not automatically delete the lower/general rule;
-- responsibility/sentence does not authorize irreversible execution before source-defined finality/review gates;
-- punishment does not automatically restore the victim;
-- grief does not determine one victim-family punishment preference;
-- public anger does not determine constitutional judgment;
-- formal retention does not imply actual use, and non-use does not imply legal abolition;
-- social cost does not become one monetary scalar without an external measurement/aggregation rule.
-
-## 12. Rule-indexed normativity boundary
-
-LAW-006 may require:
-
-`(actor, action, role, context, time, purpose, regime, governing rule)`.
-
-Do not identify universally:
-
-`possible != rule-applicable != obligatory != permitted != prohibited != excepted/exempted != derogated != consequence imposed`.
-
-## 13. Status-capacity-power boundary
-
-LAW-007 may require:
-
-`(subject, status/right/capacity/power, present exercisability, support/authority/prerequisite, exercise event, enforcement/effect, time, regime)`.
-
-Do not infer universally:
-
-`has right/power -> exercisable now -> exercised -> legally effective`.
-
-## 14. Rule-conflict boundary
-
-LAW-008 may require:
-
-`(r1, r2, issue, applicability, parties, jurisdiction, time, regime, source relation rule)`.
+Useful for typed status, role-sensitive identity, partiality, and non-totalization.
 
 Do not identify:
 
-`different rules != unresolved conflict != harmonized co-application != special-rule governance != priority != invalidity != rule deletion`.
+- legal admissibility with Formation admission;
+- unauthorized legal act or inadmissible evidence with channel absence;
+- legal uncertainty with DSD `undefined`;
+- acquittal, inapplicability or no effect with DSD `defined zero` without an explicit bridge.
 
-## 15. Irreparability and preservation boundary
+### Axis-Property
 
-LAW-009 may require:
+Do not invoke merely because the source uses hierarchy, power, authority, capacity or severity language.
 
-`(subject, protected interest, state before, proposed act, state after, proof status, finality, review status, irreparable-risk status, urgency, time, regime, safeguard rule)`.
+A realized-axis interpretation must be independently justified.
 
-Do not identify:
+### Static Aggregation
 
-`event occurred != non-restorable harm != later adjudication defeated != interim protection warranted`.
+Do not identify with evidence weight, sentencing, proportionality, social value, grief, legitimacy, social cost, harm severity, irreversibility or safeguard strength without a separately justified common codomain, measurement rule and aggregation operator.
 
-## 16. Post-responsibility, emotion and social-cost boundary
+### Dynamics
 
-LAW-010 adds a separate boundary after responsibility attribution.
+May record source-defined temporal changes such as review, restoration, ratification, revocation, expiry, rehabilitation, moratorium, abolition, reintroduction or later status change.
 
-A source-sensitive record may need:
+Dynamics does not generate the legal, empirical or normative transition rule.
 
-`(harm, responsibility, sanction, restitution, compensation, rehabilitation, prevention/non-repetition, E_victim, E_public, C_maint, C_error, C_abuse, C_legit_keep, C_legit_use, H_state, formal legal status, practical-use status, regime, time)`.
+## 8. Human-centered and irreversibility boundary
 
-No DSD rule supplies a numerical social-choice function for these coordinates.
+LAW-009 rejects a universal monotone safeguard theorem.
 
-## 17. Current next work
+The narrower surviving candidate is:
 
-The first-pass LAW-001 through LAW-010 sequence is complete.
+**where a source regime recognizes irreparable or effectively non-restorable risk, especially one capable of defeating later adjudication, that risk may activate or intensify source-defined anticipatory or heightened safeguards; irreparability alone is insufficient and no universal safeguard-strength scale is established.**
 
-Cross-jurisdiction revalidation status:
+LAW-010 further shows that responsibility, punishment, victim restoration, rehabilitation, prevention, emotion, social cost, formal legal status and actual practice cannot be collapsed into one `justice done` value without an external normative/empirical rule.
 
-- LAW-001: **complete**;
-- LAW-002: **complete**;
-- LAW-003: next;
-- LAW-004: pending.
+## 9. Analysis/design separation
 
-Next priority: **LAW-003 / Global Case 014 cross-jurisdiction falsification refresh**, using the universal-first method developed from LAW-005 onward.
+### Analysis
 
-Only after LAW-003 and LAW-004 refresh should a new large legal sequence be opened, with likely candidates in administration/organization, elections/collective choice, legal temporality, distributed responsibility, and State reparation/truth/non-repetition.
+- Do not aim for agreement between DSD and the external field.
+- Do not aim for contradiction between them.
+- Preserve external terminology, distinctions, exceptions and counterexamples.
+- Preserve a genuine contradiction if one remains after type, role, regime and interface alignment.
+- Treat `no meaningful DSD mapping` as a legitimate result.
+
+### Design
+
+- Do not create an unnecessary DSD concept merely to compete with an external concept that already performs the needed work.
+- Do not deliberately design DSD to conflict with a functioning external structure without an independent structural reason.
+- Do not redesign DSD merely to force agreement with every source system.
+- If external counterpressure defeats an application assumption rather than a DSD axiom, narrow the application assumption and preserve the negative result.
+
+Compact rule:
+
+**analysis does not preselect agreement or conflict; design avoids gratuitous conflict; neither may erase an independently found contradiction for convenience.**
+
+## 10. What law contributed back to DSD
+
+The legal witnesses materially sharpened DSD application discipline by showing that:
+
+- roles must not be overloaded with authority, function and effect;
+- actor/function mapping can be many-to-many;
+- absence of one ordinary route does not imply absence of every route;
+- later effect does not rewrite original historical status unless the source expressly supplies a legal retroactivity rule, and even then historical and legal-retroactive states remain distinguishable;
+- source structures may be graph-like rather than linearly staged;
+- non-identity does not require mutual exclusion;
+- DSD Dynamics does not authorize invented external transition laws;
+- Static Aggregation does not authorize scalarization of legal/social values.
+
+The external field therefore constrained DSD application rather than merely confirming it.
+
+## 11. What DSD contributed to legal analysis
+
+The strongest contribution is a reusable audit discipline:
+
+1. Which source states are being silently identified?
+2. Which positive or negative downstream state has been pre-filled before the source rule is known?
+3. Is missing/undefined/zero being confused with a source concept such as invalidity, acquittal, exclusion or inapplicability?
+4. Is actor or office identity being substituted for function, role or authority analysis?
+5. Is a later effect being used to back-infer the identity of the input or earlier state?
+6. Is a source graph being rewritten as a universal chain?
+7. Is evaluative language being converted into a scalar merely because a mathematical aggregation tool exists?
+8. Is the analyst importing toy-model or desired normative ground truth into a source regime that does not possess it?
+
+This is best characterized as typed non-totalization and interface auditing.
+
+## 12. Epistemic extension candidate
+
+LAW-002 and LAW-004, together with the subsequent discussion of investigation and memory, motivate but do not yet establish a separate universal result:
+
+`historical event state != surviving trace/record != current reconstruction != institutional factual determination`.
+
+A future case may test investigation as a multi-source reconstruction problem involving imperfect perception, memory loss/distortion, source dependence, physical traces, competing histories and proof thresholds.
+
+An ideal complete description should be treated only as a comparison ideal, not as analyst-accessible ground truth in real legal cases.
+
+## 13. Current risk classification
+
+### Direct DSD axiom contradiction found by the legal campaign
+
+None established after explicit type, role, regime and bridge correction.
+
+### High-risk DSD application errors
+
+- linearizing a source graph;
+- overloading role tags;
+- identifying source concepts with DSD absence/undefined/zero without a bridge;
+- treating DSD as the generator of source transition rules;
+- treating Dynamics as a legal or empirical causal law;
+- invoking Axis-Property from metaphorical hierarchy/power language;
+- scalarizing legal/social values through Static Aggregation without measurement rules;
+- treating non-identity as mutual exclusion;
+- treating ideal or toy-model ground truth as if real observers or institutions possess it.
+
+## 14. Current status and next work
+
+Completed:
+
+- LAW-001 through LAW-010 initial legal foundation sequence;
+- LAW-001 through LAW-004 cross-jurisdiction revalidation;
+- first LAW-001 through LAW-010 cross-case synthesis.
+
+Next candidate directions:
+
+1. test the newly surfaced investigation / historical-event reconstruction problem as a separate law-epistemology case; or
+2. move to the next planned external domain and test whether the refined predefinition/non-totalization discipline survives independently there.
+
+Use the sequence:
+
+`source problem -> strong candidate -> active counterpressure -> source witnesses -> DSD mapping -> contradiction audit -> generalization status -> design implications only after analysis`.
