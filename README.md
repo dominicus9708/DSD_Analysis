@@ -2,29 +2,76 @@
 
 This repository records structured applications of **DSD Analysis (DSD 분석론)**.
 
-DSD Analysis is not a numerical benchmark repository and does not treat cross-domain similarity as proof of the DSD axioms. Each case preserves the source discipline first, then tests which DSD distinctions are preserved, require extra encoding, fail to correspond, or reveal an actual contradiction.
+DSD Analysis is not a numerical benchmark repository and does not treat resemblance across fields as proof of the DSD axioms. Each domain preserves its own source concepts first, then records which DSD distinctions correspond directly, require additional encoding, fail to correspond, or expose a contradiction or scope boundary.
 
 ## Repository organization
 
-The repository now uses two independent classification axes.
+The repository uses two independent classification axes.
 
-### 1. Analysis purpose
+### Analysis purpose
 
 See `campaigns/`.
 
 - `campaigns/falsification/` — direct countermodel, contradiction, and integration stress tests
-- `campaigns/coherence/` — consistency and compatibility with independent formal frameworks
-- `campaigns/predefinition/` — tests of hidden assumptions, premature promotion, typing/signature exclusion, and describability prerequisites
-- `campaigns/reinterpretation/` — structural decomposition and application to external problem domains
+- `campaigns/coherence/` — consistency and compatibility checks against independent formal structures
+- `campaigns/predefinition/` — hidden assumptions, premature promotion, typing/signature exclusion, and predefinition audits
+- `campaigns/reinterpretation/` — structural decomposition and disciplined application to external domains
 
-### 2. External domain
+### External domain
 
-Existing case paths are preserved under `cases/` so that prior links and case history remain stable.
+Case evidence remains under `cases/`.
 
-- `cases/logic/001_...` through `cases/logic/010_...` — completed mathematical/philosophical logic and direct axiom stress-test cases
-- new cases continue in their domain path and are cross-indexed from the relevant campaign page
+- `cases/logic/` — Global Cases `001–011`; current recorded formal-logic and direct-axiom audit sequence complete through Case 011
+- `cases/law/` — Global Cases `012–025`, domain IDs `LAW-001–014`; foundation sequence closed
+- `cases/administration/` — Global Cases `026–027`, domain IDs `ADMIN-001–002`; active sequence
+- `cases/mathematics/` — Global Cases `028–032`, domain IDs `MATH-001–005`; first-pass foundation closed
+- `cases/linguistics/` — domain IDs `LING-001–010`; first-pass campaign complete and reconciled from the historical `synthesis/linguistics-first-pass` branch
 
-This avoids moving the same case between folders when one case is relevant to more than one analysis purpose.
+Domains that exist only as Notion roadmaps are not represented by empty GitHub case folders. A GitHub domain folder is created when the first evidence-bearing case is recorded.
+
+## Case numbering rule
+
+`Global Case` is unique only in the reconciled cumulative index `cases/INDEX.md`.
+
+A historical linguistics branch assigned the numeric prefixes `014–023` before the later legal sequence occupied those cumulative Global Case numbers. Those linguistics directory prefixes are preserved as historical paths and **must not be interpreted as current Global Case IDs**. Their stable identifiers are `LING-001–010`.
+
+Future newly opened cases use the next available reconciled Global Case number. After the current cumulative sequence `001–032`, the next new Global Case is `033`.
+
+## Domain status
+
+### Logic
+
+The first formal-logic/falsification campaign `001–010` is complete, and Global Case `011` adds the Formation partiality/typing/closure coherence audit. No additional logic case is scheduled merely to extend numbering. Reopen the domain when a new formal claim or specific vulnerability requires it.
+
+See `cases/logic/README.md` and `synthesis/LOGIC_FORMAL_AUDIT_001_011.md`.
+
+### Law
+
+`LAW-001–014` is closed as the legal foundation sequence. Specialized legal applications, maintenance, and new counterexamples may be added without reopening the completed foundation by default.
+
+See `cases/law/README.md` and the law-local synthesis files.
+
+### Administration / organization
+
+`ADMIN-001–002` are complete. The domain remains open; the next planned case is review, revision, reopening, and organizational error correction under changing information.
+
+See `cases/administration/README.md`.
+
+### Mathematics / algebra
+
+`MATH-001–005` and their synthesis/closure audit are complete. No `MATH-006` is opened by default. The domain is reopened only when a new theorem, application, or review question crosses an identified mathematical boundary.
+
+See `cases/mathematics/README.md`, `cases/mathematics/CLOSURE.md`, and `synthesis/MATHEMATICS_ALGEBRA_028_032.md`.
+
+### Linguistics / formal semantics
+
+`LING-001–010` is a completed first-pass campaign. Its evidence is retained under `cases/linguistics/`; its historical numeric directory prefixes are preserved for provenance while domain-local IDs are authoritative after reconciliation.
+
+See `cases/linguistics/README.md` and `synthesis/LINGUISTICS_CAMPAIGN_014_023.md`.
+
+## Synthesis index
+
+See `synthesis/README.md` for completed synthesis and closure documents.
 
 ## Common methodology
 
@@ -32,46 +79,16 @@ This avoids moving the same case between folders when one case is relevant to mo
 - `methodology/analysis_taxonomy.md` — purpose classification rules
 - `methodology/reproducibility_contract.md` — minimum evidence and rerun requirements
 
+A completed case should record the actual source claims used, the exact DSD interface invoked, the result, decisive witnesses/counterexamples where useful, and reproducibility information when computation is material.
+
+Missing, undefined, inapplicable, absent, selected-zero, and defined-zero states must not be collapsed merely for implementation convenience.
+
 ## DSD paper references
 
-- `references/DSD_PAPERS.md` — current project paper titles, stable citation roles, and DOI registry notes
+- `references/DSD_PAPERS.md` — project paper titles, citation roles, and DOI registry notes
 
-Each case must state exactly which DSD paper, section, definition, axiom, theorem, or closure clause it uses. A paper title alone is not sufficient for a completed case.
+Each completed case should identify the DSD paper section, definition, axiom, theorem, or closure clause actually used. A paper title alone is not sufficient evidence.
 
-## Completed campaign
+## Branch policy
 
-Cases 001–010 contain the first logic/falsification campaign. The aggregate record remains in:
-
-- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md`
-
-Existing case directories and historical branches are intentionally preserved.
-
-## Next prepared analysis
-
-The next non-falsification workstream is **coherence / consistency comparison**.
-
-Prepared case:
-
-- Global case: `011`
-- Purpose ID: `COH-001`
-- Path: `cases/logic/011_formation_partiality_closure_coherence/`
-- Primary target: the DSD Formation Axiom System
-- Core question: whether its partiality, typed formation stages, primitive/closure separation, and structure-preserving comparison layers can be jointly interpreted without hidden contradiction in standard set-theoretic and typed formal settings.
-
-The preparation separates source notes, analysis plan, reproducibility requirements, and result recording so the conclusion is not embedded in the setup.
-
-## Reproducibility rule
-
-A completed case should contain, as applicable:
-
-1. `PLAN.md` — question and falsifiable/decidable criteria
-2. `SOURCE_NOTES.md` — external and DSD source claims actually used
-3. `RESULT.md` — derivation and judgment, including non-correspondence and boundaries
-4. an explicit finite witness/countermodel file when a small construction is possible
-5. `REPRODUCIBILITY.md` or `repro/` — exact inputs, commands/scripts when needed, and expected outputs
-
-Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience in reproducibility code.
-
-## Branch note
-
-The repository's historical analysis branches are retained. This reclassification work is prepared on `reorg/analysis-taxonomy`, based on the cumulative `analysis/case-010-integrated-countermodel` state. The default `main` branch is not force-moved by this reorganization.
+Historical analysis branches are retained as research provenance. Reorganization work does not force-move the default `main` branch. Reconciliations preserve old paths whenever practical and record numbering or scope changes explicitly rather than silently rewriting past evidence.
