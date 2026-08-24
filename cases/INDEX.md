@@ -44,7 +44,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, and operational decision structures
 - `mathematics/` — standard mathematical structures, algebra, structure-preserving maps, quotients, invariants, decomposition, aggregation, and reconstruction boundaries
 
-The mathematics/algebra sequence is documented in `mathematics/README.md`.
+The mathematics/algebra sequence is documented in `mathematics/README.md`, with closure in `mathematics/CLOSURE.md` and the synthesis in `../synthesis/MATHEMATICS_ALGEBRA_028_032.md`.
 
 ## Cross-domain status
 
@@ -52,13 +52,13 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 
 Administration/organization status: **opened**.
 
-Mathematics/algebra status: **MATH-001 through MATH-005 first-pass complete**.
+Mathematics/algebra status: **closed for the originally planned first-pass foundation sequence; targeted extensions remain open**.
 
 - MATH-001 / Global Case 028: `Stage-VII finite composition is finitely additive on disjoint finite channel supports; full union-monoid homomorphism fails except for the zero-term map; free-commutative-monoid linearization requires explicit additional multiplicity encoding; no DSD contradiction found`.
-- MATH-002 / Global Case 029: `fixed-support aggregation uses ordinary linear kernel/quotient theory; equal aggregate values on varying finite supports define an equivalence relation but not generally a union congruence; free additive linearization restores exact kernel language only as additional encoding; zero-padding is not support-faithful; no DSD contradiction found`.
-- MATH-003 / Global Case 030: `same carrier/rank/matrix size does not classify the full enriched axis-property structure; the distinction directly matches standard structure theory; rank is complete only in narrower signatures such as bare finite-dimensional vector spaces over a fixed field; no DSD contradiction found`.
+- MATH-002 / Global Case 029: `fixed-support aggregation uses ordinary linear kernel/quotient theory; equal aggregate values on varying finite supports define an equivalence relation but not generally a union congruence; free additive linearization restores exact kernel language only as additional encoding; zero-padding is not support-faithful when absence versus selected zero matters; no DSD contradiction found`.
+- MATH-003 / Global Case 030: `same carrier/rank/matrix size does not classify the full enriched axis-property structure; the distinction directly matches standard structure theory; the opposite completeness boundary applies only to abstract finite-dimensional vector spaces over a fixed field up to linear isomorphism; no DSD contradiction found`.
 - MATH-004 / Global Case 031: `DSD rank/summary/readout collisions match standard incomplete-invariant logic; Definition 12.3 is not automatically an invariant unless its indicators are isomorphism-invariant; scalarity or finite compression alone does not force incompleteness; no DSD contradiction found`.
-- MATH-005 / Global Case 032: `forward Stage-VII closure uniqueness is distinct from inverse reconstruction; direct sums characterize unique variable-component decomposition on full subspace products; finite channel-support recovery is governed exactly by distinct subset sums / signed {-1,0,1} relations; support tags are still required to distinguish absence from selected zero; no DSD contradiction found`.
+- MATH-005 / Global Case 032: `forward Stage-VII closure uniqueness is distinct from inverse reconstruction; direct sums characterize unique variable-component decomposition on full subspace products; finite channel-support recovery is governed exactly by distinct subset sums / signed {-1,0,1} relations; support/presence retention is required when absence must remain distinct from selected zero; no DSD contradiction found`.
 
 ## Purpose folders
 
@@ -87,9 +87,7 @@ Administration/organization:
 
 Mathematics/algebra:
 
-- MATH-001 finite subsets / disjoint finite additivity / Stage-VII aggregation analysis complete.
-- MATH-002 quotient structures / kernels / aggregate information loss analysis complete.
-- MATH-003 same carrier / rank / matrix size versus enriched structure analysis complete.
-- MATH-004 invariants / complete invariants / reduced classifiers analysis complete.
-- MATH-005 decomposition / composition / reconstruction conditions analysis complete.
-- The originally planned first mathematics/algebra sequence MATH-001 through MATH-005 is now first-pass complete; a synthesis/closure audit is the natural next step before opening additional mathematics cases.
+- MATH-001 through MATH-005 first-pass analyses complete.
+- Cross-case mathematics/algebra synthesis and closure audit complete.
+- No immediate MATH-006 is planned.
+- Reopen mathematics/algebra only for a targeted new claim involving an untested structure such as infinite/conditional aggregation, intrinsic tensor/operator algebra, canonical/spectral reconstruction, topological/metric equivalence, categorical reconstruction, or inverse recovery of dynamic component states from reduced readouts.
