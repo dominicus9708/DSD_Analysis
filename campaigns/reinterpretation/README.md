@@ -17,12 +17,12 @@ Primary purpose: use selected DSD distinctions to decompose an external problem 
 For law and institutions, reinterpretation distinguishes:
 
 - **universal structural claim** — the jurisdiction-independent candidate being tested;
-- **jurisdictional / institutional witness** — a concrete legal rule, case, constitution, procedure, or institutional practice;
-- **generalization status** — how far the available witnesses justify generalization.
+- **jurisdictional / institutional witness** — a concrete legal rule, case, constitution, procedure, instrument, or institutional practice;
+- **generalization status** — how far independent witnesses justify generalization.
 
 Positive law from one country is not the foundation of the universal claim. It is one implementation, boundary, or counterexample source.
 
-The current law-domain foundational file is `cases/law/FOUNDATIONAL_FRAMEWORK.md`.
+The law-domain foundation is `cases/law/FOUNDATIONAL_FRAMEWORK.md`.
 
 For responsibility-attribution analyses, `P`, `D`, and `J` are functional roles first:
 
@@ -34,51 +34,64 @@ Concrete offices are source-system implementations and need not map one-to-one.
 
 ## Active completed law analyses
 
-- `LAW-001 / Global Case 012` — nonaction is not automatically an opposite action, and failure to establish responsibility is not automatically proof of the opposite factual proposition.
+- `LAW-001 / Global Case 012` — nonaction is not automatically an opposite action, and failure to establish responsibility is not proof of the opposite factual proposition.
 - `LAW-002 / Global Case 013` — world/event reference, source information, attribution function, defence function, judgment function, evidence/ground-use rule, and decision rule are distinct regimes.
 - `LAW-003 / Global Case 014` — underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical.
-- `LAW-004 / Global Case 015` — information/evidence existence, submission, decision-regime usability, probative evaluation, and final factual finding are not automatically identical.
-- `LAW-005 / Global Case 016` — source-distinct legal formation, present effect, defect, remedial/defeasibility, recognition/enforcement, and temporal statuses must not be collapsed into one `valid/invalid` value; defect consequence is rule-indexed.
-- `LAW-006 / Global Case 017` — physical possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and normative consequence are rule/context indexed; a four-value deontic enum was rejected under counterpressure.
-- `LAW-007 / Global Case 018` — source-defined recognition/possession of legal status, right, capacity or power is separated from present exercisability, enabling support/authority, exercise event, enforcement, and downstream effect whenever the source makes those distinctions.
-- `LAW-008 / Global Case 019` — rule difference is not automatically unresolved contradiction, and conflict does not determine one universal consequence. VCLT Article 30 gives party/compatibility-sensitive successive-treaty relations; UN Charter Article 103 supplies priority; VCLT Article 53 supplies invalidity; ILC Fragmentation Conclusions distinguish interpretation from conflict, encourage harmonization, and treat lex specialis as contextual without normally extinguishing general law.
-- `LAW-009 / Global Case 020` — the strong theorem `greater irreversibility -> universally stronger safeguards` is rejected. The surviving candidate is that source-recognized irreparable or effectively non-restorable risk can activate or intensify anticipatory or heightened safeguards, but only through source-defined conditions. HRC/ECOSOC capital-case safeguards, ECHR Rule 39, and ICJ provisional measures provide independent witnesses.
+- `LAW-004 / Global Case 015` — evidence/information existence, submission, legal usability, probative evaluation, and finding are not automatically identical.
+- `LAW-005 / Global Case 016` — formation/effect/defect/remedy/enforcement statuses are source-rule indexed; defect does not determine one universal invalidity consequence.
+- `LAW-006 / Global Case 017` — possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and consequence are rule/context indexed; a four-value deontic enum was rejected.
+- `LAW-007 / Global Case 018` — recognized status/right/power is separated from present exercisability, exercise, enforcement, and downstream effect whenever the source makes those distinctions.
+- `LAW-008 / Global Case 019` — rule difference is not unresolved contradiction and conflict does not determine one universal consequence; harmonization, speciality, priority, party/time relation, invalidity, and residual conflict are source-rule indexed.
+- `LAW-009 / Global Case 020` — the strong theorem `greater irreversibility -> universally stronger safeguards` is rejected; a narrower irreparability-relevance candidate survives under source-defined conditions.
+- `LAW-010 / Global Case 021` — responsibility, sanction, victim remedy, rehabilitation, prevention/non-repetition, emotion/social response, institutional/social cost, formal legal status, and practical use remain source-sensitive coordinates; a rigid universal taxonomy and one-dimensional social-cost/justice value are rejected.
 
 ## Cross-case law result
 
 The recurring candidate rule is now:
 
-**Do not promote, demote, activate, suspend, preserve, attribute, resolve, or globally normalize one legal or institutional status, rule relation, or time-dependent consequence into another without the source rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
 
 This includes:
 
-- nonaction does not become an opposite action by default;
-- one regime's missing result does not become another regime's positive result;
-- one person or relation does not automatically generate authority/effect;
-- evidence existence/submission does not automatically generate usability or finding;
-- a legal defect does not automatically generate one universal invalidity result;
-- an action's factual possibility or one rule's status does not determine one global normative value;
-- possession of a legal right/power does not by itself imply present exercisability, actual exercise, or downstream effect;
+- nonaction does not become opposite action by default;
+- one missing proof result does not become the opposite positive proposition;
+- one person/relation does not automatically generate authority/effect;
+- evidence existence/submission does not generate usability/finding automatically;
+- a legal defect does not generate one universal invalidity result;
+- one rule's failure does not determine one global normative value;
+- possession of a right/power does not imply exercise/effect;
 - rule difference does not automatically become unresolved contradiction;
-- a conflict does not automatically become priority, deletion, invalidity, or another single consequence;
-- responsibility, sentence, review status, and authorization of an irreversible consequence remain distinct until the source rule connects them.
-
-For responsibility-attribution disputes, failure to establish one link does not itself establish the opposite global proposition. Likewise, proving a rule exists does not establish that it controls the case after applicability and conflict analysis, and proving responsibility does not automatically authorize an irreversible consequence before source-defined review/finality gates are complete.
+- conflict does not automatically become priority, deletion, invalidity, or one other consequence;
+- responsibility/sentence does not automatically authorize an irreversible consequence before review/finality gates;
+- punishment does not automatically restore the victim;
+- grief or public anger does not itself determine the legally required punishment;
+- formal sanction retention does not imply actual use, and non-use does not imply legal abolition;
+- social cost does not become one monetary or DSD scalar without an external measurement/aggregation rule.
 
 This is a structural reinterpretation principle, not a legal norm derived from DSD.
 
+## LAW-010 social-input boundary
+
+LAW-010 explicitly preserves emotion and social cost as potential source-side inputs rather than treating them as either irrational noise or automatic legal outputs.
+
+It distinguishes actor-indexed victim/bereaved-family response, broader public response, wrongful-error risk, state-abuse history, institutional burden, competing legitimacy costs, formal legal status, and actual enforcement practice.
+
+South African `S v Makwanyane` shows public death-penalty support can be relevant without controlling constitutional judgment. German Article 102 history shows state-killing abuse can be decisive constitutional-historical context while retributive/reintroduction pressure persists. Comparative death-penalty reporting shows law and practice can diverge. Victim-source material shows bereaved families do not carry one mandatory punishment preference.
+
 ## Generalization status
 
-LAW-001 through LAW-004 remain universal candidates under active falsification after source-specific first passes.
+LAW-001 through LAW-004 remain universal candidates under active falsification and are next in line for a multi-jurisdiction refresh.
 
-LAW-005 through LAW-009 were executed directly under the universal-first workflow. Their candidates use multiple independent international/transnational witness families, but universal proof is not claimed and counterexample search remains open.
+LAW-005 through LAW-010 were executed directly under the universal-first workflow. Universal proof is not claimed; counterexample search remains open.
 
-LAW-006 survives deontic counterpressure only in narrowed, rule-indexed form. LAW-007 survives CRPD vocabulary counterpressure only in source-sensitive, vocabulary-neutral form. LAW-008 survives conflict-analysis counterpressure only in a source-sensitive form. LAW-009 goes further: its initial monotone universal hypothesis is explicitly falsified, while a narrower irreparability-relevance candidate survives.
+LAW-009 and LAW-010 are especially important falsification cases:
 
-## Next candidate analysis
+- LAW-009 rejects the strong monotone irreversibility theorem while retaining a narrower candidate;
+- LAW-010 rejects a rigid universal punishment/remedy taxonomy while retaining a source-sensitive non-totalization rule.
 
-- `LAW-010 / Global Case 021` — responsibility, sanction, restoration, prevention, and the non-equivalence of punishment with victim restoration.
-- law sequence: `cases/law/README.md`
+## Next analysis priority
+
+Before opening another new legal cluster, refresh `LAW-001` through `LAW-004` under the universal-first, multi-jurisdiction workflow.
 
 Required order:
 
@@ -88,16 +101,17 @@ Required order:
 
 1. Does DSD remove a real ambiguity, omitted state, or invalid composition step?
 2. Is the result merely a renaming of an existing source-theory distinction?
-3. Which DSD layer is actually needed: Formation, Axis-Property, both, Dynamics, or none?
-4. Does the case require empirical or numerical testing and therefore belong to a separate benchmark/validation track?
-5. After source types, roles, stages, regimes, and temporal status are matched, does any direct contradiction remain?
+3. Which DSD layer is actually needed: Formation, Axis-Property, Dynamics, Static Aggregation, or none?
+4. Does the case require empirical/numerical testing and therefore belong to a separate benchmark/validation track?
+5. After source types, roles, stages, regimes, temporal states, actors, and practices are matched, does any direct contradiction remain?
 6. Is the apparent general claim supported by multiple independent jurisdictions/institutions, or only by one witness family?
-7. Is there a jurisdictional or institutional counterexample that falsifies the proposed universal form?
-8. If rules conflict, does the source itself provide a hierarchy/priority/exception/invalidity rule, or is the conflict being silently repaired by the application?
-9. If irreparability is invoked, does the source itself connect that condition to the asserted safeguard, or is the connection being imported normatively by the analyst?
+7. Is there a counterexample that falsifies the proposed universal form?
+8. If rules conflict, does the source itself provide the relation or is the application silently repairing it?
+9. If irreparability is invoked, does the source connect it to the safeguard or is that connection imported by the analyst?
+10. If emotion or social cost is invoked, what source/institutional rule converts that input into a legal/political outcome?
 
 ## Rule
 
 External terminology remains primary. DSD correspondence is recorded separately as `direct / partial / after encoding / complementary layer / apparent conflict resolved / direct contradiction candidate / no mapping`.
 
-A completed jurisdictional witness is not automatically a completed proof of universality. Generalization strength must be recorded independently.
+A completed witness analysis is not proof of universality. Generalization strength must be recorded independently.
