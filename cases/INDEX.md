@@ -32,7 +32,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | falsification / coherence / predefinition / instruction-interface audit — **first-pass cross-domain complete** |
 | 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | falsification / coherence / predefinition / multi-authority audit — **first-pass cross-domain complete** |
 | 028 | review, revision, reopening, resumption, error correction, implementation, verification, closure | reinterpretation | falsification / coherence / predefinition / revision-lineage audit — **first-pass cross-domain complete** |
-| 029 | static typing, construction, runtime validity, operation applicability, evaluation, result | reinterpretation | falsification / coherence / predefinition / operational-semantics audit — **prepared; analysis not started** |
+| 029 | static typing, construction, runtime validity, operation applicability, evaluation, result | reinterpretation | falsification / coherence / predefinition / operational-semantics audit — **first-pass cross-subfield complete** |
 
 ## Domain folders
 
@@ -53,11 +53,14 @@ The administration/organization sequence is documented in:
 - `administration/README.md`
 - `administration/ADMIN_001_003_FOUNDATIONAL_SYNTHESIS.md`
 
-The computer-science sequence is prepared in:
+The computer-science sequence is documented in:
 
 - `computer_science/README.md`
 - `computer_science/029_type_construction_runtime_validity/PLAN.md`
-- `computer_science/029_type_construction_runtime_validity/SCOPE.md`
+- `computer_science/029_type_construction_runtime_validity/SOURCE_NOTES.md`
+- `computer_science/029_type_construction_runtime_validity/MODEL.md`
+- `computer_science/029_type_construction_runtime_validity/CONTRADICTION_AUDIT.md`
+- `computer_science/029_type_construction_runtime_validity/RESULT.md`
 
 ## Cross-domain status
 
@@ -65,7 +68,16 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 
 Administration/organization foundation status: **ADMIN-001~003 first foundational series provisionally closed; active falsification and specialized extensions remain open**.
 
-Computer science/type/program-semantics status: **roadmap activated; CS-001 / Global Case 029 prepared; source analysis not started**.
+Computer science/type/program-semantics status: **CS-001 / Global Case 029 first-pass analysis complete; broader campaign remains open**.
+
+- CS-001 / Global Case 029: `cross-subfield computational non-totalization candidate; well-typed=terminating, declared=applicable, type-correct=normal-return, None/error=undefined, runtime-failure=typing-failure, and same-output=same-history identity models rejected; active falsification remains open`.
+
+Witness families for CS-001:
+
+- PLFA progress/preservation and well-typed divergence;
+- Rust `Option` / `Result`;
+- Java `Iterator` / `Scanner` state-sensitive operation legality;
+- Dafny preconditions and object-validity discipline.
 
 ## Purpose folders
 
@@ -92,6 +104,7 @@ Administration/organization:
 
 Computer science/type/program semantics:
 
-- CS-001 / Global Case 029 selected and prepared.
-- First target: `type-compatible candidate != successfully constructed value != valid runtime state != operation applicable != evaluation success != returned result`.
-- The case must show an operational-computation distinction beyond the earlier logic-domain typing/undefinedness results before it can count as a new cross-domain node.
+- CS-001 / Global Case 029 first-pass analysis complete.
+- Surviving audit separation: `static type compatibility != constructed runtime value/status != valid runtime state != operation applicability != evaluation behavior != returned result`.
+- The first case qualifies as a new computational node because it adds operational reduction/nontermination, defined runtime status variants, temporal applicability, verification preconditions/invariants, and output-path non-injectivity beyond the earlier static logic cases.
+- The next case should be opened only after overlap audit and should add an independent interface or direct counterpressure rather than another language-level repetition of CS-001.
