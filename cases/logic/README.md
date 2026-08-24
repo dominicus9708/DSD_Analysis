@@ -1,12 +1,12 @@
 # Mathematical and Philosophical Logic
 
-Status: **current recorded logic sequence complete through Global Case 011; maintenance/reopening only when a new formal question requires it**.
+Status: **Global Cases 001–010 complete; Global Case 011 prepared but not yet analyzed**.
 
 ## Scope
 
 This domain contains formal-logic comparisons and direct attacks on the Formation and Axis Property axiom systems. It does not treat external logical systems as proofs of DSD. Each case asks whether a proposed correspondence preserves the source logic's own typing, semantics, partiality, model class, or structural equivalence conditions.
 
-## Recorded sequence
+## Completed sequence
 
 ### Global Cases 001–007 — external formal frameworks
 
@@ -18,7 +18,7 @@ This domain contains formal-logic comparisons and direct attacks on the Formatio
 6. Public Announcement Logic and observer-information update;
 7. Linear Logic and channel/resource multiplicity.
 
-These cases established several direct or partial correspondences, but also retained non-correspondence boundaries where DSD partiality, typing, observer regime, or finite-set support does not coincide with the external logic.
+These cases established direct, partial, additional-encoding, or non-correspondence boundaries while preserving each source logic's own semantics.
 
 ### Global Cases 008–010 — direct axiom stress tests
 
@@ -28,11 +28,19 @@ These cases established several direct or partial correspondences, but also reta
 
 No tested countermodel falsified the declared source axioms. The attacks did identify pre-axiomatic commitments and scope limits that must not be promoted into stronger theorems.
 
-### Global Case 011 — Formation closure coherence
+## Prepared case
 
-Case 011 audits Formation partiality, typed formation stages, primitive/closure separation, and the joint coherence of the declared closure interfaces in ordinary set-theoretic and typed formal settings.
+### Global Case 011 — Formation partiality, typing, and closure coherence
 
-## Current logic discipline
+Path: `011_formation_partiality_closure_coherence/`.
+
+Current state: **prepared / not yet analyzed**.
+
+The plan is to audit Formation partiality, typed formation stages, primitive-versus-closure separation, and structure-preserving comparison interfaces in ordinary set-theoretic and typed formal settings. The existing `RESULT.md` is intentionally a blank result scaffold and does not encode a conclusion.
+
+Do not cite Case 011 as completed evidence until its result record is actually filled and audited.
+
+## Current logic discipline from completed cases
 
 - undefined is not silently replaced by a normal value;
 - wrong-sort expressions are not converted into ordinary falsehoods;
@@ -44,9 +52,10 @@ Case 011 audits Formation partiality, typed formation stages, primitive/closure 
 
 ## Synthesis
 
-- `../../synthesis/FALSIFICATION_CAMPAIGN_001_010.md` — adversarial campaign synthesis for Cases 001–010
-- `../../synthesis/LOGIC_FORMAL_AUDIT_001_011.md` — current logic-domain status including Case 011
+- `../../synthesis/FALSIFICATION_CAMPAIGN_001_010.md` — completed adversarial campaign synthesis for Global Cases 001–010
 
-## Reopening rule
+A separate logic-domain synthesis including Case 011 should be created only after Case 011 is actually analyzed.
 
-Do not add a new logic case merely to lengthen the sequence. Reopen this domain when a new DSD theorem, formalization, reviewer objection, or application requires a logical structure not already tested here.
+## Next action
+
+If formal-logic work resumes, complete and audit Global Case 011 before assigning a new logic case number. A new case should be opened only for a distinct formal question not already covered by 001–011.
