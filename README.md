@@ -21,11 +21,11 @@ See `campaigns/`.
 
 Case evidence remains under `cases/`.
 
-- `cases/logic/` — Global Cases `001–011`; current recorded formal-logic and direct-axiom audit sequence complete through Case 011
+- `cases/logic/` — Global Cases `001–010` complete; Global Case `011` prepared but not yet analyzed
 - `cases/law/` — Global Cases `012–025`, domain IDs `LAW-001–014`; foundation sequence closed
 - `cases/administration/` — Global Cases `026–027`, domain IDs `ADMIN-001–002`; active sequence
 - `cases/mathematics/` — Global Cases `028–032`, domain IDs `MATH-001–005`; first-pass foundation closed
-- `cases/linguistics/` — domain IDs `LING-001–010`; first-pass campaign complete and reconciled from the historical `synthesis/linguistics-first-pass` branch
+- `cases/linguistics/` — reconciled navigation for domain IDs `LING-001–010`; first-pass campaign complete; full case evidence remains on historical branch `synthesis/linguistics-first-pass`
 
 Domains that exist only as Notion roadmaps are not represented by empty GitHub case folders. A GitHub domain folder is created when the first evidence-bearing case is recorded.
 
@@ -33,7 +33,7 @@ Domains that exist only as Notion roadmaps are not represented by empty GitHub c
 
 `Global Case` is unique only in the reconciled cumulative index `cases/INDEX.md`.
 
-A historical linguistics branch assigned the numeric prefixes `014–023` before the later legal sequence occupied those cumulative Global Case numbers. Those linguistics directory prefixes are preserved as historical paths and **must not be interpreted as current Global Case IDs**. Their stable identifiers are `LING-001–010`.
+A historical linguistics branch assigned numeric directory prefixes `014–023` before the later cumulative sequence was reconciled. Those prefixes are preserved as historical branch paths and **must not be interpreted as current Global Case IDs**. The stable identifiers for that campaign are `LING-001–010`.
 
 Future newly opened cases use the next available reconciled Global Case number. After the current cumulative sequence `001–032`, the next new Global Case is `033`.
 
@@ -41,9 +41,9 @@ Future newly opened cases use the next available reconciled Global Case number. 
 
 ### Logic
 
-The first formal-logic/falsification campaign `001–010` is complete, and Global Case `011` adds the Formation partiality/typing/closure coherence audit. No additional logic case is scheduled merely to extend numbering. Reopen the domain when a new formal claim or specific vulnerability requires it.
+Global Cases `001–010` are complete. Global Case `011` is a prepared coherence-audit scaffold whose `RESULT.md` is still explicitly marked `not yet analyzed`; it must not be counted as a completed case until that analysis is actually performed.
 
-See `cases/logic/README.md` and `synthesis/LOGIC_FORMAL_AUDIT_001_011.md`.
+See `cases/logic/README.md` and `synthesis/FALSIFICATION_CAMPAIGN_001_010.md`.
 
 ### Law
 
@@ -65,7 +65,7 @@ See `cases/mathematics/README.md`, `cases/mathematics/CLOSURE.md`, and `synthesi
 
 ### Linguistics / formal semantics
 
-`LING-001–010` is a completed first-pass campaign. Its evidence is retained under `cases/linguistics/`; its historical numeric directory prefixes are preserved for provenance while domain-local IDs are authoritative after reconciliation.
+`LING-001–010` is a completed first-pass campaign. The historical evidence branch `synthesis/linguistics-first-pass` is preserved unchanged. This reconciled branch carries a domain README and a copied synthesis document for navigation, while the stable domain-local IDs remain authoritative.
 
 See `cases/linguistics/README.md` and `synthesis/LINGUISTICS_CAMPAIGN_014_023.md`.
 
