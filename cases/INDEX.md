@@ -49,12 +49,13 @@ The law-domain foundation and sequence are documented in:
 The administration/organization sequence is documented in:
 
 - `administration/README.md`
+- `administration/ADMIN_001_003_FOUNDATIONAL_SYNTHESIS.md`
 
 ## Cross-domain status
 
 Legal foundation status: **closed for prerequisite cross-domain testing; falsification and specialized legal extensions remain open**.
 
-Administration/organization status: **opened**.
+Administration/organization foundation status: **ADMIN-001~003 first foundational series provisionally closed; active falsification and specialized extensions remain open**.
 
 - ADMIN-001 / Global Case 026: `cross-domain corroborated instruction-interface non-totalization candidate; universal detail/clarity monotonicity, issue=understand, acknowledgement=understanding, discretion=defect, and outcome-back-inference models rejected; active falsification remains open`.
 - ADMIN-002 / Global Case 027: `cross-domain corroborated multi-authority/delegation non-totalization candidate; rank=authority, delegated authority=delegated responsibility, one-organization=one-authority-chain, dissent=disobedience, transfer=state deletion, and review=execution identity models rejected; active falsification remains open`.
@@ -90,4 +91,6 @@ Administration/organization:
 - ADMIN-001 instruction/interpretation/execution analysis complete.
 - ADMIN-002 delegation/escalation/multi-authority analysis complete.
 - ADMIN-003 review/revision/error-correction/lineage analysis complete.
-- A fourth administration case remains optional and should be opened only if it adds an independent interface rather than repeating ADMIN-001~003.
+- ADMIN-001~003 foundational synthesis completed.
+- The first foundational administration series is provisionally closed.
+- A new foundational administration case should be opened only for an independent interface, direct counterpressure to a surviving candidate, a DSD contradiction/application failure, or a material change to the current interpretation boundary.
