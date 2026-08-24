@@ -1,0 +1,11 @@
+rows: 2
+nonnull_x: 1
+sum_x: 0
+nonnull_coalesced_x: 2
+sum_empty_relation: None
+count_empty_relation: 0
+missing_id_rows: 0
+null_rows: 1
+zero_rows: 1
+empty_string_rows: 1
+null_string_rows: 1
