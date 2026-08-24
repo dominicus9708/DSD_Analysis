@@ -30,6 +30,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 024 | legal temporality: commencement, provisional application, retroactivity, repeal, termination, residual effects | reinterpretation | falsification / coherence / predefinition / temporal-rule audit — **first-pass cross-jurisdiction complete** |
 | 025 | collective decision formation, voting, quorum, thresholds, veto/blocking, institutional attribution | reinterpretation | falsification / coherence / predefinition / collective-decision audit — **first-pass cross-jurisdiction complete** |
 | 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | falsification / coherence / predefinition / instruction-interface audit — **first-pass cross-domain complete** |
+| 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | falsification / coherence / predefinition / multi-authority audit — **first-pass cross-domain complete** |
 
 ## Domain folders
 
@@ -55,12 +56,12 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 Administration/organization status: **opened**.
 
 - ADMIN-001 / Global Case 026: `cross-domain corroborated instruction-interface non-totalization candidate; universal detail/clarity monotonicity, issue=understand, acknowledgement=understanding, discretion=defect, and outcome-back-inference models rejected; active falsification remains open`.
+- ADMIN-002 / Global Case 027: `cross-domain corroborated multi-authority/delegation non-totalization candidate; rank=authority, delegated authority=delegated responsibility, one-organization=one-authority-chain, dissent=disobedience, transfer=state deletion, and review=execution identity models rejected; active falsification remains open`.
 
-ADMIN-001 witness families:
+Witness families:
 
-- U.S. Army mission command / commander's intent / mission orders / disciplined initiative;
-- FAA ATC acknowledgement, readback, correction, clarification and execution procedures;
-- FEMA/NIMS ICS unity of command, objectives/strategies/tactics, Incident Action Planning, execution/evaluation/revision.
+- ADMIN-001: U.S. Army mission command; FAA ATC acknowledgement/readback/clarification; FEMA/NIMS ICS.
+- ADMIN-002: U.S. Army ADP 6-0 delegation; FEMA/NIMS delegation/transfer of command; NASA Programmatic/Technical Authority, independent review, risk acceptance, and dissent escalation.
 
 ## Purpose folders
 
@@ -83,5 +84,6 @@ Completed legal foundation:
 
 Administration/organization:
 
-- ADMIN-001 first-pass instruction/interpretation/execution analysis complete.
-- Next candidate: ADMIN-002 delegation, escalation, review and approval chains.
+- ADMIN-001 instruction/interpretation/execution analysis complete.
+- ADMIN-002 delegation/escalation/multi-authority analysis complete.
+- Next candidate: ADMIN-003 review, revision, reopening, and organizational error correction under changing information.
