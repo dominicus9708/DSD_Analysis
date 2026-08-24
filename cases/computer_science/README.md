@@ -1,8 +1,8 @@
 # Computer Science, Types, and Program Semantics
 
-Status: CS-001~004 / Global Cases 029~032 first-pass analyses complete; broader computer-science campaign remains open.
+Status: CS-001~005 / Global Cases 029~033 first-pass analyses complete; broader computer-science campaign remains open.
 
-This domain tests DSD Analysis against computational structures where static admissibility, runtime state, security policy, temporal validity, parser context, evaluation, and failure can be formally distinct.
+This domain tests DSD Analysis against computational structures where static admissibility, runtime state, security policy, temporal validity, parser context, workflow reachability, evaluation, and failure can be formally distinct.
 
 ## Method
 
@@ -10,7 +10,7 @@ Use the standard DSD Analysis order:
 
 `external source structure -> strong candidate -> active counterpressure -> finite witness when possible -> DSD mapping -> contradiction audit -> generalization status`.
 
-Preserve programming-language, security, concurrency, parser, and formal-method terminology first. Do not rename native concepts as DSD stages or statuses by identity.
+Preserve programming-language, security, concurrency, parser, protocol/workflow, and formal-method terminology first. Do not rename native concepts as DSD stages or statuses by identity.
 
 ## CS-001 / Global Case 029
 
@@ -32,10 +32,7 @@ Surviving separation:
 
 `authentication status != authorization relation/decision != bounded privilege/credential != downstream admission != execution/effect`.
 
-Important boundaries:
-
-- authorization denial is a defined source-domain decision, not automatically DSD undefined;
-- security roles and permission hierarchies are not realized DSD axes merely because they are ordered.
+Important boundary: authorization/security roles are not DSD undefined states or realized axes by identity.
 
 Detailed record: `030_authentication_authorization_execution/`.
 
@@ -55,44 +52,43 @@ Detailed record: `031_toctou_state_change/`.
 
 Topic: data/value versus downstream syntax/directive interpretation.
 
-Witness families:
-
-- MITRE CWE-89 data/directive boundary;
-- OWASP SQL parameterization and output-context encoding;
-- Python `sqlite3` bound parameters;
-- MDN `textContent` versus `innerHTML`;
-- Python `subprocess` argument boundaries versus shell parsing.
-
 Surviving separation:
 
 `upstream value/data status != downstream grammar/context != binding/encoding relation != parsed role != operation/effect`.
 
-Finite witnesses use benign values only:
-
-- `O'Reilly` as a bound SQL parameter versus query-source text;
-- `<b>A</b>` as plain text versus HTML markup;
-- `report 2026.txt` as one argv item versus material parsed by a shell command language.
-
-Important DSD application boundaries:
-
-- the same external value is not automatically the same DSD operational role;
-- parser contexts are not DSD roles, channels, or stages without an explicit interpretation bridge;
-- injection-like reinterpretation is not automatically DSD undefined assignment;
-- parser handoff is not automatically a Structural Reorganization Dynamics event;
-- no primary Axis-Property mapping is justified.
-
-No direct contradiction with the current DSD systems was found. CS-004 qualifies as an independent node because it adds context-dependent grammar/role reinterpretation beyond type/runtime, access-control, and temporal-validity distinctions.
+Important boundary: parser context is not a DSD role/channel/stage without an explicit interpretation bridge.
 
 Detailed record: `032_data_syntax_reinterpretation/`.
 
+## CS-005 / Global Case 033
+
+Topic: workflow/state-machine reachability, predecessor enforcement, and transition provenance.
+
+Witness families:
+
+- MITRE CWE-841 improper enforcement of behavioral workflow;
+- TLS 1.3 protocol-defined handshake ordering and `unexpected_message` handling;
+- WebSocket opening-handshake boundary before data transfer.
+
+Surviving separation:
+
+`current state/action form != source transition relation != valid successor reachability != successor state/effect != transition provenance`.
+
+Finite witnesses show that a downstream state or action can be representable, correctly typed, or protocol-grammatical without being validly reachable from the present state.
+
+Important DSD application boundaries:
+
+- DSD Formation stages are static structural stages, not runtime protocol states by identity;
+- Formation traces support provenance-sensitive auditing but do not supply arbitrary application workflows;
+- Dynamics lineage gives time-directed structural succession, not workflow authorization by itself;
+- same final effect does not reconstruct a valid predecessor path.
+
+No direct contradiction with the current DSD systems was found. CS-005 qualifies as an independent node because it adds transition-path/reachability provenance beyond current-state applicability, access control, stale-state transfer, and parser reinterpretation.
+
+Detailed record: `033_workflow_reachability/`.
+
 ## Next-case selection rule
 
-Do not open a follow-up merely to repeat undefined/zero, authentication/authorization, ordinary TOCTOU, or another injection technology with the same data/directive boundary.
+Do not open a follow-up merely to repeat undefined/zero, authentication/authorization, ordinary TOCTOU, parser injection boundaries, or another skipped-step workflow.
 
-The strongest remaining independent candidate is:
-
-- state-machine transition bypass or illegal downstream reachability;
-- a concurrency/memory-model case only if it adds pressure beyond CS-003;
-- another source-native distinction that directly falsifies a surviving CS-001~004 candidate.
-
-Candidate labels remain provisional until overlap audit is performed.
+The next case should be selected only after an overlap audit and must add a genuinely different computational interface or direct falsification pressure.
