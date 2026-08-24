@@ -10,7 +10,7 @@ The primary target is **not the positive law of one jurisdiction**. National sta
 
 The domain distinguishes:
 
-1. **Universal structural claim** — a candidate structure about persons, events, claims, defence, evidence, judgment, authority, normativity, legal capacity/power, rule relations, irreparability, or institutional intervention that does not depend on one jurisdiction's terminology.
+1. **Universal structural claim** — a candidate structure about persons, events, claims, defence, evidence, judgment, authority, normativity, legal capacity/power, rule relations, irreparability, social response, or institutional intervention that does not depend on one jurisdiction's terminology.
 2. **Jurisdictional / institutional witness** — a concrete legal system, treaty, model law, case, or institutional rule showing one implementation, boundary, or counterexample.
 3. **Generalization status** — how far the available witness families actually justify cross-system generalization.
 
@@ -78,13 +78,13 @@ LAW-009 adds that blocking or staying an irreversible consequence does not itsel
 
 The DSD layer is selected only after the source structure is fixed.
 
-Formation is useful when the source independently requires separation among candidate status, realized act, partial assignment, role-bearing identity, rule applicability, legal possession/exercise, rule relation, review/finality, legal/institutional usability, normative status, and downstream result.
+Formation is useful when the source independently requires separation among candidate status, realized act, partial assignment, role-bearing identity, rule applicability, legal possession/exercise, rule relation, review/finality, social response, institutional cost, legal/institutional usability, normative status, and downstream result.
 
 Axis-Property is not invoked merely because a legal role has attributes, because a source uses words such as property/status/capacity/power, or because one legal rule is called higher or superior. It requires a justified realized-axis interpretation.
 
-Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, legal validity, normative force, legal power, rule priority, harm severity, irreversibility, or safeguard strength without an independently supplied mathematical bridge.
+Static Aggregation is not identified with legal balancing, evidence weight, sentencing, proportionality, legal validity, normative force, legal power, rule priority, harm severity, irreversibility, safeguard strength, grief, public condemnation, legitimacy, or social cost without an independently supplied mathematical bridge.
 
-Dynamics becomes relevant when the analysis explicitly concerns temporal transition, restoration, irreversibility, repeal, derogation, waiver, revocation, expiry, confirmation, treaty succession, suspension, reactivation, or later status change.
+Dynamics becomes relevant when the analysis explicitly concerns temporal transition, restoration, irreversibility, repeal, derogation, waiver, revocation, expiry, confirmation, treaty succession, suspension, reactivation, rehabilitation, non-use/moratorium, abolition, or later status change.
 
 LAW-009 is the first completed law case where Dynamics is positively useful as a time-indexed carrier. However, the application must separately supply any legal restoration/equivalence relation; time direction alone does not imply legal irreversibility.
 
@@ -141,7 +141,7 @@ LAW-001 through LAW-004 preserve their original source-specific results as witne
 
 The recurring cross-case rule is now:
 
-**Do not promote, demote, activate, suspend, preserve, attribute, resolve, or globally normalize one legal or institutional status, rule relation, review state, or time-dependent consequence into another without the source rule that performs that transition or identification.**
+**Do not promote, demote, activate, suspend, preserve, attribute, resolve, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, or social-cost coordinate into another without the source rule that performs that transition or identification.**
 
 This includes both positive and negative totalization.
 
@@ -157,7 +157,10 @@ Examples:
 - a special or higher-priority rule governing one issue does not automatically delete every lower/general rule;
 - a source-side conflict is not repaired by DSD unless a source-side relation actually supplies the resolution;
 - responsibility or sentence existence does not automatically authorize an irreversible consequence before finality/review/safeguard gates;
-- an allegation of irreparability does not automatically create an interim measure without the source's additional conditions.
+- an allegation of irreparability does not automatically create an interim measure without the source's additional conditions;
+- strong public condemnation does not automatically determine a legally required maximum punishment;
+- grief or bereavement does not automatically determine one victim-family punishment preference;
+- formal retention of a sanction does not automatically mean actual use, and non-use does not automatically mean legal abolition.
 
 ## 9. Rule-indexed normativity boundary
 
@@ -223,10 +226,40 @@ The selected witnesses show different protection structures:
 
 No universal scalar of irreversibility or safeguard strength is assumed.
 
-## 13. Next foundational extension
+## 13. Social-emotional and social-cost boundary for LAW-010
 
-LAW-010 may examine the following non-equivalence without presupposing a single theory of punishment:
+LAW-010 will test the non-identity among:
 
-`responsibility recognition != sanction != victim restoration != compensation != rehabilitation != incapacitation/prevention`.
+`responsibility recognition != sanction != victim restoration != compensation != rehabilitation != prevention != emotional/social response != institutional/social cost`.
 
-This continues the human-centered law analysis while preserving the distinction between source-described legal functions and normative judgments imported by the analyst.
+The analysis treats emotion as a real source-side input rather than dismissing it as irrational, but it does not identify emotion with the governing legal rule.
+
+At minimum, preserve:
+
+- `E_victim` — grief, anger, condemnation, forgiveness, support, opposition, or other responses among victims and bereaved families;
+- `E_public` — wider public fear, condemnation, retributive demand, restraint demand, or distrust;
+- `C_maint` — institutional, fiscal, procedural, administrative, diplomatic, or legitimacy costs of maintaining a sanction regime where sources make them relevant;
+- `C_error` — error cost/risk, especially irreversible wrongful punishment or execution;
+- `C_abuse` — political execution, discriminatory punishment, authoritarian misuse, or historical state-violence cost/risk;
+- `C_legit_keep` — legitimacy pressure from punishment perceived as too weak;
+- `C_legit_use` — legitimacy pressure from punishment perceived as arbitrary, discriminatory, abusive, or incompatible with controlling rights/constitutional rules;
+- `H_state` — historical context of political execution, police/military abuse, massacre, or other coercive state violence when the source system treats that history as relevant.
+
+These are structured coordinates, not default numerical weights.
+
+The same institution can face opposing pressures. Severe crime and strong victim/public condemnation can support retention or reintroduction arguments. Wrongful-execution risk, political killing, discriminatory enforcement, state-violence history, irreversibility, institutional burden, or constitutional/human-rights costs can support non-use, moratorium, abolition in practice, constitutional invalidation, or abolition in law.
+
+No direction is selected by DSD.
+
+Victims and bereaved families are not modeled as one homogeneous preference-bearing actor. Source material must preserve support and opposition separately.
+
+Capital punishment is the planned high-contrast witness. South Africa supplies a case where public support could be relevant yet not constitutionally decisive; German official sources supply a case where Nazi-era capital-punishment abuse was decisive in the constitutional abolition history while postwar retributive and deterrent arguments for reintroduction still existed; comparative reporting distinguishes formal abolition, abolition in practice, and retention.
+
+## 14. LAW-010 preparation status
+
+Prepared files:
+
+- `cases/law/021_responsibility_sanction_recovery_social_cost/PLAN.md`
+- `cases/law/021_responsibility_sanction_recovery_social_cost/SOURCE_NOTES.md`
+
+The full universal/counterpressure analysis is not yet complete.
