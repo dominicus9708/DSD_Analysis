@@ -32,12 +32,14 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | falsification / coherence / predefinition / instruction-interface audit — **first-pass cross-domain complete** |
 | 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | falsification / coherence / predefinition / multi-authority audit — **first-pass cross-domain complete** |
 | 028 | review, revision, reopening, resumption, error correction, implementation, verification, closure | reinterpretation | falsification / coherence / predefinition / revision-lineage audit — **first-pass cross-domain complete** |
+| 029 | static typing, construction, runtime validity, operation applicability, evaluation, result | reinterpretation | falsification / coherence / predefinition / operational-semantics audit — **prepared; analysis not started** |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
 - `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, legal temporality, collective decisions, and decision structures
 - `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, revision, and operational decision structures
+- `computer_science/` — type systems, program semantics, runtime state, formal specification, software verification, and security-oriented structural failure cases
 
 The law-domain foundation and sequence are documented in:
 
@@ -51,21 +53,19 @@ The administration/organization sequence is documented in:
 - `administration/README.md`
 - `administration/ADMIN_001_003_FOUNDATIONAL_SYNTHESIS.md`
 
+The computer-science sequence is prepared in:
+
+- `computer_science/README.md`
+- `computer_science/029_type_construction_runtime_validity/PLAN.md`
+- `computer_science/029_type_construction_runtime_validity/SCOPE.md`
+
 ## Cross-domain status
 
 Legal foundation status: **closed for prerequisite cross-domain testing; falsification and specialized legal extensions remain open**.
 
 Administration/organization foundation status: **ADMIN-001~003 first foundational series provisionally closed; active falsification and specialized extensions remain open**.
 
-- ADMIN-001 / Global Case 026: `cross-domain corroborated instruction-interface non-totalization candidate; universal detail/clarity monotonicity, issue=understand, acknowledgement=understanding, discretion=defect, and outcome-back-inference models rejected; active falsification remains open`.
-- ADMIN-002 / Global Case 027: `cross-domain corroborated multi-authority/delegation non-totalization candidate; rank=authority, delegated authority=delegated responsibility, one-organization=one-authority-chain, dissent=disobedience, transfer=state deletion, and review=execution identity models rejected; active falsification remains open`.
-- ADMIN-003 / Global Case 028: `cross-domain corroborated revision/lineage non-totalization candidate; approval=immutability, revision=total replacement, correction=change, problem discovery=authorization, review=implementation, implementation=verification/closure, resumption=unchanged continuation, and same-outcome=same-history identity models rejected; active falsification remains open`.
-
-Witness families:
-
-- ADMIN-001: U.S. Army mission command; FAA ATC acknowledgement/readback/clarification; FEMA/NIMS ICS.
-- ADMIN-002: U.S. Army ADP 6-0 delegation; FEMA/NIMS delegation/transfer of command; NASA Programmatic/Technical Authority, independent review, risk acceptance, and dissent escalation.
-- ADMIN-003: U.S. Army FRAGORD modification; FAA amended-clearance/correction/resumption procedures; FEMA Incident Action Planning execute/evaluate/revise cycle; NASA configuration/change control and corrective-action process.
+Computer science/type/program-semantics status: **roadmap activated; CS-001 / Global Case 029 prepared; source analysis not started**.
 
 ## Purpose folders
 
@@ -88,9 +88,10 @@ Completed legal foundation:
 
 Administration/organization:
 
-- ADMIN-001 instruction/interpretation/execution analysis complete.
-- ADMIN-002 delegation/escalation/multi-authority analysis complete.
-- ADMIN-003 review/revision/error-correction/lineage analysis complete.
-- ADMIN-001~003 foundational synthesis completed.
-- The first foundational administration series is provisionally closed.
-- A new foundational administration case should be opened only for an independent interface, direct counterpressure to a surviving candidate, a DSD contradiction/application failure, or a material change to the current interpretation boundary.
+- ADMIN-001~003 foundational series provisionally closed.
+
+Computer science/type/program semantics:
+
+- CS-001 / Global Case 029 selected and prepared.
+- First target: `type-compatible candidate != successfully constructed value != valid runtime state != operation applicable != evaluation success != returned result`.
+- The case must show an operational-computation distinction beyond the earlier logic-domain typing/undefinedness results before it can count as a new cross-domain node.
