@@ -1,6 +1,6 @@
 # Computer Science, Types, and Program Semantics
 
-Status: roadmap prepared; first case selected but not yet analyzed.
+Status: CS-001 / Global Case 029 first-pass analysis complete; broader computer-science campaign remains open.
 
 This domain tests DSD Analysis against computational structures where static admissibility, construction, runtime state, operation applicability, evaluation, and failure can be formally distinct.
 
@@ -12,36 +12,54 @@ Use the standard DSD Analysis order:
 
 Preserve programming-language and formal-method terminology first. Do not rename native concepts as DSD stages by identity.
 
-## First prepared case
-
-### CS-001 / Global Case 029
+## CS-001 / Global Case 029
 
 Topic: static type compatibility, construction, runtime validity, operation applicability, evaluation, and result.
 
-Primary target separation:
+Witness families:
 
-`type-compatible candidate != successfully constructed value != valid runtime state != operation applicable != evaluation success != returned result`.
+- PLFA progress/preservation and well-typed divergence;
+- Rust `Option` / `Result` and panic/defaulting behavior;
+- Java `Iterator` / `Scanner` state-sensitive operation legality;
+- Dafny preconditions, postconditions, and `Valid()` object-invariant discipline.
 
-The point is not to repeat the logic-domain `undefined != zero` result. CS-001 must test whether operational computation introduces independent distinctions involving construction, evaluation, state, failure, and transition.
+Surviving source-sensitive separation:
 
-### Planned witness families
+`static type compatibility != constructed runtime value/status != valid runtime state != operation applicability != evaluation behavior != returned result`.
 
-Use at least three structurally different source families when the analysis starts:
+Additional surviving constraints:
 
-1. typed operational semantics or type-safety literature, including progress/preservation style distinctions;
-2. a production language with explicit sum/option/error types and construction/evaluation rules;
-3. a formal specification, contract, or model-checking framework that separates state admissibility from transition/execution validity.
+- `well typed != guaranteed termination`;
+- `declared operation != currently applicable operation`;
+- `type-correct call != guaranteed normal return`;
+- `same returned value != same computational status/history`.
 
-Multiple programming languages from the same conceptual family are supporting examples, not independent cross-domain nodes by themselves.
+Important DSD application boundary:
 
-## Planned follow-up cases
+**Rust `None` and `Err(e)` are defined enum values and must not be identified with DSD undefined assignment by identity.**
 
-Only open these after CS-001 is completed and audited for overlap:
+The case also rejects treating every runtime exception as DSD channel absence or every runtime state change as a DSD identity-changing transition.
 
-- CS-002: `null` / `None` / empty / zero / absent / error-state separation;
-- CS-003: authentication, authorization, capability, and execution permission;
-- CS-004: check-time versus use-time state change and stale validation;
-- CS-005: data/code or value/syntax reinterpretation boundaries;
-- CS-006: state-machine transition bypass and illegal downstream reachability.
+No direct contradiction with the current DSD axioms was found. The main result is restriction of overbroad mappings and confirmation that operational computation adds distinctions beyond the earlier static logic-domain cases.
 
-These are candidates, not commitments.
+Detailed record:
+
+- `029_type_construction_runtime_validity/PLAN.md`
+- `029_type_construction_runtime_validity/SOURCE_NOTES.md`
+- `029_type_construction_runtime_validity/MODEL.md`
+- `029_type_construction_runtime_validity/CONTRADICTION_AUDIT.md`
+- `029_type_construction_runtime_validity/RESULT.md`
+
+## Next-case selection rule
+
+Do not open a follow-up merely to repeat `undefined != zero` or to collect another programming language with the same `Option`/`Result` pattern.
+
+A follow-up should add independent pressure such as:
+
+- authentication versus authorization/capability;
+- check-time versus use-time state change;
+- data/value versus command/syntax reinterpretation;
+- state-machine transition bypass or illegal downstream reachability;
+- another source-native distinction that directly falsifies the CS-001 surviving candidate.
+
+Candidate labels remain provisional until overlap audit is performed.
