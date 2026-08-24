@@ -1,6 +1,6 @@
 # Administration, Organization, and Directive Structures
 
-This domain tests DSD Analysis against operational organizations rather than positive-law doctrine.
+Status: **ADMIN-001–002 complete; domain remains active**.
 
 Primary targets include:
 
@@ -13,11 +13,13 @@ Primary targets include:
 
 ## Method
 
-Use the same post-law discipline:
+Preserve the organization's own procedures, roles, authority assignments, reporting paths, review rules, and operational terminology before applying DSD.
 
-`external source structure -> strong candidate -> active counterpressure -> independent witness families -> DSD mapping -> contradiction audit -> generalization status`.
+Use the analysis sequence:
 
-Do not import the legal-domain result as proof. The point of this domain is to test whether similar constraints recur independently.
+`source organizational structure -> candidate distinction -> counterpressure -> independent witness families -> DSD mapping -> contradiction audit -> generalization status`.
+
+Do not simplify a real organization into one command line, one authority ordering, or one responsibility ordering unless its own rules justify that reduction.
 
 ## ADMIN-001 / Global Case 026
 
@@ -43,9 +45,9 @@ Strong forms rejected:
 - successful outcome proves instruction adequacy;
 - failed outcome proves subordinate execution fault.
 
-New cross-domain boundary:
+Administrative boundary:
 
-**clarity of purpose, precision of safety-critical coordinates, degree of method specification, feedback closure, and permitted discretion are distinct design variables.**
+**clarity of purpose, precision of safety-critical coordinates, degree of method specification, feedback closure, and permitted discretion are distinct organizational design variables.**
 
 ## ADMIN-002 / Global Case 027
 
@@ -75,19 +77,21 @@ Useful abstract representation:
 
 `G_A = (V, E_delegate, E_report, E_review, E_escalate, E_transfer, E_execute)`.
 
-New cross-domain boundary:
+Administrative boundary:
 
 **organizational hierarchy alone is not sufficient evidence for one authority ordering, one responsibility ordering, or a realized DSD axis.**
 
-## Cumulative result after ADMIN-001~002
+## Cumulative result after ADMIN-001–002
 
-The first two cases independently separate two kinds of organizational failure:
+The first two cases separate two organizational interfaces:
 
-1. **instruction-interface failure** — intent, encoding, receipt, interpretation, verification, discretion, execution, feedback;
-2. **authority-interface failure** — role, delegation, reporting, retained responsibility, review, escalation, transfer, implementation.
+1. **instruction interface** — intent, encoding, receipt, interpretation, verification, discretion, execution, feedback;
+2. **authority interface** — role, delegation, reporting, retained responsibility, review, escalation, transfer, implementation.
 
-Do not collapse them merely because they occur in the same chain of command.
+They may interact in one organization, but they remain separate analytical objects unless the organization's own rules identify them.
 
 ## Next candidate
 
-ADMIN-003 should test review/revision/escalation under changing information and error correction, especially whether organizational decisions must be modeled as monotone approval chains or can be reopened, reversed, suspended, or rerouted when new information appears.
+**ADMIN-003 — review, revision, reopening, and error correction under changing information.**
+
+The case should test whether decisions and approvals may be reopened, reversed, suspended, rerouted, or re-authorized when new information appears, and which roles are authorized to initiate or approve those changes.
