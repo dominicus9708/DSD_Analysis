@@ -24,11 +24,12 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 018 | legal status, capacity, power, exercisability, exercise, and effect | reinterpretation | coherence / predefinition / status-power / universal-claim falsification — completed |
 | 019 | rule conflict, harmonization, exception, priority, invalidity | reinterpretation | coherence / predefinition / conflict-resolution / universal-claim falsification — completed |
 | 020 | irreversibility, irreparable harm, uncertainty, finality, and procedural safeguards | reinterpretation | falsification / coherence / predefinition / temporal-preservation analysis — completed |
+| 021 | responsibility, sanction, victim recovery, emotion, social cost, legal/practice status | reinterpretation | coherence / predefinition / post-responsibility / social-input analysis — completed |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
-- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, and decision structures
+- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, and decision structures
 
 The law-domain foundation and sequence are documented in:
 
@@ -42,18 +43,19 @@ LAW cases are read at two levels:
 1. a **universal structural candidate**;
 2. one or more **jurisdictional / institutional witnesses**.
 
-LAW-001 through LAW-004 were reclassified after their original source-specific first passes. Their Korean-law materials remain valid witnesses but do not by themselves establish universality.
+LAW-001 through LAW-004 were reclassified after source-specific first passes and remain scheduled for a multi-jurisdiction falsification refresh.
 
-LAW-005 through LAW-009 were executed directly under the universal-first workflow and use multiple independent international/transnational witness families.
+LAW-005 through LAW-010 were executed directly under the universal-first workflow.
 
 Current generalization status:
 
-- LAW-001 through LAW-004: `universal candidates under active falsification`;
+- LAW-001 through LAW-004: `universal candidates under active falsification; multi-jurisdiction refresh pending`;
 - LAW-005: `universal candidate supported by multiple independent witness families; active falsification remains open`;
-- LAW-006: `rule-indexed normative-status candidate supported by multiple independent witness families and narrowed under deontic-logic counterpressure; active falsification remains open`;
-- LAW-007: `source-sensitive status/capacity/power candidate supported by CRPD, UNIDROIT and VCLT witness families and narrowed under vocabulary counterpressure; active falsification remains open`;
-- LAW-008: `source-sensitive rule-conflict candidate supported by VCLT, UN Charter and ILC conflict/harmonization structures; no universal resolution algorithm claimed; active falsification remains open`;
-- LAW-009: `strong monotone irreversibility->safeguard theorem falsified; narrower irreparability-relevance and adjudicative-preservation candidates supported by HRC/ECOSOC, ECHR and ICJ witness families; active falsification remains open`.
+- LAW-006: `rule-indexed normative-status candidate supported by multiple independent witness families and narrowed under deontic-logic counterpressure`;
+- LAW-007: `source-sensitive status/capacity/power candidate supported by CRPD, UNIDROIT and VCLT witness families and narrowed under vocabulary counterpressure`;
+- LAW-008: `source-sensitive rule-conflict candidate supported by VCLT, UN Charter and ILC structures; no universal resolution algorithm claimed`;
+- LAW-009: `strong monotone irreversibility->safeguard theorem falsified; narrower irreparability-relevance candidate survives`;
+- LAW-010: `rigid universal doctrinal taxonomy rejected; source-sensitive non-totalization of responsibility, sanction, remedy, prevention, emotion/social response, social cost, formal status and practical use supported by multiple independent witness families`.
 
 ## Purpose folders
 
@@ -66,4 +68,4 @@ Current generalization status:
 
 A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate case evidence into multiple campaign folders.
 
-For legal cases, source-specific completion and universal generalization are separate judgments. A completed legal analysis may support a universal candidate without constituting a proof of legal universality.
+For legal cases, source-specific completion and universal generalization are separate judgments. A completed legal analysis may support a universal candidate without constituting proof of legal universality.
