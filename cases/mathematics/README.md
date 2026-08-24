@@ -4,7 +4,7 @@ This domain records DSD Analysis cases whose source problems belong primarily to
 
 ## Operating rule
 
-The external mathematical structure is described first in its own terminology. DSD terminology is introduced only in a separate comparison layer. Similar names such as `composition`, `sum`, `union`, `kernel`, `quotient`, `rank`, `matrix`, `invariant`, or `aggregation` do not establish identity of structures.
+The external mathematical structure is described first in its own terminology. DSD terminology is introduced only in a separate comparison layer. Similar names such as `composition`, `sum`, `union`, `kernel`, `quotient`, `rank`, `matrix`, `invariant`, `decomposition`, or `aggregation` do not establish identity of structures.
 
 Each case must classify a proposed correspondence as one of:
 
@@ -89,9 +89,24 @@ Established:
 
 See `031_invariants_incomplete_classification/`.
 
-### Planned later sequence
+### MATH-005 / Global Case 032 — decomposition, composition, and reconstruction conditions
 
-- MATH-005: decomposition, composition, and reconstruction conditions.
+Status: **first-pass analysis complete**.
+Primary verdict: **direct correspondence with forward/inverse and support-tag qualifications**.
+
+Established:
+
+1. Unique Stage-VII completion is forward definitional uniqueness and does not imply inverse injectivity.
+2. On a fixed support, unrestricted two-or-more-coordinate summation has a nontrivial kernel whenever the term space is nonzero.
+3. The existing DSD criterion `(A_F-A_F) intersect ker S_F={0}` is exactly the standard injectivity condition for a restricted admissible record class.
+4. If an application declares channel-specific subspaces, internal direct-sum independence is exactly the standard special case giving unique variable-component decomposition on the full subspace product.
+5. For fixed Stage-VII terms, recovery of the selected finite support is equivalent to absence of nontrivial signed `{-1,0,1}` relations; when the term map is injective this is the standard dissociated-set condition.
+6. Linear independence is sufficient but not necessary for finite-support recovery.
+7. A zero term immediately causes `emptyset` versus singleton support collision, matching the DSD distinction between channel absence and selected zero contribution.
+8. Numeric coordinate recovery alone cannot preserve support when selected zero is allowed; support tags or an equivalent presence rule are required.
+9. No contradiction with the current Formation, Axis Property, or Static Aggregation papers was found.
+
+See `032_decomposition_composition_reconstruction/`.
 
 ## DSD source interfaces
 
@@ -100,6 +115,16 @@ Primary DSD sources for this domain are:
 - Formation Axiom System: Stages VI–VII, finite composition, non-injective composition, forward maps, embeddings, strict equivalence.
 - Axis-property system: separation of underlying carriers from additional properties, strict equivalence, compression, and incomplete classification by rank, matrix size, or displayed reduced summaries.
 - Channel-Indexed Static Aggregation: finite aggregation, support-tagged data, aggregation kernels, injectivity/reconstruction criteria, and information-loss boundaries.
-- Structural Reorganization Dynamics: used only when the case explicitly concerns reduced dynamic readouts or component-state reconstruction.
+- Structural Reorganization Dynamics: used only when a case explicitly concerns reduced dynamic readouts or component-state reconstruction.
 
-MATH-004 uses Dynamics only as a corroborating downstream interface; its principal proof remains static classification theory.
+## Sequence status
+
+The originally planned first mathematics/algebra sequence is now first-pass complete:
+
+- MATH-001 — composition boundary;
+- MATH-002 — quotient/kernel boundary;
+- MATH-003 — carrier versus enriched structure;
+- MATH-004 — invariant/classification boundary;
+- MATH-005 — decomposition/reconstruction boundary.
+
+The natural next step is a **mathematics/algebra synthesis and closure audit** before deciding whether to open a second mathematics sequence.
