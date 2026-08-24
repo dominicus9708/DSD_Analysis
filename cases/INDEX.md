@@ -18,7 +18,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition / explicit-default / burden-shift audit — **cross-jurisdiction revalidated** |
 | 013 | responsibility-attribution multi-regime describability | reinterpretation | coherence / predefinition / regime-interface / office-function audit — **cross-jurisdiction revalidated** |
 | 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-authority-attribution audit — **cross-jurisdiction revalidated** |
-| 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | coherence / predefinition / regime boundary — refresh pending |
+| 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | coherence / predefinition / evidence-interface / proof-route audit — **cross-jurisdiction revalidated** |
 | 016 | procedural formation, validity, defect consequence, effect, recognition/enforcement | reinterpretation | coherence / predefinition / universal-claim falsification — completed |
 | 017 | obligation, permission, prohibition, exception/exemption, normative rule scope | reinterpretation | coherence / predefinition / rule-scope / universal-claim falsification — completed |
 | 018 | legal status, capacity, power, exercisability, exercise, and effect | reinterpretation | coherence / predefinition / status-power / universal-claim falsification — completed |
@@ -43,9 +43,7 @@ LAW cases are read at two levels:
 1. a **universal structural candidate**;
 2. one or more **jurisdictional / institutional witnesses**.
 
-LAW-001 through LAW-004 began as source-specific first passes.
-
-LAW-001, LAW-002, and LAW-003 have now completed the universal-first, multi-jurisdiction falsification refresh. LAW-004 remains pending.
+LAW-001 through LAW-004 began as source-specific first passes and have now all completed universal-first, multi-jurisdiction falsification refreshes.
 
 LAW-005 through LAW-010 were executed directly under the universal-first workflow.
 
@@ -54,7 +52,7 @@ Current generalization status:
 - LAW-001: `cross-jurisdictionally corroborated universal non-totalization candidate; narrowed under explicit-default and burden-shift counterpressure; active falsification remains open`;
 - LAW-002: `cross-jurisdictionally corroborated functional-interface candidate; fixed office/module taxonomy rejected; many-to-many actor/function allocation and source-indexed separation/fusion retained; active falsification remains open`;
 - LAW-003: `cross-jurisdictionally corroborated role-authority-attribution non-totalization candidate; binary authority-effect model falsified by apparent authority, later confirmation and ultra vires attribution; active falsification remains open`;
-- LAW-004: `universal candidate under active falsification; multi-jurisdiction refresh pending`;
+- LAW-004: `cross-jurisdictionally corroborated source-indexed evidence/fact-interface non-totalization candidate; fixed five-stage pipeline falsified by judicial notice, admissions, court-initiated evidence, otherwise-admissible exclusion and regime-variable admissibility rules; active falsification remains open`;
 - LAW-005: `universal candidate supported by multiple independent witness families; active falsification remains open`;
 - LAW-006: `rule-indexed normative-status candidate supported by multiple independent witness families and narrowed under deontic-logic counterpressure`;
 - LAW-007: `source-sensitive status/capacity/power candidate supported by CRPD, UNIDROIT and VCLT witness families and narrowed under vocabulary counterpressure`;
@@ -83,10 +81,18 @@ Current generalization status:
 
 ## LAW-003 revalidation witness families
 
-- UNIDROIT Principles Chapter 2 Section 2: actual/apparent authority, unauthorized acts, ratification;
-- Vienna Convention on the Law of Treaties Articles 7-8: purpose-sensitive representation and subsequent confirmation;
-- ILC Articles on State Responsibility Articles 4 and 7: organ attribution and ultra vires official-capacity conduct;
-- Korean Civil Act/Supreme Court agency materials retained as the historical domestic witness.
+- UNIDROIT Principles Chapter 2 Section 2;
+- Vienna Convention on the Law of Treaties Articles 7-8;
+- ILC Articles on State Responsibility Articles 4 and 7;
+- Korean Civil Act/Supreme Court materials retained as the historical domestic witness.
+
+## LAW-004 revalidation witness families
+
+- US Federal Rules of Evidence Rules 401-403 and federal judicial notice;
+- German ZPO §§144, 286, 288, 291;
+- England and Wales CPR Part 32;
+- ECHR Article 6 evidentiary/fairness doctrine;
+- Korean criminal/civil evidence materials retained as the historical domestic witness.
 
 ## Purpose folders
 
@@ -101,6 +107,8 @@ A case's physical folder answers **where the source problem belongs**. The campa
 
 For legal cases, source-specific completion and universal generalization are separate judgments. A completed legal analysis may support a universal candidate without constituting proof of legal universality.
 
-## Current next refresh
+## Current law-analysis phase
 
-`LAW-004 / Global Case 015` — evidence existence, submission, usability, probative evaluation and factual finding, universal-first cross-jurisdiction falsification refresh.
+The LAW-001 through LAW-004 cross-jurisdiction refresh is complete.
+
+Next step is a **LAW-001 through LAW-010 cross-case synthesis**, especially the analysis/design separation and the recurring predefinition/non-totalization rule, before opening the next large legal sequence.
