@@ -1,5 +1,7 @@
 # Administration, Organization, and Directive Structures
 
+Status: **ADMIN-001~003 first foundational series provisionally closed.** Active falsification and specialized extensions remain open.
+
 This domain tests DSD Analysis against operational organizations rather than positive-law doctrine.
 
 Primary targets include:
@@ -118,16 +120,22 @@ New cross-domain boundary:
 
 **organizational revision is typed and lineage-sensitive; before mapping change into DSD, preserve whichever identity, status, authority, and predecessor/successor distinctions the source organization itself recognizes.**
 
-## Cumulative result after ADMIN-001~003
+## Foundational synthesis
+
+The cross-case result is maintained separately in:
+
+- `ADMIN_001_003_FOUNDATIONAL_SYNTHESIS.md`
 
 The first three cases independently separate three organizational interfaces:
 
-1. **instruction-interface failure** — intent, encoding, receipt, interpretation, verification, discretion, execution, feedback;
-2. **authority-interface failure** — role, delegation, reporting, retained responsibility, review, escalation, transfer, implementation;
-3. **revision/lineage-interface failure** — review, validation, amendment, correction, hold/resume, supersession, implementation, verification, release, closure.
+1. **instruction interface** — intent, encoding, receipt, interpretation, verification, discretion, execution, feedback;
+2. **authority interface** — role, delegation, reporting, retained responsibility, review, escalation, transfer, implementation;
+3. **revision/lineage interface** — review, validation, amendment, correction, hold/resume, supersession, implementation, verification, release, closure.
 
 Do not collapse them merely because they occur in one chain of command or contribute to one final outcome.
 
-## Next candidate
+## Provisional closure rule
 
-The next administration case should be chosen only after checking whether a fourth independent interface adds new pressure rather than repeating ADMIN-001~003. A likely candidate is **reporting/feedback latency and asynchronous information state**, but it remains uncommitted until source families are selected.
+A fourth administration case is not required merely to add examples. Open a new foundational case only when it introduces an independent interface, directly falsifies a surviving candidate, reveals a DSD contradiction/application failure, or materially changes the current interpretation boundary.
+
+Specialized applications and counterexamples may be added without reopening the first foundation series by default.
