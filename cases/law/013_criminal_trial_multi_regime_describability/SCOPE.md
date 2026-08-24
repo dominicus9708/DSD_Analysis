@@ -1,37 +1,54 @@
 # LAW-002 Scope Reclassification
 
-Status: active scope note; original RESULT preserved.
+Status: cross-jurisdiction revalidation complete; original RESULT preserved.
 
 ## Universal structural claim
 
-The primary candidate is a functional responsibility-attribution decomposition:
+The earlier shorthand
 
 `W + S + P + D + J + R_E + R_L`
 
-where the symbols are read functionally rather than as one jurisdiction's offices:
+is retained only as a **functional/interface schema**, not as a universal seven-office architecture.
 
 - `W`: event/reference layer;
-- `S`: information/evidence-source layer;
-- `P`: attribution/prosecution function;
-- `D`: defence/counterargument function;
-- `J`: judgment function;
-- `R_E`: evidence-use/ground-use rule;
-- `R_L`: responsibility/decision rule.
+- `S`: information/evidence-source or record layer;
+- `P`: responsibility-attribution / accusation function;
+- `D`: defence / counterargument function;
+- `J`: adjudicative finding / judgment function;
+- `R_E`: family of source-supplied evidence/ground-use rules;
+- `R_L`: family of source-supplied responsibility/decision/consequence rules.
 
-The core claim is that these regimes and functions must not be silently collapsed into one complete description.
+The surviving candidate is:
 
-## Jurisdictional witness
+**when a source process gives event/reference, records/sources, attribution or accusation, response/defence, evidentiary usability, adjudicative finding, and decision/consequence rules distinct roles, conditions, procedures, information states or effects, preserve those distinctions and interfaces. The source system determines whether the functions are separated, combined, distributed or iterated.**
 
-The Korean criminal-procedure materials used in the original case are one concrete witness showing how prosecutor, accused/defence counsel, court, evidence rules, and proof rules instantiate part of this general structure.
+## Cross-jurisdiction witnesses
 
-Prosecutor, defence counsel, accused, judge, jury, tribunal, disciplinary committee, or comparable institutions are possible implementations of the abstract functions. The mapping is not assumed to be one-to-one or universal.
+- ICC Rome Statute: Prosecutor truth-seeking and incriminating/exonerating investigation duties; accused rights; independent victim participation; Chamber/evidence structure.
+- German StPO §§160 and 244: prosecution must investigate incriminating and exonerating circumstances; court can extend evidence-taking ex officio.
+- ECHR Article 6: independent/impartial deciding tribunal and defence rights; prosecution representatives are parties rather than the deciding tribunal.
+- US APA 5 U.S.C. §§554, 556, 557: source-defined separation of investigative/prosecuting and decisional personnel in covered cases, with layered evidence reception and agency decision/review structures.
+- Korean criminal procedure remains the historical domestic first-pass witness.
+
+## Rejected strong forms
+
+Rejected as universal:
+
+- one office/person per `P`, `D`, `J`;
+- prosecutor office = guilt-only `P`;
+- court = passive evidence consumer;
+- victim/source = prosecution component;
+- one atomic `R_E` and one atomic `R_L`;
+- every legal system must separate or fuse the same functions in the same way.
 
 ## Generalization status
 
-`universal candidate under active falsification`.
-
-The current case establishes a strong implementation witness and a finite non-identifiability construction; it does not establish that all legal systems distribute these functions identically.
+**`cross-jurisdictionally corroborated functional-interface candidate; fixed office/module taxonomy rejected; many-to-many actor/function allocation and source-indexed separation/fusion retained; active falsification remains open`.**
 
 ## DSD status
 
-The original Formation result is preserved: role/regime separation, partiality, and non-totalization are meaningful; burden allocation, evidence law, and decision thresholds remain externally supplied.
+Formation can preserve typed role/regime distinctions, partial records and source-to-use interfaces after explicit legal encoding.
+
+Do not identify legal roles with Formation stages/channels or legal admissibility with Formation admission.
+
+Axis-Property, Static Aggregation and Dynamics are not required for the refreshed core result.
