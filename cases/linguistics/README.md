@@ -6,7 +6,7 @@ Status: **LING-001–010 first-pass campaign complete**.
 
 The complete first-pass case evidence is preserved on the historical branch:
 
-`​synthesis/linguistics-first-pass`
+`synthesis/linguistics-first-pass`
 
 Historical case directories on that branch use numeric prefixes `014–023`. Those directory numbers are retained for provenance and stable links, but after repository reconciliation they are **not current Global Case IDs**.
 
