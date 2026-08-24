@@ -79,15 +79,55 @@ New cross-domain boundary:
 
 **organizational hierarchy alone is not sufficient evidence for one authority ordering, one responsibility ordering, or a realized DSD axis.**
 
-## Cumulative result after ADMIN-001~002
+## ADMIN-003 / Global Case 028
 
-The first two cases independently separate two kinds of organizational failure:
+Topic: review, revision, reopening, resumption, and error correction under changing information.
+
+Witness families:
+
+- U.S. Army FRAGORD modification of existing OPORDs;
+- FAA amended clearances, readback correction, revised instructions, and resumption procedures;
+- FEMA/NIMS Incident Action Planning execute/evaluate/revise cycles;
+- NASA configuration/change control and corrective-action tracking.
+
+Surviving candidate:
+
+`review != approval != amendment != correction != implementation != verification != release != closure != resumption`.
+
+Additional surviving constraints:
+
+- `revision != total replacement`;
+- `same final outcome != same organizational path`.
+
+Strong forms rejected:
+
+- approval is organizational immutability;
+- any revision invalidates the entire predecessor directive;
+- correction and substantive change are identical;
+- problem discovery itself authorizes implementation;
+- review/approval is implementation;
+- implementation is verification/release/closure;
+- resumption is an untyped continuation of the earlier state;
+- equal final outcomes imply equal change history.
+
+Useful abstract representation:
+
+`G_R = (V, E_review, E_amend, E_correct, E_hold, E_resume, E_supersede, E_implement, E_verify, E_release, E_close)`.
+
+New cross-domain boundary:
+
+**organizational revision is typed and lineage-sensitive; before mapping change into DSD, preserve whichever identity, status, authority, and predecessor/successor distinctions the source organization itself recognizes.**
+
+## Cumulative result after ADMIN-001~003
+
+The first three cases independently separate three organizational interfaces:
 
 1. **instruction-interface failure** — intent, encoding, receipt, interpretation, verification, discretion, execution, feedback;
-2. **authority-interface failure** — role, delegation, reporting, retained responsibility, review, escalation, transfer, implementation.
+2. **authority-interface failure** — role, delegation, reporting, retained responsibility, review, escalation, transfer, implementation;
+3. **revision/lineage-interface failure** — review, validation, amendment, correction, hold/resume, supersession, implementation, verification, release, closure.
 
-Do not collapse them merely because they occur in the same chain of command.
+Do not collapse them merely because they occur in one chain of command or contribute to one final outcome.
 
 ## Next candidate
 
-ADMIN-003 should test review/revision/escalation under changing information and error correction, especially whether organizational decisions must be modeled as monotone approval chains or can be reopened, reversed, suspended, or rerouted when new information appears.
+The next administration case should be chosen only after checking whether a fourth independent interface adds new pressure rather than repeating ADMIN-001~003. A likely candidate is **reporting/feedback latency and asynchronous information state**, but it remains uncommitted until source families are selected.
