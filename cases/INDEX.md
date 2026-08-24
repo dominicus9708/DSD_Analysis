@@ -39,32 +39,33 @@ The law-domain foundation and sequence are documented in:
 
 - `law/FOUNDATIONAL_FRAMEWORK.md`
 - `law/LAW_001_010_CROSS_CASE_SYNTHESIS.md`
+- `law/LAW_001_014_FINAL_SYNTHESIS.md`
 - `law/README.md`
 
 ## Law-domain generalization status
 
-LAW-001 through LAW-004 began as source-specific first passes and have completed universal-first, multi-jurisdiction falsification refreshes.
+LAW-001 through LAW-004 began as source-specific first passes and completed universal-first, multi-jurisdiction falsification refreshes.
 
 LAW-005 through LAW-010 were executed directly under the universal-first workflow.
 
 LAW-011 through LAW-014 are extension/closing cases after the LAW-001 through LAW-010 cross-case synthesis.
 
-Current generalization status:
+Current status:
 
-- LAW-001: `cross-jurisdictionally corroborated universal non-totalization candidate; narrowed under explicit-default and burden-shift counterpressure; active falsification remains open`;
-- LAW-002: `cross-jurisdictionally corroborated functional-interface candidate; fixed office/module taxonomy rejected; many-to-many actor/function allocation and source-indexed separation/fusion retained; active falsification remains open`;
-- LAW-003: `cross-jurisdictionally corroborated role-authority-attribution non-totalization candidate; binary authority-effect model falsified by apparent authority, later confirmation and ultra vires attribution; active falsification remains open`;
-- LAW-004: `cross-jurisdictionally corroborated source-indexed evidence/fact-interface non-totalization candidate; fixed five-stage pipeline falsified by judicial notice, admissions, court-initiated evidence, otherwise-admissible exclusion and regime-variable admissibility rules; active falsification remains open`;
-- LAW-005: `universal candidate supported by multiple independent witness families; active falsification remains open`;
-- LAW-006: `rule-indexed normative-status candidate supported by multiple independent witness families and narrowed under deontic-logic counterpressure`;
-- LAW-007: `source-sensitive status/capacity/power candidate supported by CRPD, UNIDROIT and VCLT witness families and narrowed under vocabulary counterpressure`;
-- LAW-008: `source-sensitive rule-conflict candidate supported by VCLT, UN Charter and ILC structures; no universal resolution algorithm claimed`;
-- LAW-009: `strong monotone irreversibility->safeguard theorem falsified; narrower irreparability-relevance candidate survives`;
-- LAW-010: `rigid universal doctrinal taxonomy rejected; source-sensitive non-totalization of responsibility, sanction, remedy, prevention, emotion/social response, social cost, formal status and practical use supported by multiple independent witness families`;
-- LAW-011: `cross-jurisdictionally and cross-disciplinary corroborated investigative-epistemic non-collapse candidate; literal geometric triangulation, source-count independence, witness-memory ground-truth, and monotone-intersection models rejected; active falsification remains open`;
-- LAW-012: `cross-jurisdictionally corroborated distributed-responsibility non-totalization candidate; formal-rank transfer, automatic upward guilt, individual/State-responsibility identity, ultra-vires non-attribution, and additive collective-responsibility models rejected; active falsification remains open`;
-- LAW-013: `cross-jurisdictionally corroborated legal-temporality non-totalization candidate; enactment=operation, current-force=past-applicability, repeal=historical-erasure, termination=all-effect-extinction, and one universal non-retroactivity doctrine rejected; source-indexed temporal graph retained; active falsification remains open`;
-- LAW-014: `cross-jurisdictionally corroborated collective-decision non-totalization candidate; simple-majority universality, abstention/opposition identity, quorum/approval identity, single-body/final-act identity, institutional/unanimous-endorsement identity, and generic scalar-aggregation models rejected; source-defined constitutive decision operators retained; active falsification remains open`.
+- LAW-001: cross-jurisdiction corroborated non-totalization candidate; falsification open;
+- LAW-002: cross-jurisdiction corroborated functional-interface candidate; fixed office/module taxonomy rejected;
+- LAW-003: role-authority-attribution non-totalization candidate; binary authority-effect model rejected;
+- LAW-004: evidence/fact-interface candidate; fixed five-stage pipeline rejected;
+- LAW-005: source-indexed validity/effect/defect candidate;
+- LAW-006: rule-indexed normative-status candidate;
+- LAW-007: source-sensitive status/capacity/power candidate;
+- LAW-008: source-sensitive rule-conflict candidate;
+- LAW-009: strong monotone irreversibility->safeguard theorem falsified; narrower candidate survives;
+- LAW-010: rigid universal responsibility/sanction/remedy taxonomy rejected;
+- LAW-011: investigative-epistemic non-collapse candidate; exact triangulation/monotone intersection rejected;
+- LAW-012: distributed-responsibility non-totalization candidate; automatic upward guilt and individual/State identity rejected;
+- LAW-013: legal-temporality non-totalization candidate; temporal overwrite and universal retroactivity model rejected;
+- LAW-014: collective-decision non-totalization candidate; generic simple-majority/scalar model rejected.
 
 ## Closing-case witness families
 
@@ -84,7 +85,7 @@ Current generalization status:
 
 A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate case evidence into multiple campaign folders.
 
-For legal cases, source-specific completion and universal generalization are separate judgments. A completed legal analysis may support a universal candidate without constituting proof of legal universality.
+For legal cases, source-specific completion and universal generalization are separate judgments. A completed legal analysis may support a structural candidate without constituting proof of legal universality.
 
 ## Current law-analysis phase
 
@@ -96,6 +97,7 @@ Completed:
 - LAW-011 investigation/historical reconstruction;
 - LAW-012 distributed responsibility;
 - LAW-013 legal temporality;
-- LAW-014 collective decision formation.
+- LAW-014 collective decision formation;
+- **LAW-001 through LAW-014 final legal-domain synthesis and closure audit**.
 
-Next: final LAW-001 through LAW-014 legal-domain synthesis and closure audit before moving to the next external domain.
+Legal foundation status: **closed for prerequisite cross-domain testing; falsification and specialized legal extensions remain open**.
