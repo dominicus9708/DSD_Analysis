@@ -33,13 +33,14 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | falsification / coherence / predefinition / multi-authority audit — **first-pass cross-domain complete** |
 | 028 | review, revision, reopening, resumption, error correction, implementation, verification, closure | reinterpretation | falsification / coherence / predefinition / revision-lineage audit — **first-pass cross-domain complete** |
 | 029 | static typing, construction, runtime validity, operation applicability, evaluation, result | reinterpretation | falsification / coherence / predefinition / operational-semantics audit — **first-pass cross-subfield complete** |
+| 030 | authentication, authorization, scoped privilege/credential, admission, execution/effect | reinterpretation | falsification / coherence / predefinition / access-control audit — **first-pass cross-subfield complete** |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
 - `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, legal temporality, collective decisions, and decision structures
 - `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, revision, and operational decision structures
-- `computer_science/` — type systems, program semantics, runtime state, formal specification, software verification, and security-oriented structural failure cases
+- `computer_science/` — type systems, program semantics, runtime state, formal specification, software verification, access control, and security-oriented structural failure cases
 
 The law-domain foundation and sequence are documented in:
 
@@ -56,11 +57,8 @@ The administration/organization sequence is documented in:
 The computer-science sequence is documented in:
 
 - `computer_science/README.md`
-- `computer_science/029_type_construction_runtime_validity/PLAN.md`
-- `computer_science/029_type_construction_runtime_validity/SOURCE_NOTES.md`
-- `computer_science/029_type_construction_runtime_validity/MODEL.md`
-- `computer_science/029_type_construction_runtime_validity/CONTRADICTION_AUDIT.md`
-- `computer_science/029_type_construction_runtime_validity/RESULT.md`
+- `computer_science/029_type_construction_runtime_validity/`
+- `computer_science/030_authentication_authorization_execution/`
 
 ## Cross-domain status
 
@@ -68,16 +66,17 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 
 Administration/organization foundation status: **ADMIN-001~003 first foundational series provisionally closed; active falsification and specialized extensions remain open**.
 
-Computer science/type/program-semantics status: **CS-001 / Global Case 029 first-pass analysis complete; broader campaign remains open**.
+Computer science/type/program-semantics status: **CS-001~002 / Global Cases 029~030 first-pass analyses complete; broader campaign remains open**.
 
 - CS-001 / Global Case 029: `cross-subfield computational non-totalization candidate; well-typed=terminating, declared=applicable, type-correct=normal-return, None/error=undefined, runtime-failure=typing-failure, and same-output=same-history identity models rejected; active falsification remains open`.
+- CS-002 / Global Case 030: `cross-subfield access-control non-totalization candidate; authentication=authorization, identity=permission, valid-token=universal-access, authorization=admission/effect, denial=authentication-failure, and same-principal=same-permission models rejected; active falsification remains open`.
 
-Witness families for CS-001:
+Witness families for CS-002:
 
-- PLFA progress/preservation and well-typed divergence;
-- Rust `Option` / `Result`;
-- Java `Iterator` / `Scanner` state-sensitive operation legality;
-- Dafny preconditions and object-validity discipline.
+- NIST SP 800-63-4 digital authentication/authorization terminology;
+- NIST SP 800-162 ABAC;
+- OAuth 2.0 scoped access tokens and resource-server validation;
+- Kubernetes authentication, authorization, and admission pipeline.
 
 ## Purpose folders
 
@@ -105,6 +104,7 @@ Administration/organization:
 Computer science/type/program semantics:
 
 - CS-001 / Global Case 029 first-pass analysis complete.
-- Surviving audit separation: `static type compatibility != constructed runtime value/status != valid runtime state != operation applicability != evaluation behavior != returned result`.
-- The first case qualifies as a new computational node because it adds operational reduction/nontermination, defined runtime status variants, temporal applicability, verification preconditions/invariants, and output-path non-injectivity beyond the earlier static logic cases.
-- The next case should be opened only after overlap audit and should add an independent interface or direct counterpressure rather than another language-level repetition of CS-001.
+- CS-002 / Global Case 030 first-pass analysis complete.
+- CS-002 surviving audit separation: `authentication status != authorization relation/decision != bounded privilege/credential != downstream admission != execution/effect`.
+- CS-002 is independent from CS-001 because request-specific policy relations, scoped delegated authorization, and post-authorization admission are not reducible to the prior type/runtime/evaluation interface.
+- The next strongest candidates are check-time/use-time state change, data/syntax reinterpretation, and illegal downstream state reachability; each requires overlap audit before opening.
