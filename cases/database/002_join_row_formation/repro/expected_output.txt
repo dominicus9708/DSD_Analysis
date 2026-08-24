@@ -1,0 +1,5 @@
+INNER JOIN: [(1, 1, 10), (3, 3, None)]
+LEFT JOIN: [(1, 1, 10), (2, None, None), (3, 3, None)]
+LEFT JOIN + WHERE r.val > 5: [(1, 1, 10)]
+LEFT JOIN + ON r.val > 20: [(1, None, None), (2, None, None), (3, None, None)]
+Projected LEFT JOIN: [(1, 10), (2, None), (3, None)]
