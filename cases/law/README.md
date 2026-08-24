@@ -1,6 +1,6 @@
 # Law, Institutions, and Decision Structures
 
-This domain groups DSD Analysis cases concerning law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, and collective decision structures.
+This domain groups DSD Analysis cases concerning law, institutional procedure, authority, representation, evidence, responsibility attribution, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, and collective decision structures.
 
 See:
 
@@ -19,7 +19,7 @@ Each case separates:
 
 A source system is not redesigned to fit DSD, and DSD application mappings are not altered merely to force agreement. Analysis and design remain separate.
 
-## LAW-001 through LAW-011
+## LAW-001 through LAW-012
 
 | Law ID | Global case | Revalidated/general result |
 |---|---:|---|
@@ -34,26 +34,21 @@ A source system is not redesigned to fit DSD, and DSD application mappings are n
 | LAW-009 | 020 | strong monotone `greater irreversibility -> stronger safeguard` theorem falsified; narrower irreparability-relevance candidate survives |
 | LAW-010 | 021 | rigid universal punishment/remedy taxonomy rejected; responsibility, sanction, remedy, prevention, emotion/social response, social cost, formal legal status and actual practice remain source-sensitive coordinates |
 | LAW-011 | 022 | **first-pass cross-jurisdiction complete** — historical event, perception, later memory, recorded account/trace, provenance/dependence, investigative reconstruction and institutional finding are non-identical; literal geometric triangulation and monotone-intersection models rejected |
+| LAW-012 | 023 | **first-pass cross-jurisdiction complete** — direct conduct, ordering, effective control/superior responsibility, official capacity, State attribution and State/individual responsibility remain source-distinct; automatic upward guilt and title-based transfer rejected |
 
-LAW-001 through LAW-004 preserve their original domestic/source-specific `RESULT.md` files and have separate cross-jurisdiction revalidation packets.
-
-LAW-005 through LAW-010 were executed directly under the universal-first workflow.
-
-LAW-011 is the first extension opened after the LAW-001 through LAW-010 synthesis.
-
-## Cross-case result
+## Cross-case operating rule
 
 The strongest recurring result is not a universal legal pipeline or taxonomy.
 
-It is a source-sensitive operating discipline:
+It is a source-sensitive discipline:
 
-**do not infer a legal/institutional input, function, authority, evidentiary state, normative state, responsibility state or practical status from a downstream effect, office title, role label, apparent truth or later outcome; and do not pre-fill either a positive or negative downstream status without the source or independently justified external rule that performs the relevant transition, transfer, identification, exclusion, substitution, aggregation or normalization.**
+**do not infer a legal/institutional input, function, authority, evidentiary state, normative state, responsibility state, source independence or practical status from a downstream effect, office title, role label, apparent truth, report count or later outcome; and do not pre-fill either a positive or negative downstream status without the source or independently justified external rule that performs the relevant transition, transfer, identification, exclusion, substitution, aggregation or normalization.**
 
 `A != B` does not imply mutual exclusion.
 
 Stage distinction does not imply one mandatory real-world stage order.
 
-Source structures may be better represented as a graph:
+Source structures may be represented as a graph:
 
 `G = (V, E_R)`
 
@@ -61,55 +56,49 @@ where each edge is licensed by a source or independently justified bridge rule `
 
 ## LAW-011 — investigative reconstruction boundary
 
-LAW-011 adds an epistemic layer before ordinary evidence-use analysis:
-
 `historical event != contemporaneous perception != later memory != recorded account/trace != investigative reconstruction != institutional finding`.
 
-Independent source families show that:
+`number of reports != number of independent information streams`.
 
-- eyewitness perception and memory can be incomplete, reconstructed and altered over time;
-- misleading questions, feedback and co-witness information can affect later reports;
-- `number of reports != number of independent observations`;
-- physical evidence can be contaminated or lost and requires preservation/provenance;
-- a source legal regime may require investigation of exonerating as well as incriminating circumstances;
-- uncertainty should not be forced into a positive or negative answer merely to complete the record.
+Investigation can be non-monotonic when earlier source assessments are revised. Therefore investigative belief revision must not be identified with a mandatory Formation stage chain.
 
-The motivating triangulation analogy survives only in a narrow form: different source streams can constrain candidate histories and expose incompatibilities or dependencies.
+## LAW-012 — distributed responsibility boundary
 
-It does **not** justify treating all sources as exact independent sensors or assuming every new source monotonically shrinks the candidate-history set.
+A harmful event can support several distinct responsibility or attribution relations.
 
-A more general update is:
+Do not identify:
 
-`H_(k+1) = U(H_k, E_k, Gamma_k)`
+`direct perpetration != ordering != superior omission`;
 
-where `Gamma_k` carries provenance, dependence, validity/reliability and revisions to earlier source assessments.
+`formal command != effective control`;
 
-This means investigative evolution must not be identified directly with a mandatory monotone Formation stage chain.
+`individual liability != State attribution/responsibility`.
+
+The same event does not provide a universal responsibility-transfer edge from subordinate to commander, organization or State.
+
+ILC State-attribution rules also show that ultra vires official-capacity conduct can remain attributable while individual responsibility remains a separate question.
 
 ## Refined predefinition boundary
 
-Predefinition is not rejected merely because it is prior.
-
-It becomes analytically suspect when it:
+Predefinition becomes suspect when it:
 
 - silently excludes source-permitted alternatives;
 - promotes/demotes a state without the rule that performs the change;
 - fills a positive or negative downstream value before the route is established;
-- treats failure of one ordinary route as proof that every alternative route is absent;
+- treats failure of one route as proof that every alternative route is absent;
 - back-infers an earlier identity from a later effect;
 - linearizes a source graph merely for analytical convenience;
-- treats source multiplicity as source independence without provenance/dependence analysis;
-- forces uncertainty into a completed value.
-
-See `../../campaigns/predefinition/LAW_001_010_CROSS_CASE_RESULT.md`.
+- treats source multiplicity as source independence;
+- forces uncertainty into a completed value;
+- transfers responsibility through hierarchy, membership, office or organizational connection without a source rule.
 
 ## DSD layer discipline
 
 Formation is useful for typed status, role-sensitive identity, partiality and non-totalization.
 
-Axis-Property is used only where a realized-axis interpretation is independently justified.
+Axis-Property is used only where a realized-axis interpretation is independently justified. Command, hierarchy, authority and control terminology alone are insufficient.
 
-Static Aggregation is **not** identified with evidence weight, sentencing, proportionality, grief, social cost, legitimacy, harm severity, irreversibility, proof or source reliability without an independent mathematical bridge.
+Static Aggregation is **not** identified with evidence weight, sentencing, proportionality, grief, social cost, legitimacy, harm severity, irreversibility, proof, source reliability or responsibility magnitude without an independent mathematical bridge.
 
 Dynamics may record explicitly time-indexed source transitions but does not generate legal, empirical, cognitive or normative transition rules.
 
@@ -131,12 +120,13 @@ High-risk application errors include:
 - overloading role tags;
 - mapping legal concepts directly to DSD absence/undefined/zero;
 - treating DSD as a generator of source transition rules;
-- using Axis-Property from metaphorical hierarchy/power language;
-- scalarizing legal/social values or source reliability through Static Aggregation without measurement rules;
+- using Axis-Property from metaphorical hierarchy/power/control language;
+- scalarizing legal/social values, source reliability or responsibility through Static Aggregation without measurement rules;
 - treating non-identity as mutual exclusion;
 - treating ideal/toy-model ground truth as if real observers or institutions possess it;
 - treating report count as independent-information count;
-- identifying Formation stages with non-monotonic investigative belief revision.
+- identifying Formation stages with non-monotonic investigative belief revision;
+- treating hierarchy or organizational connection as an automatic responsibility-transfer operator.
 
 ## Current phase
 
@@ -145,8 +135,14 @@ Completed:
 - LAW-001 through LAW-010 initial legal foundation sequence;
 - LAW-001 through LAW-004 cross-jurisdiction revalidation;
 - LAW-001 through LAW-010 first cross-case synthesis;
-- LAW-011 first-pass investigation / historical-event reconstruction analysis.
+- LAW-011 first-pass investigation / historical-event reconstruction analysis;
+- LAW-012 first-pass distributed-responsibility analysis.
 
-New work should continue in this order:
+Remaining planned legal closing cases before final synthesis:
+
+1. legal temporality — enactment, commencement, repeal, retroactivity, transition and residual effects;
+2. collective decision formation — individual vote/position, quorum/rule, collective act and attributed institutional decision.
+
+New work continues in this order:
 
 `source problem -> strong candidate -> active counterpressure -> source witnesses -> DSD mapping -> contradiction audit -> generalization status -> design implications only after analysis`.
