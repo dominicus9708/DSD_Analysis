@@ -117,7 +117,7 @@ A strong universal claim may be falsified while a narrower source-sensitive cand
 
 ## 7. LAW-001 through LAW-010 cumulative structure
 
-- `LAW-001`: nonaction is not automatically an opposite action; failure to establish responsibility is not proof of the opposite fact.
+- `LAW-001`: **cross-jurisdiction revalidated.** A nonformed/nonperformed act does not by itself acquire affirmative, negative, opposite, invalid, or otherwise formed identity. Source rules may nevertheless assign nonaction a default, sanction, assent effect, quorum effect, or other downstream consequence. Failure to establish responsibility under the governing burden/threshold is not positive proof of the opposite factual proposition.
 - `LAW-002`: event/world, source, attribution, defence, judgment, evidence-use rule and decision rule are distinct regimes.
 - `LAW-003`: person/entity, role, authority, act and attributed effect are not automatically identical.
 - `LAW-004`: evidence existence, submission, usability, probative evaluation and finding are not automatically identical.
@@ -128,17 +128,57 @@ A strong universal claim may be falsified while a narrower source-sensitive cand
 - `LAW-009`: the strong monotone irreversibility->safeguard theorem is rejected; narrower irreparability-relevance and adjudicative-preservation candidates survive.
 - `LAW-010`: rigid universal doctrinal separation is too strong, but source-distinct responsibility, sanction, victim remedy, rehabilitation, prevention/non-repetition, social-emotional response, institutional/social cost, formal legal status and practical use must not be collapsed without a source/external rule.
 
-LAW-001 through LAW-004 preserve source-specific first passes and are scheduled for universal-first multi-jurisdiction refresh. LAW-005 through LAW-010 were executed directly under the universal-first workflow.
+LAW-001 preserves its source-specific first pass and now has a separate multi-jurisdiction revalidation packet.
 
-## 8. Predefinition rule for the legal domain
+LAW-002 through LAW-004 preserve source-specific first passes and remain scheduled for universal-first multi-jurisdiction refresh.
+
+LAW-005 through LAW-010 were executed directly under the universal-first workflow.
+
+## 8. LAW-001 explicit-default and nonaction boundary
+
+The revalidated LAW-001 rule is:
+
+**do not infer an institutional/legal input's identity from its downstream effect. A missing or nonformed act does not itself contain a YES, NO, invalid, assent, opposition, or other formed value. If the source system assigns nonaction a consequence, that consequence is a separate rule-indexed relation.**
+
+Independent witnesses:
+
+- UN General Assembly: presence, affirmative vote, negative vote and abstention are separately represented; abstention is not voting, while presence affects quorum separately.
+- EU Council/TFEU: abstention can be non-blocking for unanimity without becoming an affirmative vote.
+- Australian Electoral Commission: turnout/non-voting, formal votes, informal votes and non-voter penalties are distinct structures.
+- UK Electoral Commission: rejected ballots are formed ballot-paper objects subject to adjudication.
+- UNIDROIT: silence/inactivity does not in itself equal acceptance, but agreement/practice/usage may give it an acceptance consequence.
+
+Therefore:
+
+`nonaction != no consequence` is false as a universal claim;
+
+`nonaction != formed opposite/affirmative action unless a source rule performs that identification/consequence` survives.
+
+## 9. LAW-001 presumption-of-innocence boundary
+
+The revalidation distinguishes:
+
+`charge/accusation != proof status != guilty verdict != acquittal/not-guilty != positive factual innocence`.
+
+ICC Article 66 and US federal jury instructions strongly preserve accusation/proof/conviction separation.
+
+ECHR materials show that presumption of innocence can coexist with bounded presumptions of fact/law, and US instructions recognize some source-defined affirmative-defence burdens.
+
+Therefore the universal statement `every criminal burden always lies on prosecution` is rejected.
+
+The surviving candidate is:
+
+**failure to establish guilt/responsibility under the governing burden and threshold blocks the source-defined guilty/responsibility result but does not itself prove the opposite factual proposition; any subsidiary presumption, defence burden, or positive contrary finding requires its own source rule/evidence path.**
+
+## 10. Predefinition rule for the legal domain
 
 The recurring cross-case rule is now:
 
-**Do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
+**Do not infer the identity of a legal/institutional input from its downstream effect, and do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
 
 Examples:
 
-- nonaction does not become opposite action by default;
+- nonaction can receive a source-defined effect without becoming a formed opposite/affirmative action;
 - failure of one proof route does not create the opposite positive proposition;
 - a defect does not generate one universal invalidity result;
 - a prohibition rule's failure does not create global permission;
@@ -152,7 +192,7 @@ Examples:
 - formal retention does not imply actual use, and non-use does not imply legal abolition;
 - social cost does not become one monetary scalar without an external measurement/aggregation rule.
 
-## 9. Rule-indexed normativity boundary
+## 11. Rule-indexed normativity boundary
 
 LAW-006 may require:
 
@@ -162,7 +202,7 @@ Do not identify universally:
 
 `possible != rule-applicable != obligatory != permitted != prohibited != excepted/exempted != derogated != consequence imposed`.
 
-## 10. Status-capacity-power boundary
+## 12. Status-capacity-power boundary
 
 LAW-007 may require:
 
@@ -172,7 +212,7 @@ Do not infer universally:
 
 `has right/power -> exercisable now -> exercised -> legally effective`.
 
-## 11. Rule-conflict boundary
+## 13. Rule-conflict boundary
 
 LAW-008 may require:
 
@@ -182,7 +222,7 @@ Do not identify:
 
 `different rules != unresolved conflict != harmonized co-application != special-rule governance != priority != invalidity != rule deletion`.
 
-## 12. Irreparability and preservation boundary
+## 14. Irreparability and preservation boundary
 
 LAW-009 may require:
 
@@ -192,7 +232,7 @@ Do not identify:
 
 `event occurred != non-restorable harm != later adjudication defeated != interim protection warranted`.
 
-## 13. Post-responsibility, emotion and social-cost boundary
+## 15. Post-responsibility, emotion and social-cost boundary
 
 LAW-010 adds a separate boundary after responsibility attribution.
 
@@ -200,78 +240,21 @@ A source-sensitive record may need:
 
 `(harm, responsibility, sanction, restitution, compensation, rehabilitation, prevention/non-repetition, E_victim, E_public, C_maint, C_error, C_abuse, C_legit_keep, C_legit_use, H_state, formal legal status, practical-use status, regime, time)`.
 
-### Remedy and sanction
+ICC punishment/reparation separation, UN reparation plurality, South African public-opinion limits, German state-abuse history, comparative law/practice divergence, and victim-family heterogeneity jointly support this boundary.
 
-ICC Article 75 reparations and Article 77 penalties provide a direct witness that punishment and victim reparation can be separate legal routes.
+No DSD rule supplies a numerical social-choice function for these coordinates.
 
-UN human-rights sources distinguish restitution, compensation, rehabilitation, satisfaction and guarantees of non-repetition, and selected sources recognize victim status independently of perpetrator conviction.
-
-Therefore:
-
-`punishment != complete victim restoration`;
-
-`reparation != compensation alone`;
-
-`victim status != universally downstream of conviction`.
-
-### Emotion
-
-Emotion is a real source-side input, not automatically irrational noise.
-
-Preserve actor-indexed:
-
-- grief;
-- anger;
-- condemnation;
-- forgiveness;
-- retributive demand;
-- demand for restraint;
-- public fear;
-- public distrust.
-
-South African `S v Makwanyane` shows public death-penalty support can be relevant without controlling constitutional adjudication.
-
-Victim-family source material shows bereaved families can support or oppose capital punishment; no homogeneous `victim preference` is assumed.
-
-### Social and institutional cost
-
-Preserve separately where source/empirical material makes them relevant:
-
-- `C_maint` — maintenance/procedural/fiscal/administrative burden;
-- `C_error` — wrongful-decision or wrongful-execution risk/cost;
-- `C_abuse` — political killing, discrimination, authoritarian/state-violence abuse risk/history;
-- `C_legit_keep` — legitimacy pressure from perceived under-punishment;
-- `C_legit_use` — legitimacy pressure from perceived arbitrary/abusive coercion;
-- `H_state` — historically relevant state-violence context.
-
-German Article 102 history shows Nazi-era abuse of capital punishment can be decisive constitutional-historical context while contemporary retributive/reintroduction pressure persists.
-
-No universal causal law follows.
-
-### Law versus practice
-
-Capital-punishment status may require separate coordinates for legal authorization, offence scope, moratorium/non-use, sentence practice, execution practice and time.
-
-Comparative reporting distinguishes abolition in law from abolition in practice.
-
-Therefore:
-
-`formal retention != execution practice`;
-
-`non-execution != legal abolition`.
-
-### No default aggregation
-
-No DSD rule supplies:
-
-`grief + public anger + deterrence + legitimacy + error risk + fiscal cost -> correct punishment`.
-
-Any quantitative or normative policy model requires an external common codomain, measurement rules, empirical evidence, aggregation operator and decision threshold.
-
-## 14. Current next work
+## 16. Current next work
 
 The first-pass LAW-001 through LAW-010 sequence is complete.
 
-Next priority: **cross-jurisdiction falsification refresh for LAW-001 through LAW-004**, using the universal-first method developed from LAW-005 onward.
+Cross-jurisdiction revalidation status:
 
-Only after that refresh should a new large legal sequence be opened, with likely candidates in administration/organization, elections/collective choice, legal temporality, distributed responsibility, and State reparation/truth/non-repetition.
+- LAW-001: **complete**;
+- LAW-002: next;
+- LAW-003: pending;
+- LAW-004: pending.
+
+Next priority: **LAW-002 / Global Case 013 cross-jurisdiction falsification refresh**, using the universal-first method developed from LAW-005 onward.
+
+Only after LAW-002 through LAW-004 refresh should a new large legal sequence be opened, with likely candidates in administration/organization, elections/collective choice, legal temporality, distributed responsibility, and State reparation/truth/non-repetition.
