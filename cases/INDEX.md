@@ -35,6 +35,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 029 | quotient sets, kernel criteria, congruence failure, support retention, and aggregate information loss | coherence / reinterpretation | falsification of over-strong quotient identification / reconstruction-boundary audit — **first-pass mathematics complete** |
 | 030 | same carrier, realized-axis rank, matrix size, and enriched axis-property structure | coherence / reinterpretation | falsification of carrier/rank/representation over-identification / signature-scope audit — **first-pass mathematics complete** |
 | 031 | invariants, complete invariants, finite-coordinate compression, classifier collisions, and reduced readouts | coherence / reinterpretation | falsification of automatic-invariant and scalar-incompleteness overclaims / classification-boundary audit — **first-pass mathematics complete** |
+| 032 | decomposition, finite composition, direct-sum uniqueness, subset-sum recovery, and support reconstruction | coherence / reinterpretation | falsification of forward/inverse uniqueness conflation / support-reconstruction audit — **first-pass mathematics complete** |
 
 ## Domain folders
 
@@ -51,12 +52,13 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 
 Administration/organization status: **opened**.
 
-Mathematics/algebra status: **opened; MATH-001 through MATH-004 first-pass complete**.
+Mathematics/algebra status: **MATH-001 through MATH-005 first-pass complete**.
 
 - MATH-001 / Global Case 028: `Stage-VII finite composition is finitely additive on disjoint finite channel supports; full union-monoid homomorphism fails except for the zero-term map; free-commutative-monoid linearization requires explicit additional multiplicity encoding; no DSD contradiction found`.
 - MATH-002 / Global Case 029: `fixed-support aggregation uses ordinary linear kernel/quotient theory; equal aggregate values on varying finite supports define an equivalence relation but not generally a union congruence; free additive linearization restores exact kernel language only as additional encoding; zero-padding is not support-faithful; no DSD contradiction found`.
 - MATH-003 / Global Case 030: `same carrier/rank/matrix size does not classify the full enriched axis-property structure; the distinction directly matches standard structure theory; rank is complete only in narrower signatures such as bare finite-dimensional vector spaces over a fixed field; no DSD contradiction found`.
 - MATH-004 / Global Case 031: `DSD rank/summary/readout collisions match standard incomplete-invariant logic; Definition 12.3 is not automatically an invariant unless its indicators are isomorphism-invariant; scalarity or finite compression alone does not force incompleteness; no DSD contradiction found`.
+- MATH-005 / Global Case 032: `forward Stage-VII closure uniqueness is distinct from inverse reconstruction; direct sums characterize unique variable-component decomposition on full subspace products; finite channel-support recovery is governed exactly by distinct subset sums / signed {-1,0,1} relations; support tags are still required to distinguish absence from selected zero; no DSD contradiction found`.
 
 ## Purpose folders
 
@@ -89,4 +91,5 @@ Mathematics/algebra:
 - MATH-002 quotient structures / kernels / aggregate information loss analysis complete.
 - MATH-003 same carrier / rank / matrix size versus enriched structure analysis complete.
 - MATH-004 invariants / complete invariants / reduced classifiers analysis complete.
-- Next candidate: MATH-005 decomposition, composition, and reconstruction conditions.
+- MATH-005 decomposition / composition / reconstruction conditions analysis complete.
+- The originally planned first mathematics/algebra sequence MATH-001 through MATH-005 is now first-pass complete; a synthesis/closure audit is the natural next step before opening additional mathematics cases.
