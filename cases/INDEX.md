@@ -48,6 +48,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 The computer-science sequence is documented in:
 
 - `computer_science/README.md`
+- `computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md`
 - `computer_science/029_type_construction_runtime_validity/`
 - `computer_science/030_authentication_authorization_execution/`
 - `computer_science/031_toctou_state_change/`
@@ -60,19 +61,21 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 
 Administration/organization foundation status: **ADMIN-001~003 first foundational series provisionally closed; active falsification and specialized extensions remain open**.
 
-Computer science/type/program-semantics status: **CS-001~005 / Global Cases 029~033 first-pass analyses complete; broader campaign remains open**.
+Computer science/type/program-semantics status: **CS-001~005 / Global Cases 029~033 first-pass foundational series provisionally closed; active falsification and specialized extensions remain open**.
 
-- CS-001 / Global Case 029: type/runtime/evaluation non-totalization; active falsification remains open.
-- CS-002 / Global Case 030: authentication/authorization/admission non-totalization; active falsification remains open.
-- CS-003 / Global Case 031: temporal-validity transfer/stale-state non-totalization; active falsification remains open.
-- CS-004 / Global Case 032: parser/context-dependent role reinterpretation; active falsification remains open.
-- CS-005 / Global Case 033: `representable=reachable`, `well-formed=state-admissible`, `authorization=workflow-reachable`, `same-effect=same-path`, and `DSD-stage=runtime-state` identity models rejected; active falsification remains open.
+- CS-001 / Global Case 029: local computational semantics / type-runtime-evaluation non-totalization.
+- CS-002 / Global Case 030: relational access policy / authentication-authorization-admission non-totalization.
+- CS-003 / Global Case 031: temporal persistence/currentness / stale-state transfer non-totalization.
+- CS-004 / Global Case 032: interpretation grammar/context / parser-role non-totalization.
+- CS-005 / Global Case 033: transition reachability/path provenance / workflow predecessor non-totalization.
 
-Witness families for CS-005:
+First-pass common audit form:
 
-- MITRE CWE-841 behavioral workflow;
-- RFC 8446 TLS 1.3 message ordering;
-- RFC 6455 WebSocket handshake/data-transfer boundary.
+`local status != relational admissibility != temporal validity != interpretation role != path reachability/provenance != effect/result`.
+
+This is an audit schema, not a universal literal software pipeline.
+
+The five nodes are treated as convergent but non-duplicative. Detailed independence and overlap audit is in `computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md`.
 
 ## Purpose folders
 
@@ -91,12 +94,9 @@ Cross-domain recurrence is not treated as proof by analogy. Each new domain must
 
 Computer science/type/program semantics:
 
-- CS-001 / Global Case 029 complete: type/runtime/evaluation interface.
-- CS-002 / Global Case 030 complete: authentication/authorization/admission interface.
-- CS-003 / Global Case 031 complete: temporal validity transfer and stale-state interface.
-- CS-004 / Global Case 032 complete: parser/context-dependent data-versus-syntax role interface.
-- CS-005 / Global Case 033 complete: predecessor-path/reachability provenance interface.
-- CS-005 surviving audit separation: `current state/action form != source transition relation != valid successor reachability != successor state/effect != transition provenance`.
-- Formation survived the workflow pressure only after preserving its static scope: its seven-stage order is not treated as a universal runtime state machine.
-- Structural Reorganization Dynamics survived path/provenance pressure, but its lineage relations are not treated as application workflow authorization without separately supplied transition rules.
-- The next computer-science case must be selected by overlap audit rather than by extending the same workflow family.
+- CS-001~005 first-pass foundational series provisionally closed.
+- No direct contradiction with the current DSD systems was found within the stated scopes.
+- The campaign rejected multiple naive mappings, including `None=DSD undefined`, `authentication=authorization`, `past-valid=current-valid`, `parser-context=DSD role`, `workflow-step=DSD formation stage`, and `lineage=workflow authorization`.
+- Formation survived only under its static scope and explicit interpretation-map requirement.
+- Structural Reorganization Dynamics survived temporal and path/provenance counterpressure, but external identity, persistence, and workflow-admissibility rules remain application-supplied.
+- A later computer-science case should open only if overlap audit identifies a genuinely new computational interface or direct falsification pressure that cannot be reduced to the five retained nodes.
