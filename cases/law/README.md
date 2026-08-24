@@ -25,8 +25,8 @@ For responsibility-attribution analyses, the default abstract roles are function
 - `P` — attribution/prosecution function;
 - `D` — defence/counterargument function;
 - `J` — judgment function;
-- `R_E` — evidence/ground-use rule;
-- `R_L` — responsibility/decision rule.
+- `R_E` — evidence/ground-use rule family;
+- `R_L` — responsibility/decision rule family.
 
 The minimal functional skeleton is:
 
@@ -36,7 +36,7 @@ These states are not identified without an explicit rule:
 
 `event occurred != claim made != usable grounds != responsibility established != specific disposition required`.
 
-LAW-006 extends this model to rule applicability and normativity. LAW-007 separates right/power possession from exercise and effect. LAW-008 separates rule existence from final rule control after conflict analysis. LAW-009 separates responsibility/sentence from immediate authorization of an irreversible consequence. LAW-010 adds that responsibility also does not collapse sanction, victim remedy, prevention, social emotion, social cost, formal legal status, or actual practice into one `justice` output.
+LAW-002 revalidation adds an important qualification: these are **functions/interfaces, not one-office-per-function modules**. A concrete actor or institution may perform multiple functions, and one function may be distributed across several actors. LAW-006 extends the model to rule applicability and normativity. LAW-007 separates right/power possession from exercise and effect. LAW-008 separates rule existence from final rule control after conflict analysis. LAW-009 separates responsibility/sentence from immediate authorization of an irreversible consequence. LAW-010 adds that responsibility also does not collapse sanction, victim remedy, prevention, social emotion, social cost, formal legal status, or actual practice into one `justice` output.
 
 ## Human-centered and irreversibility result
 
@@ -71,7 +71,7 @@ Emotion and social cost are not dismissed as irrational or irrelevant, but they 
 | Law ID | Global case | Universal candidate | Jurisdictional / institutional witness status | Primary result class |
 |---|---:|---|---|---|
 | LAW-001 | 012 | nonformed/nonperformed act does not itself acquire affirmative/negative/opposite/invalid identity; source rules may assign nonaction consequences; unproved responsibility != proved opposite fact | **cross-jurisdiction revalidated:** UN GA, EU Council, AEC, UK Electoral Commission, UNIDROIT, ICC, ECHR, US federal jury instructions, UK CPS; Korea retained as one domestic witness | reinterpretation + coherence + predefinition / explicit-default and burden-shift audit |
-| LAW-002 | 013 | world/source/P/D/J/rules are distinct functional regimes | Korean criminal procedure is one concrete instantiation; multi-jurisdiction refresh pending | reinterpretation + coherence |
+| LAW-002 | 013 | event/reference, source/record, attribution, response/defence, evidentiary-use and adjudicative-decision functions/interfaces remain distinct where the source distinguishes them; office/function mapping is many-to-many | **cross-jurisdiction revalidated:** ICC, German StPO, ECHR Article 6, US APA; Korea retained as one domestic witness | reinterpretation + coherence + predefinition / regime-interface and office-function audit |
 | LAW-003 | 014 | person/entity != role != authority != act != attributed effect | Korean agency/representation law is one witness; multi-jurisdiction refresh pending | reinterpretation + coherence + predefinition audit |
 | LAW-004 | 015 | existence != submission != usability != probative evaluation != finding | Korean criminal/civil evidence law is one witness family; multi-jurisdiction refresh pending | reinterpretation + coherence + predefinition / regime audit |
 | LAW-005 | 016 | source-distinct formation/effect/defect/remedy/enforcement statuses must not be collapsed; defect consequence is rule-indexed | CISG, UNIDROIT Principles, UNCITRAL Model Law on Arbitration | reinterpretation + coherence + predefinition / universal-claim audit |
@@ -81,9 +81,9 @@ Emotion and social cost are not dismissed as irrational or irrelevant, but they 
 | LAW-009 | 020 | irreparability can be legally relevant to anticipatory/heightened safeguards, but no universal monotone irreversibility->safeguard theorem | HRC GC36, ECOSOC 1984/50 & 1989/64, ECHR Rule 39, ICJ provisional measures | reinterpretation + falsification + coherence / temporal-preservation audit |
 | LAW-010 | 021 | source-defined responsibility, sanction, remedy, prevention, emotion/social response, social cost, legal status and practice status must not be collapsed without a source/external rule | ICC Arts.75/77, UN reparation sources, `S v Makwanyane`, German Art.102 history, comparative death-penalty status, victim-family heterogeneity | reinterpretation + coherence + predefinition / post-responsibility and social-input audit |
 
-LAW-001 preserves its original source-specific `RESULT.md` and now also contains a completed multi-jurisdiction revalidation packet.
+LAW-001 and LAW-002 preserve their original source-specific `RESULT.md` files and now also contain completed multi-jurisdiction revalidation packets.
 
-LAW-002 through LAW-004 preserve their original source-specific results and remain scheduled for the same cross-jurisdiction falsification refresh.
+LAW-003 and LAW-004 preserve their original source-specific results and remain scheduled for the same cross-jurisdiction falsification refresh.
 
 LAW-005 through LAW-010 were executed directly under the universal-first framework.
 
@@ -97,13 +97,31 @@ The surviving rule is:
 
 **a missing/nonformed act does not itself contain the identity or value of a formed affirmative, negative, opposite or invalid act; any default, sanction, assent effect, quorum effect or other consequence assigned to nonaction must be traced to the source rule that creates it.**
 
-UN General Assembly rules distinguish presence, YES, NO and abstention. EU Council unanimity rules can make abstention non-blocking without converting it into a YES vote. Australian and UK election materials distinguish nonparticipation from formed but informal/rejected ballot objects.
+The presumption-of-innocence segment is also narrowed: failure to establish guilt/responsibility under the governing burden and threshold does not positively prove the opposite factual proposition, while source-defined subsidiary presumptions or affirmative-defence burdens may exist.
 
-The presumption-of-innocence segment is also narrowed. ICC and US sources strongly preserve accusation/proof/conviction separation, while ECHR and US affirmative-defence rules show that not every subsidiary burden must always remain on prosecution.
+## LAW-002 revalidation result
 
-The surviving responsibility claim is:
+The original `W + S + P + D + J + R_E + R_L` structure survives only as a functional/interface schema.
 
-`failure to establish guilt/responsibility under the governing burden and threshold != positive proof of the opposite factual proposition`.
+The fixed seven-office interpretation is rejected.
+
+Independent counterpressure shows:
+
+- ICC Article 54 and German StPO §160 require prosecutors to investigate incriminating and exonerating circumstances, so `prosecutor office = guilt-only P` is false;
+- German StPO §244 lets the court extend evidence-taking ex officio, so `court/J = passive evidence consumer` is false;
+- ICC Article 68(3) gives victims an independent participation route, so `victim/source = prosecution` is false;
+- ECHR Article 6 requires an independent and impartial deciding tribunal and defence rights, showing that real source-defined separation can nevertheless be mandatory;
+- US APA §§554, 556 and 557 show that one agency can house several procedural functions while source rules separate particular investigative/prosecuting and decisional personnel and distinguish evidence reception, initial decision and agency review.
+
+The surviving rule is:
+
+**preserve source-defined distinctions among event/reference, source/record, responsibility-attribution, response/defence, evidentiary usability, adjudicative finding and decision/consequence rules, but let the source system determine how those functions are separated, combined, distributed or iterated.**
+
+Thus:
+
+`office identity != function identity`;
+
+and the actor/function mapping is many-to-many.
 
 ## LAW-009 special result
 
@@ -115,15 +133,7 @@ It distinguishes historical, restorative and adjudicative irreversibility, plus 
 
 LAW-010 rejects both a one-dimensional `justice done` value and a one-dimensional `social cost` value.
 
-The selected sources independently show:
-
-- ICC punishment and reparations are separate routes;
-- reparation can include restitution, compensation, rehabilitation, satisfaction and guarantees of non-repetition;
-- victim status/redress need not universally wait for perpetrator conviction;
-- public support for capital punishment can be relevant without controlling constitutional judgment;
-- historical abuse of state killing and contemporary retributive pressure can coexist;
-- formal death-penalty retention and execution practice can diverge;
-- bereaved families do not have one mandatory punishment preference.
+The selected sources independently show punishment/reparation separation, reparation plurality, victim-status/conviction separation, public-opinion limits, historical state-abuse context, law/practice divergence, and victim-family heterogeneity.
 
 Capital punishment is a high-contrast witness, not the sole subject of LAW-010.
 
@@ -141,15 +151,15 @@ Dynamics is used only for source-defined temporal transitions such as review/fin
 
 The cross-case rule is now:
 
-**Do not infer the identity of an input from its downstream effect, and do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
+**Do not infer an input's legal/institutional identity from its downstream effect or from the title of the actor/office carrying it. Preserve source-defined interfaces, and do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one status or function into another without the source or independently justified external rule that performs that transition, transfer, combination or identification.**
 
 ## Completed primary sequence and next work
 
 LAW-001 through LAW-010 provide the first-pass legal foundation sequence.
 
-The cross-jurisdiction refresh has now been completed for LAW-001.
+The cross-jurisdiction refresh is complete for LAW-001 and LAW-002.
 
-Next priority: **LAW-002 / Global Case 013 cross-jurisdiction falsification refresh**, followed by LAW-003 and LAW-004.
+Next priority: **LAW-003 / Global Case 014 cross-jurisdiction falsification refresh**, followed by LAW-004.
 
 After that refresh, extension candidates include:
 
