@@ -1,46 +1,110 @@
 # Contradiction Audit
 
-Status: prepared; no final contradiction finding yet.
+Status: COMPLETED.
 
-## Audit targets
+## A. Direct-union homomorphism claim
 
-### A. Direct-union homomorphism claim
+Claim tested:
 
-Attempt to falsify:
+`Comp(F union G) = Comp(F) + Comp(G)` for all finite `F,G`.
 
-`Comp(F union G) = Comp(F) + Comp(G)` for all finite `F, G`.
+### Result
 
-Check overlap explicitly before any positive claim is made.
+**Falsified except in the trivial zero-term regime.**
 
-### B. DSD internal consistency
+Set `F=G={c}`. Since union is idempotent,
 
-Verify that any algebraic comparison does not silently alter:
+`F union F=F`.
 
-- channel identity,
-- the no-repetition finite-set convention,
-- undefined versus zero distinctions,
-- channel absence versus zero-valued admitted channels,
-- Stage-VI versus Stage-VII dependency order.
+A homomorphism law would force
 
-### C. Category-strength inflation
+`T(c)=2T(c)`,
 
-Reject any inference of the form:
+hence `T(c)=0` in the vector space `W_L`. Because `c` is arbitrary, all terms must vanish.
 
-- equal aggregate => equal channel family,
-- homomorphic behavior => embedding,
-- embedding => strict equivalence without reflection/surjectivity conditions,
-- equal rank or matrix size => full axis-property equivalence.
+This failure is external to DSD: the Formation Axiom System never asserts a union-monoid homomorphism.
 
-### D. Additional-encoding concealment
+## B. Disjoint finite additivity
 
-If a multiset, sequence, free monoid, quotient, or other new carrier is introduced, verify that it is marked as an extension of the comparison model rather than attributed to the original DSD axiom system.
+Claim tested:
 
-## Verdict format
+If `F intersect G=emptyset`, then
 
-For every tested claim record one of:
+`Comp(F union G)=Comp(F)+Comp(G)`.
 
-- survives audit,
-- survives only under stated restriction,
-- requires additional encoding,
-- falsified by finite counterexample,
-- undecided / source gap.
+### Result
+
+**Survives audit exactly.**
+
+The finite sums separate without overlap and no extra DSD assumption is needed.
+
+## C. Overlap correction
+
+For arbitrary finite `F,G`, the exact identity is
+
+`Comp(F)+Comp(G)=Comp(F union G)+Comp(F intersect G)`.
+
+### Result
+
+**Survives audit exactly.**
+
+This identity explains both the disjoint-additive case and the obstruction to ordinary union homomorphism.
+
+## D. DSD internal consistency
+
+Checked against:
+
+- ordinary finite-set source convention,
+- no repeated exact channel in one finite set,
+- channel identity retention,
+- absence versus zero contribution,
+- Stage-VI channel formation before Stage-VII term supply and finite composition,
+- DSD's explicit permission of non-injective composition.
+
+### Result
+
+**No DSD contradiction found.**
+
+The algebraic characterization does not alter any Formation axiom or closure clause.
+
+## E. Category-strength inflation
+
+Tested invalid inferences:
+
+- equal aggregate => equal finite channel family,
+- finite additivity => embedding,
+- embedding => strict equivalence without the required bijective/reflection structure,
+- one output equality => full structural equality.
+
+### Result
+
+**All rejected.**
+
+The Formation paper already supplies a non-injective composition witness and a composite-level-coincidence-below-strict-equivalence result.
+
+## F. Additional-encoding concealment
+
+The free commutative monoid `N^(C_L)` permits repeated multiplicity of the same exact channel and supports a genuine homomorphic extension
+
+`T_tilde(m+n)=T_tilde(m)+T_tilde(n)`.
+
+### Result
+
+**Valid only as additional encoding.**
+
+It must not be identified with the original Stage-VII domain `P_fin(C_L)`.
+
+## Final audit table
+
+| Claim | Verdict |
+|---|---|
+| `Comp` is a full union-monoid homomorphism | falsified except `T=0` |
+| `Comp` is finitely additive on disjoint finite supports | survives |
+| overlap is handled by an intersection correction term | survives |
+| free-commutative-monoid extension gives exact additive homomorphism | survives after additional encoding |
+| equal composite output implies same source support | falsified |
+| MATH-001 exposes a DSD axiom contradiction | no |
+
+## Audit conclusion
+
+MATH-001 does not refute the DSD Formation Axiom System. It sharply restricts the correct algebraic interpretation of Stage VII and rules out an over-strong union-homomorphism reading.
