@@ -34,10 +34,10 @@ Concrete offices are source-system implementations and need not map one-to-one.
 
 ## Active completed law analyses
 
-- `LAW-001 / Global Case 012` — nonaction is not automatically an opposite action, and failure to establish responsibility is not proof of the opposite factual proposition.
-- `LAW-002 / Global Case 013` — world/event reference, source information, attribution function, defence function, judgment function, evidence/ground-use rule, and decision rule are distinct regimes.
-- `LAW-003 / Global Case 014` — underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical.
-- `LAW-004 / Global Case 015` — evidence/information existence, submission, legal usability, probative evaluation, and finding are not automatically identical.
+- `LAW-001 / Global Case 012` — **cross-jurisdiction revalidated**. A nonformed/nonperformed act does not itself acquire affirmative, negative, opposite, invalid, or otherwise formed identity. Source rules may assign nonaction defaults, sanctions, assent effects, quorum effects, or other consequences. Failure to establish responsibility under the governing burden/threshold is not positive proof of the opposite fact.
+- `LAW-002 / Global Case 013` — world/event reference, source information, attribution function, defence function, judgment function, evidence/ground-use rule, and decision rule are distinct regimes; multi-jurisdiction refresh pending.
+- `LAW-003 / Global Case 014` — underlying person/entity, operative role, authority, act, and attributed effect are not automatically identical; refresh pending.
+- `LAW-004 / Global Case 015` — evidence/information existence, submission, legal usability, probative evaluation, and finding are not automatically identical; refresh pending.
 - `LAW-005 / Global Case 016` — formation/effect/defect/remedy/enforcement statuses are source-rule indexed; defect does not determine one universal invalidity consequence.
 - `LAW-006 / Global Case 017` — possibility, rule applicability, obligation, permission, prohibition, exception/exemption, derogation, and consequence are rule/context indexed; a four-value deontic enum was rejected.
 - `LAW-007 / Global Case 018` — recognized status/right/power is separated from present exercisability, exercise, enforcement, and downstream effect whenever the source makes those distinctions.
@@ -45,15 +45,43 @@ Concrete offices are source-system implementations and need not map one-to-one.
 - `LAW-009 / Global Case 020` — the strong theorem `greater irreversibility -> universally stronger safeguards` is rejected; a narrower irreparability-relevance candidate survives under source-defined conditions.
 - `LAW-010 / Global Case 021` — responsibility, sanction, victim remedy, rehabilitation, prevention/non-repetition, emotion/social response, institutional/social cost, formal legal status, and practical use remain source-sensitive coordinates; a rigid universal taxonomy and one-dimensional social-cost/justice value are rejected.
 
+## LAW-001 cross-jurisdiction revalidation
+
+Independent witness families now include:
+
+- UN General Assembly Rules of Procedure;
+- EU Council/TFEU abstention rule;
+- Australian Electoral Commission turnout, informality, and compulsory-voting rules;
+- UK Electoral Commission rejected-ballot rules;
+- UNIDROIT silence/inactivity rules and source-defined practice/usage exceptions;
+- ICC Rome Statute Article 66;
+- ECHR presumption-of-innocence doctrine and bounded-presumption counterpressure;
+- US Ninth Circuit criminal jury instructions and source-defined affirmative-defence burdens;
+- UK CPS explanation of not-guilty/acquittal proof-threshold meaning.
+
+The revalidation rejects:
+
+- `nonaction never has consequences`;
+- `silence can never have assent effect`;
+- `presumption of innocence means every burden on every criminal issue always lies on prosecution`.
+
+The surviving cross-system rule is narrower:
+
+**do not infer an input's identity from its downstream effect. A missing/nonformed act does not itself contain a YES, NO, invalid, assent, opposition, or other formed value; if nonaction receives a default or legal consequence, that consequence must be traced to the source rule that creates it.**
+
+For responsibility attribution:
+
+`failure to establish guilt/responsibility under the governing burden and threshold != positive proof of the opposite factual proposition`.
+
 ## Cross-case law result
 
 The recurring candidate rule is now:
 
-**Do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
+**Do not infer the identity of an input from its downstream effect, and do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
 
 This includes:
 
-- nonaction does not become opposite action by default;
+- nonaction can receive a source-defined consequence without becoming an opposite/affirmative formed action;
 - one missing proof result does not become the opposite positive proposition;
 - one person/relation does not automatically generate authority/effect;
 - evidence existence/submission does not generate usability/finding automatically;
@@ -80,18 +108,22 @@ South African `S v Makwanyane` shows public death-penalty support can be relevan
 
 ## Generalization status
 
-LAW-001 through LAW-004 remain universal candidates under active falsification and are next in line for a multi-jurisdiction refresh.
+LAW-001 is now `cross-jurisdictionally corroborated; narrowed under explicit-default and burden-shift counterpressure; active falsification remains open`.
+
+LAW-002 through LAW-004 remain universal candidates under active falsification and are next in line for the same refresh.
 
 LAW-005 through LAW-010 were executed directly under the universal-first workflow. Universal proof is not claimed; counterexample search remains open.
 
-LAW-009 and LAW-010 are especially important falsification cases:
+LAW-009 and LAW-010 remain especially important falsification cases:
 
 - LAW-009 rejects the strong monotone irreversibility theorem while retaining a narrower candidate;
 - LAW-010 rejects a rigid universal punishment/remedy taxonomy while retaining a source-sensitive non-totalization rule.
 
 ## Next analysis priority
 
-Before opening another new legal cluster, refresh `LAW-001` through `LAW-004` under the universal-first, multi-jurisdiction workflow.
+`LAW-002 / Global Case 013` cross-jurisdiction falsification refresh.
+
+Then LAW-003 and LAW-004.
 
 Required order:
 
@@ -109,6 +141,7 @@ Required order:
 8. If rules conflict, does the source itself provide the relation or is the application silently repairing it?
 9. If irreparability is invoked, does the source connect it to the safeguard or is that connection imported by the analyst?
 10. If emotion or social cost is invoked, what source/institutional rule converts that input into a legal/political outcome?
+11. If nonaction has a consequence, what explicit rule assigns that consequence, and does the rule alter downstream effect only or also the source-defined identity of the act?
 
 ## Rule
 
