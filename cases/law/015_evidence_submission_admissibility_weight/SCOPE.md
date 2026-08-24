@@ -1,27 +1,66 @@
 # LAW-004 Scope Reclassification
 
-Status: active scope note; original RESULT preserved.
+Status: cross-jurisdiction revalidation complete; original RESULT preserved.
 
 ## Universal structural claim
 
-The primary candidate is:
+The earlier shorthand
 
-`information/evidence existence != submission != decision-regime usability != probative evaluation != final factual finding`.
+`information/evidence existence != submission != decision-regime usability != probative evaluation != final factual finding`
 
-A source item or information state should not be promoted into a later legal status without the rule that performs the promotion.
+is retained only as a non-identity reminder, not as a mandatory universal five-stage pipeline.
 
-## Jurisdictional witness
+The surviving candidate is:
 
-The Korean criminal/civil evidence rules and Supreme Court materials used in LAW-004 are jurisdictional witnesses showing concrete implementations of these separations and of regime-sensitive admissibility.
+**when a source regime distinguishes source/material existence, production/acquisition, relevance, legal-use or exclusion status, evaluative/probative status, proof-free or substitute routes, and final factual determination, preserve those source-defined distinctions and interfaces. Do not infer one downstream state from another without the source rule or route that creates, blocks, limits, or substitutes for it.**
 
-They are not treated as proof that every legal system uses the same admissibility doctrines, exclusionary rules, or proof standards.
+## Counterpressure accepted
+
+The fixed linear pipeline is rejected because independent systems permit routes such as:
+
+- judicial notice / facts not requiring ordinary proof;
+- admissions that remove the need for proof;
+- court-initiated inspection or expert evidence;
+- exclusion of evidence that is relevant or otherwise admissible;
+- national variation in admissibility and weight doctrines;
+- source-defined presumptions or other substitute proof routes.
+
+Therefore:
+
+`no party-submitted evidence != factual state necessarily unavailable`.
+
+And:
+
+`relevant/admissible != actually used != fact proved`.
+
+## Jurisdictional / institutional witnesses
+
+Cross-jurisdiction refresh uses:
+
+- US Federal Rules of Evidence / federal judicial notice;
+- German ZPO §§144, 286, 288, 291;
+- England and Wales CPR Part 32;
+- ECHR Article 6 evidentiary/fairness doctrine;
+- Korean criminal/civil evidence law retained as the original domestic witness.
 
 ## Generalization status
 
-`universal candidate under active falsification`.
-
-The structural separation is the cross-jurisdictional candidate; Korean criminal and civil law are two related implementations within one jurisdiction and therefore do not by themselves count as independent cross-jurisdictional corroboration.
+**`cross-jurisdictionally corroborated source-indexed evidence/fact-interface non-totalization candidate; fixed five-stage pipeline falsified; active falsification remains open`.**
 
 ## DSD status
 
-The original result is preserved: Formation can preserve the stage/status distinctions under a typed evidence-use instance. Static Aggregation is not identified with legal probative weight or fact-finding without a separate mathematical bridge.
+Formation remains useful as a typed preservation discipline after explicit application encoding.
+
+Do not identify:
+
+- legal admissibility with Formation admission;
+- inadmissibility with channel absence;
+- judicial notice with DSD-side predefinition of truth;
+- legal probative value with Static Aggregation weight;
+- factual finding with a DSD aggregate.
+
+Axis-Property is not required.
+
+Static Aggregation is not required.
+
+Dynamics is optional only for explicit procedural-time transitions.
