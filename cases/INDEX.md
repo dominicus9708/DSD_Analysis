@@ -32,6 +32,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | falsification / coherence / predefinition / instruction-interface audit — **first-pass cross-domain complete** |
 | 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | falsification / coherence / predefinition / multi-authority audit — **first-pass cross-domain complete** |
 | 028 | finite subsets, partial/disjoint composition, finite additivity, and DSD Stage-VII aggregation | coherence / reinterpretation | falsification of over-strong algebraic identification / aggregation-boundary audit — **first-pass mathematics complete** |
+| 029 | quotient sets, kernel criteria, congruence failure, support retention, and aggregate information loss | coherence / reinterpretation | falsification of over-strong quotient identification / reconstruction-boundary audit — **first-pass mathematics complete** |
 
 ## Domain folders
 
@@ -40,21 +41,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, and operational decision structures
 - `mathematics/` — standard mathematical structures, algebra, structure-preserving maps, quotients, invariants, decomposition, aggregation, and reconstruction boundaries
 
-The law-domain foundation and sequence are documented in:
-
-- `law/FOUNDATIONAL_FRAMEWORK.md`
-- `law/LAW_001_010_CROSS_CASE_SYNTHESIS.md`
-- `law/LAW_001_014_FINAL_SYNTHESIS.md`
-- `law/README.md`
-
-The administration/organization sequence is documented in:
-
-- `administration/README.md`
-
-The mathematics/algebra sequence is documented in:
-
-- `mathematics/README.md`
-- `mathematics/028_finite_subsets_partial_operations_composition/README.md`
+The mathematics/algebra sequence is documented in `mathematics/README.md`.
 
 ## Cross-domain status
 
@@ -62,17 +49,10 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 
 Administration/organization status: **opened**.
 
-Mathematics/algebra status: **opened; MATH-001 first-pass complete**.
+Mathematics/algebra status: **opened; MATH-001 and MATH-002 first-pass complete**.
 
-- ADMIN-001 / Global Case 026: `cross-domain corroborated instruction-interface non-totalization candidate; universal detail/clarity monotonicity, issue=understand, acknowledgement=understanding, discretion=defect, and outcome-back-inference models rejected; active falsification remains open`.
-- ADMIN-002 / Global Case 027: `cross-domain corroborated multi-authority/delegation non-totalization candidate; rank=authority, delegated authority=delegated responsibility, one-organization=one-authority-chain, dissent=disobedience, transfer=state deletion, and review=execution identity models rejected; active falsification remains open`.
 - MATH-001 / Global Case 028: `Stage-VII finite composition is finitely additive on disjoint finite channel supports; full union-monoid homomorphism fails except for the zero-term map; free-commutative-monoid linearization requires explicit additional multiplicity encoding; no DSD contradiction found`.
-
-Witness families:
-
-- ADMIN-001: U.S. Army mission command; FAA ATC acknowledgement/readback/clarification; FEMA/NIMS ICS.
-- ADMIN-002: U.S. Army ADP 6-0 delegation; FEMA/NIMS delegation/transfer of command; NASA Programmatic/Technical Authority, independent review, risk acceptance, and dissent escalation.
-- MATH-001: one-channel idempotence obstruction; two-channel disjoint-additivity witness; Formation-paper three-channel non-injective-composition witness; free-commutative-monoid multiplicity boundary.
+- MATH-002 / Global Case 029: `fixed-support aggregation uses ordinary linear kernel/quotient theory; equal aggregate values on varying finite supports define an equivalence relation but not generally a union congruence; free additive linearization restores exact kernel language only as additional encoding; zero-padding is not support-faithful; no DSD contradiction found`.
 
 ## Purpose folders
 
@@ -102,4 +82,5 @@ Administration/organization:
 Mathematics/algebra:
 
 - MATH-001 finite subsets / disjoint finite additivity / Stage-VII aggregation analysis complete.
-- Next candidate: MATH-002 quotient structures, kernels, and aggregate information loss.
+- MATH-002 quotient structures / kernels / aggregate information loss analysis complete.
+- Next candidate: MATH-003 same carrier with different algebraic or bilinear structures.
