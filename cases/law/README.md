@@ -70,10 +70,10 @@ Emotion and social cost are not dismissed as irrational or irrelevant, but they 
 
 | Law ID | Global case | Universal candidate | Jurisdictional / institutional witness status | Primary result class |
 |---|---:|---|---|---|
-| LAW-001 | 012 | nonaction != opposite action; unproved responsibility != proved opposite fact | parliamentary + presumption witnesses; Korea is one domestic witness | reinterpretation + coherence |
-| LAW-002 | 013 | world/source/P/D/J/rules are distinct functional regimes | Korean criminal procedure is one concrete instantiation | reinterpretation + coherence |
-| LAW-003 | 014 | person/entity != role != authority != act != attributed effect | Korean agency/representation law is one witness | reinterpretation + coherence + predefinition audit |
-| LAW-004 | 015 | existence != submission != usability != probative evaluation != finding | Korean criminal/civil evidence law is one witness family | reinterpretation + coherence + predefinition / regime audit |
+| LAW-001 | 012 | nonformed/nonperformed act does not itself acquire affirmative/negative/opposite/invalid identity; source rules may assign nonaction consequences; unproved responsibility != proved opposite fact | **cross-jurisdiction revalidated:** UN GA, EU Council, AEC, UK Electoral Commission, UNIDROIT, ICC, ECHR, US federal jury instructions, UK CPS; Korea retained as one domestic witness | reinterpretation + coherence + predefinition / explicit-default and burden-shift audit |
+| LAW-002 | 013 | world/source/P/D/J/rules are distinct functional regimes | Korean criminal procedure is one concrete instantiation; multi-jurisdiction refresh pending | reinterpretation + coherence |
+| LAW-003 | 014 | person/entity != role != authority != act != attributed effect | Korean agency/representation law is one witness; multi-jurisdiction refresh pending | reinterpretation + coherence + predefinition audit |
+| LAW-004 | 015 | existence != submission != usability != probative evaluation != finding | Korean criminal/civil evidence law is one witness family; multi-jurisdiction refresh pending | reinterpretation + coherence + predefinition / regime audit |
 | LAW-005 | 016 | source-distinct formation/effect/defect/remedy/enforcement statuses must not be collapsed; defect consequence is rule-indexed | CISG, UNIDROIT Principles, UNCITRAL Model Law on Arbitration | reinterpretation + coherence + predefinition / universal-claim audit |
 | LAW-006 | 017 | normative status is rule/context indexed; possibility/applicability/obligation/permission/prohibition/exception-exemption must not be collapsed | ILO C029, ICCPR/HRC, UNIDROIT public-permission rules, deontic-logic counterpressure | reinterpretation + coherence + predefinition / rule-scope audit |
 | LAW-007 | 018 | recognized status/right/power != present exercisability != exercise event != downstream effect unless the source rule identifies them | CRPD Article 12/GC1, UNIDROIT rights/limitation/termination rules, VCLT Articles 6-8 | reinterpretation + coherence + predefinition / status-power audit |
@@ -81,9 +81,29 @@ Emotion and social cost are not dismissed as irrational or irrelevant, but they 
 | LAW-009 | 020 | irreparability can be legally relevant to anticipatory/heightened safeguards, but no universal monotone irreversibility->safeguard theorem | HRC GC36, ECOSOC 1984/50 & 1989/64, ECHR Rule 39, ICJ provisional measures | reinterpretation + falsification + coherence / temporal-preservation audit |
 | LAW-010 | 021 | source-defined responsibility, sanction, remedy, prevention, emotion/social response, social cost, legal status and practice status must not be collapsed without a source/external rule | ICC Arts.75/77, UN reparation sources, `S v Makwanyane`, German Art.102 history, comparative death-penalty status, victim-family heterogeneity | reinterpretation + coherence + predefinition / post-responsibility and social-input audit |
 
-LAW-001 through LAW-004 preserve their original source-specific results and are scheduled for a cross-jurisdiction falsification refresh.
+LAW-001 preserves its original source-specific `RESULT.md` and now also contains a completed multi-jurisdiction revalidation packet.
+
+LAW-002 through LAW-004 preserve their original source-specific results and remain scheduled for the same cross-jurisdiction falsification refresh.
 
 LAW-005 through LAW-010 were executed directly under the universal-first framework.
+
+## LAW-001 revalidation result
+
+The original phrase `nonaction != opposite action` survives only as an identity/non-totalization claim.
+
+The stronger claim `nonaction never has consequences` is false. Australian compulsory voting can sanction failure to vote, and UNIDROIT permits agreement/practice/usage to make silence legally operative in context.
+
+The surviving rule is:
+
+**a missing/nonformed act does not itself contain the identity or value of a formed affirmative, negative, opposite or invalid act; any default, sanction, assent effect, quorum effect or other consequence assigned to nonaction must be traced to the source rule that creates it.**
+
+UN General Assembly rules distinguish presence, YES, NO and abstention. EU Council unanimity rules can make abstention non-blocking without converting it into a YES vote. Australian and UK election materials distinguish nonparticipation from formed but informal/rejected ballot objects.
+
+The presumption-of-innocence segment is also narrowed. ICC and US sources strongly preserve accusation/proof/conviction separation, while ECHR and US affirmative-defence rules show that not every subsidiary burden must always remain on prosecution.
+
+The surviving responsibility claim is:
+
+`failure to establish guilt/responsibility under the governing burden and threshold != positive proof of the opposite factual proposition`.
 
 ## LAW-009 special result
 
@@ -121,13 +141,15 @@ Dynamics is used only for source-defined temporal transitions such as review/fin
 
 The cross-case rule is now:
 
-**Do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
+**Do not infer the identity of an input from its downstream effect, and do not promote, demote, activate, suspend, preserve, attribute, resolve, aggregate, or globally normalize one legal or institutional status, rule relation, review state, time-dependent consequence, social response, social-cost coordinate, formal legal status, or practical-use status into another without the source or independently justified external rule that performs that transition or identification.**
 
 ## Completed primary sequence and next work
 
-LAW-001 through LAW-010 now provide a first-pass legal foundation sequence.
+LAW-001 through LAW-010 provide the first-pass legal foundation sequence.
 
-Before opening another broad doctrinal series, the next priority is to revisit LAW-001 through LAW-004 with the same universal-first, multi-jurisdiction counterpressure used for LAW-005 onward.
+The cross-jurisdiction refresh has now been completed for LAW-001.
+
+Next priority: **LAW-002 / Global Case 013 cross-jurisdiction falsification refresh**, followed by LAW-003 and LAW-004.
 
 After that refresh, extension candidates include:
 
