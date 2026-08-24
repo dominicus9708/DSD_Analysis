@@ -35,25 +35,14 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 029 | static typing, construction, runtime validity, operation applicability, evaluation, result | reinterpretation | falsification / coherence / predefinition / operational-semantics audit — **first-pass cross-subfield complete** |
 | 030 | authentication, authorization, scoped privilege/credential, admission, execution/effect | reinterpretation | falsification / coherence / predefinition / access-control audit — **first-pass cross-subfield complete** |
 | 031 | check-time/use-time state change, stale validation, version/identity preservation, concurrent effect | reinterpretation | falsification / coherence / temporal-state / lineage audit — **first-pass cross-subfield complete** |
+| 032 | upstream data/value, downstream parser context, binding/encoding, parsed role, effect | reinterpretation | falsification / coherence / parser-context / role-boundary audit — **first-pass cross-subfield complete** |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
 - `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, legal temporality, collective decisions, and decision structures
 - `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, revision, and operational decision structures
-- `computer_science/` — type systems, program semantics, runtime state, formal specification, software verification, access control, concurrency/stale-state validation, and security-oriented structural failure cases
-
-The law-domain foundation and sequence are documented in:
-
-- `law/FOUNDATIONAL_FRAMEWORK.md`
-- `law/LAW_001_010_CROSS_CASE_SYNTHESIS.md`
-- `law/LAW_001_014_FINAL_SYNTHESIS.md`
-- `law/README.md`
-
-The administration/organization sequence is documented in:
-
-- `administration/README.md`
-- `administration/ADMIN_001_003_FOUNDATIONAL_SYNTHESIS.md`
+- `computer_science/` — type systems, program semantics, runtime state, formal specification, software verification, access control, concurrency/stale-state validation, parser/data-directive boundaries, and security-oriented structural failure cases
 
 The computer-science sequence is documented in:
 
@@ -61,6 +50,7 @@ The computer-science sequence is documented in:
 - `computer_science/029_type_construction_runtime_validity/`
 - `computer_science/030_authentication_authorization_execution/`
 - `computer_science/031_toctou_state_change/`
+- `computer_science/032_data_syntax_reinterpretation/`
 
 ## Cross-domain status
 
@@ -68,18 +58,20 @@ Legal foundation status: **closed for prerequisite cross-domain testing; falsifi
 
 Administration/organization foundation status: **ADMIN-001~003 first foundational series provisionally closed; active falsification and specialized extensions remain open**.
 
-Computer science/type/program-semantics status: **CS-001~003 / Global Cases 029~031 first-pass analyses complete; broader campaign remains open**.
+Computer science/type/program-semantics status: **CS-001~004 / Global Cases 029~032 first-pass analyses complete; broader campaign remains open**.
 
-- CS-001 / Global Case 029: `cross-subfield computational non-totalization candidate; well-typed=terminating, declared=applicable, type-correct=normal-return, None/error=undefined, runtime-failure=typing-failure, and same-output=same-history models rejected; active falsification remains open`.
-- CS-002 / Global Case 030: `cross-subfield access-control non-totalization candidate; authentication=authorization, identity=permission, valid-token=universal-access, authorization=admission/effect, denial=authentication-failure, and same-principal=same-permission models rejected; active falsification remains open`.
-- CS-003 / Global Case 031: `cross-subfield temporal-validity candidate; past-valid=current-valid, same-name=same-state/identity, check-success=use-success, later-failure=bad-earlier-check, static-validation=TOCTOU-solution, and all-change=smooth-one-object-evolution models rejected; active falsification remains open`.
+- CS-001 / Global Case 029: type/runtime/evaluation non-totalization; active falsification remains open.
+- CS-002 / Global Case 030: authentication/authorization/admission non-totalization; active falsification remains open.
+- CS-003 / Global Case 031: temporal-validity transfer/stale-state non-totalization; active falsification remains open.
+- CS-004 / Global Case 032: `same-value=same-role`, `input-valid=downstream-syntax-safe`, `same-string=same-parser-meaning`, and `reinterpretation=upstream-undefined` models rejected; active falsification remains open.
 
-Witness families for CS-003:
+Witness families for CS-004:
 
-- MITRE CWE-367;
-- SEI CERT POS35-C;
-- RFC 9110 conditional requests;
-- PostgreSQL concurrency control and Serializable retry discipline.
+- MITRE CWE-89 data/directive boundary;
+- OWASP SQL parameterization and XSS context-sensitive output handling;
+- Python sqlite3 bound parameters;
+- MDN textContent versus innerHTML;
+- Python subprocess argument/shell boundary.
 
 ## Purpose folders
 
@@ -101,6 +93,7 @@ Computer science/type/program semantics:
 - CS-001 / Global Case 029 complete: type/runtime/evaluation interface.
 - CS-002 / Global Case 030 complete: authentication/authorization/admission interface.
 - CS-003 / Global Case 031 complete: temporal validity transfer and stale-state interface.
-- CS-003 surviving audit separation: `check-time condition != cross-time preservation relation != use-time condition != operation admission != committed/effective result`.
-- Structural Reorganization Dynamics survived the first direct temporal counterpressure, but the analysis rejects inferring source-domain lineage, persistence, or object identity from labels or temporal succession alone.
-- The next strongest independent candidates are data/syntax reinterpretation and illegal downstream state reachability; both require overlap audit before opening.
+- CS-004 / Global Case 032 complete: parser/context-dependent data-versus-syntax role interface.
+- CS-004 surviving audit separation: `upstream value/data status != downstream grammar/context != binding/encoding relation != parsed role != operation/effect`.
+- Formation survived the parser/context pressure, but the analysis rejects inferring a stable DSD operational role from external value equality alone.
+- The next strongest independent candidate is state-machine transition bypass / illegal downstream reachability; it requires overlap audit before opening.
