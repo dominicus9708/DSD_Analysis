@@ -31,12 +31,13 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 025 | collective decision formation, voting, quorum, thresholds, veto/blocking, institutional attribution | reinterpretation | falsification / coherence / predefinition / collective-decision audit — **first-pass cross-jurisdiction complete** |
 | 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | falsification / coherence / predefinition / instruction-interface audit — **first-pass cross-domain complete** |
 | 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | falsification / coherence / predefinition / multi-authority audit — **first-pass cross-domain complete** |
+| 028 | review, revision, reopening, resumption, error correction, implementation, verification, closure | reinterpretation | falsification / coherence / predefinition / revision-lineage audit — **first-pass cross-domain complete** |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
 - `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, legal temporality, collective decisions, and decision structures
-- `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, and operational decision structures
+- `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, revision, and operational decision structures
 
 The law-domain foundation and sequence are documented in:
 
@@ -57,11 +58,13 @@ Administration/organization status: **opened**.
 
 - ADMIN-001 / Global Case 026: `cross-domain corroborated instruction-interface non-totalization candidate; universal detail/clarity monotonicity, issue=understand, acknowledgement=understanding, discretion=defect, and outcome-back-inference models rejected; active falsification remains open`.
 - ADMIN-002 / Global Case 027: `cross-domain corroborated multi-authority/delegation non-totalization candidate; rank=authority, delegated authority=delegated responsibility, one-organization=one-authority-chain, dissent=disobedience, transfer=state deletion, and review=execution identity models rejected; active falsification remains open`.
+- ADMIN-003 / Global Case 028: `cross-domain corroborated revision/lineage non-totalization candidate; approval=immutability, revision=total replacement, correction=change, problem discovery=authorization, review=implementation, implementation=verification/closure, resumption=unchanged continuation, and same-outcome=same-history identity models rejected; active falsification remains open`.
 
 Witness families:
 
 - ADMIN-001: U.S. Army mission command; FAA ATC acknowledgement/readback/clarification; FEMA/NIMS ICS.
 - ADMIN-002: U.S. Army ADP 6-0 delegation; FEMA/NIMS delegation/transfer of command; NASA Programmatic/Technical Authority, independent review, risk acceptance, and dissent escalation.
+- ADMIN-003: U.S. Army FRAGORD modification; FAA amended-clearance/correction/resumption procedures; FEMA Incident Action Planning execute/evaluate/revise cycle; NASA configuration/change control and corrective-action process.
 
 ## Purpose folders
 
@@ -86,4 +89,5 @@ Administration/organization:
 
 - ADMIN-001 instruction/interpretation/execution analysis complete.
 - ADMIN-002 delegation/escalation/multi-authority analysis complete.
-- Next candidate: ADMIN-003 review, revision, reopening, and organizational error correction under changing information.
+- ADMIN-003 review/revision/error-correction/lineage analysis complete.
+- A fourth administration case remains optional and should be opened only if it adds an independent interface rather than repeating ADMIN-001~003.
