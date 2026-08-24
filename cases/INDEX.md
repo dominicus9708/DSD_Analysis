@@ -26,11 +26,12 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 020 | irreversibility, irreparable harm, uncertainty, finality, and procedural safeguards | reinterpretation | falsification / coherence / predefinition / temporal-preservation analysis — completed |
 | 021 | responsibility, sanction, victim recovery, emotion, social cost, legal/practice status | reinterpretation | coherence / predefinition / post-responsibility / social-input analysis — completed |
 | 022 | investigation, historical-event reconstruction, witness/trace provenance, source dependence | reinterpretation | falsification / coherence / predefinition / investigative-epistemic audit — **first-pass cross-jurisdiction complete** |
+| 023 | distributed responsibility, command/superior control, individual liability, State attribution | reinterpretation | falsification / coherence / predefinition / distributed-responsibility audit — **first-pass cross-jurisdiction complete** |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
-- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, and decision structures
+- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, and decision structures
 
 The law-domain foundation and sequence are documented in:
 
@@ -44,7 +45,7 @@ LAW-001 through LAW-004 began as source-specific first passes and have completed
 
 LAW-005 through LAW-010 were executed directly under the universal-first workflow.
 
-LAW-011 / Global Case 022 is the first extension after the LAW-001 through LAW-010 cross-case synthesis.
+LAW-011 and LAW-012 are extension cases after the LAW-001 through LAW-010 cross-case synthesis.
 
 Current generalization status:
 
@@ -58,7 +59,8 @@ Current generalization status:
 - LAW-008: `source-sensitive rule-conflict candidate supported by VCLT, UN Charter and ILC structures; no universal resolution algorithm claimed`;
 - LAW-009: `strong monotone irreversibility->safeguard theorem falsified; narrower irreparability-relevance candidate survives`;
 - LAW-010: `rigid universal doctrinal taxonomy rejected; source-sensitive non-totalization of responsibility, sanction, remedy, prevention, emotion/social response, social cost, formal status and practical use supported by multiple independent witness families`;
-- LAW-011: `cross-jurisdictionally and cross-disciplinary corroborated investigative-epistemic non-collapse candidate; literal geometric triangulation, source-count independence, witness-memory ground-truth, and monotone-intersection models rejected; active falsification remains open`.
+- LAW-011: `cross-jurisdictionally and cross-disciplinary corroborated investigative-epistemic non-collapse candidate; literal geometric triangulation, source-count independence, witness-memory ground-truth, and monotone-intersection models rejected; active falsification remains open`;
+- LAW-012: `cross-jurisdictionally corroborated distributed-responsibility non-totalization candidate; formal-rank transfer, automatic upward guilt, individual/State-responsibility identity, ultra-vires non-attribution, and additive collective-responsibility models rejected; active falsification remains open`.
 
 ## LAW-011 witness families
 
@@ -66,6 +68,12 @@ Current generalization status:
 - UK College of Policing evidence-based guidance on non-leading questioning, source confusion, co-witness information exposure and uncertainty;
 - US National Institute of Justice crime-scene preservation/contamination guidance;
 - German StPO §160 duty to investigate incriminating and exonerating circumstances and preserve evidence at risk of loss.
+
+## LAW-012 witness families
+
+- ICTY command-responsibility jurisprudence on effective control, including Hadžihasanović/Kubura, Čelebići, Blaškić and Halilović;
+- ICC materials distinguishing direct/joint/through-another commission, ordering and command-responsibility modes;
+- ILC Articles on State Responsibility Arts. 4, 7, 8 and 58 distinguishing State attribution from individual responsibility.
 
 ## Purpose folders
 
@@ -87,6 +95,9 @@ Completed:
 - LAW-001 through LAW-010 initial foundation sequence;
 - LAW-001 through LAW-004 cross-jurisdiction revalidation;
 - LAW-001 through LAW-010 first cross-case synthesis;
-- LAW-011 first-pass investigative-reconstruction analysis.
+- LAW-011 first-pass investigative-reconstruction analysis;
+- LAW-012 first-pass distributed-responsibility analysis.
 
-LAW-011 adds a new boundary: `report count != independent-information count`, and investigative updating must not be identified with a mandatory monotone Formation stage chain.
+LAW-011 adds `report count != independent-information count` and non-monotonic reconstruction.
+
+LAW-012 adds `same event != same responsibility basis` and forbids automatic responsibility transfer through hierarchy, office, organization or State connection without source rules.
