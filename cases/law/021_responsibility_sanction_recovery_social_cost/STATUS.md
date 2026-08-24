@@ -1,0 +1,23 @@
+# LAW-010 Status
+
+- Law ID: LAW-010
+- Global case: 021
+- Topic: responsibility, sanction, victim recovery, emotion, social cost, and death-penalty policy status
+- Branch: `analysis/law-010-sanction-recovery-social-cost`
+- First-pass universal analysis: completed
+- Strong rigid taxonomy: rejected as too strong
+- Surviving candidate: source-defined responsibility, sanction, reparation, rehabilitation, prevention, social-emotional input, institutional/social cost, legal status and practice status must not be collapsed without a source/external rule
+- ICC punishment/reparation witness: strong
+- UN reparation-plurality witness: strong
+- Victim-status/conviction separation witness: strong in selected UN source
+- Public-opinion/non-decisiveness witness: strong in `S v Makwanyane`
+- Historical state-abuse context witness: strong in German Article 102 history
+- Law/practice death-penalty distinction: strongly supported comparatively
+- Victim-family heterogeneity: supported
+- Direct contradiction with Formation: none found
+- Dynamics mapping: useful for temporal policy/recovery transitions after explicit source encoding
+- Static Aggregation required: no
+- Axis-Property required: no
+- Active falsification: open
+- Main result: responsibility/punishment/reparation/social response/social cost are non-totalized source-sensitive coordinates; no DSD punishment-choice formula
+- Next planned work: cross-jurisdiction falsification refresh for LAW-001 through LAW-004 before opening another new doctrinal sequence
