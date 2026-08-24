@@ -1,0 +1,14 @@
+Wide nullable projection:
+(1, 'A', 0.0)
+(2, 'A', None)
+(3, 'B', None)
+(4, 'A', 7.0)
+
+Layered status projection:
+(1, 'A', 1, 1, 0.0)
+(2, 'A', 1, 0, None)
+(3, 'B', 0, 0, None)
+(4, 'A', 1, 1, 7.0)
+
+Counts (declared kinds, applicable, assigned, defined zero):
+(1, 3, 2, 1)
