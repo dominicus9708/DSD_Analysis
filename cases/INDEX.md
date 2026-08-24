@@ -16,7 +16,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 010 | integrated Formation + Axis countermodel search | falsification | coherence |
 | 011 | Formation partiality, typing, and closure coherence | coherence | predefinition audit |
 | 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition / explicit-default / burden-shift audit — **cross-jurisdiction revalidated** |
-| 013 | responsibility-attribution multi-regime describability | reinterpretation | coherence / predefinition / regime-boundary analysis — refresh pending |
+| 013 | responsibility-attribution multi-regime describability | reinterpretation | coherence / predefinition / regime-interface / office-function audit — **cross-jurisdiction revalidated** |
 | 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-regime boundary — refresh pending |
 | 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | coherence / predefinition / regime boundary — refresh pending |
 | 016 | procedural formation, validity, defect consequence, effect, recognition/enforcement | reinterpretation | coherence / predefinition / universal-claim falsification — completed |
@@ -45,14 +45,15 @@ LAW cases are read at two levels:
 
 LAW-001 through LAW-004 began as source-specific first passes.
 
-LAW-001 has now completed the universal-first, multi-jurisdiction falsification refresh. LAW-002 through LAW-004 remain pending.
+LAW-001 and LAW-002 have now completed the universal-first, multi-jurisdiction falsification refresh. LAW-003 and LAW-004 remain pending.
 
 LAW-005 through LAW-010 were executed directly under the universal-first workflow.
 
 Current generalization status:
 
 - LAW-001: `cross-jurisdictionally corroborated universal non-totalization candidate; narrowed under explicit-default and burden-shift counterpressure; active falsification remains open`;
-- LAW-002 through LAW-004: `universal candidates under active falsification; multi-jurisdiction refresh pending`;
+- LAW-002: `cross-jurisdictionally corroborated functional-interface candidate; fixed office/module taxonomy rejected; many-to-many actor/function allocation and source-indexed separation/fusion retained; active falsification remains open`;
+- LAW-003 through LAW-004: `universal candidates under active falsification; multi-jurisdiction refresh pending`;
 - LAW-005: `universal candidate supported by multiple independent witness families; active falsification remains open`;
 - LAW-006: `rule-indexed normative-status candidate supported by multiple independent witness families and narrowed under deontic-logic counterpressure`;
 - LAW-007: `source-sensitive status/capacity/power candidate supported by CRPD, UNIDROIT and VCLT witness families and narrowed under vocabulary counterpressure`;
@@ -72,6 +73,13 @@ Current generalization status:
 - US Ninth Circuit criminal jury instructions and affirmative-defence burdens;
 - UK CPS explanation of acquittal/not-guilty proof-threshold meaning.
 
+## LAW-002 revalidation witness families
+
+- ICC Rome Statute Articles 54, 67-69: Prosecutor truth-seeking/exculpatory duties, accused rights, victim participation, evidence/Chamber structure;
+- German StPO §§160 and 244: prosecution must investigate incriminating and exonerating circumstances; court takes relevant evidence ex officio;
+- ECHR Article 6: independent/impartial deciding tribunal and defence rights, with prosecution as a party rather than the deciding tribunal;
+- US APA 5 U.S.C. §§554, 556, 557: source-defined separation of investigative/prosecuting and decisional personnel plus layered evidence reception and agency review.
+
 ## Purpose folders
 
 - `../campaigns/falsification/`
@@ -87,4 +95,4 @@ For legal cases, source-specific completion and universal generalization are sep
 
 ## Current next refresh
 
-`LAW-002 / Global Case 013` — responsibility-attribution multi-regime describability, universal-first cross-jurisdiction falsification refresh.
+`LAW-003 / Global Case 014` — agency, mandate, representation, authority and attribution, universal-first cross-jurisdiction falsification refresh.
