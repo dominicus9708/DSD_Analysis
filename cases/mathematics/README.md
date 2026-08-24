@@ -4,7 +4,7 @@ This domain records DSD Analysis cases whose source problems belong primarily to
 
 ## Operating rule
 
-The external mathematical structure is described first in its own terminology. DSD terminology is introduced only in a separate comparison layer. Similar names such as `composition`, `sum`, `union`, `kernel`, `quotient`, or `aggregation` do not establish identity of operations.
+The external mathematical structure is described first in its own terminology. DSD terminology is introduced only in a separate comparison layer. Similar names such as `composition`, `sum`, `union`, `kernel`, `quotient`, `rank`, `matrix`, or `aggregation` do not establish identity of structures.
 
 Each case must classify a proposed correspondence as one of:
 
@@ -20,7 +20,6 @@ Counterexamples and failure boundaries are retained as results rather than remov
 ### MATH-001 / Global Case 028 — finite subsets, partial operations, and DSD finite composition
 
 Status: **first-pass analysis complete**.
-
 Primary verdict: **partial correspondence**.
 
 Established:
@@ -38,7 +37,6 @@ See `028_finite_subsets_partial_operations_composition/`.
 ### MATH-002 / Global Case 029 — quotients, kernels, and aggregate information loss
 
 Status: **first-pass analysis complete**.
-
 Primary verdict: **partial correspondence**.
 
 Established:
@@ -53,9 +51,26 @@ Established:
 
 See `029_quotients_kernels_information_loss/`.
 
+### MATH-003 / Global Case 030 — same carrier, rank, and matrix size versus enriched structure
+
+Status: **first-pass analysis complete**.
+Primary verdict: **direct correspondence with a signature-scope qualification**.
+
+Established:
+
+1. The same underlying carrier can support nonisomorphic algebraic structures.
+2. The same vector carrier and dimension can support nonisometric symmetric bilinear forms.
+3. DSD Construction 11.11 directly realizes the same standard pattern: same base, signature, realized lines, rank, bilinear data, and closure data but different typed unary property values, hence no strict axis-property isomorphism.
+4. Equal matrix size does not classify representation-inclusive axis-property structure.
+5. Equal bare realized line does not force equal tagged property values for tag-sensitive kinds.
+6. Optional matrix/tensor/operator/quaternion representations remain encodings rather than the abstract property system itself.
+7. Important boundary: finite-dimensional vector spaces over a fixed field are classified by dimension, so rank incompleteness is relative to the enriched axis-property signature, not universal.
+8. No contradiction with the Formation or Axis Property axiom systems was found.
+
+See `030_same_carrier_enriched_structures/`.
+
 ### Planned later sequence
 
-- MATH-003: same carrier with different algebraic or bilinear structures,
 - MATH-004: invariants and incomplete classification,
 - MATH-005: decomposition, composition, and reconstruction conditions.
 
