@@ -25,27 +25,26 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 019 | rule conflict, harmonization, exception, priority, invalidity | reinterpretation | coherence / predefinition / conflict-resolution / universal-claim falsification — completed |
 | 020 | irreversibility, irreparable harm, uncertainty, finality, and procedural safeguards | reinterpretation | falsification / coherence / predefinition / temporal-preservation analysis — completed |
 | 021 | responsibility, sanction, victim recovery, emotion, social cost, legal/practice status | reinterpretation | coherence / predefinition / post-responsibility / social-input analysis — completed |
+| 022 | investigation, historical-event reconstruction, witness/trace provenance, source dependence | reinterpretation | falsification / coherence / predefinition / investigative-epistemic audit — **first-pass cross-jurisdiction complete** |
 
 ## Domain folders
 
 - `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
-- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, and decision structures
+- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, and decision structures
 
 The law-domain foundation and sequence are documented in:
 
 - `law/FOUNDATIONAL_FRAMEWORK.md`
+- `law/LAW_001_010_CROSS_CASE_SYNTHESIS.md`
 - `law/README.md`
 
 ## Law-domain generalization status
 
-LAW cases are read at two levels:
-
-1. a **universal structural candidate**;
-2. one or more **jurisdictional / institutional witnesses**.
-
-LAW-001 through LAW-004 began as source-specific first passes and have now all completed universal-first, multi-jurisdiction falsification refreshes.
+LAW-001 through LAW-004 began as source-specific first passes and have completed universal-first, multi-jurisdiction falsification refreshes.
 
 LAW-005 through LAW-010 were executed directly under the universal-first workflow.
+
+LAW-011 / Global Case 022 is the first extension after the LAW-001 through LAW-010 cross-case synthesis.
 
 Current generalization status:
 
@@ -58,41 +57,15 @@ Current generalization status:
 - LAW-007: `source-sensitive status/capacity/power candidate supported by CRPD, UNIDROIT and VCLT witness families and narrowed under vocabulary counterpressure`;
 - LAW-008: `source-sensitive rule-conflict candidate supported by VCLT, UN Charter and ILC structures; no universal resolution algorithm claimed`;
 - LAW-009: `strong monotone irreversibility->safeguard theorem falsified; narrower irreparability-relevance candidate survives`;
-- LAW-010: `rigid universal doctrinal taxonomy rejected; source-sensitive non-totalization of responsibility, sanction, remedy, prevention, emotion/social response, social cost, formal status and practical use supported by multiple independent witness families`.
+- LAW-010: `rigid universal doctrinal taxonomy rejected; source-sensitive non-totalization of responsibility, sanction, remedy, prevention, emotion/social response, social cost, formal status and practical use supported by multiple independent witness families`;
+- LAW-011: `cross-jurisdictionally and cross-disciplinary corroborated investigative-epistemic non-collapse candidate; literal geometric triangulation, source-count independence, witness-memory ground-truth, and monotone-intersection models rejected; active falsification remains open`.
 
-## LAW-001 revalidation witness families
+## LAW-011 witness families
 
-- UN General Assembly voting/quorum rules;
-- EU Council unanimity/abstention rule;
-- Australian Electoral Commission turnout, informality and compulsory-voting rules;
-- UK Electoral Commission rejected-ballot rules;
-- UNIDROIT silence/inactivity rule plus agreement/practice/usage counterpressure;
-- ICC Rome Statute Article 66;
-- ECHR presumption-of-innocence doctrine and bounded-presumption counterpressure;
-- US Ninth Circuit criminal jury instructions and affirmative-defence burdens;
-- UK CPS explanation of acquittal/not-guilty proof-threshold meaning.
-
-## LAW-002 revalidation witness families
-
-- ICC Rome Statute Articles 54, 67-69;
-- German StPO §§160 and 244;
-- ECHR Article 6;
-- US APA 5 U.S.C. §§554, 556, 557.
-
-## LAW-003 revalidation witness families
-
-- UNIDROIT Principles Chapter 2 Section 2;
-- Vienna Convention on the Law of Treaties Articles 7-8;
-- ILC Articles on State Responsibility Articles 4 and 7;
-- Korean Civil Act/Supreme Court materials retained as the historical domestic witness.
-
-## LAW-004 revalidation witness families
-
-- US Federal Rules of Evidence Rules 401-403 and federal judicial notice;
-- German ZPO §§144, 286, 288, 291;
-- England and Wales CPR Part 32;
-- ECHR Article 6 evidentiary/fairness doctrine;
-- Korean criminal/civil evidence materials retained as the historical domestic witness.
+- US National Academies eyewitness perception/memory/confidence research;
+- UK College of Policing evidence-based guidance on non-leading questioning, source confusion, co-witness information exposure and uncertainty;
+- US National Institute of Justice crime-scene preservation/contamination guidance;
+- German StPO §160 duty to investigate incriminating and exonerating circumstances and preserve evidence at risk of loss.
 
 ## Purpose folders
 
@@ -109,6 +82,11 @@ For legal cases, source-specific completion and universal generalization are sep
 
 ## Current law-analysis phase
 
-The LAW-001 through LAW-004 cross-jurisdiction refresh is complete.
+Completed:
 
-Next step is a **LAW-001 through LAW-010 cross-case synthesis**, especially the analysis/design separation and the recurring predefinition/non-totalization rule, before opening the next large legal sequence.
+- LAW-001 through LAW-010 initial foundation sequence;
+- LAW-001 through LAW-004 cross-jurisdiction revalidation;
+- LAW-001 through LAW-010 first cross-case synthesis;
+- LAW-011 first-pass investigative-reconstruction analysis.
+
+LAW-011 adds a new boundary: `report count != independent-information count`, and investigative updating must not be identified with a mandatory monotone Formation stage chain.
