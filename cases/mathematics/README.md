@@ -4,7 +4,7 @@ This domain records DSD Analysis cases whose source problems belong primarily to
 
 ## Operating rule
 
-The external mathematical structure is described first in its own terminology. DSD terminology is introduced only in a separate comparison layer. Similar names such as `composition`, `sum`, `union`, `kernel`, `quotient`, `rank`, `matrix`, or `aggregation` do not establish identity of structures.
+The external mathematical structure is described first in its own terminology. DSD terminology is introduced only in a separate comparison layer. Similar names such as `composition`, `sum`, `union`, `kernel`, `quotient`, `rank`, `matrix`, `invariant`, or `aggregation` do not establish identity of structures.
 
 Each case must classify a proposed correspondence as one of:
 
@@ -69,9 +69,28 @@ Established:
 
 See `030_same_carrier_enriched_structures/`.
 
+### MATH-004 / Global Case 031 — invariants and incomplete classification
+
+Status: **first-pass analysis complete**.
+Primary verdict: **direct correspondence with an invariant/readout terminology boundary**.
+
+Established:
+
+1. An invariant must first be constant on the declared equivalence classes; a complete invariant must additionally separate those classes.
+2. Realized-axis rank is invariant under strict axis-property isomorphism but not complete for the full axis-property signature.
+3. Equal matrix size is not a complete classifier of representation-inclusive axis-property structure.
+4. Definition 12.3's displayed scalar summary is not automatically an invariant because the indicator maps are not required to be isomorphism-invariant.
+5. If the selected indicators are strict-isomorphism invariants, the weighted scalar summary is an invariant.
+6. Under the Proposition-12.4 collision hypothesis, such an invariant summary is incomplete.
+7. Standard matrix similarity supplies the same pattern: characteristic/eigenvalue data can collide on nonsimilar matrices, while Jordan block data can classify completely when Jordan normal form is available.
+8. Scalarity or finite compression alone does not imply incompleteness; failure comes from non-separation of equivalence classes.
+9. Static Aggregation and Dynamics preserve the same distinction through reconstruction conditions and reduced-readout collision statements.
+10. No contradiction with the current Formation, Axis Property, Static Aggregation, or Dynamics papers was found.
+
+See `031_invariants_incomplete_classification/`.
+
 ### Planned later sequence
 
-- MATH-004: invariants and incomplete classification,
 - MATH-005: decomposition, composition, and reconstruction conditions.
 
 ## DSD source interfaces
@@ -79,7 +98,8 @@ See `030_same_carrier_enriched_structures/`.
 Primary DSD sources for this domain are:
 
 - Formation Axiom System: Stages VI–VII, finite composition, non-injective composition, forward maps, embeddings, strict equivalence.
-- Axis-property system: separation of underlying carriers from additional properties and incomplete classification by rank or matrix size.
-- Channel-Indexed Static Aggregation: finite aggregation, support-tagged data, aggregation kernels, and reconstruction limits.
+- Axis-property system: separation of underlying carriers from additional properties, strict equivalence, compression, and incomplete classification by rank, matrix size, or displayed reduced summaries.
+- Channel-Indexed Static Aggregation: finite aggregation, support-tagged data, aggregation kernels, injectivity/reconstruction criteria, and information-loss boundaries.
+- Structural Reorganization Dynamics: used only when the case explicitly concerns reduced dynamic readouts or component-state reconstruction.
 
-Dynamics remains outside the core mathematics sequence unless a later case explicitly introduces temporal structure.
+MATH-004 uses Dynamics only as a corroborating downstream interface; its principal proof remains static classification theory.
