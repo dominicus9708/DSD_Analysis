@@ -1,6 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **PHIL-001 / Global 044 complete; PHIL-002 / Global 045 Human/AI Room complete; Mode-C and Mode-D validation baselines complete; PHIL-003 / Global 046 Mary's Room first pass complete with two preserved arguments; PHIL-004 next**.
+Status: **PHIL-001 / Global 044 complete; PHIL-002 / Global 045 Human/AI Room complete; Mode-C and Mode-D validation baselines complete; PHIL-003 / Global 046 Mary's Room complete with two preserved arguments; PHIL-004 / Global 047 Twin Earth first pass complete; PHIL-005 next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -16,7 +16,7 @@ Keep separate:
 - derived consequences;
 - hidden conclusion-equivalent assumptions;
 - alternative structures compatible with the same observation;
-- object-, role-, observer-, bearer-, status-, representation-, target-, and time-slice-level attribution.
+- object-, role-, observer-, bearer-, status-, representation-, target-, semantic-signature-, and time-slice-level attribution.
 
 ## Core audit rules
 
@@ -28,6 +28,7 @@ Keep separate:
 6. equal reduced/output descriptions reconstruct hidden property records only under an explicit identification/injectivity condition.
 7. a new epistemic/representational record does not by itself prove a new world-fact target.
 8. completeness at one time slice does not by itself establish completeness over a later evolving interval.
+9. an umbrella semantic label such as `meaning` or `content` must not collapse internal, surface, reference, environmental, historical, or community-dependent records before the property signature is fixed.
 
 ## Four-mode validation discipline
 
@@ -112,17 +113,7 @@ PHIL-003 preserves **two distinct arguments**. The second does not replace the f
 
 ### Argument 1 — epistemic-record novelty versus world-fact-target novelty
 
-The audit reconstructs Jackson's 1982/1986 Knowledge Argument, using the stronger 1986 clarification that the relevant new knowledge concerns the already existing experiences of others rather than merely Mary's newly changed post-release state.
-
-The analysis does **not** rely on an ability-only reply. It grants, for the sake of the audit, that Mary may gain genuinely new propositional knowledge.
-
-Let:
-
-- `F` = world-fact targets;
-- `F_P` = physical fact targets;
-- `K_0` = pre-release knowledge records;
-- `K_1` = post-release knowledge records;
-- `tau_0, tau_1` = target maps from knowledge records to world facts.
+The audit grants that Mary may gain genuinely new propositional knowledge after release.
 
 The key non-implication is:
 
@@ -136,9 +127,9 @@ A new epistemic/propositional record may target an old physical fact under a new
 
 Argument 1 distinguishes:
 
-1. **fact completeness** — every physical fact target is known;
-2. **representation/access completeness** — every admissible way of representing/accessing those facts is available;
-3. **ontological completeness** — every fact is physical.
+1. fact completeness;
+2. representation/access completeness;
+3. ontological completeness.
 
 Jackson's stronger conclusion survives this pressure if an independent fact-individuation bridge justifies:
 
@@ -156,12 +147,7 @@ python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro
 
 ### Argument 2 — temporal snapshot completeness versus diachronic completeness
 
-Argument 2 asks a different question. If the physical world continues to evolve, does complete physical knowledge at one instant remain complete automatically at later instants?
-
-Let:
-
-- `F_P(t)` = physical fact targets at time `t`;
-- `T_M(t)` = fact targets Mary knows at time `t`.
+Let `F_P(t)` be the physical fact targets at time `t` and `T_M(t)` the targets Mary knows at time `t`.
 
 Define:
 
@@ -175,21 +161,7 @@ The second non-implication is:
 
 when the world-fact set can change after `t0` and no zero-delay global update bridge is supplied.
 
-A finite witness has:
-
-- completeness at `t0`;
-- a new remote physical fact at `t1` that Mary has not yet incorporated;
-- restored completeness at `t2` after the update.
-
-Thus:
-
-`snapshot completeness at t0 !=> diachronic completeness after t0`.
-
-To exclude this witness, a separate update/access bridge must require completeness to be preserved over the entire declared interval.
-
-The DSD dynamics layer supports the time-slice discipline by using time-indexed admissible component-resolved states. It also permits a stronger finite-propagation reading only under explicit localization, metric-time, constitutive, locality, and support-faithfulness assumptions. No empirical information speed is derived from DSD alone.
-
-Argument 2 does not by itself refute Jackson's canonical Knowledge Argument because Jackson may freeze the relevant target domain to already existing facts about other people's color experiences. It is retained as an independent dynamic audit, not as a replacement for Argument 1.
+Argument 2 does not by itself refute Jackson's canonical Knowledge Argument. It is retained as a DSD dynamic extension, not as a replacement for Argument 1.
 
 Current status:
 
@@ -201,14 +173,73 @@ Finite witness:
 python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_snapshot_completeness_nonpreservation.py
 ```
 
-See also:
+## PHIL-004 / Global 047 — Twin Earth
 
-`046_marys_room_epistemic_regime_audit/ARGUMENT_2_TEMPORAL_SNAPSHOT_COMPLETENESS.md`.
+Path:
 
-## Planned next cases
+`047_twin_earth_reference_regime_audit/`
 
-- `PHIL-004 / Global 047` — Twin Earth: separate a narrator-fixed environmental difference from an internal subject's ability to identify that difference.
-- `PHIL-005 / Global 048` — Brain in a Vat: test inverse reconstruction of external-world structure from internally accessible experience.
+Branch:
+
+`analysis/phil-004-twin-earth-reference-regime-audit`
+
+### Core source result
+
+Putnam's Twin Earth argument survives the first-pass DSD audit.
+
+A naive attack of the form
+
+`same narrow/internal state -> same broad reference`
+
+fails when linguistic reference is explicitly modeled as an environment-sensitive relational property. Putnam's argument is designed precisely to deny that narrow psychological state alone determines natural-kind extension.
+
+### Semantic-Signature Fork
+
+The DSD synthesis keeps three branches distinct.
+
+1. **Narrow/internal signature** — internal/surface inputs only; Earth and Twin-Earth records may agree.
+2. **Broad/externalist signature** — environment, causal history, and/or community inputs are constitutive; broad references may differ.
+3. **Underspecified `meaning`** — equality or inequality is not yet a well-posed comparison until the semantic property signature is fixed.
+
+Thus the following are jointly consistent:
+
+`same narrow/internal semantic record`
+
+and
+
+`different broad reference/extension`.
+
+The two claims concern different typed properties.
+
+### Key failed attack
+
+The subjects' inability to distinguish `H2O` and `XYZ` is not itself a counterexample to Putnam. The thought experiment intentionally makes the environmental microstructure cognitively unavailable in 1750 while letting broad reference differ.
+
+This failed attack is preserved rather than rewritten as a success.
+
+### Source-scope boundary
+
+Putnam's 1975 argument first concerns linguistic reference/extension. Later externalist literature extends the Twin-Earth structure to propositional-attitude content.
+
+PHIL-004 therefore requires a separate content-individuation bridge before treating the linguistic result as a proof about all mental content.
+
+### Historical classification
+
+The narrow/broad distinction and later two-factor/two-dimensional response families are already established in the literature.
+
+Final classification:
+
+**Putnam core survives; Mode-A-style failed attack preserved; Mode-B strong convergence with narrow/broad-content literature; DSD Semantic-Signature Fork retained as typed formal sharpening; no historical novelty claim.**
+
+Finite witness:
+
+```bash
+python cases/philosophy_epistemology/047_twin_earth_reference_regime_audit/repro/check_semantic_signature_fork.py
+```
+
+## Planned next case
+
+- `PHIL-005 / Global 048` — Brain in a Vat: test inverse reconstruction of external-world structure from internally accessible experience while distinguishing ordinary skeptical inference from Putnam-style semantic self-reference arguments.
 
 Experience Machine and Gettier-family cases are opened only if a mechanism-overlap audit shows a genuinely distinct structural target.
 
@@ -222,4 +253,5 @@ For each case:
 - do not identify philosophical concepts with DSD primitives by naming similarity;
 - use application-level interpretation maps for external domains;
 - attach dynamic claims to explicit time slices and supplied transition/propagation structure;
+- specify semantic/property signatures before comparing values;
 - for novelty-sensitive cases, preserve a strict pre-seal/post-search boundary.
