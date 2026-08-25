@@ -1,6 +1,6 @@
 # Knowledge Representation / Ontology / Classification
 
-Status: **first-pass analysis started**.
+Status: **K_R-001–002 / Global Cases 039–040 first-pass analysis completed; K_R-003 next**.
 
 Starting global case: **039**.
 
@@ -26,19 +26,19 @@ Test whether formal knowledge-representation and classification systems independ
 
 The purpose is not to rename these mechanisms as DSD. Each external formalism must retain its own semantics.
 
-## Planned first-pass sequence
+## First-pass sequence
 
-### K_R-001 / Global Case 039
+### K_R-001 / Global Case 039 — completed
 **Open-World Non-Assertion versus Falsity**
 
-Test whether absence of an assertion in an OWL-style knowledge base is semantically equivalent to falsity. Compare only the structural non-conflation role with DSD `undefined != defined false/zero`.
+Result: strong independent structural support. Absence of an assertion is not explicit falsity under OWL 2 model-theoretic entailment.
 
-### K_R-002 / Global Case 040
+### K_R-002 / Global Case 040 — completed
 **Class Membership versus Property Assertion**
 
-Test whether class membership or vocabulary declaration forces every relevant property assertion/value for an instance.
+Result: strong structural support within the same OWL semantic family. Declaration, class membership, domain/range/functionality constraints, and actual property assertion occupy distinct semantic roles. Not counted as a second fully independent external node yet.
 
-### K_R-003 / Global Case 041
+### K_R-003 / Global Case 041 — next
 **Existential Restrictions and Anonymous Witnesses**
 
 Test whether an existential requirement can be satisfied without a named/explicitly identified filler, and how that differs from a concrete asserted relation.
