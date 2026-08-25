@@ -1,6 +1,6 @@
 # Knowledge Representation / Ontology / Classification
 
-Status: **K_R-001–002 / Global Cases 039–040 first-pass analysis completed; K_R-003 next**.
+Status: **K_R-001–003 / Global Cases 039–041 first-pass analysis completed; K_R-004 next**.
 
 Starting global case: **039**.
 
@@ -38,15 +38,15 @@ Result: strong independent structural support. Absence of an assertion is not ex
 
 Result: strong structural support within the same OWL semantic family. Declaration, class membership, domain/range/functionality constraints, and actual property assertion occupy distinct semantic roles. Not counted as a second fully independent external node yet.
 
-### K_R-003 / Global Case 041 — next
+### K_R-003 / Global Case 041 — completed
 **Existential Restrictions and Anonymous Witnesses**
 
-Test whether an existential requirement can be satisfied without a named/explicitly identified filler, and how that differs from a concrete asserted relation.
+Result: strong structural support within the same OWL semantic family. An existential restriction forces existence of at least one suitable filler, while the filler need not be any particular named individual. Existence and named identity remain distinct.
 
-### K_R-004 / Global Case 042
+### K_R-004 / Global Case 042 — next
 **Identity, Same-As, and Naming Non-Identity**
 
-Test whether same labels/names/identifiers imply object identity, and how explicit identity relations change inference.
+Test whether distinct names must denote distinct objects, whether matching labels/identifiers imply identity, and what explicit identity or difference axioms contribute.
 
 ### K_R-005 / Global Case 043
 **Provenance / Context-Sensitive Assertion Attribution**
@@ -64,7 +64,7 @@ Never identify:
 - open-world unknown with DSD undefined;
 - OWL class membership with DSD formation membership;
 - RDF/OWL property assertion with a DSD channel;
-- OWL existential restriction with a DSD formation witness;
+- OWL existential restriction/filler with a DSD formation witness;
 - `owl:sameAs` with DSD object identity without explicit comparison.
 
 The analysis is structural, not terminological.
