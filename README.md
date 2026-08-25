@@ -41,8 +41,28 @@ See `cases/INDEX.md` for the global case map.
 - `methodology/case_template.md` — base case template
 - `methodology/analysis_taxonomy.md` — purpose classification rules
 - `methodology/reproducibility_contract.md` — minimum evidence and rerun requirements
+- `methodology/four_mode_validation_protocol.md` — four-mode validation protocol
+- `methodology/prospective_blind_case_template.md` — prospective/blind prediction-seal template
+- `methodology/synthetic_control_case_template.md` — blinded synthetic-control template
 
 A completed case must preserve non-correspondence and failed mappings rather than forcing every external concept into DSD terminology.
+
+## Four-mode validation protocol
+
+Future validation campaigns distinguish four result modes instead of counting all favorable-looking cases together.
+
+1. **Negative-control / failure recording** — DSD must be able to reject its own initially plausible attack or mapping.
+2. **Historical convergence / independent rediscovery** — DSD independently reaches a structure already established in an external literature, then records the overlap without claiming novelty.
+3. **Prospective / blind prediction** — the DSD prediction is timestamped before dedicated objection/reply literature is opened, then compared after unblinding.
+4. **Synthetic / controlled cases** — hidden ground-truth mechanisms and clean controls are used to measure false positives and false negatives as well as successful detection.
+
+These modes answer different questions and must not be merged into a single success count.
+
+The intended cumulative claim is methodological, not metaphysical:
+
+`DSD distinctions repeatedly function as useful analytical operators under controlled and externally calibrated tests`.
+
+No combination of these validation modes by itself proves the Formation Axiom System or Axis-Property Axiom System true as a description of fundamental reality.
 
 ## DSD paper references
 
@@ -66,7 +86,7 @@ The second family reinforces, rather than double-counts, the broader support/pro
 
 ## Current philosophy / epistemology work
 
-Current branch: `analysis/phil-001-refinement-stability-attack`.
+Current methodology branch: `methodology/four-mode-validation-protocol`.
 
 Completed current campaign:
 
@@ -81,11 +101,7 @@ PHIL-001 has four retained stages.
 1. **Naive premise-loading attack — rejected.** Chalmers's mature argument does not merely define a zombie and infer possibility. It explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and defends a restricted modal bridge.
 2. **Simple modal-space counterattack — rejected as new refutation.** Chalmers already anticipates a positively conceivable situation with no corresponding possible world under the strong-necessity problem.
 3. **Descriptor-completeness squeeze — survives but converges with prior literature.** A structural/dispositional `P` may be too weak for full physical identity; a fuller intrinsic/categorical `P` requires renewed support for ideal conceivability. This is conservatively grouped with Stoljar/Russellian lines.
-4. **Refinement-stability / uniform-completion attack — partially survives.** The attack was committed before a dedicated search for its exact formulation. It separates
-   `forall finite refinements F exists a zombie-like z_F`
-   from
-   `exists one z that survives every refinement F`.
-   The former does not entail the latter. Thus repeated local detail-fillability does not by itself establish one globally complete physical duplicate. Chalmers's ideal positive conceivability is naturally intended to demand the stronger global reading, so this is a challenge to the evidential support for the premise rather than a contradiction in the mature theory.
+4. **Refinement-stability / uniform-completion attack — partially survives.** The attack was committed before a dedicated search for its exact formulation. It separates `forall finite refinements F exists a zombie-like z_F` from `exists one z that survives every refinement F`. The former does not entail the latter. Chalmers's ideal positive conceivability is naturally intended to demand the stronger global reading, so this is a challenge to the evidential support for the premise rather than a contradiction in the mature theory.
 
 Close prior literature on complete physical specification and positive conceivability prevents any current historical-novelty claim. The refinement result is classified as a **DSD-specific formal sharpening/recasting** pending broader literature review.
 
@@ -97,9 +113,12 @@ python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/re
 python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_uniform_completion.py
 ```
 
-Next case:
+## Next-stage sequence
 
-- `PHIL-002 / Global 045` — Chinese Room part/system understanding attribution and Systems Reply audit
+1. `PHIL-002 / Global 045` — Chinese Room part/system understanding attribution and Systems Reply audit. Because the Systems Reply is already known, this is treated primarily as a **historical-convergence** case rather than a clean blind test.
+2. Before opening PHIL-003, select the first **clean prospective/blind benchmark** whose dedicated objection/reply literature has not yet been reviewed. Seal its `PREDICTION.md` using `methodology/prospective_blind_case_template.md` before unblinding.
+3. Prepare the first **synthetic control set** in parallel using `methodology/synthetic_control_case_template.md`, including at least one clean/no-defect control and preserving false positives/false negatives.
+4. Only after those two validation tracks are prepared should PHIL-003 be opened under the expanded protocol.
 
 ## Reproducibility rule
 
