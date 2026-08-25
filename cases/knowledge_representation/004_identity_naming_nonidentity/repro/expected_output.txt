@@ -1,0 +1,12 @@
+BASE MODELS: 2
+BASE entails SameIndividual(a,b): False
+BASE entails DifferentIndividuals(a,b): False
+SAME-AXIOM MODELS: 1
+SAME ontology entails SameIndividual(a,b): True
+DIFFERENT-AXIOM MODELS: 1
+DIFFERENT ontology entails DifferentIndividuals(a,b): True
+SAME substitution P(a,c)->P(b,c): True
+SAME-LABEL annotation models retained: 2
+SAME-LABEL entails identity: False
+FUNCTIONAL+two-edges MODELS: 1
+FUNCTIONAL+two-edges entails SameIndividual(a,b): True
