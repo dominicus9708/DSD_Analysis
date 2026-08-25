@@ -1,6 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **PHIL-001 / Global Case 044 current campaign completed; four-mode validation protocol adopted; PHIL-002 next**.
+Status: **PHIL-001 / Global Case 044 current campaign completed; four-mode validation protocol adopted; PHIL-002 / Global Case 045 first pass completed; first clean blind benchmark + synthetic controls next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -24,17 +24,21 @@ A legitimate conditional calculation
 
 `assumption S -> consequence O`
 
-must not be silently promoted to a stronger modal, ontological, or inverse-identification claim without an explicit bridge principle.
+must not be silently promoted to a stronger modal, ontological, inverse-identification, or bearer-level claim without an explicit bridge principle.
 
-PHIL-001 also established three negative/control rules:
+PHIL-001 established three negative/control rules:
 
 1. if the source already distinguishes the layers and explicitly defends the bridge, DSD Analysis must record that a naive hidden-premise criticism fails;
 2. `equality of a chosen descriptor != completeness or identity of the underlying structure`;
 3. `local/refinement-wise witness existence != existence of one uniform witness surviving all admissible refinements`.
 
+PHIL-002 adds a fourth:
+
+4. `property of implementer != property of implemented whole != property of a potentially realized virtual bearer` unless an explicit attribution principle licenses the transfer.
+
 ## Four-mode validation discipline
 
-This field now follows `methodology/four_mode_validation_protocol.md`.
+This field follows `methodology/four_mode_validation_protocol.md`.
 
 ### Mode A — Negative-control / failure
 
@@ -42,7 +46,7 @@ Record DSD attacks that fail or are judged inapplicable. Do not redescribe the f
 
 ### Mode B — Historical convergence
 
-When DSD independently reaches an established objection or distinction, preserve the external terminology and count the result as calibration/convergence rather than novelty.
+When DSD reaches an established objection or distinction, preserve the external terminology and count the result as calibration/convergence rather than novelty.
 
 ### Mode C — Prospective / blind prediction
 
@@ -57,17 +61,17 @@ Use blinded cases with hidden ground truth, including clean/no-defect controls, 
 
 ### Stage 1 — premise-loading audit
 
-Result: **mixed / conditional validity**. The naive claim that Chalmers merely defines the anti-physicalist conclusion into the zombie setup was rejected for the mature formulation. Chalmers explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and supplies a restricted conceivability-to-possibility bridge. Observer-access and inverse-non-identifiability objections were classified as inapplicable to the core modal argument.
+Result: **mixed / conditional validity**. The naive claim that Chalmers merely defines the anti-physicalist conclusion into the zombie setup was rejected for the mature formulation.
 
 ### Stage 2 — modal-space and descriptor-completeness attack
 
-A bare `conceivable-scenario space > possible-world space` countermodel does not by itself refute Chalmers because he explicitly anticipates that issue under **strong necessities**.
+A bare `conceivable-scenario space > possible-world space` countermodel does not by itself refute Chalmers because he explicitly anticipates that issue under strong necessities.
 
-The surviving pressure concerns the completeness of the physical base `P`. If `P` is only structural/dispositional, equality of `P` may fail to establish full physical identity. If `P` is expanded to include every intrinsic/categorical physical fact, ideal positive conceivability of the stronger `P & ~Q` must be independently re-established. This converges with Stoljar/Russellian lines rather than constituting a new independent philosophical discovery.
+The surviving descriptor-completeness pressure converges with Stoljar/Russellian lines rather than constituting a new independent philosophical discovery.
 
 ### Stage 3 — refinement-stability / uniform-completion attack
 
-A DSD-native follow-up was timestamped before a dedicated literature search. It separates:
+The DSD-native follow-up separates
 
 `for every finite/refined physical description there exists some zombie-like completion`
 
@@ -75,44 +79,92 @@ from
 
 `there exists one zombie world that remains a physical duplicate under every admissible refinement`.
 
-Formally:
-
-`forall F exists z_F`
-
-does not imply
-
-`exists z forall F`.
-
-This attack **partially survives** as an under-justification challenge to the premise that the complete `P & ~Q` is ideally positively conceivable. Chalmers's ideal positive conceivability is naturally intended to demand the stronger global reading, so the attack is not a contradiction or wholesale refutation. It instead requires either one uniform globally coherent completion or an independent completion/compactness principle.
-
-Dedicated literature search found close prior families concerning complete physical specification and positive conceivability, but no retrieved source stated the exact quantifier-order/refinement-intersection formulation. This is not counted as proof of novelty. Conservative classification: **DSD-specific formal sharpening/recasting of an established objection family**.
+This partially survives as an under-justification challenge to the support for ideal positive conceivability, but is not counted as a wholesale refutation or a clean blind novelty result.
 
 ### PHIL-001 validation-mode placement
 
 - **Mode A:** naive premise-loading attack failed.
 - **Mode A:** simple modal-space attack was rejected as an independent refutation.
 - **Mode B:** descriptor-completeness pressure converged with Stoljar/Russellian literature.
-- **Partial B/C-like record only:** refinement-stability was timestamped before the dedicated search for its exact formulation, but PHIL-001 was already literature-exposed and therefore does not count as a clean prospective/blind test.
+- **Partial B/C-like record only:** refinement-stability was timestamped before a dedicated search for its exact formulation, but PHIL-001 was already literature-exposed.
+
+See the files under `044_philosophical_zombie_premise_loading/`.
+
+## PHIL-002 / Global Case 045 — first pass completed
+**Chinese Room: Part/System Property Attribution Audit**
+
+Validation role: **Mode B historical convergence**, not clean blind prediction, because the Systems Reply was already known before analysis.
+
+### Source-level reconstruction
+
+Searle’s 1980 thought experiment establishes the operator-level claim:
+
+`not U(operator)`.
+
+The decisive anti-system conclusion would require at least:
+
+`not U(system)`
+
+or
+
+`no realized bearer x in the system has U(x)`.
+
+Pure logic does not supply either transfer.
+
+### Systems Reply
+
+The classic Systems Reply exactly targets this gap: the operator may fail to understand while a larger organized system is the relevant bearer of understanding.
+
+DSD therefore converges directly with an established historical objection rather than producing a new one.
+
+### Internalization reply
+
+Searle attempts to neutralize the Systems Reply by having one person memorize and internalize the rules, memory, and calculations.
+
+The audit finds that:
+
+`HostedIn(S_int,h) and not U(h)`
+
+does not by itself entail
+
+`not U(S_int)`
+
+or
+
+`no distinct realized bearer in S_int understands`.
+
+Physical containment or implementation by one host does not automatically identify every system-level property bearer with the host person.
+
+Later Virtual Mind and related replies make this distinction explicit.
+
+### Syntax/semantics boundary
+
+The DSD part/whole audit does **not** refute Searle’s stronger claim that syntax alone is insufficient for semantics.
+
+It instead shows that the Chinese Room thought experiment by itself does not establish the universal bearer-level bridge:
+
+`formal implementation -> no semantic understanding at any system or realized-agent level`.
+
+That stronger conclusion requires an additional theory of semantics, intentionality, and legitimate property bearer.
+
+### PHIL-002 verdict
+
+**Strong historical convergence, no novelty credit.**
+
+The defensible result is:
+
+`property of implementer != property of implemented whole != property of a potentially realized virtual bearer`.
+
+This does not prove that the system understands. It blocks the inference that the operator’s non-understanding alone settles the whole-system question.
 
 See:
 
-- `044_philosophical_zombie_premise_loading/RESULT.md`
-- `044_philosophical_zombie_premise_loading/ATTACK_ROADMAP.md`
-- `044_philosophical_zombie_premise_loading/MODAL_BRIDGE_ATTACK_RESULT.md`
-- `044_philosophical_zombie_premise_loading/REFINEMENT_STABILITY_PREDICTION.md`
-- `044_philosophical_zombie_premise_loading/REFINEMENT_STABILITY_RESULT.md`
-- `044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py`
-- `044_philosophical_zombie_premise_loading/repro/check_refinement_stability.py`
-- `044_philosophical_zombie_premise_loading/repro/check_uniform_completion.py`
+- `045_chinese_room_part_whole_attribution/PLAN.md`
+- `045_chinese_room_part_whole_attribution/SOURCE_NOTES.md`
+- `045_chinese_room_part_whole_attribution/RESULT.md`
+- `045_chinese_room_part_whole_attribution/REPRODUCIBILITY.md`
 
-## PHIL-002 / Global Case 045 — next
-**Chinese Room: Part/System Property Attribution Audit**
-
-Question: can the operator's lack of understanding be transferred to the whole room/system without an additional bridge principle, and how does the Systems Reply alter the target of attribution?
-
-Validation role: **historical convergence**, not clean blind prediction, because the Systems Reply is already known before analysis.
-
-## First clean prospective/blind benchmark — prepared after PHIL-002
+## First clean prospective/blind benchmark — next
 
 Before PHIL-003, select a philosophical argument/thought experiment whose dedicated objection/reply literature has not yet been reviewed in this project.
 
@@ -143,17 +195,11 @@ The analyst should see only the blinded statements until judgments are sealed. R
 ### PHIL-003 / Global Case 046 — planned after validation preparation
 **Mary's Room: New Experience versus New Fact/Ability/Representation**
 
-Question: what exactly changes at release, and which interpretation is independently supported rather than assumed?
-
 ### PHIL-004 / Global Case 047 — planned
 **Twin Earth: External Contrast versus Internal Identifiability**
 
-Question: distinguish an experimenter-fixed external difference from what the internal subject can identify from available information.
-
 ### PHIL-005 / Global Case 048 — planned
 **Brain in a Vat: Internal Observation and External-World Non-Identification**
-
-Question: when multiple external structures preserve the same internal experience, what external conclusion is actually identifiable?
 
 Additional candidates such as the Experience Machine and Gettier cases should be opened only after overlap audit shows a genuinely new mechanism.
 
@@ -183,10 +229,11 @@ Useful structural questions include:
 - internal describability versus narrator-supplied external description;
 - equal internal output versus equal underlying structure;
 - property attribution to a part versus to a whole/role-tagged system;
+- implementer versus realized bearer;
 - unknown/underdetermined versus false/absent.
 
 ## Current handoff
 
-PHIL-001 is closed for the present campaign. The methodology is now prepared to distinguish failure, historical convergence, prospective prediction, and synthetic-control performance.
+PHIL-001 and PHIL-002 are closed for their current first-pass campaigns.
 
-Immediate next step: begin PHIL-002 as a historical-convergence case, then open the first clean prospective/blind benchmark and synthetic control set before PHIL-003.
+Immediate next step: open the first clean prospective/blind benchmark and the first synthetic-control set before proceeding to PHIL-003.
