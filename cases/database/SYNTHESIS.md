@@ -103,6 +103,6 @@ The first case should avoid merely repeating SQL NULL behavior. It should test a
 
 Prepared first case:
 
-**KR-001 / Global Case 039 — Open-World Non-Assertion versus Falsity**.
+**K_R-001 / Global Case 039 — Open-World Non-Assertion versus Falsity**.
 
 Primary target: OWL/RDF-style open-world reasoning, with explicit non-identity against DSD undefined/false semantics.
