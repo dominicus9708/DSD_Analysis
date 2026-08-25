@@ -39,9 +39,8 @@ See `cases/INDEX.md` for the global case map.
 ### 3. Validation benchmarks
 
 - `benchmarks/prospective/` — Mode-C prospective/blind prediction benchmarks
-- `benchmarks/prospective/C01_toxin_puzzle/` — BENCH-C01, Toxin Puzzle prospective pilot
-
-BENCH-C01 is retained as **partial-blind, mixed-positive prospective validation** rather than as a fully clean Mode-C success. A stricter BENCH-C02 is required.
+- `benchmarks/prospective/C01_toxin_puzzle/` — BENCH-C01, partial-blind pilot
+- `benchmarks/prospective/C02_hume_missing_shade/` — BENCH-C02, first clean Mode-C record under the project retrieval protocol
 
 ## Common methodology
 
@@ -141,8 +140,6 @@ Finite witness command:
 python cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/repro/check_trust_attribution_trilemma.py
 ```
 
-The witness fixes one output descriptor compatible with multiple mechanisms and distinct trust records, demonstrating non-identifiability of the hidden record from that output alone.
-
 ### PHIL-002 novelty status
 
 The formulation was sealed before the dedicated search for its exact construction.
@@ -161,41 +158,77 @@ Prediction seal:
 
 `ad682b7354555de6ad004154e9846e4e1ec31cc7`
 
-Blind integrity: **partial**, because one secondary interpretive cue was exposed before sealing. No dedicated objection/reply family was reviewed before the seal.
+Blind integrity: **partial**.
 
-The sealed DSD prediction correctly localized the main structural interface among:
+Outcome:
 
-- present intention formation;
-- anticipated future reasons/motivational structure;
-- persistence/reconsideration;
-- eventual execution.
+- **C1:** correct localization of the bridge between present intention formation and anticipated future reasons/action conditions;
+- **C2:** stage decomposition and persistence/revision distinctions matched established literature;
+- **C3:** missed normative vs motivating/explanatory reasons and Mele's Ted counterexample;
+- **C4:** none;
+- new solution: no.
+
+Overall: **mixed-positive prospective pilot**.
+
+## BENCH-C02 — Hume's Missing Shade of Blue
+
+Branch:
+
+`benchmark/c02-hume-missing-shade-prospective`
+
+Prediction seal:
+
+`0a47759cd395a5d7ebd6c265d11a180d917e27c4`
+
+Blind integrity: **clean under the project retrieval protocol**.
+
+Before dedicated response literature was opened, DSD predicted that the mature fault lines would include:
+
+1. direct corresponding impression versus relational/neighbor-supported formation;
+2. gap localization versus possession of the exact qualitative idea;
+3. the ordered gradation as substantive information;
+4. simple content versus non-derived formation history;
+5. a restricted exception versus wholesale collapse of the broader empirical principle.
+
+Post-seal literature contained close or direct versions of all five structures:
+
+- SEP mental mixing;
+- Fogelin resemblance/color-space gap analysis;
+- Cummins recognitional-capacity interpretation;
+- Garrett natural-resemblance approach;
+- Kelahan theoretical-posits interpretation;
+- Finch empirical test;
+- Earp's broader methodological survival argument.
 
 Validation outcome:
 
-- **C1:** direct hit on the need for an explicit bridge between present intention formation and anticipated future reasons/action conditions;
-- **C2:** stage decomposition and revision/persistence distinctions are correct but already established in Kavka and later intention theory;
-- **C3:** DSD missed the normative-reason vs motivating/explanatory-reason distinction and Mele's Ted counterexample;
-- **C4:** none established;
-- **new philosophical solution:** no.
+- Prediction 1: **C1**;
+- Prediction 2: **C1/C2**;
+- Prediction 3: **C1**;
+- Prediction 4: **C1/C2**;
+- Prediction 5: **C1**;
+- major miss: **C3** — the pre-seal model did not explicitly separate resemblance and causal theses within Hume's first principle;
+- **C4:** none;
+- new philosophical solution: no.
 
 Overall classification:
 
-**mixed-positive prospective validation / prospective pilot**.
+**positive clean prospective validation**.
 
-The result supports DSD's ability to localize the relevant structural interface before dedicated literature review, while also preserving a meaningful miss. It is not counted as the first fully clean Mode-C validation.
+BENCH-C02 is the project's first clean Mode-C validation record under the explicit retrieval protocol. This is evidence for pre-literature structural localization, not historical novelty and not proof of the DSD axioms.
 
 See:
 
-- `benchmarks/prospective/C01_toxin_puzzle/PREDICTION.md`
-- `benchmarks/prospective/C01_toxin_puzzle/SOURCE_NOTES.md`
-- `benchmarks/prospective/C01_toxin_puzzle/RESULT.md`
-- `benchmarks/prospective/C01_toxin_puzzle/REPRODUCIBILITY.md`
+- `benchmarks/prospective/C02_hume_missing_shade/PREDICTION.md`
+- `benchmarks/prospective/C02_hume_missing_shade/SOURCE_NOTES.md`
+- `benchmarks/prospective/C02_hume_missing_shade/RESULT.md`
+- `benchmarks/prospective/C02_hume_missing_shade/REPRODUCIBILITY.md`
 
 ## Next-stage sequence
 
-1. Select **BENCH-C02** under stricter source isolation so that no secondary snippet reveals the standard objection before sealing.
-2. Prepare the first **synthetic control set** in parallel, including at least one clean/no-defect control.
-3. Only after those validation tracks are prepared should PHIL-003 be opened.
+1. Build the first **Mode-D synthetic control set**, including premise-loading, part/whole, status/descriptor, valid-bridge, and clean/no-defect controls.
+2. Preserve raw TP/TN/FP/FN/partial outcomes without merging Mode-D into the Mode-C evidence count.
+3. After Synthetic Control Set 01 is closed, open PHIL-003 under the expanded protocol.
 
 ## Reproducibility rule
 
