@@ -1,6 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **PHIL-001 / Global Case 044 first-pass + modal-bridge/descriptor-completeness follow-up completed; PHIL-002 next**.
+Status: **PHIL-001 / Global Case 044 first-pass + three follow-up attack stages completed; PHIL-002 next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -18,7 +18,7 @@ The first task is to separate:
 - alternative external structures compatible with the same internal observation;
 - object-, role-, observer-, part/whole-, and description-level attribution.
 
-## Core audit rule
+## Core audit rules
 
 A legitimate conditional calculation
 
@@ -26,30 +26,61 @@ A legitimate conditional calculation
 
 must not be silently promoted to a stronger modal, ontological, or inverse-identification claim without an explicit bridge principle.
 
-The first completed case also establishes a negative-control rule: if the source already distinguishes the layers and explicitly defends the bridge, DSD Analysis must record that the naive hidden-premise criticism fails.
+PHIL-001 also established three negative/control rules:
 
-A second rule emerged from the PHIL-001 follow-up:
-
-`equality of a chosen descriptor != completeness or identity of the underlying structure`.
-
-When an argument claims an exact duplicate, the completeness of the descriptor that is being held fixed must itself be audited.
+1. if the source already distinguishes the layers and explicitly defends the bridge, DSD Analysis must record that a naive hidden-premise criticism fails;
+2. `equality of a chosen descriptor != completeness or identity of the underlying structure`;
+3. `local/refinement-wise witness existence != existence of one uniform witness surviving all admissible refinements`.
 
 ## First-pass sequence
 
-### PHIL-001 / Global Case 044 — first pass and follow-up completed
-**Philosophical Zombie: Premise Loading, Modal Bridge, and Physical-Descriptor Completeness Audit**
+### PHIL-001 / Global Case 044 — completed for current campaign
+**Philosophical Zombie: Premise Loading, Modal Bridge, Descriptor Completeness, and Refinement-Stable Completion Audit**
 
-First-pass result: **mixed / conditional validity**. The naive claim that Chalmers merely defines the anti-physicalist conclusion into the zombie setup was rejected for the mature formulation. Chalmers explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and supplies a restricted conceivability-to-possibility bridge. Observer-access and inverse-non-identifiability objections were classified as inapplicable to the core modal argument.
+#### Stage 1 — premise-loading audit
 
-Follow-up result: a bare `conceivable-scenario space > possible-world space` countermodel does not by itself refute Chalmers because he explicitly anticipates that issue under **strong necessities**. The stronger surviving pressure concerns the completeness of the physical base `P`. If `P` is only structural/dispositional, equality of `P` may fail to establish full physical identity. If `P` is expanded to include every intrinsic/categorical physical fact, ideal positive conceivability of the stronger `P & ~Q` must be independently re-established. This converges with Stoljar/Russellian lines rather than constituting a new independent philosophical discovery.
+Result: **mixed / conditional validity**. The naive claim that Chalmers merely defines the anti-physicalist conclusion into the zombie setup was rejected for the mature formulation. Chalmers explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and supplies a restricted conceivability-to-possibility bridge. Observer-access and inverse-non-identifiability objections were classified as inapplicable to the core modal argument.
+
+#### Stage 2 — modal-space and descriptor-completeness attack
+
+A bare `conceivable-scenario space > possible-world space` countermodel does not by itself refute Chalmers because he explicitly anticipates that issue under **strong necessities**.
+
+The surviving pressure concerns the completeness of the physical base `P`. If `P` is only structural/dispositional, equality of `P` may fail to establish full physical identity. If `P` is expanded to include every intrinsic/categorical physical fact, ideal positive conceivability of the stronger `P & ~Q` must be independently re-established. This converges with Stoljar/Russellian lines rather than constituting a new independent philosophical discovery.
+
+#### Stage 3 — refinement-stability / uniform-completion attack
+
+A DSD-native follow-up was timestamped before a dedicated literature search. It separates:
+
+`for every finite/refined physical description there exists some zombie-like completion`
+
+from
+
+`there exists one zombie world that remains a physical duplicate under every admissible refinement`.
+
+Formally:
+
+`forall F exists z_F`
+
+does not imply
+
+`exists z forall F`.
+
+Equivalently, nonempty candidate sets `Z_n` at every finite refinement do not by themselves guarantee a nonempty common intersection.
+
+This attack **partially survives** as an under-justification challenge to the premise that the complete `P & ~Q` is ideally positively conceivable. Chalmers's ideal positive conceivability is naturally intended to demand the stronger global reading, so the attack is not a contradiction or wholesale refutation. It instead requires either one uniform globally coherent completion or an independent completion/compactness principle.
+
+Dedicated literature search found close prior families concerning complete physical specification and positive conceivability, but no retrieved source stated the exact quantifier-order/refinement-intersection formulation. This is not counted as proof of novelty. Conservative classification: **DSD-specific formal sharpening/recasting of an established objection family**.
 
 See:
 
 - `044_philosophical_zombie_premise_loading/RESULT.md`
 - `044_philosophical_zombie_premise_loading/ATTACK_ROADMAP.md`
 - `044_philosophical_zombie_premise_loading/MODAL_BRIDGE_ATTACK_RESULT.md`
-- `044_philosophical_zombie_premise_loading/MODAL_BRIDGE_SOURCE_NOTES.md`
+- `044_philosophical_zombie_premise_loading/REFINEMENT_STABILITY_PREDICTION.md`
+- `044_philosophical_zombie_premise_loading/REFINEMENT_STABILITY_RESULT.md`
 - `044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py`
+- `044_philosophical_zombie_premise_loading/repro/check_refinement_stability.py`
+- `044_philosophical_zombie_premise_loading/repro/check_uniform_completion.py`
 
 ### PHIL-002 / Global Case 045 — next
 **Chinese Room: Part/System Property Attribution Audit**
@@ -81,7 +112,8 @@ For each case:
 - distinguish the original argument from later textbook compression;
 - record major replies only when they change the logical status of the setup;
 - do not use a modern paraphrase as if it were the original premise set;
-- preserve the source philosopher's own claim strength before applying DSD analysis.
+- preserve the source philosopher's own claim strength before applying DSD analysis;
+- when testing an apparently independent attack on an already studied case, commit the attack formulation before a dedicated search for the exact same attack whenever feasible.
 
 ## DSD comparison boundaries
 
@@ -92,6 +124,8 @@ Useful structural questions include:
 - candidate structure versus admitted/identified structure;
 - explicit bridge premise versus silent promotion;
 - descriptor equality versus full structural identity;
+- signature-relative equivalence versus refinement-stable equivalence;
+- local witness families versus one global uniform witness;
 - internal describability versus narrator-supplied external description;
 - equal internal output versus equal underlying structure;
 - property attribution to a part versus to a whole/role-tagged system;
@@ -99,6 +133,6 @@ Useful structural questions include:
 
 ## Current handoff
 
-PHIL-001 is closed for the present analysis pass. It did **not** produce a wholesale refutation of the mature zombie argument. It eliminated the initial premise-loading attack, eliminated an over-simple modal-space counterattack, and retained a narrower descriptor-completeness challenge already adjacent to the Stoljar/Russellian literature.
+PHIL-001 is closed for the present campaign. It did **not** prove physicalism or wholly refute the mature zombie argument. Its value is methodological: two tempting attacks were rejected, one established completeness pressure converged with prior literature, and a separately timestamped refinement/uniform-completion formalization survived as a narrower challenge to the evidential support for ideal positive conceivability.
 
 PHIL-002 should begin from Searle's original Chinese Room formulation and the Systems Reply rather than from a textbook slogan.
