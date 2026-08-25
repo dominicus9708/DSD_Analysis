@@ -47,10 +47,11 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 041 | OWL existential restriction versus named witness identity | coherence | existence/identity boundary |
 | 042 | OWL naming, SameIndividual, DifferentIndividuals, semantic identity | coherence | naming/identity boundary |
 | 043 | RDF Dataset + W3C PROV content versus provenance-sensitive attribution | coherence | provenance / reconstruction audit |
-| 044 | philosophical-zombie premise loading, modal bridge, descriptor completeness, and refinement-stable uniform completion — **current campaign complete** | predefinition | falsification / thought-experiment / descriptor-refinement audit |
-| 045 | Human/AI Room trust-property non-identifiability and Trust Attribution Trilemma — **completed replacement case** | predefinition | property-status / inverse-identification / reconstruction audit |
-| 046 | Mary's Room: (1) epistemic-record novelty vs fact-target novelty; (2) snapshot completeness vs diachronic completeness — **first-pass complete, both preserved** | reinterpretation | epistemic-regime / fact-individuation / temporal-update / dynamic-describability audit |
-| 047 | Twin Earth: internal/surface equality versus environment-indexed reference; Semantic-Signature Fork — **first-pass complete; precedent-convergence case** | precedent convergence | semantic-signature / observer-regime / reconstruction / source-scope audit |
+| 044 | philosophical-zombie premise loading, modal bridge, descriptor completeness, and refinement-stable uniform completion | predefinition | falsification / thought-experiment / descriptor-refinement audit |
+| 045 | Human/AI Room trust-property non-identifiability and Trust Attribution Trilemma | predefinition | property-status / inverse-identification / reconstruction audit |
+| 046 | Mary's Room: epistemic-record/fact-target non-implication + snapshot/diachronic completeness | reinterpretation | epistemic-regime / fact-individuation / temporal-update audit |
+| 047 | Twin Earth: internal/surface equality versus environment-indexed reference; Semantic-Signature Fork | precedent convergence | semantic-signature / observer-regime / reconstruction / source-scope audit |
+| 048 | Brain in a Vat: generic reconstruction non-injectivity, equivalence-signature implementation audit, reality/source monitoring, Putnam semantic regime | precedent convergence | reconstruction / equivalence-signature / empirical-comparison / semantic-regime bridge audit |
 
 ## Domain folders
 
@@ -70,7 +71,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
 - Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
 - Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
-- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed; former Chinese Room PHIL-002 retired; replacement PHIL-002 / Global 045 Human/AI Room completed; Mode-C and Mode-D baseline validation records completed; PHIL-003 / Global 046 Mary's Room first pass completed with two preserved arguments; PHIL-004 / Global 047 Twin Earth first pass completed and reclassified as a **precedent-convergence case**. Putnam's source argument is treated as a structurally aligned predecessor rather than primarily as an adversarial target. PHIL-005 is next.
+- Philosophy/epistemology/thought-experiment audit: **PHIL-001–005 / Global 044–048 first-pass sequence complete.** PHIL-004 is a clear precedent-convergence case. PHIL-005 adds generic BIV reconstruction non-injectivity and Putnam's semantic reference-shift as partial precedent convergence, while keeping physical BIV equivalence and reality/source monitoring as separate implementation/empirical layers. A synthesis audit is next before opening additional thought experiments.
 
 ## Conservative evidence accounting
 
@@ -78,19 +79,17 @@ Cross-domain recurrence is not proof by analogy. Each external domain must indep
 
 Multiple cases inside one standard or one mechanism are not automatically independent evidence nodes. Cases are grouped by genuinely distinct external formal families and structural mechanisms.
 
-Current examples:
+Current philosophy examples:
 
-- DB-001–005 are grouped into status/support, stage/order/provenance, and aggregation/reconstruction families.
-- K_R-001–004 are one OWL 2 semantic family.
-- K_R-005 is a second knowledge-representation family using RDF Dataset + W3C PROV, but globally reinforces the already observed support/provenance-retention pattern rather than inflating the node count.
-- PHIL-001 remains a negative-control audit: the naive premise-loading criticism failed, and a simple epistemic-space > possible-world-space countermodel was not counted as a new refutation because Chalmers explicitly anticipates the strong-necessity problem.
-- PHIL-001's descriptor-completeness pressure is conservatively grouped with the Stoljar/Russellian family.
-- PHIL-001's refinement-stability / uniform-completion formulation survived as a formal sharpening but is not counted as historical novelty.
-- The former Chinese Room PHIL-002 attempt converged with the Systems Reply / Virtual Mind family and is **retired from the active evidence sequence**. Its historical branch remains only as an audit trail.
-- The replacement PHIL-002 Human/AI Room combines known neighboring distinctions with DSD status/domain/reconstruction rules. It is counted as a **new DSD-constructed rebuttal format**, not as a proven historically novel philosophical objection.
-- PHIL-003 Argument 1 converges strongly with the established New Knowledge / Old Fact and phenomenal-concept/new-representation family. The DSD contribution is the explicit separation of knowledge-record novelty from fact-target novelty via target maps and a finite countermodel; this is formal sharpening, not a new historical objection.
-- PHIL-003 Argument 2 is kept separate from that historical-convergence claim. It time-indexes the physical fact set and Mary's known-target set, distinguishes one-time snapshot completeness from diachronic completeness, and requires an explicit update/access bridge before completeness is projected across an evolving interval. Historical priority for this dynamic extension has not yet been audited and is not claimed.
-- PHIL-004 is the current philosophy sequence's explicit **precedent-convergence case**. Putnam's Twin Earth independently preserves distinctions aligned with DSD: internal/reduced equality does not determine a fuller relation-sensitive property; narrator information is separated from subject-accessible information; surface equality does not reconstruct the full semantic-environmental record; and semantic/reference comparison depends on a declared property signature. The DSD Semantic-Signature Fork is retained as a typed formal restatement/sharpening of this prior structure. The hypothetical `same narrow state -> same broad reference` error remains only a subordinate negative-control check on DSD itself.
+- PHIL-001 preserves both failed attacks and a descriptor-completeness/refinement-stability formal pressure; no wholesale zombie refutation is claimed.
+- The former Chinese Room PHIL-002 attempt converged with Systems Reply / Virtual Mind and is retired from the active evidence sequence; its historical branch remains an audit trail.
+- Replacement PHIL-002 Human/AI Room is a DSD-constructed rebuttal format, not a proven historically novel philosophical objection.
+- PHIL-003 Argument 1 converges with New Knowledge / Old Fact and phenomenal-concept/new-representation literature; Argument 2 is retained separately as a DSD dynamic extension whose historical priority is not claimed.
+- PHIL-004 Twin Earth is an explicit **precedent-convergence** record: Putnam independently preserves distinctions aligned with DSD typed-property, observer/regime, and reconstruction rules. The Semantic-Signature Fork is a formal restatement/sharpening.
+- PHIL-005 Generic BIV deliberately instantiates reduced/full non-injectivity, so this core skeptical construction is another precedent-convergence structure. Its broader epistemological conclusion requires additional epistemology.
+- PHIL-005 physical implementation is **not** counted as precedent convergence: complete subject-level BIV equivalence requires a declared equivalence signature and constitutive bridge; current neurotechnology does not establish full biological indistinguishability.
+- PHIL-005 reality/source-monitoring comparison is empirical context, not a DSD theorem or medical generalization. Autobiographical experience is used only for hypothesis generation.
+- PHIL-005 Putnamian reference shift continues the PHIL-004 semantic-externalist precedent family, while the stronger anti-skeptical object-level conclusion remains dependent on a regime-sensitive disquotation bridge already discussed in Brueckner-style literature.
 
 See `philosophy_epistemology/PRECEDENT_CONVERGENCE.md` for the narrow precedent-convergence category and its evidence-accounting rules.
 
@@ -109,26 +108,24 @@ A case's physical folder answers **where the source problem belongs**. The campa
 
 Current branch:
 
-`analysis/phil-004-twin-earth-reference-regime-audit`.
+`analysis/phil-005-brain-in-vat-reality-source-audit`.
 
-Active PHIL-004 / Global 047 path:
+Active PHIL-005 / Global 048 path:
 
-`philosophy_epistemology/047_twin_earth_reference_regime_audit/`.
+`philosophy_epistemology/048_brain_in_vat_reality_source_audit/`.
 
-Retained PHIL-004 results:
+Retained PHIL-005 results:
 
-1. Putnam's Twin Earth is treated primarily as a **structurally aligned precedent**, not as a target requiring refutation;
-2. equality of a narrow/internal descriptor does not determine equality of an environment-sensitive reference relation;
-3. the subjects' inability to discriminate `H2O` from `XYZ` is intentional and parallels the DSD observer/regime separation;
-4. same surface form does not reconstruct complete semantic/environmental structure;
-5. constitutive externalism must be separated from inverse reconstruction;
-6. a narrow/internal semantic property may agree across twins while broad reference differs;
-7. the umbrella label `meaning` is under-specified until a semantic property signature is fixed;
-8. the step from linguistic reference to broad mental content requires a separate content-individuation bridge;
-9. the narrow/broad distinction is established literature, so no historical novelty or priority claim is made;
-10. the DSD Semantic-Signature Fork is a typed formal restatement/sharpening of the precedent structure;
-11. the hypothetical internal-equality-to-broad-reference error is retained only as a subordinate negative-control check.
+1. generic BIV non-injectivity is structurally coherent and classed as precedent convergence;
+2. internal/accessible equality does not reconstruct a unique full external world without injectivity;
+3. `indistinguishable` is relative to a declared subject-accessible equivalence signature and time interval;
+4. equality of selected electrical stimulation does not by itself establish full biological/experiential equivalence;
+5. reality/source-monitoring literature supports multi-cue internal/external discrimination and source-attribution mechanisms, not a single universal causal rule;
+6. Putnam's always-envatted reference shift is compatible with the PHIL-004 semantic-regime distinction;
+7. moving from sentence-level semantic non-truth to `I am not a BIV` requires a justified regime-sensitive disquotation bridge;
+8. recent envatment remains distinct because causal-reference history may persist;
+9. no historical novelty claim is made.
 
 Next phase:
 
-- `PHIL-005 / Global 048` — Brain in a Vat.
+- **Philosophy first-sequence synthesis audit** — classify PHIL-001–005 plus BENCH-C01/C02 and SYNTH-D01 by negative control, historical convergence, precedent convergence, DSD formal sharpening, DSD-specific extension, prospective Mode C, and synthetic Mode D without merging them into one success rate.
