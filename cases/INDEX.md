@@ -50,7 +50,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 044 | philosophical-zombie premise loading, modal bridge, descriptor completeness, and refinement-stable uniform completion — **current campaign complete** | predefinition | falsification / thought-experiment / descriptor-refinement audit |
 | 045 | Human/AI Room trust-property non-identifiability and Trust Attribution Trilemma — **completed replacement case** | predefinition | property-status / inverse-identification / reconstruction audit |
 | 046 | Mary's Room: (1) epistemic-record novelty vs fact-target novelty; (2) snapshot completeness vs diachronic completeness — **first-pass complete, both preserved** | reinterpretation | epistemic-regime / fact-individuation / temporal-update / dynamic-describability audit |
-| 047 | Twin Earth: internal/surface equality versus environment-indexed reference; Semantic-Signature Fork — **first-pass complete; Putnam core survives** | reinterpretation | semantic-signature / observer-regime / reconstruction / source-scope audit |
+| 047 | Twin Earth: internal/surface equality versus environment-indexed reference; Semantic-Signature Fork — **first-pass complete; precedent-convergence case** | precedent convergence | semantic-signature / observer-regime / reconstruction / source-scope audit |
 
 ## Domain folders
 
@@ -70,7 +70,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
 - Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
 - Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
-- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed; former Chinese Room PHIL-002 retired; replacement PHIL-002 / Global 045 Human/AI Room completed; Mode-C and Mode-D baseline validation records completed; PHIL-003 / Global 046 Mary's Room first pass completed with two preserved arguments; PHIL-004 / Global 047 Twin Earth first pass completed with Putnam's core argument surviving, a naive DSD attack preserved as failure, and the Semantic-Signature Fork retained as formal sharpening. PHIL-005 is next.
+- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed; former Chinese Room PHIL-002 retired; replacement PHIL-002 / Global 045 Human/AI Room completed; Mode-C and Mode-D baseline validation records completed; PHIL-003 / Global 046 Mary's Room first pass completed with two preserved arguments; PHIL-004 / Global 047 Twin Earth first pass completed and reclassified as a **precedent-convergence case**. Putnam's source argument is treated as a structurally aligned predecessor rather than primarily as an adversarial target. PHIL-005 is next.
 
 ## Conservative evidence accounting
 
@@ -90,7 +90,9 @@ Current examples:
 - The replacement PHIL-002 Human/AI Room combines known neighboring distinctions with DSD status/domain/reconstruction rules. It is counted as a **new DSD-constructed rebuttal format**, not as a proven historically novel philosophical objection.
 - PHIL-003 Argument 1 converges strongly with the established New Knowledge / Old Fact and phenomenal-concept/new-representation family. The DSD contribution is the explicit separation of knowledge-record novelty from fact-target novelty via target maps and a finite countermodel; this is formal sharpening, not a new historical objection.
 - PHIL-003 Argument 2 is kept separate from that historical-convergence claim. It time-indexes the physical fact set and Mary's known-target set, distinguishes one-time snapshot completeness from diachronic completeness, and requires an explicit update/access bridge before completeness is projected across an evolving interval. Historical priority for this dynamic extension has not yet been audited and is not claimed.
-- PHIL-004 preserves a failed naive attack: intrinsic/internal identity does not force equality of an explicitly environment-sensitive reference relation. Its positive synthesis strongly overlaps established narrow/broad-content and two-factor/two-dimensional response families. The DSD-specific retained piece is the explicit Semantic-Signature Fork and typed comparison matrix, not a new philosophical refutation.
+- PHIL-004 is the current philosophy sequence's explicit **precedent-convergence case**. Putnam's Twin Earth independently preserves distinctions aligned with DSD: internal/reduced equality does not determine a fuller relation-sensitive property; narrator information is separated from subject-accessible information; surface equality does not reconstruct the full semantic-environmental record; and semantic/reference comparison depends on a declared property signature. The DSD Semantic-Signature Fork is retained as a typed formal restatement/sharpening of this prior structure. The hypothetical `same narrow state -> same broad reference` error remains only a subordinate negative-control check on DSD itself.
+
+See `philosophy_epistemology/PRECEDENT_CONVERGENCE.md` for the narrow precedent-convergence category and its evidence-accounting rules.
 
 ## Purpose folders
 
@@ -115,15 +117,17 @@ Active PHIL-004 / Global 047 path:
 
 Retained PHIL-004 results:
 
-1. `same narrow/internal state -> same broad reference` is not valid when reference is defined through an environment-sensitive signature;
-2. the subjects' inability to discriminate `H2O` from `XYZ` is intentional and is not itself a defect in Putnam's argument;
-3. same surface form does not reconstruct complete semantic/environmental structure;
-4. constitutive externalism must be separated from inverse reconstruction;
-5. a narrow/internal semantic property may agree across twins while broad reference differs;
-6. the umbrella label `meaning` is under-specified until a semantic property signature is fixed;
-7. the step from linguistic reference to broad mental content requires a separate content-individuation bridge;
-8. the narrow/broad distinction is established literature, so no historical novelty claim is made;
-9. final classification: Putnam core survives; failed attack preserved; Mode-B convergence + DSD typed formal sharpening.
+1. Putnam's Twin Earth is treated primarily as a **structurally aligned precedent**, not as a target requiring refutation;
+2. equality of a narrow/internal descriptor does not determine equality of an environment-sensitive reference relation;
+3. the subjects' inability to discriminate `H2O` from `XYZ` is intentional and parallels the DSD observer/regime separation;
+4. same surface form does not reconstruct complete semantic/environmental structure;
+5. constitutive externalism must be separated from inverse reconstruction;
+6. a narrow/internal semantic property may agree across twins while broad reference differs;
+7. the umbrella label `meaning` is under-specified until a semantic property signature is fixed;
+8. the step from linguistic reference to broad mental content requires a separate content-individuation bridge;
+9. the narrow/broad distinction is established literature, so no historical novelty or priority claim is made;
+10. the DSD Semantic-Signature Fork is a typed formal restatement/sharpening of the precedent structure;
+11. the hypothetical internal-equality-to-broad-reference error is retained only as a subordinate negative-control check.
 
 Next phase:
 
