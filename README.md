@@ -36,6 +36,13 @@ Current active domain:
 
 See `cases/INDEX.md` for the global case map.
 
+### 3. Validation benchmarks
+
+- `benchmarks/prospective/` — Mode-C prospective/blind prediction benchmarks
+- `benchmarks/prospective/C01_toxin_puzzle/` — BENCH-C01, Toxin Puzzle prospective pilot
+
+BENCH-C01 is retained as **partial-blind, mixed-positive prospective validation** rather than as a fully clean Mode-C success. A stricter BENCH-C02 is required.
+
 ## Common methodology
 
 - `methodology/case_template.md` — base case template
@@ -76,10 +83,6 @@ Each completed case should state the exact DSD paper section, definition, axiom,
 - `cases/knowledge_representation/SYNTHESIS.md`
 
 ## Current philosophy / epistemology work
-
-Current active branch:
-
-`analysis/phil-002-human-ai-trust-nonidentifiability`
 
 ### PHIL-001 / Global 044
 
@@ -140,26 +143,57 @@ python cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiabil
 
 The witness fixes one output descriptor compatible with multiple mechanisms and distinct trust records, demonstrating non-identifiability of the hidden record from that output alone.
 
-### Novelty status
+### PHIL-002 novelty status
 
-The `PREDICTION.md` formulation was sealed before the dedicated search for this exact construction.
+The formulation was sealed before the dedicated search for its exact construction.
 
-Prior literature already contains strong neighboring material:
-
-- cognitive/attitudinal trust versus trusting behavior;
-- trust versus trustworthiness;
-- behavioral indicators versus latent constructs;
-- AI anthropomorphism and mental-state attribution;
-- disagreements over whether artificial agents can be genuine trust bearers;
-- AI-as-trustor experiments using behavioral operationalization.
-
-Therefore the current claim is conservative:
+Prior literature already contains strong neighboring material, so the current claim remains conservative:
 
 **new DSD-constructed rebuttal format and formal synthesis/sharpening of established neighboring ideas; historical novelty unproven.**
 
+## BENCH-C01 — Toxin Puzzle prospective pilot
+
+Branch:
+
+`benchmark/c01-toxin-puzzle-prospective`
+
+Prediction seal:
+
+`ad682b7354555de6ad004154e9846e4e1ec31cc7`
+
+Blind integrity: **partial**, because one secondary interpretive cue was exposed before sealing. No dedicated objection/reply family was reviewed before the seal.
+
+The sealed DSD prediction correctly localized the main structural interface among:
+
+- present intention formation;
+- anticipated future reasons/motivational structure;
+- persistence/reconsideration;
+- eventual execution.
+
+Validation outcome:
+
+- **C1:** direct hit on the need for an explicit bridge between present intention formation and anticipated future reasons/action conditions;
+- **C2:** stage decomposition and revision/persistence distinctions are correct but already established in Kavka and later intention theory;
+- **C3:** DSD missed the normative-reason vs motivating/explanatory-reason distinction and Mele's Ted counterexample;
+- **C4:** none established;
+- **new philosophical solution:** no.
+
+Overall classification:
+
+**mixed-positive prospective validation / prospective pilot**.
+
+The result supports DSD's ability to localize the relevant structural interface before dedicated literature review, while also preserving a meaningful miss. It is not counted as the first fully clean Mode-C validation.
+
+See:
+
+- `benchmarks/prospective/C01_toxin_puzzle/PREDICTION.md`
+- `benchmarks/prospective/C01_toxin_puzzle/SOURCE_NOTES.md`
+- `benchmarks/prospective/C01_toxin_puzzle/RESULT.md`
+- `benchmarks/prospective/C01_toxin_puzzle/REPRODUCIBILITY.md`
+
 ## Next-stage sequence
 
-1. Select the first **clean prospective/blind benchmark** whose dedicated objection/reply literature has not yet been reviewed.
+1. Select **BENCH-C02** under stricter source isolation so that no secondary snippet reveals the standard objection before sealing.
 2. Prepare the first **synthetic control set** in parallel, including at least one clean/no-defect control.
 3. Only after those validation tracks are prepared should PHIL-003 be opened.
 
