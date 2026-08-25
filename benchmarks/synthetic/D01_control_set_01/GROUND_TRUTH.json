@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "case": "S-001",
+      "category": "valid_bridge_clean",
+      "defect": false,
+      "truth_id": "valid_compositional_bridge"
+    },
+    {
+      "case": "S-002",
+      "category": "inverse_reconstruction_without_injectivity",
+      "defect": true,
+      "truth_id": "inverse_reconstruction"
+    },
+    {
+      "case": "S-003",
+      "category": "undefined_zero_conflation",
+      "defect": true,
+      "truth_id": "status_conflation"
+    },
+    {
+      "case": "S-004",
+      "category": "valid_bridge_clean",
+      "defect": false,
+      "truth_id": "valid_injective_bridge"
+    },
+    {
+      "case": "S-005",
+      "category": "clean_no_defect",
+      "defect": false,
+      "truth_id": "clean_control"
+    },
+    {
+      "case": "S-006",
+      "category": "premise_loading",
+      "defect": true,
+      "truth_id": "premise_loading"
+    },
+    {
+      "case": "S-007",
+      "category": "observer_information_leakage",
+      "defect": true,
+      "truth_id": "observer_leakage"
+    },
+    {
+      "case": "S-008",
+      "category": "part_whole_attribution",
+      "defect": true,
+      "truth_id": "part_whole"
+    }
+  ],
+  "set_id": "SYNTH-D01"
+}
