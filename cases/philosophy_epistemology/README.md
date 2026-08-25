@@ -1,6 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **PHIL-001 / Global 044 complete; PHIL-002 / Global 045 Human/AI Room complete; Mode-C and Mode-D validation baselines complete; PHIL-003 / Global 046 Mary's Room complete with two preserved arguments; PHIL-004 / Global 047 Twin Earth first pass complete; PHIL-005 next**.
+Status: **PHIL-001 / Global 044 complete; PHIL-002 / Global 045 Human/AI Room complete; Mode-C and Mode-D validation baselines complete; PHIL-003 / Global 046 Mary's Room complete with two preserved arguments; PHIL-004 / Global 047 Twin Earth complete and classified as precedent convergence; PHIL-005 next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -30,14 +30,15 @@ Keep separate:
 8. completeness at one time slice does not by itself establish completeness over a later evolving interval.
 9. an umbrella semantic label such as `meaning` or `content` must not collapse internal, surface, reference, environmental, historical, or community-dependent records before the property signature is fixed.
 
-## Four-mode validation discipline
+## Validation and convergence discipline
 
-This field follows `methodology/four_mode_validation_protocol.md`.
+This field follows `methodology/four_mode_validation_protocol.md` and also preserves a narrow **precedent-convergence** category.
 
 - **Mode A — Negative control / failure**: preserve attacks that fail.
 - **Mode B — Historical convergence**: record independent convergence without novelty inflation.
 - **Mode C — Prospective/blind**: seal predictions before dedicated reply literature.
 - **Mode D — Synthetic controls**: use hidden ground truth, including clean/no-defect controls, and preserve false positives/false negatives.
+- **Precedent convergence**: an established external argument is not primarily an adversarial target, but independently preserves a structural distinction also enforced by DSD.
 
 Current validation records:
 
@@ -45,6 +46,9 @@ Current validation records:
 - BENCH-C01 Toxin Puzzle is a partial-blind mixed-positive pilot.
 - BENCH-C02 Hume Missing Shade is the first clean Mode-C record under the project retrieval protocol.
 - SYNTH-D01 is the first Mode-D baseline: `TP 5 / TN 3 / FP 0 / FN 0 / partial 0` on 8 hand-authored blinded controls. It is not treated as a general accuracy estimate.
+- PHIL-004 Twin Earth is the current philosophy sequence's explicit precedent-convergence case.
+
+See `PRECEDENT_CONVERGENCE.md` for the precedent-convergence criteria and evidence-accounting rule.
 
 ## PHIL-001 / Global 044
 
@@ -183,53 +187,73 @@ Branch:
 
 `analysis/phil-004-twin-earth-reference-regime-audit`
 
-### Core source result
+### Primary classification — precedent convergence
 
-Putnam's Twin Earth argument survives the first-pass DSD audit.
+Putnam's Twin Earth is **not primarily treated as an argument for DSD to attack**.
 
-A naive attack of the form
+It is recorded as a **precedent-convergence case**: an established external argument that independently preserves structural distinctions strongly aligned with DSD Formation, Axis-Property, observer/regime, and reconstruction disciplines.
 
-`same narrow/internal state -> same broad reference`
+The source argument and DSD remain different theories with different targets. The relevant finding is structural recurrence, not theoretical identity or historical priority.
 
-fails when linguistic reference is explicitly modeled as an environment-sensitive relational property. Putnam's argument is designed precisely to deny that narrow psychological state alone determines natural-kind extension.
+### Core convergence
+
+The setup permits:
+
+`I(O_E) = I(O_T)`
+
+and
+
+`U(O_E) = U(O_T)`
+
+while
+
+`E(O_E) != E(O_T)`.
+
+If broad reference is defined by an environment-sensitive signature such as
+
+`R_B = g(I, U, E, H, C)`,
+
+then
+
+`R_B(O_E) != R_B(O_T)`
+
+is coherent.
+
+This independently mirrors the DSD rule that equality of one reduced/internal descriptor does not force equality of a fuller typed structure or of a relation-sensitive property with additional constitutive inputs.
 
 ### Semantic-Signature Fork
 
-The DSD synthesis keeps three branches distinct.
+The DSD formal restatement keeps three branches distinct.
 
 1. **Narrow/internal signature** — internal/surface inputs only; Earth and Twin-Earth records may agree.
 2. **Broad/externalist signature** — environment, causal history, and/or community inputs are constitutive; broad references may differ.
 3. **Underspecified `meaning`** — equality or inequality is not yet a well-posed comparison until the semantic property signature is fixed.
 
-Thus the following are jointly consistent:
+Thus `same narrow/internal semantic record` and `different broad reference/extension` can coexist without contradiction because they concern different typed properties.
 
-`same narrow/internal semantic record`
+### Additional convergence points
 
-and
+- narrator-level `H2O/XYZ` information is kept separate from what the 1750 speakers can internally distinguish;
+- the same surface form `water` does not reconstruct the full semantic-environmental structure;
+- linguistic reference and later broad mental-content externalism remain separate levels requiring a bridge.
 
-`different broad reference/extension`.
+### Subordinate negative-control check
 
-The two claims concern different typed properties.
+The hypothetical inference
 
-### Key failed attack
+`same narrow/internal state -> same broad reference`
 
-The subjects' inability to distinguish `H2O` and `XYZ` is not itself a counterexample to Putnam. The thought experiment intentionally makes the environmental microstructure cognitively unavailable in 1750 while letting broad reference differ.
+is retained only as a check on DSD itself. DSD must not infer equality of a relation-sensitive property from equality of one component of its signature.
 
-This failed attack is preserved rather than rewritten as a success.
-
-### Source-scope boundary
-
-Putnam's 1975 argument first concerns linguistic reference/extension. Later externalist literature extends the Twin-Earth structure to propositional-attitude content.
-
-PHIL-004 therefore requires a separate content-individuation bridge before treating the linguistic result as a proof about all mental content.
+This is not the representative characterization of PHIL-004.
 
 ### Historical classification
 
-The narrow/broad distinction and later two-factor/two-dimensional response families are already established in the literature.
+The narrow/broad distinction and later two-factor/two-dimensional response families are established literature. The DSD Semantic-Signature Fork is therefore a typed formal restatement/sharpening of a precedent structure, not a new philosophical refutation.
 
 Final classification:
 
-**Putnam core survives; Mode-A-style failed attack preserved; Mode-B strong convergence with narrow/broad-content literature; DSD Semantic-Signature Fork retained as typed formal sharpening; no historical novelty claim.**
+**precedent convergence + Mode-B historical convergence; DSD typed formal sharpening; no historical novelty or priority claim.**
 
 Finite witness:
 
@@ -254,4 +278,5 @@ For each case:
 - use application-level interpretation maps for external domains;
 - attach dynamic claims to explicit time slices and supplied transition/propagation structure;
 - specify semantic/property signatures before comparing values;
+- distinguish adversarial audits from precedent-convergence cases when the external argument already independently preserves the relevant DSD-like structural discipline;
 - for novelty-sensitive cases, preserve a strict pre-seal/post-search boundary.
