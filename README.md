@@ -32,7 +32,7 @@ Current completed or provisionally closed first-pass domains include:
 
 Current active domain:
 
-- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 completed; PHIL-002 / Global 045 next
+- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 first pass + modal-bridge/descriptor-completeness follow-up completed; PHIL-002 / Global 045 next
 
 See `cases/INDEX.md` for the global case map.
 
@@ -66,17 +66,31 @@ The second family reinforces, rather than double-counts, the broader support/pro
 
 ## Current philosophy / epistemology work
 
-Current branch: `analysis/phil-001-philosophical-zombie-audit`.
+Current branch: `analysis/phil-001-modal-bridge-attack`.
 
 Completed case:
 
 - Field ID: `PHIL-001`
 - Global case: `044`
 - Path: `cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/`
-- Topic: philosophical-zombie premise loading and modal/admissibility audit
-- Result: mixed / conditional validity
+- Topic: philosophical-zombie premise loading, modal bridge, and physical-descriptor completeness audit
+- Result: first-pass mixed / conditional validity; follow-up narrows but does not wholly refute the mature argument
 
-PHIL-001 rejected the naive claim that Chalmers's mature zombie argument simply defines its anti-physicalist conclusion into the setup. The source explicitly separates prima facie from ideal conceivability and supplies a restricted conceivability-to-possibility bridge. The surviving pressure lies at the substantive bridge premises themselves and at the primary/secondary route to the metaphysical conclusion. Observer-access and inverse-identification criticisms were classified as inapplicable to the core modal argument.
+PHIL-001 rejected the naive claim that Chalmers's mature zombie argument simply defines its anti-physicalist conclusion into the setup. The source explicitly separates prima facie from ideal conceivability and supplies a restricted conceivability-to-possibility bridge. Observer-access and inverse-identification criticisms were classified as inapplicable to the core modal argument.
+
+The follow-up then tested whether a simple separation between epistemic-scenario space and metaphysical-possibility space could refute the modal bridge. That attack was also rejected as a new refutation because Chalmers explicitly anticipates the relevant counterarchitecture under the heading of strong necessities.
+
+The surviving pressure is a **descriptor-completeness dilemma**. If the physical base `P` is only theory-based or structural/dispositional, equality of `P` need not establish full physical identity if an intrinsic/categorical basis is omitted. If `P` is expanded to a complete object-based physical description, the ideal positive conceivability of the strengthened `P & ~Q` must be independently re-established. This converges with Stoljar/Russellian lines and is not counted as an independent new philosophical discovery.
+
+The follow-up includes a finite Python witness at:
+
+`cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py`
+
+Repo-root command:
+
+```bash
+python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py
+```
 
 Next case:
 
