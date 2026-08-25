@@ -32,7 +32,7 @@ Current completed or provisionally closed first-pass domains include:
 
 Current active domain:
 
-- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 current campaign completed; PHIL-002 / Global 045 next
+- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 current campaign completed; PHIL-002 / Global 045 first pass completed
 
 See `cases/INDEX.md` for the global case map.
 
@@ -86,39 +86,39 @@ The second family reinforces, rather than double-counts, the broader support/pro
 
 ## Current philosophy / epistemology work
 
-Current methodology branch: `methodology/four-mode-validation-protocol`.
+Current active branch: `analysis/phil-002-chinese-room-part-whole-audit`.
 
-Completed current campaign:
+### PHIL-001 / Global 044
 
-- Field ID: `PHIL-001`
-- Global case: `044`
-- Path: `cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/`
-- Topic: philosophical-zombie premise loading, modal bridge, physical-descriptor completeness, and refinement-stable uniform completion
-- Result: no wholesale refutation; multiple attacks were falsified or narrowed, with a surviving under-justification pressure on ideal positive conceivability
+Current campaign completed.
 
-PHIL-001 has four retained stages.
+Retained pattern:
 
-1. **Naive premise-loading attack — rejected.** Chalmers's mature argument does not merely define a zombie and infer possibility. It explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and defends a restricted modal bridge.
-2. **Simple modal-space counterattack — rejected as new refutation.** Chalmers already anticipates a positively conceivable situation with no corresponding possible world under the strong-necessity problem.
-3. **Descriptor-completeness squeeze — survives but converges with prior literature.** A structural/dispositional `P` may be too weak for full physical identity; a fuller intrinsic/categorical `P` requires renewed support for ideal conceivability. This is conservatively grouped with Stoljar/Russellian lines.
-4. **Refinement-stability / uniform-completion attack — partially survives.** The attack was committed before a dedicated search for its exact formulation. It separates `forall finite refinements F exists a zombie-like z_F` from `exists one z that survives every refinement F`. The former does not entail the latter. Chalmers's ideal positive conceivability is naturally intended to demand the stronger global reading, so this is a challenge to the evidential support for the premise rather than a contradiction in the mature theory.
+1. naive premise-loading attack rejected;
+2. simple modal-space counterattack rejected as a new refutation;
+3. descriptor-completeness squeeze survives but converges with Stoljar/Russellian literature;
+4. refinement-stability / uniform-completion formalization partially survives as an under-justification pressure, not as a wholesale refutation or clean blind novelty result.
 
-Close prior literature on complete physical specification and positive conceivability prevents any current historical-novelty claim. The refinement result is classified as a **DSD-specific formal sharpening/recasting** pending broader literature review.
+### PHIL-002 / Global 045
 
-Reproducibility scripts:
+First-pass historical-convergence audit completed.
 
-```bash
-python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py
-python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_refinement_stability.py
-python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_uniform_completion.py
-```
+Source-level result:
+
+- `not U(operator)` does not entail `not U(system)`;
+- this is the classic Systems Reply already present in the 1980 debate;
+- Searle’s internalization response does not by itself identify the host person with every system-level or realized cognitive bearer;
+- later Virtual Mind variants make that bearer distinction explicit;
+- DSD therefore converges strongly with the Systems/Virtual-Mind family rather than producing a novel objection;
+- Searle’s stronger syntax/semantics and biological-naturalist claims remain separate and are not refuted by this part/whole audit.
+
+PHIL-002 intentionally contains no Python witness because a toy computation would not add evidential value to a bearer-attribution argument.
 
 ## Next-stage sequence
 
-1. `PHIL-002 / Global 045` — Chinese Room part/system understanding attribution and Systems Reply audit. Because the Systems Reply is already known, this is treated primarily as a **historical-convergence** case rather than a clean blind test.
-2. Before opening PHIL-003, select the first **clean prospective/blind benchmark** whose dedicated objection/reply literature has not yet been reviewed. Seal its `PREDICTION.md` using `methodology/prospective_blind_case_template.md` before unblinding.
-3. Prepare the first **synthetic control set** in parallel using `methodology/synthetic_control_case_template.md`, including at least one clean/no-defect control and preserving false positives/false negatives.
-4. Only after those two validation tracks are prepared should PHIL-003 be opened under the expanded protocol.
+1. Select the first **clean prospective/blind benchmark** whose dedicated objection/reply literature has not yet been reviewed. Seal its `PREDICTION.md` using `methodology/prospective_blind_case_template.md` before unblinding.
+2. Prepare the first **synthetic control set** in parallel using `methodology/synthetic_control_case_template.md`, including at least one clean/no-defect control and preserving false positives/false negatives.
+3. Only after those two validation tracks are prepared should PHIL-003 be opened under the expanded protocol.
 
 ## Reproducibility rule
 
