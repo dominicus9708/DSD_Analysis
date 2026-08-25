@@ -1,6 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **PHIL-001 / Global Case 044 first-pass analysis completed; PHIL-002 next**.
+Status: **PHIL-001 / Global Case 044 first-pass + modal-bridge/descriptor-completeness follow-up completed; PHIL-002 next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -28,14 +28,28 @@ must not be silently promoted to a stronger modal, ontological, or inverse-ident
 
 The first completed case also establishes a negative-control rule: if the source already distinguishes the layers and explicitly defends the bridge, DSD Analysis must record that the naive hidden-premise criticism fails.
 
+A second rule emerged from the PHIL-001 follow-up:
+
+`equality of a chosen descriptor != completeness or identity of the underlying structure`.
+
+When an argument claims an exact duplicate, the completeness of the descriptor that is being held fixed must itself be audited.
+
 ## First-pass sequence
 
-### PHIL-001 / Global Case 044 — completed
-**Philosophical Zombie: Premise Loading and Modal/Descriptive Admissibility Audit**
+### PHIL-001 / Global Case 044 — first pass and follow-up completed
+**Philosophical Zombie: Premise Loading, Modal Bridge, and Physical-Descriptor Completeness Audit**
 
-Result: **mixed / conditional validity**. The naive claim that Chalmers merely defines the anti-physicalist conclusion into the zombie setup was rejected for the mature formulation. Chalmers explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and supplies a restricted conceivability-to-possibility bridge. The remaining dispute concerns whether the ideal-conceivability premise and modal/metaphysical bridges succeed. Observer-access and inverse-non-identifiability objections were classified as inapplicable to the core modal argument.
+First-pass result: **mixed / conditional validity**. The naive claim that Chalmers merely defines the anti-physicalist conclusion into the zombie setup was rejected for the mature formulation. Chalmers explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and supplies a restricted conceivability-to-possibility bridge. Observer-access and inverse-non-identifiability objections were classified as inapplicable to the core modal argument.
 
-See `044_philosophical_zombie_premise_loading/RESULT.md`.
+Follow-up result: a bare `conceivable-scenario space > possible-world space` countermodel does not by itself refute Chalmers because he explicitly anticipates that issue under **strong necessities**. The stronger surviving pressure concerns the completeness of the physical base `P`. If `P` is only structural/dispositional, equality of `P` may fail to establish full physical identity. If `P` is expanded to include every intrinsic/categorical physical fact, ideal positive conceivability of the stronger `P & ~Q` must be independently re-established. This converges with Stoljar/Russellian lines rather than constituting a new independent philosophical discovery.
+
+See:
+
+- `044_philosophical_zombie_premise_loading/RESULT.md`
+- `044_philosophical_zombie_premise_loading/ATTACK_ROADMAP.md`
+- `044_philosophical_zombie_premise_loading/MODAL_BRIDGE_ATTACK_RESULT.md`
+- `044_philosophical_zombie_premise_loading/MODAL_BRIDGE_SOURCE_NOTES.md`
+- `044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py`
 
 ### PHIL-002 / Global Case 045 — next
 **Chinese Room: Part/System Property Attribution Audit**
@@ -77,6 +91,7 @@ Useful structural questions include:
 
 - candidate structure versus admitted/identified structure;
 - explicit bridge premise versus silent promotion;
+- descriptor equality versus full structural identity;
 - internal describability versus narrator-supplied external description;
 - equal internal output versus equal underlying structure;
 - property attribution to a part versus to a whole/role-tagged system;
@@ -84,4 +99,6 @@ Useful structural questions include:
 
 ## Current handoff
 
-PHIL-001 is closed for first pass. PHIL-002 should begin from Searle's original Chinese Room formulation and the Systems Reply rather than from a textbook slogan.
+PHIL-001 is closed for the present analysis pass. It did **not** produce a wholesale refutation of the mature zombie argument. It eliminated the initial premise-loading attack, eliminated an over-simple modal-space counterattack, and retained a narrower descriptor-completeness challenge already adjacent to the Stoljar/Russellian literature.
+
+PHIL-002 should begin from Searle's original Chinese Room formulation and the Systems Reply rather than from a textbook slogan.
