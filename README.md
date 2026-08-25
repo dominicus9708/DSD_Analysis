@@ -14,14 +14,11 @@ Completed or provisionally closed first-pass domains:
 - `cases/computer_science/` — Global 029–033
 - `cases/database/` — Global 034–038
 - `cases/knowledge_representation/` — Global 039–043
-
-Current domain:
-
-- `cases/philosophy_epistemology/` — Global 044 onward
+- `cases/philosophy_epistemology/` — PHIL-001–005 / Global 044–048 first-pass sequence complete
 
 See `cases/INDEX.md` for the global map.
 
-## Four-mode validation protocol
+## Validation and convergence protocol
 
 The project keeps four validation modes separate.
 
@@ -38,7 +35,8 @@ Current calibration records:
 - `BENCH-C01` Toxin Puzzle: partial-blind, mixed-positive prospective pilot.
 - `BENCH-C02` Hume Missing Shade: first clean Mode-C record under the project retrieval protocol; positive with a preserved C3 miss and no C4 novelty lead.
 - `SYNTH-D01`: first Mode-D baseline, `TP 5 / TN 3 / FP 0 / FN 0 / partial 0` on 8 hand-authored blinded controls. This is not treated as a general accuracy estimate.
-- PHIL-004 Twin Earth is the current philosophy sequence's explicit precedent-convergence case.
+- PHIL-004 Twin Earth is an explicit precedent-convergence case.
+- PHIL-005 Generic BIV non-injectivity and Putnam's reference-shift component provide a second partial precedent-convergence record, while the physical implementation layer remains a separate constitutive-bridge audit.
 
 Method files:
 
@@ -50,8 +48,6 @@ Method files:
 ## Philosophy / epistemology status
 
 ### PHIL-001 / Global 044 — Philosophical Zombie
-
-Current campaign complete.
 
 - naive premise-loading attack failed;
 - simple modal-space attack was not novel;
@@ -76,8 +72,6 @@ Core result:
 
 `equal externally admitted trust-compatible behavior != identified hidden trust property`.
 
-The case separates behavioral constitution, bearer/type gating, and unresolved assignment while preserving `inapplicable / unavailable / undefined / defined zero / defined nonzero`.
-
 Current classification:
 
 **new DSD-constructed rebuttal format and formal synthesis/sharpening of established neighboring ideas; historical novelty unproven.**
@@ -94,17 +88,9 @@ Path:
 
 `cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/`
 
-Branch:
-
-`analysis/phil-003-marys-room-epistemic-regime-audit`
-
-PHIL-003 preserves **two distinct arguments**. The second is an extension of the analysis and does not replace the first.
+PHIL-003 preserves two arguments.
 
 #### Argument 1 — epistemic-record novelty versus world-fact-target novelty
-
-The audit grants, for the sake of argument, that post-release Mary may gain genuinely new propositional knowledge.
-
-Core non-implication:
 
 `K_1 \ K_0 != empty`
 
@@ -112,43 +98,22 @@ Core non-implication:
 
 `tau_1(K_1) \ tau_0(K_0) != empty`.
 
-A new epistemic/propositional record may target an already known physical fact under a newly available phenomenal concept, representation, or access mode.
-
 Historical comparison:
 
-**Mode B strong convergence with the New Knowledge / Old Fact and phenomenal-concept/new-representation families; DSD-specific formal sharpening; no historical novelty claim.**
-
-Reproduce Argument 1:
-
-```bash
-python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_record_target_nonimplication.py
-```
+**Mode B strong convergence with New Knowledge / Old Fact and phenomenal-concept/new-representation families; DSD-specific formal sharpening; no historical novelty claim.**
 
 #### Argument 2 — temporal snapshot completeness versus diachronic completeness
 
-Define snapshot completeness by:
-
-`C_snap(t) iff F_P(t) subseteq T_M(t)`.
-
-Define diachronic completeness on interval `I` by:
-
-`C_dia(I) iff for every t in I, F_P(t) subseteq T_M(t)`.
-
-The second core non-implication is:
-
 `snapshot completeness at t0 !=> snapshot or diachronic completeness after t0`.
-
-A finite dynamic witness allows Mary to be complete at `t0`, lose completeness at `t1` when a new remote physical fact appears but has not yet been incorporated, and regain completeness at `t2` after the update.
-
-Argument 2 does not by itself refute Jackson's canonical Knowledge Argument. It is retained as a separate dynamic audit.
 
 Current classification:
 
 **DSD-constructed dynamic extension; historical novelty not yet audited and not claimed.**
 
-Reproduce Argument 2:
+Reproduce:
 
 ```bash
+python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_record_target_nonimplication.py
 python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_snapshot_completeness_nonpreservation.py
 ```
 
@@ -158,59 +123,13 @@ Path:
 
 `cases/philosophy_epistemology/047_twin_earth_reference_regime_audit/`
 
-Branch:
-
-`analysis/phil-004-twin-earth-reference-regime-audit`
-
 Primary classification:
 
 **precedent convergence**.
 
-Putnam's Twin Earth is not primarily treated as a target that DSD needs to defeat. It is recorded as an established predecessor whose source-level structure independently aligns with several DSD disciplines.
+Putnam's Twin Earth is not primarily treated as a target that DSD needs to defeat. It is an established predecessor whose source-level structure independently aligns with DSD typed-property, observer/regime, and reconstruction disciplines.
 
-The setup permits:
-
-`I(O_E) = I(O_T)`
-
-and
-
-`U(O_E) = U(O_T)`
-
-while
-
-`E(O_E) != E(O_T)`.
-
-If broad reference is constituted through a signature such as
-
-`R_B = g(I, U, E, H, C)`,
-
-then
-
-`R_B(O_E) != R_B(O_T)`
-
-is coherent. Equality of a selected internal/reduced descriptor does not determine equality of a fuller relation-sensitive property whose signature contains additional environmental, historical, or communal inputs.
-
-This independently parallels DSD Formation/Axis-Property/reconstruction rules.
-
-#### Semantic-Signature Fork
-
-1. **Narrow/internal signature** — internal/surface inputs only; Earth and Twin-Earth records may agree.
-2. **Broad/externalist signature** — environment, causal history, and/or community inputs are constitutive; broad references may differ.
-3. **Underspecified `meaning`** — equality or inequality is not yet a well-posed comparison until the property signature is fixed.
-
-Thus `same narrow/internal semantic record` can coexist with `different broad reference/extension` without contradiction because the two values belong to different typed properties.
-
-Additional convergence points:
-
-- narrator-level `H2O/XYZ` information is kept separate from what the 1750 speakers can internally discriminate;
-- the same surface form `water` does not reconstruct the full semantic-environmental record;
-- Putnam's 1975 linguistic-reference result remains distinct from later broad mental-content externalism.
-
-The hypothetical inference `same narrow/internal state -> same broad reference` is retained only as a subordinate negative-control check on DSD itself, not as the representative characterization of Putnam.
-
-Historical comparison:
-
-**precedent convergence + Mode-B historical convergence; DSD Semantic-Signature Fork retained as typed formal restatement/sharpening; no historical novelty or priority claim.**
+The DSD `Semantic-Signature Fork` keeps narrow/internal, broad/externalist, and under-specified semantic properties separate. It is a typed formal restatement/sharpening of a precedent structure, not a new philosophical refutation.
 
 Reproduce:
 
@@ -218,24 +137,84 @@ Reproduce:
 python cases/philosophy_epistemology/047_twin_earth_reference_regime_audit/repro/check_semantic_signature_fork.py
 ```
 
+### PHIL-005 / Global 048 — Brain in a Vat
+
+Path:
+
+`cases/philosophy_epistemology/048_brain_in_vat_reality_source_audit/`
+
+Branch:
+
+`analysis/phil-005-brain-in-vat-reality-source-audit`
+
+PHIL-005 separates generic skeptical reconstruction, physical implementation, reality/source monitoring, and Putnam's semantic anti-skeptical argument.
+
+#### Generic skeptical BIV — precedent convergence
+
+The skeptical setup deliberately allows
+
+`A_Q(W_N, .) = A_Q(W_B, .)`
+
+while
+
+`W_N != W_B`.
+
+The accessible projection is therefore non-injective. This is structurally aligned with DSD reduced/full reconstruction discipline. The stronger claim that external-world knowledge therefore fails requires an additional epistemology.
+
+#### Physical BIV — Equivalence-Signature Audit
+
+`exactly indistinguishable` is not a well-posed physical comparison until the subject-accessible equivalence signature and time interval are declared.
+
+A serious signature may include ordinary sensory modalities, proprioceptive, vestibular and interoceptive information, agency/efference cues, memory/temporal continuity, and empirically justified reality/source-monitoring discriminators.
+
+Thus:
+
+`equal selected electrical stimulation !=> complete subject-level indistinguishability`
+
+without a constitutive bridge.
+
+Current neurotechnology does not establish complete BIV biological equivalence. A logical thought experiment may still stipulate full equality directly.
+
+#### Reality/source monitoring
+
+Autobiographical experience was used only to generate search hypotheses, not as medical evidence.
+
+The research comparison supports a multi-cue distinction among externally driven sensory evidence, internally generated activity, and source/reality-monitoring judgment. Hallucination studies often report externalizing/source-attribution errors, while sleep/wake transition research shows state-dependent changes in environmental coupling. No universal `reduced arousal -> hallucination` rule is adopted.
+
+#### Putnam's always-envatted semantic BIV
+
+The reference-shift component continues the PHIL-004 precedent-convergence family: the same surface sentence may have different semantic/reference conditions in ordinary-English and vat-English regimes because causal history differs.
+
+However, moving from sentence-level semantic non-truth to the object-level conclusion `I am not a BIV` requires a justified regime-sensitive disquotation/truth-condition bridge. This matches established Brueckner-style circularity objections and is recorded as Mode-B convergence rather than novelty.
+
+Reproduce:
+
+```bash
+python cases/philosophy_epistemology/048_brain_in_vat_reality_source_audit/repro/check_biv_regime_noninjectivity.py
+```
+
 Expected key result:
 
 ```text
-same_internal: True
+worlds_different: True
+weak_indistinguishable: True
+weak_projection_noninjective: True
+strong_indistinguishable: False
+added_discriminator_breaks_equivalence: True
 same_surface: True
-narrow_equal: True
-broad_reference_equal: False
-projection_noninjective_witness: True
+different_reference_regime: True
 witness_passed: True
 ```
 
 ## Next stage
 
-`PHIL-005 / Global 048 — Brain in a Vat`.
+The originally planned PHIL-001–005 first-pass philosophy sequence is closed.
 
-The next audit will separate ordinary skeptical inverse reconstruction from Putnam-style semantic self-reference arguments and test what internally accessible experience actually licenses about external-world structure.
+Next: **philosophy first-sequence synthesis audit**.
 
-Mode-D `SYNTH-D02` remains a later adversarial matched-pair follow-up rather than a prerequisite for PHIL-005.
+The synthesis will separately classify negative controls, historical convergence, precedent convergence, DSD typed/formal sharpening, DSD-specific extensions, prospective Mode-C records, and synthetic Mode-D records. These categories must not be merged into one success rate.
+
+Mode-D `SYNTH-D02` remains a later adversarial matched-pair follow-up rather than a prerequisite for the synthesis.
 
 ## Reproducibility rule
 
@@ -247,7 +226,8 @@ A completed case should preserve, as applicable:
 4. finite witness/countermodel when inferentially useful;
 5. reproducibility instructions;
 6. failed mappings and non-correspondence;
-7. precedent-convergence status when the external argument itself independently preserves the relevant DSD-like structural discipline.
+7. precedent-convergence status when the external argument itself independently preserves the relevant DSD-like structural discipline;
+8. explicit separation of empirical/biological implementation claims from purely stipulated logical equivalence.
 
 Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience.
 
@@ -255,4 +235,4 @@ Missing, undefined, inapplicable, absent, and defined-zero states must not be co
 
 See `references/DSD_PAPERS.md`.
 
-Domain-specific applications require additional interpretation maps; philosophical concepts are not identified with DSD primitives merely by naming similarity.
+Domain-specific applications require additional interpretation maps; philosophical or medical concepts are not identified with DSD primitives merely by naming similarity.
