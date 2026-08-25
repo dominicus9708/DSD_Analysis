@@ -1,0 +1,9 @@
+BASE MODELS: 2
+BASE entails P(a,b): False
+BASE entails not P(a,b): False
+NEGATIVE-ASSERTION MODELS: 1
+NEGATIVE ontology entails not P(a,b): True
+POSITIVE-ASSERTION MODELS: 1
+POSITIVE ontology entails P(a,b): True
+CLASS-ONLY: C(a) leaves P(a,b) free across 2 P-variants
+CLOSED-WORLD policy on absent P(a,b): false (extra rule, not OWL entailment)
