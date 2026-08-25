@@ -1,6 +1,6 @@
 # Knowledge Representation / Ontology / Classification
 
-Status: **K_R-001–003 / Global Cases 039–041 first-pass analysis completed; K_R-004 next**.
+Status: **K_R-001–004 / Global Cases 039–042 first-pass analysis completed; K_R-005 next**.
 
 Starting global case: **039**.
 
@@ -43,12 +43,12 @@ Result: strong structural support within the same OWL semantic family. Declarati
 
 Result: strong structural support within the same OWL semantic family. An existential restriction forces existence of at least one suitable filler, while the filler need not be any particular named individual. Existence and named identity remain distinct.
 
-### K_R-004 / Global Case 042 — next
+### K_R-004 / Global Case 042 — completed
 **Identity, Same-As, and Naming Non-Identity**
 
-Test whether distinct names must denote distinct objects, whether matching labels/identifiers imply identity, and what explicit identity or difference axioms contribute.
+Result: strong structural support within the same OWL semantic family. Different names do not automatically imply distinct denotations; equal annotation labels do not imply identity; explicit equality/inequality and other semantic constraints determine identity relations.
 
-### K_R-005 / Global Case 043
+### K_R-005 / Global Case 043 — next
 **Provenance / Context-Sensitive Assertion Attribution**
 
 Test whether equal proposition content from distinct sources/graphs/contexts remains structurally distinguishable when provenance matters.
@@ -65,6 +65,6 @@ Never identify:
 - OWL class membership with DSD formation membership;
 - RDF/OWL property assertion with a DSD channel;
 - OWL existential restriction/filler with a DSD formation witness;
-- `owl:sameAs` with DSD object identity without explicit comparison.
+- `owl:sameAs` / `SameIndividual` with DSD operational identity or strict formation isomorphism.
 
 The analysis is structural, not terminological.
