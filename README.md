@@ -100,14 +100,6 @@ PHIL-003 preserves **two distinct arguments**. The second is an extension of the
 
 The audit grants, for the sake of argument, that post-release Mary may gain genuinely new propositional knowledge.
 
-Application-level encoding:
-
-- `F` — world-fact targets;
-- `F_P` — physical fact targets;
-- `K_0` — pre-release knowledge records;
-- `K_1` — post-release knowledge records;
-- `tau_0, tau_1` — knowledge-record-to-fact target maps.
-
 Core non-implication:
 
 `K_1 \ K_0 != empty`
@@ -117,14 +109,6 @@ Core non-implication:
 `tau_1(K_1) \ tau_0(K_0) != empty`.
 
 A new epistemic/propositional record may target an already known physical fact under a newly available phenomenal concept, representation, or access mode.
-
-Argument 1 separates:
-
-1. fact completeness;
-2. representation/access completeness;
-3. ontological completeness.
-
-Jackson's strong conclusion remains conditional on an independently defended bridge from new phenomenal propositional knowledge to a fact target outside the complete physical fact set.
 
 Historical comparison:
 
@@ -136,22 +120,7 @@ Reproduce Argument 1:
 python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_record_target_nonimplication.py
 ```
 
-Expected key result:
-
-```text
-new_records: ['k_phen']
-new_targets: []
-new_record_without_new_target: True
-all_targets_physical: True
-witness_passed: True
-```
-
 #### Argument 2 — temporal snapshot completeness versus diachronic completeness
-
-Let:
-
-- `F_P(t)` be the physical fact targets at time `t`;
-- `T_M(t)` be the fact targets Mary knows at time `t`.
 
 Define snapshot completeness by:
 
@@ -167,11 +136,7 @@ The second core non-implication is:
 
 A finite dynamic witness allows Mary to be complete at `t0`, lose completeness at `t1` when a new remote physical fact appears but has not yet been incorporated, and regain completeness at `t2` after the update.
 
-Sustained completeness therefore requires an explicit time-indexed update/access bridge. This is stronger than one-time completeness.
-
-The DSD dynamics layer supports this time-slice discipline by treating dynamics as a time-indexed family of admissible component-resolved states. Finite structural-information propagation is used only conditionally when localization, metric-time, constitutive, locality, and support-faithfulness assumptions are supplied. DSD alone does not derive an empirical signal speed for Mary's world.
-
-Argument 2 does not by itself refute Jackson's canonical Knowledge Argument because Jackson may freeze the relevant target domain to already existing facts about other people's color experiences. It is retained as a separate dynamic audit.
+Argument 2 does not by itself refute Jackson's canonical Knowledge Argument. It is retained as a separate dynamic audit.
 
 Current classification:
 
@@ -183,28 +148,74 @@ Reproduce Argument 2:
 python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_snapshot_completeness_nonpreservation.py
 ```
 
+### PHIL-004 / Global 047 — Twin Earth
+
+Path:
+
+`cases/philosophy_epistemology/047_twin_earth_reference_regime_audit/`
+
+Branch:
+
+`analysis/phil-004-twin-earth-reference-regime-audit`
+
+Putnam's core Twin Earth argument survives the first-pass DSD audit.
+
+A naive attack of the form
+
+`same narrow/internal state -> same broad reference`
+
+fails when reference is explicitly modeled as an environment-sensitive relational property. Putnam's argument is designed precisely to deny that narrow psychological state alone determines natural-kind extension.
+
+#### Semantic-Signature Fork
+
+The DSD synthesis keeps three semantic-property branches separate.
+
+1. **Narrow/internal signature** — internal/surface inputs only; Earth and Twin-Earth records may agree.
+2. **Broad/externalist signature** — environment, causal history, and/or community inputs are constitutive; broad references may differ.
+3. **Underspecified `meaning`** — equality or inequality is not yet a well-posed comparison until the property signature is fixed.
+
+Thus:
+
+`same narrow/internal semantic record`
+
+can coexist with
+
+`different broad reference/extension`
+
+without contradiction, because the two values belong to different typed properties.
+
+The subjects' inability to distinguish `H2O` and `XYZ` is not a counterexample to Putnam; it is an intentional feature of the thought experiment. DSD therefore records that proposed attack as a failure.
+
+Putnam's 1975 argument first concerns linguistic reference/extension. Later externalist literature extends the Twin-Earth structure to propositional-attitude content, so PHIL-004 keeps a separate bridge between linguistic reference and broad mental content.
+
+Historical comparison:
+
+**Putnam core survives; Mode-A-style failed attack preserved; Mode-B strong convergence with narrow/broad-content and two-factor/two-dimensional response families; DSD Semantic-Signature Fork retained as typed formal sharpening; no historical novelty claim.**
+
+Reproduce:
+
+```bash
+python cases/philosophy_epistemology/047_twin_earth_reference_regime_audit/repro/check_semantic_signature_fork.py
+```
+
 Expected key result:
 
 ```text
-snapshot_complete_t0: True
-world_changed_after_t0: True
-snapshot_complete_t1: False
-remote_fact_unknown_t1: True
-later_update_t2: True
+same_internal: True
+same_surface: True
+narrow_equal: True
+broad_reference_equal: False
+projection_noninjective_witness: True
 witness_passed: True
 ```
 
-Detailed second-argument note:
-
-`cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/ARGUMENT_2_TEMPORAL_SNAPSHOT_COMPLETENESS.md`.
-
 ## Next stage
 
-`PHIL-004 / Global 047 — Twin Earth`.
+`PHIL-005 / Global 048 — Brain in a Vat`.
 
-The planned audit separates a narrator-fixed external environmental difference from what an internal subject can identify, and tests whether semantic/externalist conclusions require an explicit bridge from external reference conditions to internally available descriptions.
+The next audit will separate ordinary skeptical inverse reconstruction from Putnam-style semantic self-reference arguments and test what internally accessible experience actually licenses about external-world structure.
 
-Mode-D `SYNTH-D02` remains a later adversarial matched-pair follow-up rather than a prerequisite for PHIL-004.
+Mode-D `SYNTH-D02` remains a later adversarial matched-pair follow-up rather than a prerequisite for PHIL-005.
 
 ## Reproducibility rule
 
