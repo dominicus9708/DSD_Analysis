@@ -102,4 +102,14 @@ At the broader DSD Analysis level, however, K_R-005 should be merged with the al
 
 ## 8. Handoff
 
-The knowledge-representation first-pass sequence is complete. The next major roadmap field is **Philosophy / Epistemology / Thought-Experiment Audit**, where the focus should shift from formal data/semantic systems to whether thought experiments silently pre-fix their conclusion, domain, observer access, or admissible descriptive structure before the internal reasoning begins.
+The knowledge-representation first-pass sequence is complete.
+
+Next field: **Philosophy / Epistemology / Thought-Experiment Audit**.
+
+Prepared branch: `analysis/philosophy-epistemology-preparation`.
+
+Prepared field path: `cases/philosophy_epistemology/`.
+
+Prepared first case: **PHIL-001 / Global Case 044 — Philosophical Zombie: Premise Loading and Modal/Descriptive Admissibility Audit**.
+
+The philosophy field must not inherit the knowledge-representation results as conclusions. It only reuses the audit discipline: separate what is stipulated, what an internal subject can access, what is actually derived, which rival structures remain compatible, and which bridge principles are independently justified.
