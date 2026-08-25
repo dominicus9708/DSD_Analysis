@@ -1,26 +1,30 @@
 # PHIL-004 / Global 047 — Twin Earth Reference-Regime Audit
 
-Status: **first-pass analysis completed**.
+Status: **first-pass analysis completed; precedent-convergence case**.
 
-## 1. Source target
+## 1. Primary result
 
-Primary source: Hilary Putnam, **"The Meaning of 'Meaning'" (1975)**.
+PHIL-004 is not best characterized as a DSD attack on Putnam.
 
-The first-pass result preserves Putnam's original target as linguistic reference/extension for natural-kind terms. Later broad mental-content externalism is treated as a further extension rather than silently folded into the source argument.
+The central result is that Putnam's Twin Earth argument independently preserves several structural distinctions that are strongly congenial to the Formation Axiom System, Axis-Property Axiom System, and DSD reconstruction discipline.
 
-## 2. Neutral setup
+Accordingly, PHIL-004 is recorded as a **precedent-convergence case**: an established external argument whose source-level reasoning survives because it already respects a structural rule that DSD also enforces.
+
+This is not a claim that Putnam was doing DSD, that the two theories are identical, or that DSD has historical priority.
+
+## 2. Source setup
 
 Let:
 
 - `O_E` = Earth Oscar;
 - `O_T` = Twin-Earth Oscar;
 - `I(x)` = selected narrow/internal psychological descriptor;
-- `U(x)` = selected surface linguistic-use descriptor for the form `water`;
-- `E(x)` = relevant environment/natural-kind structure;
-- `R_B(x)` = broad/reference assignment under an environment-sensitive semantic signature;
-- `R_N(x)` = narrow/internal semantic record under an internal-only signature.
+- `U(x)` = selected surface linguistic-use descriptor for `water`;
+- `E(x)` = relevant external environmental/natural-kind structure;
+- `R_N(x)` = narrow/internal semantic record under an internal-only signature;
+- `R_B(x)` = broad/reference assignment under an environment-sensitive signature.
 
-The source setup admits:
+The canonical setup permits:
 
 `I(O_E) = I(O_T)`
 
@@ -32,273 +36,184 @@ while
 
 `E(O_E) != E(O_T)`.
 
-In the canonical example the relevant environmental kinds are Earth `H2O` and Twin-Earth `XYZ`.
+The environmental kinds are Earth `H2O` and Twin-Earth `XYZ`.
 
-## 3. Q1 — internal equality versus reference equality
+## 3. Convergence A — reduced/internal equality does not fix a fuller relational property
 
-### DSD result
+If broad reference is defined through a signature such as
 
-The implication
+`R_B = g(I, U, E, H, C)`,
 
-`I(O_E) = I(O_T) -> R_B(O_E) = R_B(O_T)`
-
-is not valid when the property signature for `R_B` explicitly includes environmental or causal-historical inputs.
-
-Putnam's source argument is therefore **not refuted** by internal indistinguishability. His point is precisely that narrow psychological identity does not determine extension/reference.
-
-### Classification
-
-**Naive DSD attack fails.**
-
-This is retained as a Mode-A-style failure record inside the ordinary PHIL case: DSD must not turn observer/internal equality into equality of an explicitly relational property.
-
-## 4. Q2 — narrator-fixed difference versus subject-accessible difference
-
-The source setup intentionally allows the narrator/analyst to distinguish `H2O` from `XYZ` while the 1750 speakers cannot.
+where `E` is environment, `H` causal/history information, and `C` community structure, then equality of `I` and `U` alone does not force equality of `R_B`.
 
 Thus:
 
+`I(O_E) = I(O_T)`
+
+is compatible with
+
+`R_B(O_E) != R_B(O_T)`.
+
+This mirrors the DSD discipline that equality of a selected/reduced descriptor does not imply equality of a fuller typed structure or of a property whose signature contains additional inputs.
+
+Putnam's argument therefore does not need to be rescued from this DSD audit; its own structure already respects the distinction.
+
+## 4. Convergence B — narrator information and subject-accessible information remain separate
+
+The narrator/analyst can distinguish `H2O` from `XYZ` while the 1750 speakers cannot.
+
+Therefore:
+
 `E(O_E) != E(O_T)`
 
-need not imply that either subject has an internal discriminator for that difference.
+need not imply that either subject has an internal discriminator for the difference.
 
-This is not a defect in Putnam's argument. It is part of the design: external reference can differ even when the relevant environmental microstructure is cognitively inert to the speakers.
+This is an intended part of Twin Earth and strongly parallels DSD's observer/regime discipline: externally available information must not be silently inserted into an internal subject's admitted description.
 
-### DSD result
+## 5. Convergence C — property signature precedes value comparison
 
-The observer/regime distinction strongly **converges** with Putnam here. External analyst information and internally available subject information must remain separate.
+The umbrella word `meaning` is too coarse for a typed comparison.
 
-## 5. Q3 — property signature before value comparison
+At least the following layers can be separated:
 
-The DSD axis-property discipline says that a property label alone has no mathematical content; profile, carrier, domain, assignment, and compatibility data must be supplied.
-
-Applied here, the bare word `meaning` is too coarse for analysis.
-
-At least the following semantic records can be separated:
-
-1. internal/narrow psychological or conceptual record;
+1. narrow/internal psychological or conceptual record;
 2. surface phonetic/syntactic form;
 3. stereotype/ordinary recognition profile;
 4. reference/extension;
 5. environmental natural-kind relation;
-6. causal-historical or community-mediated reference relation;
-7. broad mental content, if that further layer is introduced.
+6. causal-historical/community-mediated relation;
+7. broad mental content, if separately introduced.
 
-Putnam already supplies substantial structure for the reference/extension layer: natural-kind sameness is not identified with mere observable similarity, and environment/indexical or social relations participate in extension determination.
+This aligns directly with the Axis-Property rule that a property label alone does not determine mathematical content; signature/profile/carrier/domain/assignment data must be fixed.
 
-Therefore a DSD criticism that merely says `meaning needs a signature` is **not enough to defeat Putnam**. The source already gives a constitutive externalist answer for the target reference property.
+Putnam already supplies substantial constitutive structure for the reference/extension layer. The DSD contribution is therefore not to say that Putnam forgot a signature, but to formalize why multiple semantic records should not be collapsed under one untyped label.
 
-### Residual DSD sharpening
+## 6. Convergence D — equal surface records do not reconstruct full semantic-environmental structure
 
-What remains useful is to keep the separate semantic records typed rather than allowing one umbrella word `meaning` to collapse them.
+The same surface form `water` and matching internal state are compatible with different environmental embeddings.
 
-## 6. Q4 — same surface form versus same semantic record
+Hence the projection from full semantic-environmental records to the selected internal/surface descriptor is non-injective.
 
-The implication
+This independently mirrors DSD's reconstruction discipline:
 
-`U(O_E) = U(O_T) -> full semantic identity`
+`equal reduced/surface record !=> equal full typed source structure`.
 
-fails in the source setup.
+Twin Earth is therefore a particularly clear philosophical precedent for this structural rule.
 
-Putnam explicitly intends the same phonetic/syntactic form `water` to have different extensions on Earth and Twin Earth.
+## 7. Semantic-Signature Fork
 
-This is a direct convergence with DSD's reconstruction discipline: equality of a reduced/surface record does not reconstruct a complete support-tagged structure without an injectivity theorem.
+The retained DSD formalization separates three branches.
 
-### Classification
-
-**Strong Mode-B-style convergence; no novelty.**
-
-## 7. Q5 — linguistic reference versus broad mental content
-
-The original Twin Earth argument first concerns linguistic reference/extension. It shows that intrinsic or narrow psychological identity does not suffice to determine the reference of the natural-kind term.
-
-A further conclusion of the form
-
-`same intrinsic subject state + different environment -> different belief/mental content`
-
-requires an additional theory identifying or connecting linguistic reference conditions with propositional-attitude content individuation.
-
-Later externalist literature supplies versions of that extension, but it must not be inserted into Putnam's original source as though no bridge were required.
-
-### DSD result
-
-This source-scope distinction **survives**. It is not a refutation of Putnam's linguistic argument; it is a boundary on what is licensed by that argument alone.
-
-### Historical classification
-
-The distinction is already standard in the externalism literature, which explicitly notes that Putnam's argument concerned linguistic content first and was later extended to mental content. Therefore there is **no historical novelty claim**.
-
-## 8. Q6 — constitutive externalism versus inverse reconstruction
-
-This is the strongest audit distinction.
-
-### Constitutive externalism
-
-If the semantic signature is explicitly of the form
-
-`R_B = g(I, U, E, H, C)`
-
-where `E` is environment, `H` a causal/historical relation, and `C` communal linguistic structure, then two internally identical speakers may have different reference values because the complete inputs differ.
-
-This is not an illicit inference from internal output to hidden environment.
-
-### Inverse reconstruction
-
-A different task would attempt:
-
-`I(O_E) = I(O_T)` or `U(O_E) = U(O_T)`
-
-and then infer which external environment is present from those data alone.
-
-That inverse inference is blocked by the Twin Earth construction itself because the internal/surface projection is deliberately non-injective across the two environments.
-
-### DSD result
-
-Putnam's central move belongs to the **constitutive** branch, not the illicit inverse branch. Therefore a reconstruction-based DSD attack against Putnam's main conclusion fails.
-
-At the same time, the construction provides a clean DSD-style non-injectivity witness:
-
-`same internal/surface descriptor != same full semantic-environmental record`.
-
-## 9. Q7 — comparison-level matrix
-
-The Earth/Twin-Earth comparison must retain separate equality statuses.
-
-| Comparison level | First-pass relation |
-|---|---|
-| narrow/internal psychological state | equal by setup |
-| selected surface form/use | equal by setup |
-| relevant observable stereotype in 1750 | equal or intentionally indistinguishable |
-| environmental microstructure/natural kind | different |
-| causal/environmental embedding | different |
-| broad reference/extension under Putnam's rule | different |
-| narrow/internal semantic component, if admitted | may be equal |
-| broad mental content | requires an additional content-individuation bridge |
-
-Equality at the first three levels does not force equality at the later relational levels.
-
-## 10. Semantic-Signature Fork
-
-The first-pass DSD synthesis is a three-way fork.
-
-### Branch N — internal/narrow signature
-
-Let the semantic property depend only on the internal/surface profile:
+### Branch N — narrow/internal signature
 
 `S_N = (I, U, stereotype)`.
 
-Then the source setup permits:
+The source setup permits:
 
 `R_N(O_E) = R_N(O_T)`.
 
 ### Branch B — broad/externalist signature
 
-Let the semantic/reference property include environment and causal/community embedding:
-
 `S_B = (I, U, E, H, C)`.
 
-Then Putnam's source rule permits:
+Under Putnam's externalist rule:
 
 `R_B(O_E) != R_B(O_T)`.
 
 ### Branch U — underspecified `meaning`
 
-If no signature is fixed, a statement such as
+Without a fixed signature, asking simply whether
 
-`meaning_E = meaning_T`
+`Meaning(O_E) = Meaning(O_T)`
 
-or
+or not is under-specified because different legitimate semantic properties have been merged under one label.
 
-`meaning_E != meaning_T`
-
-is underdetermined because distinct legitimate semantic properties are being conflated under one label.
-
-### Consequence
-
-There is no contradiction in jointly holding:
+Therefore:
 
 `same narrow/internal semantic record`
 
 and
 
-`different broad reference/extension`.
+`different broad reference/extension`
 
-They are values of different typed properties.
+are not contradictory statements. They concern different typed properties.
 
-## 11. Finite witness
+The Semantic-Signature Fork is recorded as a **DSD typed restatement and sharpening of a structure already present in the precedent argument**, not as a new refutation.
 
-A finite witness is stored in:
+## 8. Source-scope boundary
 
-`repro/check_semantic_signature_fork.py`.
+Putnam's 1975 Twin Earth argument first targets linguistic reference/extension for natural-kind terms.
 
-It constructs Earth and Twin-Earth records with:
+A stronger conclusion of the form
 
-- identical internal descriptors;
-- identical surface token/profile;
-- different environmental natural kinds;
+`same intrinsic subject state + different environment -> different belief/mental content`
+
+requires an additional content-individuation theory or bridge.
+
+Later externalist literature develops that extension. Therefore the distinction between linguistic reference and broader mental-content externalism is preserved, but no historical novelty is claimed for this boundary.
+
+## 9. Subordinate negative-control check
+
+One hypothetical inference is useful only as a check on DSD itself:
+
+`same narrow/internal state -> same broad reference`.
+
+This inference fails when broad reference explicitly has environmental/causal/community inputs.
+
+The project retains this as a **subordinate negative-control result** demonstrating that DSD must respect its own typed-property discipline. It is not the principal characterization of Putnam and is not treated as an adversarial attack that the source argument happened to survive.
+
+## 10. Finite witness
+
+The reproducibility witness constructs Earth and Twin-Earth records with:
+
+- equal internal descriptors;
+- equal surface forms;
+- different environmental kinds;
 - equal narrow records under `S_N`;
 - different broad references under `S_B`.
 
-The same internal projection therefore has at least two distinct full semantic-environmental preimages.
+Thus one reduced/internal projection has multiple full semantic-environmental preimages.
 
-## 12. External literature comparison
+Run:
 
-The post-analysis literature comparison yields three main results.
+```bash
+python cases/philosophy_epistemology/047_twin_earth_reference_regime_audit/repro/check_semantic_signature_fork.py
+```
 
-### 12.1 Putnam's linguistic-reference result is correctly preserved
+Expected key output:
 
-Reference literature characterizes the Twin Earth argument as showing that intrinsic/narrow psychological properties do not by themselves determine the reference of natural-kind terms.
+```text
+same_internal: True
+same_surface: True
+narrow_equal: True
+broad_reference_equal: False
+projection_noninjective_witness: True
+witness_passed: True
+```
 
-This agrees with the DSD verdict that the naive internal-equality attack fails.
+## 11. Historical comparison
 
-### 12.2 Mental-content externalism is a later extension
+Post-analysis literature comparison confirms that:
 
-Reference works explicitly distinguish Putnam's original linguistic argument from later extensions to propositional-attitude content by McGinn, Burge, and others.
+1. Putnam's source argument is a classic semantic-externalist argument showing that narrow/intrinsic psychological state alone does not determine natural-kind reference;
+2. later literature separately develops broad mental-content externalism;
+3. narrow-content, two-factor, and two-dimensional approaches already preserve coexistence between an intrinsic/narrow component and an externally individuated component.
 
-This confirms the Q5 source-scope boundary.
+Therefore the philosophical content is established prior art.
 
-### 12.3 Narrow/broad coexistence is established literature
+The project-level significance is not novelty but **independent structural recurrence**.
 
-A major response to content externalism accepts broad content while preserving a narrow component that is shared by intrinsic twins. Fodor-style narrow content and later two-dimensional approaches are examples.
+## 12. Final classification
 
-This is very close to the DSD Semantic-Signature Fork:
+**PHIL-004 / Global 047 — precedent convergence.**
 
-- narrow/internal property may agree;
-- broad/environment-indexed property may differ;
-- neither claim eliminates the other when the signatures are kept distinct.
+Putnam's Twin Earth is recorded as an established predecessor whose core distinctions independently align with DSD Formation/Axis-Property/reconstruction rules:
 
-Therefore the philosophical core of this synthesis is **not historically new**.
+- internal/reduced equality need not determine a fuller relational property;
+- observer/narrator information and subject-accessible information remain distinct;
+- semantic values depend on a declared property signature;
+- equal surface records do not reconstruct full semantic-environmental structure.
 
-## 13. What survives and what fails
+DSD contributes a typed formal restatement through the Semantic-Signature Fork, not a historical-priority claim and not a new philosophical refutation.
 
-### Survives
-
-1. Putnam's central semantic-externalist conclusion for natural-kind reference survives the DSD audit.
-2. Internal indistinguishability and external reference difference are structurally compatible.
-3. Narrator knowledge and subject-accessible knowledge must be separated.
-4. Linguistic-reference externalism does not by itself settle every thesis about mental content.
-5. Narrow/internal semantic sameness can coexist with broad-reference difference if they are treated as different properties.
-
-### Fails
-
-1. `same internal state -> same broad reference`, without an internalist semantic rule.
-2. `same word form -> same complete semantic record`.
-3. attacking Putnam as if he inferred environment from internal output alone.
-4. treating the subject's inability to distinguish H2O/XYZ as a counterexample to an argument that intentionally relies on such inability.
-5. collapsing linguistic reference and broad mental content into one conclusion without an explicit bridge.
-
-## 14. Final verdict
-
-PHIL-004 does **not** refute Twin Earth.
-
-Instead it produces a mixed but methodologically useful result:
-
-1. a plausible naive DSD attack fails;
-2. Putnam's constitutive externalist reference relation is compatible with DSD typed-property discipline;
-3. DSD strongly converges with the established distinction between broad and narrow content;
-4. DSD sharpens the case by representing narrow/internal record equality and broad/reference inequality as values of different semantic signatures rather than as contradictory answers to one untyped question;
-5. the extension from linguistic reference to broad mental content remains a separate bridge question.
-
-Project classification:
-
-**PHIL-004 first pass complete — Putnam core survives; Mode-A-style failed attack preserved; Mode-B strong convergence with narrow/broad-content literature; DSD Semantic-Signature Fork retained as formal sharpening; no historical novelty claim.**
+Within the current philosophy-analysis sequence, this is treated as a relatively uncommon and especially informative outcome: the external argument is better understood as a structurally aligned precedent than as a target that needed to be attacked.
