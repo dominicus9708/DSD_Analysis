@@ -47,7 +47,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 041 | OWL existential restriction versus named witness identity | coherence | existence/identity boundary |
 | 042 | OWL naming, SameIndividual, DifferentIndividuals, semantic identity | coherence | naming/identity boundary |
 | 043 | RDF Dataset + W3C PROV content versus provenance-sensitive attribution | coherence | provenance / reconstruction audit |
-| 044 | philosophical-zombie premise loading, modal bridge, and physical-descriptor completeness — **first pass + follow-up complete** | predefinition | falsification / thought-experiment / descriptor-completeness audit |
+| 044 | philosophical-zombie premise loading, modal bridge, descriptor completeness, and refinement-stable uniform completion — **current campaign complete** | predefinition | falsification / thought-experiment / descriptor-refinement audit |
 | 045 | Chinese Room part/system understanding attribution — **next** | predefinition | part-whole / systems-reply audit |
 
 ## Domain folders
@@ -68,7 +68,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
 - Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
 - Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
-- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 first pass and descriptor-completeness follow-up completed; PHIL-002 / Global 045 next.
+- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 first pass plus modal/completeness/refinement follow-ups completed; PHIL-002 / Global 045 next.
 
 ## Conservative evidence accounting
 
@@ -82,7 +82,8 @@ Current examples:
 - K_R-001–004 are one OWL 2 semantic family.
 - K_R-005 is a second knowledge-representation family using RDF Dataset + W3C PROV, but globally reinforces the already observed support/provenance-retention pattern rather than inflating the node count.
 - PHIL-001 remains a negative-control audit: the naive premise-loading criticism failed, and a simple epistemic-space > possible-world-space countermodel was also not counted as a new refutation because Chalmers explicitly anticipates it as the strong-necessity problem.
-- PHIL-001's surviving descriptor-completeness pressure is conservatively grouped with the existing Stoljar/Russellian family rather than counted as a new independent philosophical node.
+- PHIL-001's descriptor-completeness pressure is conservatively grouped with the Stoljar/Russellian family.
+- PHIL-001's refinement-stability / uniform-completion formulation was committed before a dedicated search for that exact objection. It survived as a formal under-justification challenge, but close prior literature on complete physical specification and positive conceivability prevents any novelty claim at present. It is recorded as a DSD-specific formal sharpening, not a separate historical-discovery node.
 
 ## Purpose folders
 
@@ -97,13 +98,14 @@ A case's physical folder answers **where the source problem belongs**. The campa
 
 ## Current phase
 
-Current branch: `analysis/phil-001-modal-bridge-attack`.
+Current branch: `analysis/phil-001-refinement-stability-attack`.
 
-PHIL-001 / Global 044 is closed for the present pass. The current result is threefold:
+PHIL-001 / Global 044 is closed for the present campaign. The retained result is fourfold:
 
 1. the naive premise-loading attack fails against the mature formulation;
 2. a bare strong-necessity/modal-space countermodel is not a new refutation because Chalmers explicitly addresses that possibility;
-3. the surviving DSD-compatible pressure is the completeness–conceivability squeeze on the physical truth base `P`, converging with Stoljar/Russellian objections.
+3. the physical-base completeness–conceivability squeeze survives but converges with Stoljar/Russellian objections;
+4. the refinement-stability / uniform-completion attack establishes that repeated local detail-fillability (`forall F exists z_F`) does not by itself establish one globally complete physical duplicate (`exists z forall F`). This survives as a challenge to the support for ideal positive conceivability, not as a proof that zombies are impossible.
 
 The mature zombie argument has **not** been shown false wholesale.
 
