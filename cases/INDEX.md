@@ -47,7 +47,8 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 041 | OWL existential restriction versus named witness identity | coherence | existence/identity boundary |
 | 042 | OWL naming, SameIndividual, DifferentIndividuals, semantic identity | coherence | naming/identity boundary |
 | 043 | RDF Dataset + W3C PROV content versus provenance-sensitive attribution | coherence | provenance / reconstruction audit |
-| 044 | philosophical-zombie premise loading and admissibility audit — **prepared, not started** | predefinition | falsification / thought-experiment audit |
+| 044 | philosophical-zombie premise loading and modal-bridge audit — **first-pass complete** | predefinition | falsification / thought-experiment audit |
+| 045 | Chinese Room part/system understanding attribution — **next** | predefinition | part-whole / systems-reply audit |
 
 ## Domain folders
 
@@ -57,7 +58,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - `computer_science/` — type/program semantics, runtime state, access control, concurrency, parser context, workflow reachability, and security-oriented structural failure cases
 - `database/` — database/information-structure cases, Global 034–038
 - `knowledge_representation/` — ontology, OWL/RDF/PROV, identity, witness, and provenance cases, Global 039–043
-- `philosophy_epistemology/` — philosophical/epistemological thought-experiment audits; Global 044 onward, currently preparation only
+- `philosophy_epistemology/` — philosophical/epistemological thought-experiment audits; Global 044 onward
 
 ## Field status
 
@@ -67,7 +68,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
 - Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
 - Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
-- Philosophy/epistemology/thought-experiment audit: roadmap prepared; PHIL-001 / Global 044 prepared, not analyzed.
+- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 first pass completed; PHIL-002 / Global 045 next.
 
 ## Conservative evidence accounting
 
@@ -80,6 +81,7 @@ Current examples:
 - DB-001–005 are grouped into status/support, stage/order/provenance, and aggregation/reconstruction families.
 - K_R-001–004 are one OWL 2 semantic family.
 - K_R-005 is a second knowledge-representation family using RDF Dataset + W3C PROV, but globally reinforces the already observed support/provenance-retention pattern rather than inflating the node count.
+- PHIL-001 is treated as a negative-control audit result: DSD Analysis rejected a naive premise-loading criticism where the mature source explicitly separated and defended the relevant modal bridges.
 
 ## Purpose folders
 
@@ -94,10 +96,8 @@ A case's physical folder answers **where the source problem belongs**. The campa
 
 ## Current phase
 
-Next field: **Philosophy / Epistemology / Thought-Experiment Audit**.
+Current branch: `analysis/phil-001-philosophical-zombie-audit`.
 
-Prepared branch: `analysis/philosophy-epistemology-preparation`.
+PHIL-001 / Global 044 is complete. The retained result is not that the philosophical-zombie argument is trivially circular; rather, its serious burden lies at the explicit transitions from ideal conceivability to primary possibility and from the relevant modal status to anti-materialist consequence.
 
-Prepared first case: `PHIL-001 / Global 044` under `philosophy_epistemology/044_philosophical_zombie_premise_loading/`.
-
-Preparation explicitly leaves the result open. The first analysis must retrieve authoritative formulations, distinguish stipulation from inference, and test premise loading, observer-access asymmetry, rival compatible structures, and bridge principles before any DSD convergence judgment is recorded.
+Next case: `PHIL-002 / Global 045`, Chinese Room part/system understanding attribution and Systems Reply audit.
