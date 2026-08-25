@@ -1,0 +1,5 @@
+M_empty: class=True domain=True range=True functional=True P(a,b)=False
+M_edge: class=True domain=True range=True functional=True P(a,b)=True
+ADMISSIBLE MODELS: 2
+CONSTRAINT SET entails P(a,b): False
+REVERSE DIRECTION with actual P(a,b): domain classifies a in C and range classifies b in D
