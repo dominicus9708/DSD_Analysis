@@ -2,7 +2,7 @@
 
 This repository records structured applications of **DSD Analysis (DSD 분석론)**.
 
-DSD Analysis is a logical/structural audit program. Cross-domain similarity is not treated as proof of the DSD axioms, and failed mappings are preserved rather than rewritten as successes.
+DSD Analysis is a logical/structural audit program. Cross-domain similarity is not treated as proof of the DSD axioms, and failed mappings are preserved rather than rewritten as successes. Some external arguments are also retained as **precedent-convergence cases** when they independently preserve a structural discipline that DSD later formalizes in a broader setting.
 
 ## Domain sequence
 
@@ -30,18 +30,22 @@ The project keeps four validation modes separate.
 3. **Mode C — Prospective/blind prediction**: predictions are sealed before dedicated reply literature is opened.
 4. **Mode D — Synthetic controls**: hidden ground truth tests discrimination and false positives/false negatives.
 
+A separate narrow **precedent-convergence** label is used when an established external argument is not primarily an adversarial target, but independently preserves a structural distinction also enforced by DSD.
+
 Current calibration records:
 
 - PHIL-001 supplies Mode-A failure records and Mode-B convergence.
 - `BENCH-C01` Toxin Puzzle: partial-blind, mixed-positive prospective pilot.
 - `BENCH-C02` Hume Missing Shade: first clean Mode-C record under the project retrieval protocol; positive with a preserved C3 miss and no C4 novelty lead.
 - `SYNTH-D01`: first Mode-D baseline, `TP 5 / TN 3 / FP 0 / FN 0 / partial 0` on 8 hand-authored blinded controls. This is not treated as a general accuracy estimate.
+- PHIL-004 Twin Earth is the current philosophy sequence's explicit precedent-convergence case.
 
 Method files:
 
 - `methodology/four_mode_validation_protocol.md`
 - `methodology/prospective_blind_case_template.md`
 - `methodology/synthetic_control_case_template.md`
+- `cases/philosophy_epistemology/PRECEDENT_CONVERGENCE.md`
 
 ## Philosophy / epistemology status
 
@@ -158,39 +162,55 @@ Branch:
 
 `analysis/phil-004-twin-earth-reference-regime-audit`
 
-Putnam's core Twin Earth argument survives the first-pass DSD audit.
+Primary classification:
 
-A naive attack of the form
+**precedent convergence**.
 
-`same narrow/internal state -> same broad reference`
+Putnam's Twin Earth is not primarily treated as a target that DSD needs to defeat. It is recorded as an established predecessor whose source-level structure independently aligns with several DSD disciplines.
 
-fails when reference is explicitly modeled as an environment-sensitive relational property. Putnam's argument is designed precisely to deny that narrow psychological state alone determines natural-kind extension.
+The setup permits:
+
+`I(O_E) = I(O_T)`
+
+and
+
+`U(O_E) = U(O_T)`
+
+while
+
+`E(O_E) != E(O_T)`.
+
+If broad reference is constituted through a signature such as
+
+`R_B = g(I, U, E, H, C)`,
+
+then
+
+`R_B(O_E) != R_B(O_T)`
+
+is coherent. Equality of a selected internal/reduced descriptor does not determine equality of a fuller relation-sensitive property whose signature contains additional environmental, historical, or communal inputs.
+
+This independently parallels DSD Formation/Axis-Property/reconstruction rules.
 
 #### Semantic-Signature Fork
-
-The DSD synthesis keeps three semantic-property branches separate.
 
 1. **Narrow/internal signature** — internal/surface inputs only; Earth and Twin-Earth records may agree.
 2. **Broad/externalist signature** — environment, causal history, and/or community inputs are constitutive; broad references may differ.
 3. **Underspecified `meaning`** — equality or inequality is not yet a well-posed comparison until the property signature is fixed.
 
-Thus:
+Thus `same narrow/internal semantic record` can coexist with `different broad reference/extension` without contradiction because the two values belong to different typed properties.
 
-`same narrow/internal semantic record`
+Additional convergence points:
 
-can coexist with
+- narrator-level `H2O/XYZ` information is kept separate from what the 1750 speakers can internally discriminate;
+- the same surface form `water` does not reconstruct the full semantic-environmental record;
+- Putnam's 1975 linguistic-reference result remains distinct from later broad mental-content externalism.
 
-`different broad reference/extension`
-
-without contradiction, because the two values belong to different typed properties.
-
-The subjects' inability to distinguish `H2O` and `XYZ` is not a counterexample to Putnam; it is an intentional feature of the thought experiment. DSD therefore records that proposed attack as a failure.
-
-Putnam's 1975 argument first concerns linguistic reference/extension. Later externalist literature extends the Twin-Earth structure to propositional-attitude content, so PHIL-004 keeps a separate bridge between linguistic reference and broad mental content.
+The hypothetical inference `same narrow/internal state -> same broad reference` is retained only as a subordinate negative-control check on DSD itself, not as the representative characterization of Putnam.
 
 Historical comparison:
 
-**Putnam core survives; Mode-A-style failed attack preserved; Mode-B strong convergence with narrow/broad-content and two-factor/two-dimensional response families; DSD Semantic-Signature Fork retained as typed formal sharpening; no historical novelty claim.**
+**precedent convergence + Mode-B historical convergence; DSD Semantic-Signature Fork retained as typed formal restatement/sharpening; no historical novelty or priority claim.**
 
 Reproduce:
 
@@ -226,7 +246,8 @@ A completed case should preserve, as applicable:
 3. result;
 4. finite witness/countermodel when inferentially useful;
 5. reproducibility instructions;
-6. failed mappings and non-correspondence.
+6. failed mappings and non-correspondence;
+7. precedent-convergence status when the external argument itself independently preserves the relevant DSD-like structural discipline.
 
 Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience.
 
