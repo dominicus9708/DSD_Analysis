@@ -49,7 +49,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 043 | RDF Dataset + W3C PROV content versus provenance-sensitive attribution | coherence | provenance / reconstruction audit |
 | 044 | philosophical-zombie premise loading, modal bridge, descriptor completeness, and refinement-stable uniform completion — **current campaign complete** | predefinition | falsification / thought-experiment / descriptor-refinement audit |
 | 045 | Human/AI Room trust-property non-identifiability and Trust Attribution Trilemma — **completed replacement case** | predefinition | property-status / inverse-identification / reconstruction audit |
-| 046 | Mary's Room: epistemic-record novelty versus world-fact-target novelty — **first-pass complete** | reinterpretation | epistemic-regime / fact-individuation / bridge audit |
+| 046 | Mary's Room: (1) epistemic-record novelty vs fact-target novelty; (2) snapshot completeness vs diachronic completeness — **first-pass complete, both preserved** | reinterpretation | epistemic-regime / fact-individuation / temporal-update / dynamic-describability audit |
 
 ## Domain folders
 
@@ -69,7 +69,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
 - Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
 - Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
-- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed; former Chinese Room PHIL-002 retired; replacement PHIL-002 / Global 045 Human/AI Room completed; Mode-C and Mode-D baseline validation records completed; PHIL-003 / Global 046 Mary's Room first pass completed as Mode-B convergence with DSD formal sharpening. PHIL-004 is next.
+- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed; former Chinese Room PHIL-002 retired; replacement PHIL-002 / Global 045 Human/AI Room completed; Mode-C and Mode-D baseline validation records completed; PHIL-003 / Global 046 Mary's Room first pass completed with two preserved arguments: Argument 1 is Mode-B convergence with DSD formal sharpening; Argument 2 is a DSD dynamic extension whose historical novelty is not yet audited. PHIL-004 is next.
 
 ## Conservative evidence accounting
 
@@ -87,7 +87,8 @@ Current examples:
 - PHIL-001's refinement-stability / uniform-completion formulation survived as a formal sharpening but is not counted as historical novelty.
 - The former Chinese Room PHIL-002 attempt converged with the Systems Reply / Virtual Mind family and is **retired from the active evidence sequence**. Its historical branch remains only as an audit trail.
 - The replacement PHIL-002 Human/AI Room combines known neighboring distinctions with DSD status/domain/reconstruction rules. It is counted as a **new DSD-constructed rebuttal format**, not as a proven historically novel philosophical objection.
-- PHIL-003 Mary's Room converges strongly with the established New Knowledge / Old Fact and phenomenal-concept/new-representation family. The DSD contribution is the explicit separation of knowledge-record novelty from fact-target novelty via target maps and a finite countermodel; this is formal sharpening, not a new historical objection.
+- PHIL-003 Argument 1 converges strongly with the established New Knowledge / Old Fact and phenomenal-concept/new-representation family. The DSD contribution is the explicit separation of knowledge-record novelty from fact-target novelty via target maps and a finite countermodel; this is formal sharpening, not a new historical objection.
+- PHIL-003 Argument 2 is kept separate from that historical-convergence claim. It time-indexes the physical fact set and Mary's known-target set, distinguishes one-time snapshot completeness from diachronic completeness, and requires an explicit update/access bridge before completeness is projected across an evolving interval. Historical priority for this dynamic extension has not yet been audited and is not claimed.
 
 ## Purpose folders
 
@@ -110,7 +111,9 @@ Active PHIL-003 / Global 046 path:
 
 `philosophy_epistemology/046_marys_room_epistemic_regime_audit/`.
 
-Retained PHIL-003 result:
+Retained PHIL-003 results:
+
+### Argument 1 — epistemic record / fact target
 
 1. Mary may be granted a genuinely new post-release epistemic/propositional record;
 2. `K_1 \ K_0 != empty` does not by itself entail a new world-fact target;
@@ -118,6 +121,15 @@ Retained PHIL-003 result:
 4. fact completeness, representation/access completeness, and ontological completeness must be distinguished;
 5. Jackson's strong conclusion requires an additional fact-individuation / epistemic-novelty-to-fact-novelty bridge;
 6. this structure is historically established in the New Knowledge / Old Fact family, so no novelty claim is made.
+
+### Argument 2 — temporal snapshot / diachronic completeness
+
+1. define `C_snap(t)` by `F_P(t) subseteq T_M(t)` and `C_dia(I)` by completeness at every time in the interval;
+2. `C_snap(t0)` does not by itself entail `C_snap(t1)` when a new physical fact can arise after `t0`;
+3. a finite dynamic witness has snapshot completeness at `t0`, loss of completeness at `t1` after a remote event, and restored completeness at `t2` after Mary is updated;
+4. sustaining completeness requires an explicit diachronic update/access bridge;
+5. finite structural-information propagation may strengthen the example only under the additional localization, metric-time, constitutive, locality, and support-faithfulness conditions of the DSD dynamics layer;
+6. this argument is a DSD dynamic extension and is not currently claimed as historically novel.
 
 Next phase:
 
