@@ -4,19 +4,28 @@ This repository records structured applications of **DSD Analysis (DSD 분석론
 
 DSD Analysis is a logical/structural audit program. Cross-domain similarity is not treated as proof of the DSD axioms. Failed mappings are preserved rather than rewritten as successes, and established external arguments can be retained as **precedent-convergence cases** when they independently preserve a structural discipline later formalized more generally by DSD.
 
+> **Prepublication audit notice — 2026-08-26.** Domain-local IDs (`LAW-*`, `LING-*`, `MATH-*`, etc.) are the authoritative case identifiers for publication preparation. Historical `Global Case` numbers were allocated independently on parallel branches and are not globally unique: law overlaps linguistics, and administration/computer-science overlaps mathematics. Do not cite historical Global numbers as publication identifiers. See `synthesis/GLOBAL_PREPUBLICATION_AUDIT.md` and `references/MASTER_SOURCE_AUDIT.md`.
+
+> This branch is a coordination/audit snapshot, not yet a fully merged publication corpus. The cumulative branch inherited here does not contain the separate linguistics and mathematics synthesis trees. Their current first-pass branches are `synthesis/linguistics-first-pass` and `synthesis/math-028-032-first-pass-closure-audit`.
+
 ## Domain sequence
 
-Completed or provisionally closed first-pass domains:
+Completed or provisionally closed first-pass domains in this inherited cumulative tree:
 
-- `cases/logic/` — Global 001–011
-- `cases/law/` — Global 012–025
-- `cases/administration/` — Global 026–028
-- `cases/computer_science/` — Global 029–033
-- `cases/database/` — Global 034–038
-- `cases/knowledge_representation/` — Global 039–043
-- `cases/philosophy_epistemology/` — PHIL-001–005 / Global 044–048 first-pass sequence and synthesis complete
+- `cases/logic/` — historical Global 001–011
+- `cases/law/` — historical Global 012–025
+- `cases/administration/` — historical Global 026–028
+- `cases/computer_science/` — historical Global 029–033
+- `cases/database/` — historical Global 034–038
+- `cases/knowledge_representation/` — historical Global 039–043
+- `cases/philosophy_epistemology/` — PHIL-001–005 / historical Global 044–048 first-pass sequence and synthesis complete
 
-See `cases/INDEX.md` for the global map.
+Separate completed first-pass branches:
+
+- linguistics: `synthesis/linguistics-first-pass` — `LING-001–010`;
+- mathematical structure/algebra: `synthesis/math-028-032-first-pass-closure-audit` — `MATH-001–005`.
+
+See `cases/INDEX.md` for the inherited historical map and the global prepublication audit for the publication identifier policy.
 
 ## Validation and convergence protocol
 
@@ -49,7 +58,7 @@ Method and synthesis files:
 
 ## Philosophy / epistemology first-pass synthesis
 
-The originally planned PHIL-001–005 / Global 044–048 sequence is closed.
+The originally planned PHIL-001–005 sequence is closed.
 
 ### PHIL-001 — Philosophical Zombie
 
@@ -137,6 +146,6 @@ Missing, undefined, inapplicable, absent, and defined-zero states must not be co
 
 ## DSD paper references
 
-See `references/DSD_PAPERS.md`.
+See `references/DSD_PAPERS.md` and the prepublication source audit at `references/MASTER_SOURCE_AUDIT.md`.
 
 Domain-specific applications require additional interpretation maps; philosophical or medical concepts are not identified with DSD primitives merely by naming similarity.
