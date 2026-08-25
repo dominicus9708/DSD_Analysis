@@ -32,7 +32,7 @@ Current completed or provisionally closed first-pass domains include:
 
 Current active domain:
 
-- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 current campaign completed; PHIL-002 / Global 045 first pass completed
+- `cases/philosophy_epistemology/` — PHIL-001 / Global 044 current campaign completed; PHIL-002 / Global 045 replaced with the Human/AI Room trust-property case
 
 See `cases/INDEX.md` for the global case map.
 
@@ -49,14 +49,12 @@ A completed case must preserve non-correspondence and failed mappings rather tha
 
 ## Four-mode validation protocol
 
-Future validation campaigns distinguish four result modes instead of counting all favorable-looking cases together.
+Validation campaigns distinguish four modes rather than counting every favorable-looking result together.
 
 1. **Negative-control / failure recording** — DSD must be able to reject its own initially plausible attack or mapping.
-2. **Historical convergence / independent rediscovery** — DSD independently reaches a structure already established in an external literature, then records the overlap without claiming novelty.
-3. **Prospective / blind prediction** — the DSD prediction is timestamped before dedicated objection/reply literature is opened, then compared after unblinding.
-4. **Synthetic / controlled cases** — hidden ground-truth mechanisms and clean controls are used to measure false positives and false negatives as well as successful detection.
-
-These modes answer different questions and must not be merged into a single success count.
+2. **Historical convergence / independent rediscovery** — DSD reaches a structure already established in an external literature and records the overlap without claiming novelty.
+3. **Prospective / blind prediction** — DSD predictions are timestamped before dedicated objection/reply literature is opened.
+4. **Synthetic / controlled cases** — hidden ground-truth mechanisms and clean controls are used to expose both correct detection and false positives/false negatives.
 
 The intended cumulative claim is methodological, not metaphysical:
 
@@ -68,25 +66,20 @@ No combination of these validation modes by itself proves the Formation Axiom Sy
 
 - `references/DSD_PAPERS.md` — current project paper titles, stable citation roles, and DOI registry notes
 
-Each completed case should state the exact DSD paper section, definition, axiom, theorem, or closure clause actually used. A paper title alone is not sufficient.
+Each completed case should state the exact DSD paper section, definition, axiom, theorem, or closure clause actually used.
 
 ## Completed synthesis points
 
-- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md` — first logic/falsification campaign
-- `cases/computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md` — computer-science first pass
-- `cases/database/SYNTHESIS.md` — database/information-structure first pass
-- `cases/knowledge_representation/SYNTHESIS.md` — knowledge-representation first pass
-
-The knowledge-representation sequence K_R-001–005 is conservatively grouped into two external formal families:
-
-1. OWL 2 semantic family;
-2. RDF Dataset + W3C PROV provenance family.
-
-The second family reinforces, rather than double-counts, the broader support/provenance-retention pattern already observed in database analysis and DSD static aggregation.
+- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md`
+- `cases/computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md`
+- `cases/database/SYNTHESIS.md`
+- `cases/knowledge_representation/SYNTHESIS.md`
 
 ## Current philosophy / epistemology work
 
-Current active branch: `analysis/phil-002-chinese-room-part-whole-audit`.
+Current active branch:
+
+`analysis/phil-002-human-ai-trust-nonidentifiability`
 
 ### PHIL-001 / Global 044
 
@@ -99,36 +92,86 @@ Retained pattern:
 3. descriptor-completeness squeeze survives but converges with Stoljar/Russellian literature;
 4. refinement-stability / uniform-completion formalization partially survives as an under-justification pressure, not as a wholesale refutation or clean blind novelty result.
 
-### PHIL-002 / Global 045
+### Retired PHIL-002 attempt — Chinese Room
 
-First-pass historical-convergence audit completed.
+The Chinese Room case is **retired from the active case sequence** because its central part/whole objection converged directly with the classic Systems Reply and later Virtual Mind family.
 
-Source-level result:
+Its historical branch is preserved:
 
-- `not U(operator)` does not entail `not U(system)`;
-- this is the classic Systems Reply already present in the 1980 debate;
-- Searle’s internalization response does not by itself identify the host person with every system-level or realized cognitive bearer;
-- later Virtual Mind variants make that bearer distinction explicit;
-- DSD therefore converges strongly with the Systems/Virtual-Mind family rather than producing a novel objection;
-- Searle’s stronger syntax/semantics and biological-naturalist claims remain separate and are not refuted by this part/whole audit.
+`analysis/phil-002-chinese-room-part-whole-audit`
 
-PHIL-002 intentionally contains no Python witness because a toy computation would not add evidential value to a bearer-attribution argument.
+The Chinese Room files are removed from the new active branch and are not counted as the current Global 045 result.
+
+### PHIL-002 / Global 045 — Human/AI Room
+
+Active case:
+
+`cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/`
+
+Topic:
+
+**Human/AI Room: Trust-Property Non-Identifiability and Trust Attribution Trilemma**.
+
+Core assumption:
+
+`O_E(H) = O_E(A)`.
+
+Core non-implication:
+
+`equal externally admitted trust-compatible behavior != identified hidden trust property`.
+
+The active rebuttal separates three routes:
+
+1. **behavioral constitution** — trust is defined by the observed behavioral construct;
+2. **bearer/type gating** — a theory restricts the property domain through explicit prerequisites;
+3. **unresolved assignment** — trust is not behaviorally constitutive and no identification bridge is available, so the correct status can remain undefined.
+
+The case also preserves:
+
+`inapplicable / unavailable input / undefined / defined zero / defined nonzero`.
+
+A human/AI substrate label does not by itself license the pair `trust(H)=1`, `trust(A)=0`, and equal output does not by itself license equal hidden trust values.
+
+Finite witness command:
+
+```bash
+python cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/repro/check_trust_attribution_trilemma.py
+```
+
+The witness fixes one output descriptor compatible with multiple mechanisms and distinct trust records, demonstrating non-identifiability of the hidden record from that output alone.
+
+### Novelty status
+
+The `PREDICTION.md` formulation was sealed before the dedicated search for this exact construction.
+
+Prior literature already contains strong neighboring material:
+
+- cognitive/attitudinal trust versus trusting behavior;
+- trust versus trustworthiness;
+- behavioral indicators versus latent constructs;
+- AI anthropomorphism and mental-state attribution;
+- disagreements over whether artificial agents can be genuine trust bearers;
+- AI-as-trustor experiments using behavioral operationalization.
+
+Therefore the current claim is conservative:
+
+**new DSD-constructed rebuttal format and formal synthesis/sharpening of established neighboring ideas; historical novelty unproven.**
 
 ## Next-stage sequence
 
-1. Select the first **clean prospective/blind benchmark** whose dedicated objection/reply literature has not yet been reviewed. Seal its `PREDICTION.md` using `methodology/prospective_blind_case_template.md` before unblinding.
-2. Prepare the first **synthetic control set** in parallel using `methodology/synthetic_control_case_template.md`, including at least one clean/no-defect control and preserving false positives/false negatives.
-3. Only after those two validation tracks are prepared should PHIL-003 be opened under the expanded protocol.
+1. Select the first **clean prospective/blind benchmark** whose dedicated objection/reply literature has not yet been reviewed.
+2. Prepare the first **synthetic control set** in parallel, including at least one clean/no-defect control.
+3. Only after those validation tracks are prepared should PHIL-003 be opened.
 
 ## Reproducibility rule
 
 A completed case should contain, as applicable:
 
-1. `PLAN.md` — question and falsifiable/decidable criteria
-2. `SOURCE_NOTES.md` — external and DSD source claims actually used
-3. `RESULT.md` — derivation and judgment, including non-correspondence and boundaries
-4. an explicit witness/countermodel when a small construction is meaningful
-5. `REPRODUCIBILITY.md` or `repro/` — exact inputs, scripts/commands, and expected outputs when computation is used
+1. `PLAN.md`
+2. `SOURCE_NOTES.md`
+3. `RESULT.md`
+4. an explicit witness/countermodel when it adds inferential value
+5. `REPRODUCIBILITY.md` or `repro/`
 
 Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience.
 
