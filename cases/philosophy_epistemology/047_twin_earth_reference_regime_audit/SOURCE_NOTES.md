@@ -1,63 +1,89 @@
 # PHIL-004 / Global 047 — Twin Earth Source Notes
 
-Status: **pre-analysis source reconstruction only**.
+Status: **source reconstruction and post-analysis literature comparison completed**.
 
 ## Primary source
 
-Hilary Putnam, **"The Meaning of 'Meaning'" (1975)**, in *Mind, Language and Reality: Philosophical Papers*, pp. 215–271.
+Hilary Putnam, **"The Meaning of 'Meaning'" (1975)**, first published in *Language, Mind and Knowledge*, Minnesota Studies in the Philosophy of Science 7, and collected in *Mind, Language and Reality: Philosophical Papers*, pp. 215–271.
 
-The preparation uses the original Twin Earth example as a semantic/reference argument involving natural-kind terms.
+The Twin Earth case is treated first as a semantic/reference argument involving natural-kind terms.
 
-## Neutral source reconstruction
+## Primary-source reconstruction
 
-The standard 1750 Twin Earth setup fixes two corresponding environments.
+The 1750 Twin Earth setup fixes two corresponding environments.
 
 - Earth: the ordinary liquid called `water` is `H2O`.
 - Twin Earth: the corresponding liquid is a macroscopically similar substance `XYZ`.
-- Oscar and Twin Oscar are exact or relevantly matching internal duplicates in the pre-chemical comparison.
+- Oscar and Twin Oscar are exact or relevantly matching narrow/internal duplicates in the pre-chemical comparison.
 - Both use the same surface word-form `water` in corresponding ordinary circumstances.
-- Neither 1750 subject needs to possess chemical knowledge that discriminates `H2O` from `XYZ`.
+- Neither 1750 subject needs chemical knowledge that discriminates `H2O` from `XYZ`.
 - Putnam's semantic claim is that the extensions/referents differ despite this internal/surface similarity.
 
-This is the source-level tension PHIL-004 will audit. The preparation does not yet accept or reject the conclusion.
+Putnam's broader framework also rejects the conjunction of two traditional assumptions: that knowing meaning is just being in a certain narrow psychological state and that this internal intension determines extension. The Twin Earth example is intended to show that narrow psychological state does not determine extension.
 
-## Important source boundary
+Putnam also develops a natural-kind/indexical and social picture of reference. The Earthly `water` term is tied to the same-natural-kind relation around the relevant samples and linguistic community rather than to a complete internal description possessed by every ordinary speaker.
 
-Putnam's Twin Earth argument in this context is first directed at linguistic meaning/reference and natural-kind terms.
+## Source boundary: linguistic reference versus mental content
 
-Later externalist arguments extend similar structures to mental content. PHIL-004 must not silently attribute that broader mental-content conclusion to the original linguistic argument without identifying an additional bridge and source.
+The Twin Earth argument in Putnam's 1975 source is first directed at linguistic meaning/reference and natural-kind terms.
 
-## Preparation-only secondary checks
+Later work applies the Twin-Earth pattern to propositional-attitude content. Standard reference works explicitly describe McGinn and Burge as extending the semantic result to mental content.
 
-Neutral reference material was used only to verify:
+PHIL-004 therefore keeps separate:
 
-1. the 1750 `H2O`/`XYZ` setup;
-2. the intended internal duplication/indiscriminability;
-3. the original semantic/reference target;
-4. the fact that broader mental-content externalism is a later extension rather than the exact original target.
+1. linguistic reference/extension;
+2. broad/wide mental content;
+3. narrow/internal content or content-determinant, if a theory admits one.
 
-Dedicated objections, replies, and internalism/externalism controversy literature are withheld until the DSD audit has first generated its own structured result.
+## Pre-literature DSD result
 
-## DSD mapping constraints
+Before opening dedicated internalism/externalism response literature, the DSD audit reached the following structure.
 
-No DSD primitive is identified with:
+1. A naive attack from internal equality to reference equality fails if reference is an explicitly environment-sensitive relational property.
+2. Narrator knowledge of `H2O`/`XYZ` and subject access to that distinction are separate information regimes; Putnam intentionally exploits the separation.
+3. The umbrella label `meaning` should be decomposed into typed semantic records before equality is assessed.
+4. Same surface form does not reconstruct the full semantic/environmental record.
+5. The step from linguistic reference externalism to broad mental-content externalism requires a separate content-individuation bridge.
+6. Constitutive externalism must be distinguished from an inverse inference that attempts to reconstruct the environment from internal output alone.
+7. Narrow/internal equality and broad-reference inequality can coexist without contradiction if they belong to different semantic signatures.
 
-- meaning;
-- linguistic reference;
-- natural kind;
-- belief content;
-- mental content;
-- causal history;
-- linguistic community.
+This structure was then fixed in `RESULT.md` before the broader response comparison was completed.
 
-Any use of those notions must be introduced through application-level interpretation maps and explicit property signatures.
+## Post-analysis external comparison
 
-## Pre-analysis warning
+### Stanford Encyclopedia of Philosophy — Narrow Mental Content
 
-A naive argument of the form
+This source describes Putnam's Twin Earth argument as initially concerning linguistic content/reference and explicitly notes that it was later extended to mental content. It also surveys narrow-content responses that accept broad/reference differences while preserving an intrinsic component shared by twins.
 
-`Oscar and Twin Oscar cannot internally distinguish H2O from XYZ -> their word must have the same reference`
+### Stanford Encyclopedia of Philosophy — Externalism About the Mind
 
-is not licensed merely from the setup and should not be treated as a DSD result. Putnam's thought experiment intentionally makes the environmental difference cognitively inert to the 1750 subjects while proposing that reference still differs.
+This source presents the standard externalist result and separately discusses narrow-content strategies. Fodor-style narrow content and later two-dimensional approaches attempt to isolate a component shared by intrinsic twins even when their broad contents differ.
 
-The real audit target is therefore the rule that maps internal use + environment/history/community into semantic/reference assignment, and whether later conclusions exceed the scope of that rule.
+### Stanford Encyclopedia of Philosophy — Content Externalism and Skepticism
+
+This source reconstructs Putnam's `same_L`-style natural-kind relation and the 1750 semantic conclusion in detail, emphasizing that truth conditions are not fixed by narrow psychological states.
+
+### Internet Encyclopedia of Philosophy — Internalism and Externalism in Mind and Language
+
+This source surveys the division between externalist/broad content and internalist/narrow content and records the continuing debate over whether intrinsic twins share a cognitively or explanatorily relevant narrow content.
+
+## Historical comparison verdict
+
+The DSD `Semantic-Signature Fork` strongly overlaps established narrow/broad-content distinctions and two-factor/two-dimensional response families.
+
+Therefore:
+
+- no historical novelty is claimed for the philosophical distinction;
+- DSD's retained contribution is a typed bookkeeping/formal-sharpening layer that requires the semantic property signature to be declared before equality or inequality is asserted;
+- the failed naive attack is preserved as a negative-control result rather than rewritten as a successful refutation.
+
+## DSD source constraints
+
+The application uses the following project-source discipline.
+
+1. Formation Axiom System: domain-specific applications require application-level interpretation data, and reduced/composite coincidence is weaker than strict full-structure equivalence.
+2. Axis-Property Axiom System: a property name alone has no mathematical content; signature, profile, carrier, assignment, and compatibility data are required.
+3. Channel-Indexed Static Aggregation: equality of a reduced aggregate or record does not reconstruct complete support/typed structure without a reconstruction condition.
+4. Structural Reorganization Dynamics: causal-historical development should be modeled dynamically only if a real time-indexed reference chain is opened; no dynamics is inferred from the semantic label alone.
+
+No DSD primitive is identified with meaning, reference, natural kind, belief, or mental content.
