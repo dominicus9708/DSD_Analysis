@@ -1,0 +1,5 @@
+Synthetic Control Set 01 hidden-ground-truth SHA-256 commitment
+
+50af7900f8d4d259a55604097e4774650c7ca1342c4b598a0d9a97559d21f0c4
+
+The ground-truth file itself was generated locally before analyst judgments and is intentionally withheld until all DSD judgments are sealed. After unblinding, the disclosed JSON must hash to the value above.
