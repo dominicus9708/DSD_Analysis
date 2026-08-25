@@ -6,7 +6,7 @@ DSD Analysis is not a numerical benchmark repository and does not treat cross-do
 
 ## Repository organization
 
-The repository now uses two independent classification axes.
+The repository uses two independent classification axes.
 
 ### 1. Analysis purpose
 
@@ -14,17 +14,27 @@ See `campaigns/`.
 
 - `campaigns/falsification/` — direct countermodel, contradiction, and integration stress tests
 - `campaigns/coherence/` — consistency and compatibility with independent formal frameworks
-- `campaigns/predefinition/` — tests of hidden assumptions, premature promotion, typing/signature exclusion, and describability prerequisites
+- `campaigns/predefinition/` — hidden-assumption, premature-promotion, typing/signature, and describability-prerequisite audits
 - `campaigns/reinterpretation/` — structural decomposition and application to external problem domains
 
 ### 2. External domain
 
-Existing case paths are preserved under `cases/` so that prior links and case history remain stable.
+Historical case paths are preserved under `cases/`.
 
-- `cases/logic/001_...` through `cases/logic/010_...` — completed mathematical/philosophical logic and direct axiom stress-test cases
-- new cases continue in their domain path and are cross-indexed from the relevant campaign page
+Current completed or provisionally closed first-pass domains include:
 
-This avoids moving the same case between folders when one case is relevant to more than one analysis purpose.
+- `cases/logic/` — Global Cases 001–011
+- `cases/law/` — Global Cases 012–025
+- `cases/administration/` — Global Cases 026–028
+- `cases/computer_science/` — Global Cases 029–033
+- `cases/database/` — Global Cases 034–038
+- `cases/knowledge_representation/` — Global Cases 039–043
+
+Prepared next domain:
+
+- `cases/philosophy_epistemology/` — starting with PHIL-001 / Global Case 044
+
+See `cases/INDEX.md` for the global case map.
 
 ## Common methodology
 
@@ -32,33 +42,43 @@ This avoids moving the same case between folders when one case is relevant to mo
 - `methodology/analysis_taxonomy.md` — purpose classification rules
 - `methodology/reproducibility_contract.md` — minimum evidence and rerun requirements
 
+A completed case must preserve non-correspondence and failed mappings rather than forcing every external concept into DSD terminology.
+
 ## DSD paper references
 
 - `references/DSD_PAPERS.md` — current project paper titles, stable citation roles, and DOI registry notes
 
-Each case must state exactly which DSD paper, section, definition, axiom, theorem, or closure clause it uses. A paper title alone is not sufficient for a completed case.
+Each completed case should state the exact DSD paper section, definition, axiom, theorem, or closure clause actually used. A paper title alone is not sufficient.
 
-## Completed campaign
+## Completed synthesis points
 
-Cases 001–010 contain the first logic/falsification campaign. The aggregate record remains in:
+- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md` — first logic/falsification campaign
+- `cases/computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md` — computer-science first pass
+- `cases/database/SYNTHESIS.md` — database/information-structure first pass
+- `cases/knowledge_representation/SYNTHESIS.md` — knowledge-representation first pass
 
-- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md`
+The knowledge-representation sequence K_R-001–005 is conservatively grouped into two external formal families:
 
-Existing case directories and historical branches are intentionally preserved.
+1. OWL 2 semantic family;
+2. RDF Dataset + W3C PROV provenance family.
 
-## Next prepared analysis
+The second family reinforces, rather than double-counts, the broader support/provenance-retention pattern already observed in database analysis and DSD static aggregation.
 
-The next non-falsification workstream is **coherence / consistency comparison**.
+## Current prepared analysis
+
+Next field: **Philosophy / Epistemology / Thought-Experiment Audit**.
+
+Preparation branch: `analysis/philosophy-epistemology-preparation`.
 
 Prepared case:
 
-- Global case: `011`
-- Purpose ID: `COH-001`
-- Path: `cases/logic/011_formation_partiality_closure_coherence/`
-- Primary target: the DSD Formation Axiom System
-- Core question: whether its partiality, typed formation stages, primitive/closure separation, and structure-preserving comparison layers can be jointly interpreted without hidden contradiction in standard set-theoretic and typed formal settings.
+- Field ID: `PHIL-001`
+- Global case: `044`
+- Path: `cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/`
+- Topic: philosophical-zombie premise loading and admissibility audit
+- Status: preparation only; no conclusion precommitted
 
-The preparation separates source notes, analysis plan, reproducibility requirements, and result recording so the conclusion is not embedded in the setup.
+The field begins by separating explicit setup, narrator information, internal observer access, derived consequences, hidden conclusion-equivalent assumptions, rival compatible structures, and bridge principles.
 
 ## Reproducibility rule
 
@@ -67,11 +87,11 @@ A completed case should contain, as applicable:
 1. `PLAN.md` — question and falsifiable/decidable criteria
 2. `SOURCE_NOTES.md` — external and DSD source claims actually used
 3. `RESULT.md` — derivation and judgment, including non-correspondence and boundaries
-4. an explicit finite witness/countermodel file when a small construction is possible
-5. `REPRODUCIBILITY.md` or `repro/` — exact inputs, commands/scripts when needed, and expected outputs
+4. an explicit witness/countermodel when a small construction is meaningful
+5. `REPRODUCIBILITY.md` or `repro/` — exact inputs, scripts/commands, and expected outputs when computation is used
 
-Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience in reproducibility code.
+Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience.
 
-## Branch note
+## Branch policy
 
-The repository's historical analysis branches are retained. This reclassification work is prepared on `reorg/analysis-taxonomy`, based on the cumulative `analysis/case-010-integrated-countermodel` state. The default `main` branch is not force-moved by this reorganization.
+Historical analysis branches are retained. New field work branches from the cumulative prior-field state so that previous case records remain available without rewriting history. The default branch is not force-moved by field preparation work.
