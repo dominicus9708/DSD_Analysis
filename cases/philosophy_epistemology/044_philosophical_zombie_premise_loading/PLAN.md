@@ -1,12 +1,16 @@
 # PHIL-001 / Global Case 044 — Philosophical Zombie Premise Loading Audit
 
-Status: **prepared only; analysis not started**.
+Status: **first-pass analysis completed**.
+
+Result: **mixed / conditional validity**. The naive claim that the zombie argument merely defines its anti-physicalist conclusion into the setup was rejected for Chalmers's mature formulation. The remaining pressure falls on ideal conceivability, the conceivability-to-primary-possibility bridge, and the subsequent modal/metaphysical bridge.
+
+See `SOURCE_NOTES.md`, `RESULT.md`, and `REPRODUCIBILITY.md`.
 
 ## Question
 
 Does the philosophical-zombie argument independently establish the relevant possibility/admissibility claim, or does the scenario definition already contain a disputed consciousness/physical-structure separation that is later reused as evidence?
 
-## Source requirements before analysis
+## Source requirements applied
 
 1. Retrieve an authoritative formulation of the philosophical-zombie argument.
 2. Separate the scenario definition from the argument from conceivability to possibility and from possibility to metaphysical conclusion.
@@ -23,28 +27,20 @@ Does the philosophical-zombie argument independently establish the relevant poss
 - alternative interpretations compatible with the same verbal description;
 - bridge principles required between description, conceivability, possibility, and ontology.
 
-## Falsification targets
+## Falsification targets and outcomes
 
-Reject a DSD premise-loading criticism if the source argument supplies an independent justification for the disputed possibility premise that does not rely on merely redescribing the target conclusion.
-
-Reject an observer-access criticism if observer access plays no inferential role in the actual argument.
-
-Reject a non-identifiability criticism if the argument is explicitly only conditional and makes no inverse-identification claim.
+- Reject a DSD premise-loading criticism if the source supplies an independent modal bridge rather than merely redescribing the conclusion. **Triggered: the naive criticism was rejected.**
+- Reject an observer-access criticism if observer access plays no inferential role. **Triggered: observer-access criticism was classified inapplicable to the core argument.**
+- Reject a non-identifiability criticism if the argument is not an inverse-identification inference. **Triggered: inverse non-identifiability was not treated as the central objection.**
 
 ## DSD comparison boundary
 
 Do not equate consciousness, physical state, metaphysical possibility, conceivability, or philosophical modality with DSD channel, axis, formation, or describability primitives.
 
-The possible comparison is restricted to whether a candidate description is promoted to an admissible/identified structure without an independent bridge condition.
+The retained comparison is restricted to the structural requirement that a candidate description not be promoted to an admitted/possible structure without an explicit bridge condition.
 
-## Result states
+## Final classification
 
-The case may end as any of:
+**Conditional illustration + contested modal argument; no simple premise-loading conviction.**
 
-- traditional inference survives the audit;
-- conditional illustration valid but stronger metaphysical inference under-supported;
-- premise-loading risk confirmed;
-- DSD comparison non-informative or inapplicable;
-- mixed result depending on formulation variant.
-
-No result is selected at preparation time.
+The mature argument explicitly acknowledges and defends the intermediate bridge principles. Their correctness remains philosophically contestable, but their existence prevents the audit from diagnosing a trivial circularity.
