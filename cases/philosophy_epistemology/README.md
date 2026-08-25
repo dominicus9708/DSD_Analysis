@@ -1,6 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **PHIL-001 / Global 044 current campaign completed; PHIL-002 / Global 045 replaced with Human/AI Room trust-property case; first clean blind benchmark + synthetic controls next**.
+Status: **PHIL-001 / Global 044 complete; PHIL-002 / Global 045 Human/AI Room complete; Mode-C and Mode-D validation baselines complete; PHIL-003 / Global 046 Mary's Room first pass complete; PHIL-004 next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -16,7 +16,7 @@ Keep separate:
 - derived consequences;
 - hidden conclusion-equivalent assumptions;
 - alternative structures compatible with the same observation;
-- object-, role-, observer-, bearer-, status-, and description-level attribution.
+- object-, role-, observer-, bearer-, status-, representation-, and target-level attribution.
 
 ## Core audit rules
 
@@ -26,6 +26,7 @@ Keep separate:
 4. `property eligibility != property assignment`.
 5. `undefined / unavailable / inapplicable != defined zero`.
 6. equal reduced/output descriptions reconstruct hidden property records only under an explicit identification/injectivity condition.
+7. a new epistemic/representational record does not by itself prove a new world-fact target.
 
 ## Four-mode validation discipline
 
@@ -36,7 +37,14 @@ This field follows `methodology/four_mode_validation_protocol.md`.
 - **Mode C — Prospective/blind**: seal predictions before dedicated reply literature.
 - **Mode D — Synthetic controls**: use hidden ground truth, including clean/no-defect controls, and preserve false positives/false negatives.
 
-## PHIL-001 / Global Case 044 — completed for current campaign
+Current validation records:
+
+- PHIL-001 supplies negative-control/failure and historical-convergence records.
+- BENCH-C01 Toxin Puzzle is a partial-blind mixed-positive pilot.
+- BENCH-C02 Hume Missing Shade is the first clean Mode-C record under the project retrieval protocol.
+- SYNTH-D01 is the first Mode-D baseline: `TP 5 / TN 3 / FP 0 / FN 0 / partial 0` on 8 hand-authored blinded controls. It is not treated as a general accuracy estimate.
+
+## PHIL-001 / Global 044
 
 **Philosophical Zombie: Premise Loading, Modal Bridge, Descriptor Completeness, and Refinement-Stable Completion Audit**
 
@@ -47,128 +55,122 @@ Retained results:
 3. descriptor-completeness pressure converged with Stoljar/Russellian lines;
 4. refinement-stability / uniform-completion formalization partially survived as an under-justification pressure but not as a wholesale refutation or clean blind novelty result.
 
-## Retired historical PHIL-002 attempt — Chinese Room
+## Retired historical Chinese Room attempt
 
-The former active PHIL-002 Chinese Room case has been **retired from the active case sequence**.
+The former PHIL-002 Chinese Room case is retired from the active sequence because its central part/whole objection converged directly with the Systems Reply / Virtual Mind family.
 
-Reason:
+Historical branch:
 
-- its central part/whole objection converged directly with the classic Systems Reply and later Virtual Mind family;
-- it therefore added historical calibration but not a sufficiently distinct active PHIL-002 mechanism.
+`analysis/phil-002-chinese-room-part-whole-audit`
 
-The historical branch `analysis/phil-002-chinese-room-part-whole-audit` is preserved for auditability. The Chinese Room files are removed from the new active branch and are not counted as the current Global 045 evidence node.
+It remains only as an audit trail.
 
-## PHIL-002 / Global Case 045 — active replacement
-
-**Human/AI Room: Trust-Property Non-Identifiability and Trust Attribution Trilemma**
+## PHIL-002 / Global 045 — Human/AI Room
 
 Path:
 
 `045_human_ai_trust_property_nonidentifiability/`
 
-Current branch:
-
-`analysis/phil-002-human-ai-trust-nonidentifiability`
-
-### Setup
-
-Human room `H` and AI room `A` are opaque to external observer `E` except through a fixed interaction regime.
-
-Assume:
+Core setup:
 
 `O_E(H) = O_E(A)`.
 
-The target property `T` is an externally interpreted property labeled `trust`; DSD does not define psychological or machine trust.
+Core result:
 
-### Core rebuttal
+`equal externally admitted trust-compatible behavior != identified hidden trust property`.
 
-Equal trust-compatible output does not by itself identify a unique hidden trust property or mechanism:
+The case separates:
 
-`O_E(H)=O_E(A) -/-> T_E(H)=T_E(A)`.
+1. behavioral constitution;
+2. bearer/type gating;
+3. unresolved assignment.
 
-The reverse asymmetric shortcut is also blocked:
-
-`human/AI bearer labels -/-> T_E(H)=1 and T_E(A)=0`.
-
-### Trust Attribution Trilemma
-
-Any strong trust attribution must disclose which route is being used.
-
-1. **Behavioral constitution** — trust is defined by the admitted behavioral descriptor. Equal behavior then gives equal behavioral trust by definition, but not a deeper hidden-state identity.
-2. **Bearer/type gating** — a theory restricts trust to bearers satisfying human-specific, normative, affective, conscious, biological, or other prerequisites. The asymmetry then comes from the property domain, not the equal behavior. Inapplicable/unavailable status is not automatically numerical zero.
-3. **Unresolved assignment** — trust is non-behavioral and no identification/measurement bridge is supplied. The correct status may remain undefined rather than false/zero.
-
-General rule:
-
-`fix property signature + bearer domain + observation regime + identification map before assigning a hidden property value`.
-
-### Finite witness
-
-Run from repository root:
-
-```bash
-python cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/repro/check_trust_attribution_trilemma.py
-```
-
-The witness gives one external observation vector compatible with multiple human/AI mechanisms and with distinct trust records: defined `1`, defined `0`, and `undefined`.
-
-### Literature comparison
-
-Dedicated precedent search was performed only after `PREDICTION.md` was sealed.
-
-Established prior families include:
-
-- cognitive/attitudinal trust versus trusting behavior;
-- trust versus trustworthiness;
-- behavioral indicators versus latent/internal constructs;
-- AI anthropomorphism and mental-state attribution;
-- disputes about whether artificial agents are eligible bearers of genuine trust;
-- behavioral AI-as-trustor experiments that use weaker wording such as `behavior consistent with trust`.
-
-The exact combined DSD trilemma was not located in the retrieved sources, but that absence is not proof of historical novelty.
+It preserves `inapplicable / unavailable / undefined / defined zero / defined nonzero` and requires an identification/reconstruction bridge before output equality is treated as a hidden-property identifier.
 
 Current classification:
 
 **new DSD-constructed rebuttal format and formal synthesis/sharpening of established neighboring ideas; historical novelty unproven.**
 
-See:
+Finite witness:
 
-- `045_human_ai_trust_property_nonidentifiability/PREDICTION.md`
-- `045_human_ai_trust_property_nonidentifiability/PLAN.md`
-- `045_human_ai_trust_property_nonidentifiability/SOURCE_NOTES.md`
-- `045_human_ai_trust_property_nonidentifiability/RESULT.md`
-- `045_human_ai_trust_property_nonidentifiability/REPRODUCIBILITY.md`
-- `045_human_ai_trust_property_nonidentifiability/repro/check_trust_attribution_trilemma.py`
+```bash
+python cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/repro/check_trust_attribution_trilemma.py
+```
 
-## First clean prospective/blind benchmark — next
+## PHIL-003 / Global 046 — Mary's Room
 
-Before PHIL-003, select a philosophical argument or thought experiment whose dedicated objection/reply literature has not yet been reviewed in this project.
+Path:
 
-Required sequence:
+`046_marys_room_epistemic_regime_audit/`
 
-1. retrieve only the original/authoritative formulation and neutral definitions;
-2. declare withheld literature;
-3. seal `PREDICTION.md`;
-4. unblind only after the prediction is committed;
-5. classify matches, misses, refinements, and unresolved novelty leads.
+Branch:
 
-## First synthetic-control set — in parallel
+`analysis/phil-003-marys-room-epistemic-regime-audit`
 
-Prepare at least:
+### Source target
 
-- one premise-loading defect;
-- one part/whole defect;
-- one descriptor/status defect;
-- one explicit valid-bridge case;
-- one clean/no-defect control.
+The audit reconstructs Jackson's 1982/1986 Knowledge Argument, using the stronger 1986 clarification that the relevant new knowledge concerns the already existing experiences of others rather than merely Mary's newly changed post-release state.
 
-Preserve raw TP/TN/FP/FN counts.
+The analysis does **not** rely on an ability-only reply. It grants, for the sake of the audit, that Mary may gain genuinely new propositional knowledge.
 
-## Later planned cases
+### Core application-level encoding
 
-- `PHIL-003 / Global 046` — Mary's Room
-- `PHIL-004 / Global 047` — Twin Earth
-- `PHIL-005 / Global 048` — Brain in a Vat
+Let:
+
+- `F` = world-fact targets;
+- `F_P` = physical fact targets;
+- `K_0` = pre-release knowledge records;
+- `K_1` = post-release knowledge records;
+- `tau_0, tau_1` = target maps from knowledge records to world facts.
+
+The key non-implication is:
+
+`K_1 \ K_0 != empty`
+
+**does not imply**
+
+`tau_1(K_1) \ tau_0(K_0) != empty`.
+
+A new epistemic/propositional record may target an old physical fact under a newly available phenomenal concept, representation, or access mode.
+
+### Completeness separation
+
+PHIL-003 distinguishes:
+
+1. **fact completeness** — every physical fact target is known;
+2. **representation/access completeness** — every admissible way of representing/accessing those facts is available;
+3. **ontological completeness** — every fact is physical.
+
+A failure of representation/access completeness does not by itself establish failure of ontological completeness.
+
+### Surviving Jackson branch
+
+Jackson's stronger conclusion survives this DSD pressure if an independent fact-individuation bridge justifies:
+
+`new phenomenal propositional record -> fact target outside the complete physical fact set`.
+
+DSD does not decide the correct metaphysics of fact or proposition individuation.
+
+### Literature classification
+
+The result converges strongly with the established **New Knowledge / Old Fact**, phenomenal-concept, and new-representation/mode-of-presentation families.
+
+Therefore:
+
+**Mode B strong historical convergence + DSD-specific formal sharpening; no historical novelty claim.**
+
+Finite witness:
+
+```bash
+python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_record_target_nonimplication.py
+```
+
+## Planned next cases
+
+- `PHIL-004 / Global 047` — Twin Earth: separate a narrator-fixed environmental difference from an internal subject's ability to identify that difference.
+- `PHIL-005 / Global 048` — Brain in a Vat: test inverse reconstruction of external-world structure from internally accessible experience.
+
+Experience Machine and Gettier-family cases are opened only if a mechanism-overlap audit shows a genuinely distinct structural target.
 
 ## Source discipline
 
@@ -178,4 +180,5 @@ For each case:
 - distinguish original argument from textbook compression;
 - preserve failed attacks and non-correspondence;
 - do not identify philosophical concepts with DSD primitives by naming similarity;
+- use application-level interpretation maps for external domains;
 - for novelty-sensitive cases, preserve a strict pre-seal/post-search boundary.
