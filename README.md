@@ -2,246 +2,169 @@
 
 This repository records structured applications of **DSD Analysis (DSD 분석론)**.
 
-DSD Analysis is not a numerical benchmark repository and does not treat cross-domain similarity as proof of the DSD axioms. Each case preserves the source discipline first, then tests which DSD distinctions are preserved, require extra encoding, fail to correspond, or reveal an actual contradiction.
+DSD Analysis is a logical/structural audit program. Cross-domain similarity is not treated as proof of the DSD axioms, and failed mappings are preserved rather than rewritten as successes.
 
-## Repository organization
+## Domain sequence
 
-The repository uses two independent classification axes.
+Completed or provisionally closed first-pass domains:
 
-### 1. Analysis purpose
+- `cases/logic/` — Global 001–011
+- `cases/law/` — Global 012–025
+- `cases/administration/` — Global 026–028
+- `cases/computer_science/` — Global 029–033
+- `cases/database/` — Global 034–038
+- `cases/knowledge_representation/` — Global 039–043
 
-See `campaigns/`.
+Current domain:
 
-- `campaigns/falsification/` — direct countermodel, contradiction, and integration stress tests
-- `campaigns/coherence/` — consistency and compatibility with independent formal frameworks
-- `campaigns/predefinition/` — hidden-assumption, premature-promotion, typing/signature, and describability-prerequisite audits
-- `campaigns/reinterpretation/` — structural decomposition and application to external problem domains
+- `cases/philosophy_epistemology/` — Global 044 onward
 
-### 2. External domain
-
-Historical case paths are preserved under `cases/`.
-
-Current completed or provisionally closed first-pass domains include:
-
-- `cases/logic/` — Global Cases 001–011
-- `cases/law/` — Global Cases 012–025
-- `cases/administration/` — Global Cases 026–028
-- `cases/computer_science/` — Global Cases 029–033
-- `cases/database/` — Global Cases 034–038
-- `cases/knowledge_representation/` — Global Cases 039–043
-
-Current active domain:
-
-- `cases/philosophy_epistemology/` — PHIL-001 / Global 044 current campaign completed; PHIL-002 / Global 045 replaced with the Human/AI Room trust-property case
-
-See `cases/INDEX.md` for the global case map.
-
-### 3. Validation benchmarks
-
-- `benchmarks/prospective/` — Mode-C prospective/blind prediction benchmarks
-- `benchmarks/prospective/C01_toxin_puzzle/` — BENCH-C01, partial-blind pilot
-- `benchmarks/prospective/C02_hume_missing_shade/` — BENCH-C02, first clean Mode-C record under the project retrieval protocol
-
-## Common methodology
-
-- `methodology/case_template.md` — base case template
-- `methodology/analysis_taxonomy.md` — purpose classification rules
-- `methodology/reproducibility_contract.md` — minimum evidence and rerun requirements
-- `methodology/four_mode_validation_protocol.md` — four-mode validation protocol
-- `methodology/prospective_blind_case_template.md` — prospective/blind prediction-seal template
-- `methodology/synthetic_control_case_template.md` — blinded synthetic-control template
-
-A completed case must preserve non-correspondence and failed mappings rather than forcing every external concept into DSD terminology.
+See `cases/INDEX.md` for the global map.
 
 ## Four-mode validation protocol
 
-Validation campaigns distinguish four modes rather than counting every favorable-looking result together.
+The project keeps four validation modes separate.
 
-1. **Negative-control / failure recording** — DSD must be able to reject its own initially plausible attack or mapping.
-2. **Historical convergence / independent rediscovery** — DSD reaches a structure already established in an external literature and records the overlap without claiming novelty.
-3. **Prospective / blind prediction** — DSD predictions are timestamped before dedicated objection/reply literature is opened.
-4. **Synthetic / controlled cases** — hidden ground-truth mechanisms and clean controls are used to expose both correct detection and false positives/false negatives.
+1. **Mode A — Negative control / failure recording**: DSD must reject its own failed attacks.
+2. **Mode B — Historical convergence**: DSD reaches an established external structure without novelty inflation.
+3. **Mode C — Prospective/blind prediction**: predictions are sealed before dedicated reply literature is opened.
+4. **Mode D — Synthetic controls**: hidden ground truth tests discrimination and false positives/false negatives.
 
-The intended cumulative claim is methodological, not metaphysical:
+Current calibration records:
 
-`DSD distinctions repeatedly function as useful analytical operators under controlled and externally calibrated tests`.
+- PHIL-001 supplies Mode-A failure records and Mode-B convergence.
+- `BENCH-C01` Toxin Puzzle: partial-blind, mixed-positive prospective pilot.
+- `BENCH-C02` Hume Missing Shade: first clean Mode-C record under the project retrieval protocol; positive with a preserved C3 miss and no C4 novelty lead.
+- `SYNTH-D01`: first Mode-D baseline, `TP 5 / TN 3 / FP 0 / FN 0 / partial 0` on 8 hand-authored blinded controls. This is not treated as a general accuracy estimate.
 
-No combination of these validation modes by itself proves the Formation Axiom System or Axis-Property Axiom System true as a description of fundamental reality.
+Method files:
 
-## DSD paper references
+- `methodology/four_mode_validation_protocol.md`
+- `methodology/prospective_blind_case_template.md`
+- `methodology/synthetic_control_case_template.md`
 
-- `references/DSD_PAPERS.md` — current project paper titles, stable citation roles, and DOI registry notes
+## Philosophy / epistemology status
 
-Each completed case should state the exact DSD paper section, definition, axiom, theorem, or closure clause actually used.
+### PHIL-001 / Global 044 — Philosophical Zombie
 
-## Completed synthesis points
+Current campaign complete.
 
-- `synthesis/FALSIFICATION_CAMPAIGN_001_010.md`
-- `cases/computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md`
-- `cases/database/SYNTHESIS.md`
-- `cases/knowledge_representation/SYNTHESIS.md`
+- naive premise-loading attack failed;
+- simple modal-space attack was not novel;
+- descriptor-completeness pressure converged with Stoljar/Russellian families;
+- refinement-stability / uniform-completion survived only as a formal sharpening / under-justification pressure.
 
-## Current philosophy / epistemology work
+### Historical Chinese Room attempt
 
-### PHIL-001 / Global 044
+Retired from the active sequence because its central part/whole objection converged directly with Systems Reply / Virtual Mind.
 
-Current campaign completed.
-
-Retained pattern:
-
-1. naive premise-loading attack rejected;
-2. simple modal-space counterattack rejected as a new refutation;
-3. descriptor-completeness squeeze survives but converges with Stoljar/Russellian literature;
-4. refinement-stability / uniform-completion formalization partially survives as an under-justification pressure, not as a wholesale refutation or clean blind novelty result.
-
-### Retired PHIL-002 attempt — Chinese Room
-
-The Chinese Room case is **retired from the active case sequence** because its central part/whole objection converged directly with the classic Systems Reply and later Virtual Mind family.
-
-Its historical branch is preserved:
+Historical branch:
 
 `analysis/phil-002-chinese-room-part-whole-audit`
 
-The Chinese Room files are removed from the new active branch and are not counted as the current Global 045 result.
-
 ### PHIL-002 / Global 045 — Human/AI Room
 
-Active case:
+Path:
 
 `cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/`
 
-Topic:
-
-**Human/AI Room: Trust-Property Non-Identifiability and Trust Attribution Trilemma**.
-
-Core assumption:
-
-`O_E(H) = O_E(A)`.
-
-Core non-implication:
+Core result:
 
 `equal externally admitted trust-compatible behavior != identified hidden trust property`.
 
-The active rebuttal separates three routes:
+The case separates behavioral constitution, bearer/type gating, and unresolved assignment while preserving `inapplicable / unavailable / undefined / defined zero / defined nonzero`.
 
-1. **behavioral constitution** — trust is defined by the observed behavioral construct;
-2. **bearer/type gating** — a theory restricts the property domain through explicit prerequisites;
-3. **unresolved assignment** — trust is not behaviorally constitutive and no identification bridge is available, so the correct status can remain undefined.
+Current classification:
 
-The case also preserves:
+**new DSD-constructed rebuttal format and formal synthesis/sharpening of established neighboring ideas; historical novelty unproven.**
 
-`inapplicable / unavailable input / undefined / defined zero / defined nonzero`.
-
-A human/AI substrate label does not by itself license the pair `trust(H)=1`, `trust(A)=0`, and equal output does not by itself license equal hidden trust values.
-
-Finite witness command:
+Reproduce:
 
 ```bash
 python cases/philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/repro/check_trust_attribution_trilemma.py
 ```
 
-### PHIL-002 novelty status
+### PHIL-003 / Global 046 — Mary's Room
 
-The formulation was sealed before the dedicated search for its exact construction.
+Path:
 
-Prior literature already contains strong neighboring material, so the current claim remains conservative:
-
-**new DSD-constructed rebuttal format and formal synthesis/sharpening of established neighboring ideas; historical novelty unproven.**
-
-## BENCH-C01 — Toxin Puzzle prospective pilot
+`cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/`
 
 Branch:
 
-`benchmark/c01-toxin-puzzle-prospective`
+`analysis/phil-003-marys-room-epistemic-regime-audit`
 
-Prediction seal:
+The audit grants, for the sake of argument, that post-release Mary may gain genuinely new propositional knowledge.
 
-`ad682b7354555de6ad004154e9846e4e1ec31cc7`
+Application-level encoding:
 
-Blind integrity: **partial**.
+- `F` — world-fact targets;
+- `F_P` — physical fact targets;
+- `K_0` — pre-release knowledge records;
+- `K_1` — post-release knowledge records;
+- `tau_0, tau_1` — knowledge-record-to-fact target maps.
 
-Outcome:
+Core non-implication:
 
-- **C1:** correct localization of the bridge between present intention formation and anticipated future reasons/action conditions;
-- **C2:** stage decomposition and persistence/revision distinctions matched established literature;
-- **C3:** missed normative vs motivating/explanatory reasons and Mele's Ted counterexample;
-- **C4:** none;
-- new solution: no.
+`K_1 \ K_0 != empty`
 
-Overall: **mixed-positive prospective pilot**.
+**does not imply**
 
-## BENCH-C02 — Hume's Missing Shade of Blue
+`tau_1(K_1) \ tau_0(K_0) != empty`.
 
-Branch:
+A new epistemic/propositional record may target an already known physical fact under a newly available phenomenal concept, representation, or access mode.
 
-`benchmark/c02-hume-missing-shade-prospective`
+The audit therefore separates:
 
-Prediction seal:
+1. fact completeness;
+2. representation/access completeness;
+3. ontological completeness.
 
-`0a47759cd395a5d7ebd6c265d11a180d917e27c4`
+Jackson's strong conclusion remains conditional on an independently defended bridge from new phenomenal propositional knowledge to a fact target outside the complete physical fact set.
 
-Blind integrity: **clean under the project retrieval protocol**.
+Historical comparison:
 
-Before dedicated response literature was opened, DSD predicted that the mature fault lines would include:
+**Mode B strong convergence with the New Knowledge / Old Fact and phenomenal-concept/new-representation families; DSD-specific formal sharpening; no historical novelty claim.**
 
-1. direct corresponding impression versus relational/neighbor-supported formation;
-2. gap localization versus possession of the exact qualitative idea;
-3. the ordered gradation as substantive information;
-4. simple content versus non-derived formation history;
-5. a restricted exception versus wholesale collapse of the broader empirical principle.
+Reproduce:
 
-Post-seal literature contained close or direct versions of all five structures:
+```bash
+python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_record_target_nonimplication.py
+```
 
-- SEP mental mixing;
-- Fogelin resemblance/color-space gap analysis;
-- Cummins recognitional-capacity interpretation;
-- Garrett natural-resemblance approach;
-- Kelahan theoretical-posits interpretation;
-- Finch empirical test;
-- Earp's broader methodological survival argument.
+Expected key result:
 
-Validation outcome:
+```text
+new_records: ['k_phen']
+new_targets: []
+new_record_without_new_target: True
+all_targets_physical: True
+witness_passed: True
+```
 
-- Prediction 1: **C1**;
-- Prediction 2: **C1/C2**;
-- Prediction 3: **C1**;
-- Prediction 4: **C1/C2**;
-- Prediction 5: **C1**;
-- major miss: **C3** — the pre-seal model did not explicitly separate resemblance and causal theses within Hume's first principle;
-- **C4:** none;
-- new philosophical solution: no.
+## Next stage
 
-Overall classification:
+`PHIL-004 / Global 047 — Twin Earth`.
 
-**positive clean prospective validation**.
+The planned audit separates a narrator-fixed external environmental difference from what an internal subject can identify, and tests whether semantic/externalist conclusions require an explicit bridge from external reference conditions to internally available descriptions.
 
-BENCH-C02 is the project's first clean Mode-C validation record under the explicit retrieval protocol. This is evidence for pre-literature structural localization, not historical novelty and not proof of the DSD axioms.
-
-See:
-
-- `benchmarks/prospective/C02_hume_missing_shade/PREDICTION.md`
-- `benchmarks/prospective/C02_hume_missing_shade/SOURCE_NOTES.md`
-- `benchmarks/prospective/C02_hume_missing_shade/RESULT.md`
-- `benchmarks/prospective/C02_hume_missing_shade/REPRODUCIBILITY.md`
-
-## Next-stage sequence
-
-1. Build the first **Mode-D synthetic control set**, including premise-loading, part/whole, status/descriptor, valid-bridge, and clean/no-defect controls.
-2. Preserve raw TP/TN/FP/FN/partial outcomes without merging Mode-D into the Mode-C evidence count.
-3. After Synthetic Control Set 01 is closed, open PHIL-003 under the expanded protocol.
+Mode-D `SYNTH-D02` remains a later adversarial matched-pair follow-up rather than a prerequisite for PHIL-004.
 
 ## Reproducibility rule
 
-A completed case should contain, as applicable:
+A completed case should preserve, as applicable:
 
-1. `PLAN.md`
-2. `SOURCE_NOTES.md`
-3. `RESULT.md`
-4. an explicit witness/countermodel when it adds inferential value
-5. `REPRODUCIBILITY.md` or `repro/`
+1. source reconstruction;
+2. sealed prediction or explicit audit target;
+3. result;
+4. finite witness/countermodel when inferentially useful;
+5. reproducibility instructions;
+6. failed mappings and non-correspondence.
 
 Missing, undefined, inapplicable, absent, and defined-zero states must not be collapsed for convenience.
 
-## Branch policy
+## DSD paper references
 
-Historical analysis branches are retained. New field work branches from the cumulative prior-field state so that previous case records remain available without rewriting history. The default branch is not force-moved by field analysis work.
+See `references/DSD_PAPERS.md`.
+
+Domain-specific applications require additional interpretation maps; philosophical concepts are not identified with DSD primitives merely by naming similarity.
