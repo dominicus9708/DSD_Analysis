@@ -32,7 +32,7 @@ Current completed or provisionally closed first-pass domains include:
 
 Current active domain:
 
-- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 first pass + modal-bridge/descriptor-completeness follow-up completed; PHIL-002 / Global 045 next
+- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 current campaign completed; PHIL-002 / Global 045 next
 
 See `cases/INDEX.md` for the global case map.
 
@@ -66,30 +66,35 @@ The second family reinforces, rather than double-counts, the broader support/pro
 
 ## Current philosophy / epistemology work
 
-Current branch: `analysis/phil-001-modal-bridge-attack`.
+Current branch: `analysis/phil-001-refinement-stability-attack`.
 
-Completed case:
+Completed current campaign:
 
 - Field ID: `PHIL-001`
 - Global case: `044`
 - Path: `cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/`
-- Topic: philosophical-zombie premise loading, modal bridge, and physical-descriptor completeness audit
-- Result: first-pass mixed / conditional validity; follow-up narrows but does not wholly refute the mature argument
+- Topic: philosophical-zombie premise loading, modal bridge, physical-descriptor completeness, and refinement-stable uniform completion
+- Result: no wholesale refutation; multiple attacks were falsified or narrowed, with a surviving under-justification pressure on ideal positive conceivability
 
-PHIL-001 rejected the naive claim that Chalmers's mature zombie argument simply defines its anti-physicalist conclusion into the setup. The source explicitly separates prima facie from ideal conceivability and supplies a restricted conceivability-to-possibility bridge. Observer-access and inverse-identification criticisms were classified as inapplicable to the core modal argument.
+PHIL-001 has four retained stages.
 
-The follow-up then tested whether a simple separation between epistemic-scenario space and metaphysical-possibility space could refute the modal bridge. That attack was also rejected as a new refutation because Chalmers explicitly anticipates the relevant counterarchitecture under the heading of strong necessities.
+1. **Naive premise-loading attack — rejected.** Chalmers's mature argument does not merely define a zombie and infer possibility. It explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and defends a restricted modal bridge.
+2. **Simple modal-space counterattack — rejected as new refutation.** Chalmers already anticipates a positively conceivable situation with no corresponding possible world under the strong-necessity problem.
+3. **Descriptor-completeness squeeze — survives but converges with prior literature.** A structural/dispositional `P` may be too weak for full physical identity; a fuller intrinsic/categorical `P` requires renewed support for ideal conceivability. This is conservatively grouped with Stoljar/Russellian lines.
+4. **Refinement-stability / uniform-completion attack — partially survives.** The attack was committed before a dedicated search for its exact formulation. It separates
+   `forall finite refinements F exists a zombie-like z_F`
+   from
+   `exists one z that survives every refinement F`.
+   The former does not entail the latter. Thus repeated local detail-fillability does not by itself establish one globally complete physical duplicate. Chalmers's ideal positive conceivability is naturally intended to demand the stronger global reading, so this is a challenge to the evidential support for the premise rather than a contradiction in the mature theory.
 
-The surviving pressure is a **descriptor-completeness dilemma**. If the physical base `P` is only theory-based or structural/dispositional, equality of `P` need not establish full physical identity if an intrinsic/categorical basis is omitted. If `P` is expanded to a complete object-based physical description, the ideal positive conceivability of the strengthened `P & ~Q` must be independently re-established. This converges with Stoljar/Russellian lines and is not counted as an independent new philosophical discovery.
+Close prior literature on complete physical specification and positive conceivability prevents any current historical-novelty claim. The refinement result is classified as a **DSD-specific formal sharpening/recasting** pending broader literature review.
 
-The follow-up includes a finite Python witness at:
-
-`cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py`
-
-Repo-root command:
+Reproducibility scripts:
 
 ```bash
 python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_modal_space_separation.py
+python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_refinement_stability.py
+python cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/repro/check_uniform_completion.py
 ```
 
 Next case:
