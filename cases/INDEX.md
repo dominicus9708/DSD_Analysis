@@ -48,7 +48,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 042 | OWL naming, SameIndividual, DifferentIndividuals, semantic identity | coherence | naming/identity boundary |
 | 043 | RDF Dataset + W3C PROV content versus provenance-sensitive attribution | coherence | provenance / reconstruction audit |
 | 044 | philosophical-zombie premise loading, modal bridge, descriptor completeness, and refinement-stable uniform completion — **current campaign complete** | predefinition | falsification / thought-experiment / descriptor-refinement audit |
-| 045 | Chinese Room part/system understanding attribution — **first pass complete** | predefinition | part-whole / systems-reply / historical-convergence audit |
+| 045 | Human/AI Room trust-property non-identifiability and Trust Attribution Trilemma — **active replacement case completed** | predefinition | property-status / inverse-identification / reconstruction audit |
 
 ## Domain folders
 
@@ -68,7 +68,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
 - Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
 - Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
-- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed for its current campaign; PHIL-002 / Global 045 first-pass historical-convergence audit completed; clean prospective/blind benchmark and synthetic controls are next before PHIL-003.
+- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed for its current campaign; former Chinese Room PHIL-002 retired from the active sequence; replacement PHIL-002 / Global 045 Human/AI Room completed as a DSD-specific rebuttal construction with historical novelty unproven. Clean prospective/blind benchmark and synthetic controls are next before PHIL-003.
 
 ## Conservative evidence accounting
 
@@ -81,10 +81,11 @@ Current examples:
 - DB-001–005 are grouped into status/support, stage/order/provenance, and aggregation/reconstruction families.
 - K_R-001–004 are one OWL 2 semantic family.
 - K_R-005 is a second knowledge-representation family using RDF Dataset + W3C PROV, but globally reinforces the already observed support/provenance-retention pattern rather than inflating the node count.
-- PHIL-001 remains a negative-control audit: the naive premise-loading criticism failed, and a simple epistemic-space > possible-world-space countermodel was also not counted as a new refutation because Chalmers explicitly anticipates it as the strong-necessity problem.
+- PHIL-001 remains a negative-control audit: the naive premise-loading criticism failed, and a simple epistemic-space > possible-world-space countermodel was not counted as a new refutation because Chalmers explicitly anticipates the strong-necessity problem.
 - PHIL-001's descriptor-completeness pressure is conservatively grouped with the Stoljar/Russellian family.
 - PHIL-001's refinement-stability / uniform-completion formulation survived as a formal sharpening but is not counted as historical novelty.
-- PHIL-002's part/whole/bearer result is conservatively grouped with the classic Systems Reply + Virtual Mind family. Systems Reply, Virtual Mind, and later restatements are not counted as multiple independent DSD evidence nodes.
+- The former Chinese Room PHIL-002 attempt converged with the Systems Reply / Virtual Mind family and is **retired from the active evidence sequence**. Its historical branch remains only as an audit trail.
+- The replacement PHIL-002 Human/AI Room combines known neighboring distinctions — trust vs trusting behavior, AI anthropomorphism, genuine-AI-trust eligibility — with DSD status/domain/reconstruction rules. It is counted as a **new DSD-constructed rebuttal format**, not as a proven historically novel philosophical objection.
 
 ## Purpose folders
 
@@ -99,17 +100,23 @@ A case's physical folder answers **where the source problem belongs**. The campa
 
 ## Current phase
 
-Current branch: `analysis/phil-002-chinese-room-part-whole-audit`.
+Current branch:
 
-PHIL-001 / Global 044 is closed for the present campaign. PHIL-002 / Global 045 is also closed for its first historical-convergence pass.
+`analysis/phil-002-human-ai-trust-nonidentifiability`.
 
-PHIL-002 retained result:
+Active PHIL-002 / Global 045 path:
 
-1. `not U(operator)` does not entail `not U(system)`;
-2. the Systems Reply had already identified this part/whole issue in the original 1980 debate;
-3. Searle’s internalization response does not by itself establish identity between the host person and every system-level or realized cognitive bearer;
-4. Searle’s stronger syntax/semantics thesis is not refuted by DSD, but it requires an additional semantic/intentionality bridge beyond operator-level introspection;
-5. the result is historical convergence, not novelty.
+`philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/`.
+
+Retained PHIL-002 result:
+
+1. equal externally admitted trust-compatible behavior does not identify a unique hidden mechanism or trust record;
+2. behaviorally defining trust makes equality valid by definition but does not establish a deeper hidden-state identity;
+3. bearer/type-gated trust theories derive asymmetry from their property domain, not from equal output;
+4. inapplicable, unavailable, undefined, defined zero, and defined nonzero must not be collapsed;
+5. without a behavioral definition, bearer restriction, or validated identification map, the trust assignment may remain undefined;
+6. equal output requires an injectivity/reconstruction condition before it is treated as a complete hidden-property identifier;
+7. the exact DSD trilemma was not located in the dedicated search, but its components have substantial prior art, so historical novelty is unproven.
 
 Next phase before PHIL-003:
 
