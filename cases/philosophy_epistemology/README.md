@@ -1,8 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **roadmap prepared; main analysis not yet started**.
-
-Planned starting global case: **044**.
+Status: **PHIL-001 / Global Case 044 first-pass analysis completed; PHIL-002 next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -24,38 +22,25 @@ The first task is to separate:
 
 A legitimate conditional calculation
 
-`assumption S -> internal consequence O`
+`assumption S -> consequence O`
 
-must not be silently promoted to
+must not be silently promoted to a stronger modal, ontological, or inverse-identification claim without an explicit bridge principle.
 
-`internal observation O -> uniquely established external structure S`
+The first completed case also establishes a negative-control rule: if the source already distinguishes the layers and explicitly defends the bridge, DSD Analysis must record that the naive hidden-premise criticism fails.
 
-unless competing structures compatible with `O` have been independently excluded.
+## First-pass sequence
 
-## Audit sequence
-
-1. Extract all explicit initial conditions.
-2. Separate narrator/external knowledge from internal observer access.
-3. Hide the canonical conclusion and textbook gloss.
-4. Reconstruct only from internally available information.
-5. Search for alternative structures producing the same internal observations.
-6. Test whether the conclusion or an equivalent condition is already loaded into the setup.
-7. Check part/whole, external/internal, object/property, and description/existence level transfers.
-8. Downgrade the evidential status when warranted: proof-like argument, conditional illustration, intuition pump, boundary case, or underdetermined case.
-
-## Planned first-pass cases
-
-### PHIL-001 / Global Case 044 — prepared
+### PHIL-001 / Global Case 044 — completed
 **Philosophical Zombie: Premise Loading and Modal/Descriptive Admissibility Audit**
 
-Question: does the setup independently establish the admissibility of a physically identical but consciousness-different world, or does it place part of the disputed conclusion into the scenario definition?
+Result: **mixed / conditional validity**. The naive claim that Chalmers merely defines the anti-physicalist conclusion into the zombie setup was rejected for the mature formulation. Chalmers explicitly distinguishes prima facie/ideal, positive/negative, and primary/secondary conceivability and supplies a restricted conceivability-to-possibility bridge. The remaining dispute concerns whether the ideal-conceivability premise and modal/metaphysical bridges succeed. Observer-access and inverse-non-identifiability objections were classified as inapplicable to the core modal argument.
 
-No conclusion is recorded during preparation.
+See `044_philosophical_zombie_premise_loading/RESULT.md`.
 
-### PHIL-002 / Global Case 045 — planned
+### PHIL-002 / Global Case 045 — next
 **Chinese Room: Part/System Property Attribution Audit**
 
-Question: can a property attributed to the room's operator be transferred to the whole system without an additional bridge principle?
+Question: can the operator's lack of understanding be transferred to the whole room/system without an additional bridge principle, and how does the Systems Reply alter the target of attribution?
 
 ### PHIL-003 / Global Case 046 — planned
 **Mary's Room: New Experience versus New Fact/Ability/Representation**
@@ -90,12 +75,13 @@ Do not identify philosophical concepts with DSD primitives by terminology alone.
 
 Useful structural questions include:
 
-- candidate structure versus uniquely identified structure;
+- candidate structure versus admitted/identified structure;
+- explicit bridge premise versus silent promotion;
 - internal describability versus narrator-supplied external description;
 - equal internal output versus equal underlying structure;
 - property attribution to a part versus to a whole/role-tagged system;
 - unknown/underdetermined versus false/absent.
 
-## Preparation status
+## Current handoff
 
-The field is ready for PHIL-001 source retrieval and analysis, but no case result has been precommitted.
+PHIL-001 is closed for first pass. PHIL-002 should begin from Searle's original Chinese Room formulation and the Systems Reply rather than from a textbook slogan.
