@@ -30,9 +30,9 @@ Current completed or provisionally closed first-pass domains include:
 - `cases/database/` — Global Cases 034–038
 - `cases/knowledge_representation/` — Global Cases 039–043
 
-Prepared next domain:
+Current active domain:
 
-- `cases/philosophy_epistemology/` — starting with PHIL-001 / Global Case 044
+- `cases/philosophy_epistemology/` — PHIL-001 / Global Case 044 completed; PHIL-002 / Global 045 next
 
 See `cases/INDEX.md` for the global case map.
 
@@ -64,21 +64,23 @@ The knowledge-representation sequence K_R-001–005 is conservatively grouped in
 
 The second family reinforces, rather than double-counts, the broader support/provenance-retention pattern already observed in database analysis and DSD static aggregation.
 
-## Current prepared analysis
+## Current philosophy / epistemology work
 
-Next field: **Philosophy / Epistemology / Thought-Experiment Audit**.
+Current branch: `analysis/phil-001-philosophical-zombie-audit`.
 
-Preparation branch: `analysis/philosophy-epistemology-preparation`.
-
-Prepared case:
+Completed case:
 
 - Field ID: `PHIL-001`
 - Global case: `044`
 - Path: `cases/philosophy_epistemology/044_philosophical_zombie_premise_loading/`
-- Topic: philosophical-zombie premise loading and admissibility audit
-- Status: preparation only; no conclusion precommitted
+- Topic: philosophical-zombie premise loading and modal/admissibility audit
+- Result: mixed / conditional validity
 
-The field begins by separating explicit setup, narrator information, internal observer access, derived consequences, hidden conclusion-equivalent assumptions, rival compatible structures, and bridge principles.
+PHIL-001 rejected the naive claim that Chalmers's mature zombie argument simply defines its anti-physicalist conclusion into the setup. The source explicitly separates prima facie from ideal conceivability and supplies a restricted conceivability-to-possibility bridge. The surviving pressure lies at the substantive bridge premises themselves and at the primary/secondary route to the metaphysical conclusion. Observer-access and inverse-identification criticisms were classified as inapplicable to the core modal argument.
+
+Next case:
+
+- `PHIL-002 / Global 045` — Chinese Room part/system understanding attribution and Systems Reply audit
 
 ## Reproducibility rule
 
@@ -94,4 +96,4 @@ Missing, undefined, inapplicable, absent, and defined-zero states must not be co
 
 ## Branch policy
 
-Historical analysis branches are retained. New field work branches from the cumulative prior-field state so that previous case records remain available without rewriting history. The default branch is not force-moved by field preparation work.
+Historical analysis branches are retained. New field work branches from the cumulative prior-field state so that previous case records remain available without rewriting history. The default branch is not force-moved by field analysis work.
