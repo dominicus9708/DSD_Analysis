@@ -48,7 +48,8 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 042 | OWL naming, SameIndividual, DifferentIndividuals, semantic identity | coherence | naming/identity boundary |
 | 043 | RDF Dataset + W3C PROV content versus provenance-sensitive attribution | coherence | provenance / reconstruction audit |
 | 044 | philosophical-zombie premise loading, modal bridge, descriptor completeness, and refinement-stable uniform completion — **current campaign complete** | predefinition | falsification / thought-experiment / descriptor-refinement audit |
-| 045 | Human/AI Room trust-property non-identifiability and Trust Attribution Trilemma — **active replacement case completed** | predefinition | property-status / inverse-identification / reconstruction audit |
+| 045 | Human/AI Room trust-property non-identifiability and Trust Attribution Trilemma — **completed replacement case** | predefinition | property-status / inverse-identification / reconstruction audit |
+| 046 | Mary's Room: epistemic-record novelty versus world-fact-target novelty — **first-pass complete** | reinterpretation | epistemic-regime / fact-individuation / bridge audit |
 
 ## Domain folders
 
@@ -68,7 +69,7 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 - Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
 - Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
 - Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
-- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed for its current campaign; former Chinese Room PHIL-002 retired from the active sequence; replacement PHIL-002 / Global 045 Human/AI Room completed as a DSD-specific rebuttal construction with historical novelty unproven. Clean prospective/blind benchmark and synthetic controls are next before PHIL-003.
+- Philosophy/epistemology/thought-experiment audit: PHIL-001 / Global 044 completed; former Chinese Room PHIL-002 retired; replacement PHIL-002 / Global 045 Human/AI Room completed; Mode-C and Mode-D baseline validation records completed; PHIL-003 / Global 046 Mary's Room first pass completed as Mode-B convergence with DSD formal sharpening. PHIL-004 is next.
 
 ## Conservative evidence accounting
 
@@ -85,7 +86,8 @@ Current examples:
 - PHIL-001's descriptor-completeness pressure is conservatively grouped with the Stoljar/Russellian family.
 - PHIL-001's refinement-stability / uniform-completion formulation survived as a formal sharpening but is not counted as historical novelty.
 - The former Chinese Room PHIL-002 attempt converged with the Systems Reply / Virtual Mind family and is **retired from the active evidence sequence**. Its historical branch remains only as an audit trail.
-- The replacement PHIL-002 Human/AI Room combines known neighboring distinctions — trust vs trusting behavior, AI anthropomorphism, genuine-AI-trust eligibility — with DSD status/domain/reconstruction rules. It is counted as a **new DSD-constructed rebuttal format**, not as a proven historically novel philosophical objection.
+- The replacement PHIL-002 Human/AI Room combines known neighboring distinctions with DSD status/domain/reconstruction rules. It is counted as a **new DSD-constructed rebuttal format**, not as a proven historically novel philosophical objection.
+- PHIL-003 Mary's Room converges strongly with the established New Knowledge / Old Fact and phenomenal-concept/new-representation family. The DSD contribution is the explicit separation of knowledge-record novelty from fact-target novelty via target maps and a finite countermodel; this is formal sharpening, not a new historical objection.
 
 ## Purpose folders
 
@@ -102,23 +104,21 @@ A case's physical folder answers **where the source problem belongs**. The campa
 
 Current branch:
 
-`analysis/phil-002-human-ai-trust-nonidentifiability`.
+`analysis/phil-003-marys-room-epistemic-regime-audit`.
 
-Active PHIL-002 / Global 045 path:
+Active PHIL-003 / Global 046 path:
 
-`philosophy_epistemology/045_human_ai_trust_property_nonidentifiability/`.
+`philosophy_epistemology/046_marys_room_epistemic_regime_audit/`.
 
-Retained PHIL-002 result:
+Retained PHIL-003 result:
 
-1. equal externally admitted trust-compatible behavior does not identify a unique hidden mechanism or trust record;
-2. behaviorally defining trust makes equality valid by definition but does not establish a deeper hidden-state identity;
-3. bearer/type-gated trust theories derive asymmetry from their property domain, not from equal output;
-4. inapplicable, unavailable, undefined, defined zero, and defined nonzero must not be collapsed;
-5. without a behavioral definition, bearer restriction, or validated identification map, the trust assignment may remain undefined;
-6. equal output requires an injectivity/reconstruction condition before it is treated as a complete hidden-property identifier;
-7. the exact DSD trilemma was not located in the dedicated search, but its components have substantial prior art, so historical novelty is unproven.
+1. Mary may be granted a genuinely new post-release epistemic/propositional record;
+2. `K_1 \ K_0 != empty` does not by itself entail a new world-fact target;
+3. a finite model has distinct `k_phys` and `k_phen` records targeting the same pre-existing physical fact about another person's red experience;
+4. fact completeness, representation/access completeness, and ontological completeness must be distinguished;
+5. Jackson's strong conclusion requires an additional fact-individuation / epistemic-novelty-to-fact-novelty bridge;
+6. this structure is historically established in the New Knowledge / Old Fact family, so no novelty claim is made.
 
-Next phase before PHIL-003:
+Next phase:
 
-- first clean prospective/blind benchmark;
-- first synthetic-control set.
+- `PHIL-004 / Global 047` — Twin Earth.
