@@ -1,6 +1,6 @@
 # Philosophy / Epistemology / Thought-Experiment Audit
 
-Status: **PHIL-001 / Global 044 complete; PHIL-002 / Global 045 Human/AI Room complete; Mode-C and Mode-D validation baselines complete; PHIL-003 / Global 046 Mary's Room first pass complete; PHIL-004 next**.
+Status: **PHIL-001 / Global 044 complete; PHIL-002 / Global 045 Human/AI Room complete; Mode-C and Mode-D validation baselines complete; PHIL-003 / Global 046 Mary's Room first pass complete with two preserved arguments; PHIL-004 next**.
 
 Field-case identifier: **PHIL-###**.
 
@@ -16,7 +16,7 @@ Keep separate:
 - derived consequences;
 - hidden conclusion-equivalent assumptions;
 - alternative structures compatible with the same observation;
-- object-, role-, observer-, bearer-, status-, representation-, and target-level attribution.
+- object-, role-, observer-, bearer-, status-, representation-, target-, and time-slice-level attribution.
 
 ## Core audit rules
 
@@ -27,6 +27,7 @@ Keep separate:
 5. `undefined / unavailable / inapplicable != defined zero`.
 6. equal reduced/output descriptions reconstruct hidden property records only under an explicit identification/injectivity condition.
 7. a new epistemic/representational record does not by itself prove a new world-fact target.
+8. completeness at one time slice does not by itself establish completeness over a later evolving interval.
 
 ## Four-mode validation discipline
 
@@ -107,13 +108,13 @@ Branch:
 
 `analysis/phil-003-marys-room-epistemic-regime-audit`
 
-### Source target
+PHIL-003 preserves **two distinct arguments**. The second does not replace the first.
+
+### Argument 1 — epistemic-record novelty versus world-fact-target novelty
 
 The audit reconstructs Jackson's 1982/1986 Knowledge Argument, using the stronger 1986 clarification that the relevant new knowledge concerns the already existing experiences of others rather than merely Mary's newly changed post-release state.
 
 The analysis does **not** rely on an ability-only reply. It grants, for the sake of the audit, that Mary may gain genuinely new propositional knowledge.
-
-### Core application-level encoding
 
 Let:
 
@@ -133,37 +134,76 @@ The key non-implication is:
 
 A new epistemic/propositional record may target an old physical fact under a newly available phenomenal concept, representation, or access mode.
 
-### Completeness separation
-
-PHIL-003 distinguishes:
+Argument 1 distinguishes:
 
 1. **fact completeness** — every physical fact target is known;
 2. **representation/access completeness** — every admissible way of representing/accessing those facts is available;
 3. **ontological completeness** — every fact is physical.
 
-A failure of representation/access completeness does not by itself establish failure of ontological completeness.
-
-### Surviving Jackson branch
-
-Jackson's stronger conclusion survives this DSD pressure if an independent fact-individuation bridge justifies:
+Jackson's stronger conclusion survives this pressure if an independent fact-individuation bridge justifies:
 
 `new phenomenal propositional record -> fact target outside the complete physical fact set`.
 
-DSD does not decide the correct metaphysics of fact or proposition individuation.
+Historical classification:
 
-### Literature classification
-
-The result converges strongly with the established **New Knowledge / Old Fact**, phenomenal-concept, and new-representation/mode-of-presentation families.
-
-Therefore:
-
-**Mode B strong historical convergence + DSD-specific formal sharpening; no historical novelty claim.**
+**Mode B strong historical convergence with the New Knowledge / Old Fact, phenomenal-concept, and new-representation families + DSD-specific formal sharpening; no historical novelty claim.**
 
 Finite witness:
 
 ```bash
 python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_record_target_nonimplication.py
 ```
+
+### Argument 2 — temporal snapshot completeness versus diachronic completeness
+
+Argument 2 asks a different question. If the physical world continues to evolve, does complete physical knowledge at one instant remain complete automatically at later instants?
+
+Let:
+
+- `F_P(t)` = physical fact targets at time `t`;
+- `T_M(t)` = fact targets Mary knows at time `t`.
+
+Define:
+
+`snapshot completeness: C_snap(t) iff F_P(t) subseteq T_M(t)`.
+
+`diachronic completeness: C_dia(I) iff for every t in I, F_P(t) subseteq T_M(t)`.
+
+The second non-implication is:
+
+`C_snap(t0) !=> C_snap(t1)`
+
+when the world-fact set can change after `t0` and no zero-delay global update bridge is supplied.
+
+A finite witness has:
+
+- completeness at `t0`;
+- a new remote physical fact at `t1` that Mary has not yet incorporated;
+- restored completeness at `t2` after the update.
+
+Thus:
+
+`snapshot completeness at t0 !=> diachronic completeness after t0`.
+
+To exclude this witness, a separate update/access bridge must require completeness to be preserved over the entire declared interval.
+
+The DSD dynamics layer supports the time-slice discipline by using time-indexed admissible component-resolved states. It also permits a stronger finite-propagation reading only under explicit localization, metric-time, constitutive, locality, and support-faithfulness assumptions. No empirical information speed is derived from DSD alone.
+
+Argument 2 does not by itself refute Jackson's canonical Knowledge Argument because Jackson may freeze the relevant target domain to already existing facts about other people's color experiences. It is retained as an independent dynamic audit, not as a replacement for Argument 1.
+
+Current status:
+
+**DSD-constructed dynamic extension; historical novelty not yet audited and not claimed.**
+
+Finite witness:
+
+```bash
+python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_snapshot_completeness_nonpreservation.py
+```
+
+See also:
+
+`046_marys_room_epistemic_regime_audit/ARGUMENT_2_TEMPORAL_SNAPSHOT_COMPLETENESS.md`.
 
 ## Planned next cases
 
@@ -181,4 +221,5 @@ For each case:
 - preserve failed attacks and non-correspondence;
 - do not identify philosophical concepts with DSD primitives by naming similarity;
 - use application-level interpretation maps for external domains;
+- attach dynamic claims to explicit time slices and supplied transition/propagation structure;
 - for novelty-sensitive cases, preserve a strict pre-seal/post-search boundary.
