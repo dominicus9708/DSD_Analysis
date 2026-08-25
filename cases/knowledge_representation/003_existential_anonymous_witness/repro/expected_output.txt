@@ -1,0 +1,9 @@
+M_UNNAMED satisfies existential: True
+M_UNNAMED P(a,b): False
+M_UNNAMED C(b): False
+M_NAMED_B satisfies existential: True
+M_NAMED_B P(a,b): True
+M_NAMED_B C(b): True
+EXISTENTIAL entails existence of some P-successor in C: True
+EXISTENTIAL entails P(a,b): False
+EXISTENTIAL entails C(b): False
