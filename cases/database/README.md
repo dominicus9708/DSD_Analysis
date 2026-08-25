@@ -23,6 +23,8 @@ Do not count DB-001 through DB-005 as five fully independent confirmations. The 
 
 ## Handoff
 
-Next field: `knowledge_representation/`.
+Next completed field: `knowledge_representation/`.
 
-Prepared next case: **KR-001 / Global Case 039 — Open-World Non-Assertion versus Falsity**.
+Its canonical first case identifier is **K_R-001 / Global Case 039 — Open-World Non-Assertion versus Falsity**.
+
+The old preparation-only spelling `KR-001` is superseded by `K_R-001`.
