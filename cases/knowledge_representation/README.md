@@ -1,8 +1,14 @@
 # Knowledge Representation / Ontology / Classification
 
-Status: **prepared for first-pass analysis**.
+Status: **first-pass analysis started**.
 
 Starting global case: **039**.
+
+## Naming convention
+
+Field-case identifiers use the form `K_R-###`.
+
+The previous preparation-only `KR-###` spelling is superseded by `K_R-###` from Global Case 039 onward.
 
 ## Field objective
 
@@ -22,27 +28,27 @@ The purpose is not to rename these mechanisms as DSD. Each external formalism mu
 
 ## Planned first-pass sequence
 
-### KR-001 / Global Case 039
+### K_R-001 / Global Case 039
 **Open-World Non-Assertion versus Falsity**
 
-Test whether absence of an assertion in an OWL/RDF-style knowledge base is semantically equivalent to falsity. Compare only the structural non-conflation role with DSD `undefined != defined false/zero`.
+Test whether absence of an assertion in an OWL-style knowledge base is semantically equivalent to falsity. Compare only the structural non-conflation role with DSD `undefined != defined false/zero`.
 
-### KR-002 / Global Case 040
+### K_R-002 / Global Case 040
 **Class Membership versus Property Assertion**
 
 Test whether class membership or vocabulary declaration forces every relevant property assertion/value for an instance.
 
-### KR-003 / Global Case 041
+### K_R-003 / Global Case 041
 **Existential Restrictions and Anonymous Witnesses**
 
 Test whether an existential requirement can be satisfied without a named/explicitly identified filler, and how that differs from a concrete asserted relation.
 
-### KR-004 / Global Case 042
+### K_R-004 / Global Case 042
 **Identity, Same-As, and Naming Non-Identity**
 
 Test whether same labels/names/identifiers imply object identity, and how explicit identity relations change inference.
 
-### KR-005 / Global Case 043
+### K_R-005 / Global Case 043
 **Provenance / Context-Sensitive Assertion Attribution**
 
 Test whether equal proposition content from distinct sources/graphs/contexts remains structurally distinguishable when provenance matters.
@@ -57,7 +63,7 @@ Never identify:
 
 - open-world unknown with DSD undefined;
 - OWL class membership with DSD formation membership;
-- RDF property assertion with a DSD channel;
+- RDF/OWL property assertion with a DSD channel;
 - OWL existential restriction with a DSD formation witness;
 - `owl:sameAs` with DSD object identity without explicit comparison.
 
