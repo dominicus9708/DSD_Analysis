@@ -15,67 +15,71 @@ Cases remain stored by external domain. This index adds the analysis-purpose cla
 | 009 | Primitive PII direct attack | falsification | coherence boundary |
 | 010 | integrated Formation + Axis countermodel search | falsification | coherence |
 | 011 | Formation partiality, typing, and closure coherence | coherence | predefinition audit |
-| 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition / explicit-default / burden-shift audit — **cross-jurisdiction revalidated** |
-| 013 | responsibility-attribution multi-regime describability | reinterpretation | coherence / predefinition / regime-interface / office-function audit — **cross-jurisdiction revalidated** |
-| 014 | agency, mandate, representation, authority, and attribution | reinterpretation | coherence / predefinition / role-authority-attribution audit — **cross-jurisdiction revalidated** |
-| 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | coherence / predefinition / evidence-interface / proof-route audit — **cross-jurisdiction revalidated** |
-| 016 | procedural formation, validity, defect consequence, effect, recognition/enforcement | reinterpretation | coherence / predefinition / universal-claim falsification — completed |
-| 017 | obligation, permission, prohibition, exception/exemption, normative rule scope | reinterpretation | coherence / predefinition / rule-scope / universal-claim falsification — completed |
-| 018 | legal status, capacity, power, exercisability, exercise, and effect | reinterpretation | coherence / predefinition / status-power / universal-claim falsification — completed |
-| 019 | rule conflict, harmonization, exception, priority, invalidity | reinterpretation | coherence / predefinition / conflict-resolution / universal-claim falsification — completed |
-| 020 | irreversibility, irreparable harm, uncertainty, finality, and procedural safeguards | reinterpretation | falsification / coherence / predefinition / temporal-preservation analysis — completed |
-| 021 | responsibility, sanction, victim recovery, emotion, social cost, legal/practice status | reinterpretation | coherence / predefinition / post-responsibility / social-input analysis — completed |
-| 022 | investigation, historical-event reconstruction, witness/trace provenance, source dependence | reinterpretation | falsification / coherence / predefinition / investigative-epistemic audit — **first-pass cross-jurisdiction complete** |
-| 023 | distributed responsibility, command/superior control, individual liability, State attribution | reinterpretation | falsification / coherence / predefinition / distributed-responsibility audit — **first-pass cross-jurisdiction complete** |
-| 024 | legal temporality: commencement, provisional application, retroactivity, repeal, termination, residual effects | reinterpretation | falsification / coherence / predefinition / temporal-rule audit — **first-pass cross-jurisdiction complete** |
-| 025 | collective decision formation, voting, quorum, thresholds, veto/blocking, institutional attribution | reinterpretation | falsification / coherence / predefinition / collective-decision audit — **first-pass cross-jurisdiction complete** |
-| 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | falsification / coherence / predefinition / instruction-interface audit — **first-pass cross-domain complete** |
-| 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | falsification / coherence / predefinition / multi-authority audit — **first-pass cross-domain complete** |
-| 028 | review, revision, reopening, resumption, error correction, implementation, verification, closure | reinterpretation | falsification / coherence / predefinition / revision-lineage audit — **first-pass cross-domain complete** |
-| 029 | static typing, construction, runtime validity, operation applicability, evaluation, result | reinterpretation | falsification / coherence / predefinition / operational-semantics audit — **first-pass cross-subfield complete** |
-| 030 | authentication, authorization, scoped privilege/credential, admission, execution/effect | reinterpretation | falsification / coherence / predefinition / access-control audit — **first-pass cross-subfield complete** |
-| 031 | check-time/use-time state change, stale validation, version/identity preservation, concurrent effect | reinterpretation | falsification / coherence / temporal-state / lineage audit — **first-pass cross-subfield complete** |
-| 032 | upstream data/value, downstream parser context, binding/encoding, parsed role, effect | reinterpretation | falsification / coherence / parser-context / role-boundary audit — **first-pass cross-subfield complete** |
-| 033 | workflow/state-machine predecessor constraints, successor reachability, path provenance | reinterpretation | falsification / coherence / reachability / stage-runtime boundary audit — **first-pass cross-subfield complete** |
+| 012 | meeting nonattendance, uncast/invalid ballots, presumption of innocence | reinterpretation | coherence / predefinition / explicit-default / burden-shift audit |
+| 013 | responsibility-attribution multi-regime describability | reinterpretation | coherence / regime-interface / office-function audit |
+| 014 | agency, mandate, representation, authority, and attribution | reinterpretation | role-authority-attribution audit |
+| 015 | evidence submission, admissibility, probative weight, and factual finding | reinterpretation | evidence-interface / proof-route audit |
+| 016 | procedural formation, validity, defect consequence, effect, recognition/enforcement | reinterpretation | universal-claim falsification |
+| 017 | obligation, permission, prohibition, exception/exemption, normative rule scope | reinterpretation | rule-scope falsification |
+| 018 | legal status, capacity, power, exercisability, exercise, and effect | reinterpretation | status-power audit |
+| 019 | rule conflict, harmonization, exception, priority, invalidity | reinterpretation | conflict-resolution audit |
+| 020 | irreversibility, irreparable harm, uncertainty, finality, procedural safeguards | reinterpretation | temporal-preservation / falsification |
+| 021 | responsibility, sanction, victim recovery, emotion, social cost, legal/practice status | reinterpretation | post-responsibility / social-input analysis |
+| 022 | investigation, historical-event reconstruction, witness/trace provenance, source dependence | reinterpretation | investigative-epistemic / provenance audit |
+| 023 | distributed responsibility, command/superior control, individual liability, State attribution | reinterpretation | distributed-responsibility audit |
+| 024 | legal temporality: commencement, provisional application, retroactivity, repeal, termination, residual effects | reinterpretation | temporal-rule audit |
+| 025 | collective decision formation, voting, quorum, thresholds, veto/blocking, institutional attribution | reinterpretation | collective-decision audit |
+| 026 | organizational instruction, interpretation, verification, discretion, execution, feedback, outcome | reinterpretation | instruction-interface audit |
+| 027 | delegation, escalation, parallel authority, transfer of command, responsibility, implementation | reinterpretation | multi-authority audit |
+| 028 | review, revision, reopening, resumption, error correction, implementation, verification, closure | reinterpretation | revision-lineage audit |
+| 029 | static typing, construction, runtime validity, operation applicability, evaluation, result | reinterpretation | operational-semantics audit |
+| 030 | authentication, authorization, scoped privilege/credential, admission, execution/effect | reinterpretation | access-control audit |
+| 031 | check-time/use-time state change, stale validation, version/identity preservation, concurrent effect | reinterpretation | temporal-state / lineage audit |
+| 032 | upstream data/value, downstream parser context, binding/encoding, parsed role, effect | reinterpretation | parser-context / role-boundary audit |
+| 033 | workflow/state-machine predecessor constraints, successor reachability, path provenance | reinterpretation | reachability / stage-runtime audit |
+| 034 | record absence, NULL, empty value, defined zero | reinterpretation | status/support non-conflation |
+| 035 | JOIN/filter row formation, preservation/removal, provenance loss | reinterpretation | stage/order/provenance audit |
+| 036 | property existence, applicability, assignment, defined value | reinterpretation | applicability/assignment separation |
+| 037 | optional relations, nullable foreign keys, referential actions | reinterpretation | relation-support audit |
+| 038 | aggregation, reconstruction loss, totalization, cancellation | reinterpretation | non-injectivity / provenance loss |
+| 039 | OWL open-world non-assertion versus falsity | coherence | status-fidelity / reinterpretation |
+| 040 | OWL class/property vocabulary versus actual assertion | coherence | declaration/instantiation boundary |
+| 041 | OWL existential restriction versus named witness identity | coherence | existence/identity boundary |
+| 042 | OWL naming, SameIndividual, DifferentIndividuals, semantic identity | coherence | naming/identity boundary |
+| 043 | RDF Dataset + W3C PROV content versus provenance-sensitive attribution | coherence | provenance / reconstruction audit |
+| 044 | philosophical-zombie premise loading and admissibility audit — **prepared, not started** | predefinition | falsification / thought-experiment audit |
 
 ## Domain folders
 
-- `logic/` — logic, formal semantics of logic, and direct axiom stress-test cases
-- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, capacity/power, rule conflict, irreversibility, sanction/remedy, social response, investigation, distributed responsibility, legal temporality, collective decisions, and decision structures
-- `administration/` — administration, organizations, command/directive systems, reporting relationships, delegation, review, feedback, revision, and operational decision structures
-- `computer_science/` — type systems, program semantics, runtime state, formal specification, software verification, access control, concurrency/stale-state validation, parser/data-directive boundaries, protocol/workflow reachability, and security-oriented structural failure cases
+- `logic/` — logic, formal semantics of logic, and direct axiom stress tests
+- `law/` — law, institutions, authority, procedure, evidence, legal effect, normativity, responsibility, temporality, and collective decisions
+- `administration/` — administration, organizations, command/directive systems, delegation, review, feedback, revision, and operational decisions
+- `computer_science/` — type/program semantics, runtime state, access control, concurrency, parser context, workflow reachability, and security-oriented structural failure cases
+- `database/` — database/information-structure cases, Global 034–038
+- `knowledge_representation/` — ontology, OWL/RDF/PROV, identity, witness, and provenance cases, Global 039–043
+- `philosophy_epistemology/` — philosophical/epistemological thought-experiment audits; Global 044 onward, currently preparation only
 
-The computer-science sequence is documented in:
+## Field status
 
-- `computer_science/README.md`
-- `computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md`
-- `computer_science/029_type_construction_runtime_validity/`
-- `computer_science/030_authentication_authorization_execution/`
-- `computer_science/031_toctou_state_change/`
-- `computer_science/032_data_syntax_reinterpretation/`
-- `computer_science/033_workflow_reachability/`
+- Logic/formal foundation: first major logic/falsification and coherence sequence completed through Global 011.
+- Law/institutions: LAW-001–014 foundational sequence closed for first pass.
+- Administration/organization: ADMIN-001–003 first foundational sequence provisionally closed.
+- Computer science/type/program semantics: CS-001–005 / Global 029–033 first pass provisionally closed.
+- Database/information structure: DB-001–005 / Global 034–038 first pass closed; three convergence families retained.
+- Knowledge representation/ontology/classification: K_R-001–005 / Global 039–043 closed and synthesized; conservatively grouped into two external formal families.
+- Philosophy/epistemology/thought-experiment audit: roadmap prepared; PHIL-001 / Global 044 prepared, not analyzed.
 
-## Cross-domain status
+## Conservative evidence accounting
 
-Legal foundation status: **closed for prerequisite cross-domain testing; falsification and specialized legal extensions remain open**.
+Cross-domain recurrence is not proof by analogy. Each external domain must independently preserve its own source concepts and is allowed to falsify the attempted DSD comparison.
 
-Administration/organization foundation status: **ADMIN-001~003 first foundational series provisionally closed; active falsification and specialized extensions remain open**.
+Multiple cases inside one standard or one mechanism are not automatically independent evidence nodes. Cases are grouped by genuinely distinct external formal families and structural mechanisms.
 
-Computer science/type/program-semantics status: **CS-001~005 / Global Cases 029~033 first-pass foundational series provisionally closed; active falsification and specialized extensions remain open**.
+Current examples:
 
-- CS-001 / Global Case 029: local computational semantics / type-runtime-evaluation non-totalization.
-- CS-002 / Global Case 030: relational access policy / authentication-authorization-admission non-totalization.
-- CS-003 / Global Case 031: temporal persistence/currentness / stale-state transfer non-totalization.
-- CS-004 / Global Case 032: interpretation grammar/context / parser-role non-totalization.
-- CS-005 / Global Case 033: transition reachability/path provenance / workflow predecessor non-totalization.
-
-First-pass common audit form:
-
-`local status != relational admissibility != temporal validity != interpretation role != path reachability/provenance != effect/result`.
-
-This is an audit schema, not a universal literal software pipeline.
-
-The five nodes are treated as convergent but non-duplicative. Detailed independence and overlap audit is in `computer_science/CS_001_005_FIRST_PASS_SYNTHESIS.md`.
+- DB-001–005 are grouped into status/support, stage/order/provenance, and aggregation/reconstruction families.
+- K_R-001–004 are one OWL 2 semantic family.
+- K_R-005 is a second knowledge-representation family using RDF Dataset + W3C PROV, but globally reinforces the already observed support/provenance-retention pattern rather than inflating the node count.
 
 ## Purpose folders
 
@@ -86,17 +90,14 @@ The five nodes are treated as convergent but non-duplicative. Detailed independe
 
 ## Rule
 
-A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate case evidence into multiple campaign folders.
-
-Cross-domain recurrence is not treated as proof by analogy. Each new domain must independently preserve its own source concepts and may falsify a DSD-style application assumption.
+A case's physical folder answers **where the source problem belongs**. The campaign index answers **what the DSD analysis is trying to establish**. Do not duplicate evidence into multiple campaign folders.
 
 ## Current phase
 
-Computer science/type/program semantics:
+Next field: **Philosophy / Epistemology / Thought-Experiment Audit**.
 
-- CS-001~005 first-pass foundational series provisionally closed.
-- No direct contradiction with the current DSD systems was found within the stated scopes.
-- The campaign rejected multiple naive mappings, including `None=DSD undefined`, `authentication=authorization`, `past-valid=current-valid`, `parser-context=DSD role`, `workflow-step=DSD formation stage`, and `lineage=workflow authorization`.
-- Formation survived only under its static scope and explicit interpretation-map requirement.
-- Structural Reorganization Dynamics survived temporal and path/provenance counterpressure, but external identity, persistence, and workflow-admissibility rules remain application-supplied.
-- A later computer-science case should open only if overlap audit identifies a genuinely new computational interface or direct falsification pressure that cannot be reduced to the five retained nodes.
+Prepared branch: `analysis/philosophy-epistemology-preparation`.
+
+Prepared first case: `PHIL-001 / Global 044` under `philosophy_epistemology/044_philosophical_zombie_premise_loading/`.
+
+Preparation explicitly leaves the result open. The first analysis must retrieve authoritative formulations, distinguish stipulation from inference, and test premise loading, observer-access asymmetry, rival compatible structures, and bridge principles before any DSD convergence judgment is recorded.
