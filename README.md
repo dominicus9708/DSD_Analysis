@@ -94,6 +94,10 @@ Branch:
 
 `analysis/phil-003-marys-room-epistemic-regime-audit`
 
+PHIL-003 preserves **two distinct arguments**. The second is an extension of the analysis and does not replace the first.
+
+#### Argument 1 — epistemic-record novelty versus world-fact-target novelty
+
 The audit grants, for the sake of argument, that post-release Mary may gain genuinely new propositional knowledge.
 
 Application-level encoding:
@@ -114,7 +118,7 @@ Core non-implication:
 
 A new epistemic/propositional record may target an already known physical fact under a newly available phenomenal concept, representation, or access mode.
 
-The audit therefore separates:
+Argument 1 separates:
 
 1. fact completeness;
 2. representation/access completeness;
@@ -126,7 +130,7 @@ Historical comparison:
 
 **Mode B strong convergence with the New Knowledge / Old Fact and phenomenal-concept/new-representation families; DSD-specific formal sharpening; no historical novelty claim.**
 
-Reproduce:
+Reproduce Argument 1:
 
 ```bash
 python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_record_target_nonimplication.py
@@ -141,6 +145,58 @@ new_record_without_new_target: True
 all_targets_physical: True
 witness_passed: True
 ```
+
+#### Argument 2 — temporal snapshot completeness versus diachronic completeness
+
+Let:
+
+- `F_P(t)` be the physical fact targets at time `t`;
+- `T_M(t)` be the fact targets Mary knows at time `t`.
+
+Define snapshot completeness by:
+
+`C_snap(t) iff F_P(t) subseteq T_M(t)`.
+
+Define diachronic completeness on interval `I` by:
+
+`C_dia(I) iff for every t in I, F_P(t) subseteq T_M(t)`.
+
+The second core non-implication is:
+
+`snapshot completeness at t0 !=> snapshot or diachronic completeness after t0`.
+
+A finite dynamic witness allows Mary to be complete at `t0`, lose completeness at `t1` when a new remote physical fact appears but has not yet been incorporated, and regain completeness at `t2` after the update.
+
+Sustained completeness therefore requires an explicit time-indexed update/access bridge. This is stronger than one-time completeness.
+
+The DSD dynamics layer supports this time-slice discipline by treating dynamics as a time-indexed family of admissible component-resolved states. Finite structural-information propagation is used only conditionally when localization, metric-time, constitutive, locality, and support-faithfulness assumptions are supplied. DSD alone does not derive an empirical signal speed for Mary's world.
+
+Argument 2 does not by itself refute Jackson's canonical Knowledge Argument because Jackson may freeze the relevant target domain to already existing facts about other people's color experiences. It is retained as a separate dynamic audit.
+
+Current classification:
+
+**DSD-constructed dynamic extension; historical novelty not yet audited and not claimed.**
+
+Reproduce Argument 2:
+
+```bash
+python cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/repro/check_snapshot_completeness_nonpreservation.py
+```
+
+Expected key result:
+
+```text
+snapshot_complete_t0: True
+world_changed_after_t0: True
+snapshot_complete_t1: False
+remote_fact_unknown_t1: True
+later_update_t2: True
+witness_passed: True
+```
+
+Detailed second-argument note:
+
+`cases/philosophy_epistemology/046_marys_room_epistemic_regime_audit/ARGUMENT_2_TEMPORAL_SNAPSHOT_COMPLETENESS.md`.
 
 ## Next stage
 
