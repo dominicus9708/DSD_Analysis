@@ -13,6 +13,7 @@ It intentionally does not start from a predetermined pro-censorship or anti-cens
 - `DRAFT_SYNTHESIS.md` — integrated DSD structural model and provisional principles.
 - `SOURCE_MAP.md` — multidisciplinary source pool covering political philosophy, speech acts/pragmatics, power, epistemic injustice, public sphere/public opinion, psychology, children/development, education/media literacy, human rights/comparative law, and lexical semantics.
 - `LEXICAL_SEMANTIC_AUDIT.md` — cross-linguistic audit of freedom-related terms and translation-collapse risks.
+- `KOREAN_FREEDOM_CONCEPT_HISTORY.md` — Korean `자유` translation history, lexical polysemy, journalism/literature, constitutional and republican-philosophy source notes.
 - `VALIDATION_MATRIX.md` — pre-case controls, counterexamples, outcome classes, failure criteria, and publication gate.
 
 ## Existing DSD Analysis dependencies
