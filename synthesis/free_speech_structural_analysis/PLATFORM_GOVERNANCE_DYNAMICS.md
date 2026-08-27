@@ -162,3 +162,142 @@ This distinction is necessary to avoid two symmetric errors:
 
 1. `profit motive -> intentional harm` (invalid without evidence), and
 2. `absence of proven bad intent -> no structural responsibility` (also invalid).
+
+## 10. Resource, operational capacity, authority, and responsibility
+
+Institutional scale should not be collapsed into a single claim of capacity.
+
+`Resource(P) != OperationalCapacity(P,t) != Authority(P,t) != Responsibility(P,t)`
+
+Possible capacity inputs include:
+- staffing and capital;
+- moderation tooling;
+- case volume;
+- language and regional coverage;
+- required response latency;
+- evidentiary complexity;
+- false-positive/false-negative tolerance;
+- availability of human review.
+
+Accordingly:
+
+`non-performance != incapacity`
+
+while also:
+
+`large resource base != unlimited case-handling capacity`.
+
+A claim that an institution lacked capacity is itself a describable and auditable claim. The framework does not accept or reject it merely because the institution is large or wealthy.
+
+Technical ability must also remain separate from legitimate authority and duty:
+
+`can act != may act != must act`.
+
+## 11. Procedural legitimacy profile
+
+Outcome counts such as removals or bans are insufficient to describe governance quality.
+
+Use a provisional procedure profile:
+
+`G_P = (RuleNotice, ReasonGiving, Evidence, Consistency, Appeal, Review, Correction, Restoration)`.
+
+Questions include:
+- Was the applicable rule knowable?
+- Was the user told what decision occurred?
+- Was a reason supplied?
+- Can relevant evidence be reviewed?
+- Are comparable cases treated consistently?
+- Can the decision be challenged?
+- Is review meaningfully independent from the first decision?
+- Can an erroneous decision be corrected?
+- Can lost access/status be restored?
+
+External anchors:
+- Judit Bayer, “Procedural rights as safeguard for human rights in platform regulation,” *Policy & Internet* (2022), DOI 10.1002/poi3.298.
+- Nicolas Suzor, Tess Van Geelen, Sarah Myers West, “Evaluating the legitimacy of platform governance,” *International Communication Gazette* (2018), DOI 10.1177/1748048518757142.
+- Rory Van Loo, “Federal Rules of Platform Procedure” (2020).
+- Catalina Goanta & Pietro Ortolani, “Unpacking Content Moderation: the Rise of Social Media Platforms as Online Civil Courts,” DOI 10.2139/ssrn.3969360.
+
+These sources are used for procedural comparison, not as proof that private platforms are legally equivalent to courts or states.
+
+## 12. Distinguish distribution and sanction states
+
+A binary `moderated/not moderated` variable loses too much structure.
+
+Preserve at least:
+
+`Allow != Recommend != Amplify != Monetize != Deprioritize != Remove != Sanction`.
+
+Examples of invalid automatic transitions:
+- `not removed -> neutrally distributed`;
+- `de-recommended -> deleted`;
+- `monetized -> endorsed`;
+- `reported -> guilty`.
+
+This permits analysis of lawful-but-downranked, visible-but-demonetized, removed-but-appealable, or allowed-but-interaction-limited states without forcing them into one category.
+
+## 13. Conflict termination and recurrence
+
+The objective of content moderation may differ from the objective of conflict termination.
+
+`ContentModerated != ConflictResolved`.
+
+Track at least:
+- `ConflictPersistence(t)`;
+- `Recurrence(t+1)`;
+- `BanEvasion`;
+- `IdentitySwitching`;
+- `CommunityMigration`;
+- `PeerMonitoringBurden`.
+
+Sanction purposes must also be typed:
+
+`Punishment != Incapacitation != Deterrence != Rehabilitation != Restoration`.
+
+A temporary block may succeed at immediate incapacitation while failing at deterrence or rehabilitation. A removal may reduce exposure while leaving retaliation and recurrence unchanged.
+
+Therefore success metrics should be matched to the declared intervention purpose instead of using removal counts alone.
+
+## 14. Feasible alternatives and proportionality audit
+
+Before treating deletion or permanent exclusion as the only available intervention, record:
+
+`FeasibleAlternative(P,t)`.
+
+Candidate alternatives may include:
+- de-recommendation;
+- amplification reduction;
+- interaction restriction;
+- user-controlled filtering;
+- warning or friction;
+- temporary suspension;
+- rate limitation;
+- human review;
+- appeal;
+- restoration after correction.
+
+An alternative matters only if it was actually technically and institutionally feasible at the relevant time. The framework therefore avoids the hindsight error `conceivable alternative -> feasible alternative`.
+
+The audit question is not “why did the platform fail to choose my preferred policy?” but:
+
+> Given the defined risk, authority, operational capacity, and available alternatives, what capability changes did each feasible intervention produce or avoid?
+
+## 15. Core publication-control rule
+
+The main argument should remain actor-neutral and motive-light.
+
+Exclude from core claims unless externally established:
+- hidden malicious intent;
+- unsupported accusations against a named company or institution;
+- assumptions about internal resource allocation not publicly evidenced;
+- claims outside DSD's descriptive or external-source authority.
+
+Permit named entities in externally sourced examples where the source is necessary to establish an actual policy, experiment, decision, or historical change.
+
+The controlling pair remains:
+
+`profit motive != malicious intent`
+
+and
+
+`absence of proven malicious intent != absence of structural effect or responsibility`.
