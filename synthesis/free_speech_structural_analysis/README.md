@@ -4,7 +4,7 @@ Branch: `synthesis/free-speech-structural-analysis-draft`
 
 Status: exploratory synthesis; **not publication-frozen**; **no formal case ID assigned**.
 
-This branch develops a cross-disciplinary DSD analysis of freedom of expression, listener autonomy, social non-equivalence, publicness, age, education, economic asymmetry, representation, interpretation, and responsibility.
+This branch develops a cross-disciplinary DSD analysis of freedom of expression, listener autonomy, social non-equivalence, publicness, age, education, economic asymmetry, representation, interpretation, responsibility, and platform governance.
 
 It intentionally does not start from a predetermined pro-censorship or anti-censorship verdict.
 
@@ -16,6 +16,7 @@ It intentionally does not start from a predetermined pro-censorship or anti-cens
 - `CLAIM_SOURCE_MATRIX.md` — working claim → source → source-type → DSD-use → verification-status map, including explicit source gaps.
 - `LEXICAL_SEMANTIC_AUDIT.md` — cross-linguistic audit of freedom-related terms and translation-collapse risks.
 - `KOREAN_FREEDOM_CONCEPT_HISTORY.md` — Korean `자유` translation history, lexical polysemy, journalism/literature, constitutional and republican-philosophy source notes.
+- `PLATFORM_GOVERNANCE_DYNAMICS.md` — platform-as-private-governance, ranking/monetization, conflict externalization, blocking/observability, community-memory, and incentive-conflict analysis.
 - `VALIDATION_MATRIX.md` — pre-case controls, counterexamples, outcome classes, failure criteria, and publication gate.
 
 ## Existing DSD Analysis dependencies
@@ -36,16 +37,16 @@ If this draft becomes a formal DSD Analysis unit, allocate a domain-local `SYNTH
 
 ## Core non-claim
 
-External literatures already contain many of the component distinctions used here. DSD novelty is **not** claimed for speech-act theory, audience design, captive-audience doctrine, epistemic injustice, public-sphere theory, psychological reactance, child-rights theory, or lexical relativity.
+External literatures already contain many of the component distinctions used here. DSD novelty is **not** claimed for speech-act theory, audience design, captive-audience doctrine, epistemic injustice, public-sphere theory, psychological reactance, child-rights theory, lexical relativity, or platform-governance scholarship.
 
-The research question is whether DSD Formation/Axis-Property discipline can integrate these independent distinctions without collapsing typed states, ordered relations, undefined values, historical state, or external bridge requirements.
+The research question is whether DSD Formation/Axis-Property discipline can integrate these independent distinctions without collapsing typed states, ordered relations, undefined values, historical state, incentive conflicts, or external bridge requirements.
 
 ## Next research gate
 
 1. verify all retained bibliographic metadata and exact page/section support;
 2. expand Korean and other language concept-history sources;
 3. promote the candidate BibTeX and claim-source matrix to a verified publication registry;
-4. fill source gaps identified in `CLAIM_SOURCE_MATRIX.md`, especially advertising/public-channel occupancy, economic vulnerability, Korean law, child-development psychology, and platform governance;
+4. fill source gaps identified in `CLAIM_SOURCE_MATRIX.md`, especially advertising/public-channel occupancy, economic vulnerability, Korean law, child-development psychology, and platform-governance incentive evidence;
 5. freeze synthetic controls and negative controls before selecting politically salient real cases;
 6. run prospective/blind case mapping;
 7. retain failed mappings and `UNDETERMINED` results;
