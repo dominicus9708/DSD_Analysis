@@ -237,3 +237,73 @@ Unverified intent, representation, corruption, consensus, or harm must not be ba
 - It is not a universal moral calculus.
 - It does not claim DSD invented speech-act, audience, power, public-sphere, child-rights, or autonomy distinctions already developed in external fields.
 - The candidate contribution is an integrated DSD audit protocol that preserves typed state, ordered relation, partial definition, non-retroactivity, and explicit bridge requirements across those independent literatures.
+
+## 18. Platform-governance extension: capacity, procedure, recurrence, and alternatives
+
+A platform or institution should not be represented by one scalar such as size, wealth, or formal ownership.
+
+`Resource != OperationalCapacity != Authority != Responsibility`
+
+`Resource` records capital, staffing, infrastructure, and tools. `OperationalCapacity` must additionally account for case volume, language coverage, latency, decision complexity, and tolerated error. `Authority` asks whether a measure may legitimately be taken. `Responsibility` asks which duties or accountability follow from role, rules, law, or institutional commitment.
+
+Accordingly:
+
+`non-performance != incapacity`
+
+and also:
+
+`high capital != unlimited moderation capacity`.
+
+Capacity claims are therefore auditable states, not excuses accepted or rejected by label alone.
+
+### Platform inaction is not system suspension
+
+`NoSanction + RankingContinues + RecommendationContinues != NoStructuralEffect`
+
+A platform may refrain from deletion while ranking, recommending, monetizing, or amplifying content. Preserve these states separately:
+
+`Allow != Recommend != Amplify != Monetize != Deprioritize != Remove != Sanction`.
+
+This permits structural analysis without inferring hidden intent.
+
+### Procedural legitimacy
+
+Moderation should be audited not only by outcome count but by a procedure profile:
+
+`G_P = (RuleNotice, ReasonGiving, Evidence, Consistency, Appeal, Review, Correction, Restoration)`.
+
+`report != guilt finding`
+
+`removal != fair procedure`
+
+`sanction != conflict resolution`.
+
+The framework therefore records notice, reasons, contestability, review, correction, and restoration separately from the substantive moderation outcome.
+
+### Conflict termination and recurrence
+
+Content moderation and conflict termination are distinct states.
+
+`ContentModerated != ConflictResolved`.
+
+Track at least `ConflictPersistence(t)` and `Recurrence(t+1)`, and distinguish reform, recidivism, departure, ban evasion, and identity switching where evidence allows.
+
+Sanction purposes should also remain typed: immediate protection/incapacitation, deterrence, rehabilitation, restoration, and punishment are not interchangeable success criteria.
+
+### Feasible alternatives
+
+For any proposed intervention `L`, record `FeasibleAlternative(P,t)` before assuming deletion or total exclusion is the only effective option. Candidate alternatives include de-recommendation, amplification reduction, interaction restriction, warning, temporary suspension, review, and restoration.
+
+A less restrictive alternative is relevant only if it is technically and institutionally feasible for the case at that time.
+
+### Intent-control rule
+
+The main text audits structure rather than filling unverified internal motives:
+
+`profit motive != malicious intent`.
+
+At the same time:
+
+`absence of proven malicious intent != absence of structural effect or responsibility`.
+
+Named-company accusations, alleged hidden motives, and claims outside the framework's evidentiary authority remain outside the core argument except as externally sourced case material.
