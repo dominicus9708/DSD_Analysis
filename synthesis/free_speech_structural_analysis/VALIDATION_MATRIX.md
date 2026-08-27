@@ -162,3 +162,83 @@ Before any formal paper claim:
 - record failed mappings and negative controls;
 - separate source-derived claims, DSD reinterpretation, and normative bridges;
 - conduct prior-art/novelty audit before calling the integrated protocol new.
+
+## 10. Platform-governance extension
+
+### Capacity and institutional claims
+Track separately:
+- `resources`;
+- `operational_capacity`;
+- `case_volume`;
+- `language_coverage`;
+- `latency_requirement`;
+- `decision_complexity`;
+- `error_tolerance`;
+- `authority_scope`;
+- `responsibility_scope`.
+
+The following automatic transitions must fail without evidence or bridge:
+- `high capital -> unlimited moderation capacity`;
+- `non-performance -> incapacity`;
+- `technical ability -> legitimate authority`;
+- `authority -> mandatory duty`.
+
+### Procedure
+Track:
+- `rule_notice`;
+- `reason_giving`;
+- `evidence_visibility`;
+- `decision_consistency`;
+- `appeal_capacity`;
+- `review_independence`;
+- `correction_path`;
+- `restoration_path`.
+
+The following transitions must fail:
+- `report -> guilt`;
+- `removal -> fair procedure`;
+- `sanction -> conflict resolved`.
+
+### Distribution and sanction state
+Keep separate:
+- `allow`;
+- `recommend`;
+- `amplify`;
+- `monetize`;
+- `deprioritize`;
+- `remove`;
+- `sanction`.
+
+Reject:
+- `not removed -> neutrally distributed`;
+- `de-recommended -> censored`;
+- `monetized -> endorsed`.
+
+### Dynamics
+Track where evidence allows:
+- `conflict_persistence(t)`;
+- `recurrence(t+1)`;
+- `ban_evasion`;
+- `identity_switching`;
+- `community_memory`;
+- `peer_monitoring_burden`.
+
+Removal count alone must not serve as a general conflict-resolution success metric.
+
+### Feasible alternatives
+For each intervention, record `FeasibleAlternative(P,t)` and distinguish a merely conceivable alternative from one actually available given technology, authority, timing, and institutional process.
+
+Candidate alternatives include de-recommendation, amplification reduction, interaction restriction, warning, temporary suspension, human review, appeal, and restoration.
+
+## 11. Additional platform-specific failure criteria
+
+Revise the framework if it:
+- infers operational capacity or legal/moral duty from company size alone;
+- treats absence of proven bad intent as proof of zero structural effect;
+- treats institutional inaction as system suspension;
+- collapses recommendation, amplification, monetization, removal, and sanction into one moderation value;
+- treats a user report as a finding of fact or guilt;
+- fails to record recurrence, correction, or appeal after sanction;
+- ignores feasible less-restrictive alternatives;
+- fills hidden corporate or institutional intent without evidence;
+- assumes a private platform is legally equivalent to a state merely because it performs governance-like functions.
