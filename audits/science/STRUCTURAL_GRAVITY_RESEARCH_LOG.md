@@ -217,3 +217,139 @@ E_B,E_L,E_M,E_R,E_P,E_X
 \]
 
 to determine which sectors are sufficient upstream descriptors of the structural-distortion response.
+
+---
+
+## 2026-09-03 — Experiment 28: density profile vs cumulative source
+
+### Setup
+
+Hold one spherical bounded source fixed with total mass \(M\), outer radius \(R\), and a core boundary at \(R/2\). Vary only the fraction \(f_c\) of total mass inside the core.
+With mean density
+
+\[
+\bar\rho=\frac{3M}{4\pi R^3},
+\]
+
+the piecewise-uniform control family is
+
+\[
+\frac{\rho_f(r)}{\bar\rho}=
+\begin{cases}
+8f_c,&0\le r\le R/2,\\
+\dfrac{8(1-f_c)}7,&R/2<r\le R.
+\end{cases}
+\]
+
+Three controls were used:
+
+- uniform: \(f_c=1/8\);
+- core-heavy: \(f_c=1/2\);
+- envelope-heavy: \(f_c=1/20\).
+
+All have identical \(M\) and \(R\).
+
+### Result 1 — local density and enclosed source can have opposite ordering
+
+At \(r=3R/4\), the local-density ordering is
+
+\[
+\rho_{\rm envelope}>\rho_{\rm uniform}>\rho_{\rm core},
+\]
+
+while the enclosed-mass ordering is
+
+\[
+M_{\rm core}(<r)>M_{\rm uniform}(<r)>M_{\rm envelope}(<r).
+\]
+
+Numerically,
+
+\[
+\rho/\bar\rho=(1.0857,1,0.5714)
+\]
+
+for envelope-heavy, uniform, core-heavy respectively, whereas
+
+\[
+M(<3R/4)/M=(0.3723,0.4219,0.6696).
+\]
+
+Therefore
+
+\[
+\boxed{\text{local density}\neq\text{enclosed source}}
+\]
+
+is strengthened by an explicit same-\(M\), same-\(R\) rank-inversion witness.
+
+### Result 2 — full radial density and full cumulative mass are equivalent under spherical regularity
+
+For a spherically symmetric regular density,
+
+\[
+M(<r)=4\pi\int_0^r\rho(s)s^2\,ds
+\]
+
+and, for \(r>0\),
+
+\[
+\rho(r)=\frac{1}{4\pi r^2}\frac{dM(<r)}{dr}.
+\]
+
+Thus local scalar values \(\rho(r_0)\) and \(M(<r_0)\) are not interchangeable, but the **complete radial profiles** \(\rho(r)\) and \(M(<r)\) contain the same information under the stated spherical/regular assumptions.
+
+### Result 3 — density describability is a hierarchy, not a new independent scalar by default
+
+In 3D the source-description chain can be written schematically as
+
+\[
+\rho(\mathbf x)
+\xrightarrow{\text{angular coarse map}}
+\bar\rho(r)
+\leftrightarrow
+M(<r)
+\longrightarrow
+M.
+\]
+
+The first arrow can lose angular structure; the middle equivalence holds only in the spherical radial specialization; the final total-mass map loses all zero-total redistribution modes.
+
+### Result 4 — near/far distortion factorization condition
+
+The three profiles are explicit witnesses in the same total-mass fiber:
+
+\[
+T[\rho_A]=T[\rho_B]=M.
+\]
+
+A near-field distortion map may distinguish them if it depends on local density, enclosed mass, or other retained profile structure.
+A mass-only far-field universality requires
+
+\[
+\boxed{\ker T\subseteq\ker E_X^{\infty}}.
+\]
+
+Thus every zero-total density redistribution must become invisible to the far-field distortion descriptor if total mass alone is to suffice.
+
+### Verdict
+
+- local density = enclosed mass at the same radius: **REJECTED**
+- full spherical radial \(\rho(r)\) and full \(M(<r)\) as independent source sectors: **REJECTED; they are mutually reconstructible under regularity**
+- general 3D density and radial cumulative mass as equivalent: **REJECTED because angular information may be lost**
+- density redistribution can matter near the source while total mass remains fixed: **LOGICALLY CONFIRMED / PHYSICAL BRIDGE UNRESOLVED**
+- total mass alone determines far-field distortion: **UNRESOLVED; requires kernel inclusion above**
+
+### Consequence
+
+Do not duplicate density and cumulative mass as independent inputs when the full spherical radial profile is already retained. Keep them separate only at pointwise/reduced-descriptor level, or when non-spherical/partial exterior descriptions lose information.
+
+### Next target
+
+Test the same density-family witness against candidate distortion descriptors at three levels:
+
+1. local-density-sensitive;
+2. enclosed-mass-sensitive;
+3. total-mass-only far field;
+
+and determine the minimal exterior source descriptor needed for the structural-distortion map without inserting a standard gravity law.
