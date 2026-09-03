@@ -431,3 +431,245 @@ For a candidate distortion map \(E_X\), test the weakest sufficient source descr
 ### Consequence
 
 The next structural-gravity step should not ask whether `density matters` in the abstract. It should determine the **minimum exterior density/mass descriptor through which the distortion map factors**: total only, finite radial moments, or full radial profile.
+
+---
+
+## 2026-09-03 — Experiment 30: density descriptor bridge comparison
+
+### Setup
+
+Reuse the same three spherical bounded sources from Experiments 28–29: identical total mass \(M\) and radius \(R\), but different radial density profiles.
+Compare four candidate source descriptors without inserting a standard gravity law.
+
+### Local-density-sensitive candidate
+
+A bridge that reads only the density at the field point can distinguish the profiles inside the source, but for a compact bounded source
+
+\[
+\rho(r)=0\qquad(r>R)
+\]
+
+for all three profiles.
+Therefore local density at the exterior field point cannot by itself carry a nonzero exterior source response.
+A transported exterior state or a nonlocal source-to-response bridge is required.
+
+**Verdict: REJECTED as a sole exterior response descriptor; retained as an internal source descriptor.**
+
+### Enclosed-mass-sensitive candidate
+
+Inside the source, \(M(<r)\) distinguishes the density profiles.
+Outside the source,
+
+\[
+M(<r)=M\qquad(r\ge R)
+\]
+
+for all three profiles.
+Hence if the exterior distortion map factors through \((M(<r),r)\), the three same-mass sources automatically have the same exterior source descriptor.
+This is a consequence of the factorization assumption, not a derivation of distortion equality.
+
+**Verdict: CONDITIONALLY SUFFICIENT.**
+
+### Radial-moment-sensitive candidate
+
+The shape moment
+
+\[
+\mu_2=\frac1{MR^2}\int r^2dm
+\]
+
+remains different among the three sources even outside the bounded region because it is a global source descriptor.
+Thus a bridge retaining \(\mu_2\) may preserve source-shape differences outside the source.
+Far-field mass-only universality then requires the response sensitivity to \(\mu_2\) to decay separately.
+
+**Verdict: VALID STRUCTURAL-CORRECTION DESCRIPTOR; FAR-FIELD SURVIVAL UNRESOLVED.**
+
+### Total-mass-only candidate
+
+The total map identifies all three profiles from the start.
+It is the coarsest source descriptor and discards all zero-total density redistributions.
+
+**Verdict: POSSIBLE FAR-FIELD COARSE DESCRIPTOR; SUFFICIENCY UNRESOLVED.**
+
+---
+
+## 2026-09-03 — Experiment 31: radial-kernel mass-only factorization
+
+### Conditional linear bridge
+
+Consider the radial linear specialization
+
+\[
+E_X^{(r)}[\rho]
+=\int_0^R K(r,s)\rho(s)4\pi s^2ds.
+\]
+
+This is not a gravitational law. It is a generic linear control for testing which radial source information remains visible to a distortion descriptor.
+
+### Exact mass-only factorization theorem candidate
+
+Let
+
+\[
+T[\rho]=\int_0^R\rho(s)4\pi s^2ds=M.
+\]
+
+For a sufficiently rich admissible radial-profile class, the linear bridge factors through total mass,
+
+\[
+E_X^{(r)}=F_r\circ T,
+\]
+
+if and only if
+
+\[
+\boxed{K(r,s)=k_0(r)\quad\text{for almost every }s\in[0,R]}.
+\]
+
+Equivalently,
+
+\[
+\ker T\subseteq\ker E_X^{(r)}.
+\]
+
+Interpretation: total mass is a complete source descriptor at radius \(r\) only when the response kernel no longer distinguishes the source-internal radial coordinate.
+
+### Approximate far-field factorization
+
+Write
+
+\[
+K(r,s)=k_0(r)+\varepsilon_r(s).
+\]
+
+For two profiles with the same total mass, \(\delta\rho=\rho_1-\rho_2\) has zero total, and
+
+\[
+\Delta X(r)
+=\int_0^R\varepsilon_r(s)\delta\rho(s)4\pi s^2ds.
+\]
+
+Hence
+
+\[
+|\Delta X(r)|
+\le
+\|\varepsilon_r\|_\infty
+\|\delta\rho\|_{L^1(d\mu)}.
+\]
+
+For two nonnegative mass-\(M\) profiles,
+
+\[
+\|\delta\rho\|_{L^1(d\mu)}\le2M,
+\]
+
+so
+
+\[
+|\Delta X(r)|\le2M\|\varepsilon_r\|_\infty.
+\]
+
+Therefore
+
+\[
+\boxed{
+\frac{\|\varepsilon_r\|_\infty}{|k_0(r)|}\to0
+}
+\]
+
+is a sufficient condition for the density-profile correction to vanish relative to the coarse term \(k_0(r)M\).
+
+### DSD interpretation
+
+Far-field mass-only universality need not be described as density information physically disappearing.
+It can be represented as the response kernel losing its ability to resolve source-internal radial position:
+
+\[
+\boxed{
+\text{far-field mass-only universality}
+\leftrightarrow
+\text{asymptotic source-coordinate kernel flattening}
+}
+\]
+
+under the stated linear specialization.
+
+### Moment expansion
+
+If the kernel admits a formal expansion
+
+\[
+K(r,s)=k_0(r)+k_2(r)\left(\frac{s}{R}\right)^2+\cdots,
+\]
+
+then
+
+\[
+\frac{X(r)}M
+=k_0(r)+k_2(r)\mu_2+\cdots.
+\]
+
+For the control profiles,
+
+\[
+\mu_{2,\rm envelope}-\mu_{2,\rm core}
+=\frac{81}{350}.
+\]
+
+Thus in a synthetic specialization where the first shape correction is the \(k_2\) term,
+
+\[
+X_{\rm envelope}-X_{\rm core}
+=\frac{81}{350}Mk_2(r).
+\]
+
+The sign is controlled by \(k_2\), so density distribution alone does not determine the response direction.
+
+### Distortion vs gradient corollary
+
+If
+
+\[
+X(r)=M[k_0(r)+k_2(r)\mu_2+\cdots],
+\]
+
+then
+
+\[
+-\partial_rX
+=-M[k_0'(r)+k_2'(r)\mu_2+\cdots].
+\]
+
+Therefore
+
+\[
+\frac{k_2}{k_0}\to0
+\]
+
+is not by itself enough to guarantee gradient universality.
+A separate derivative-level condition such as
+
+\[
+\frac{k_2'}{k_0'}\to0
+\]
+
+is required where the ratios are well-defined.
+This strengthens the earlier rule that \(X\), \(\nabla X\), and higher derivatives must be audited separately.
+
+### Verdict
+
+- local density alone as exterior response descriptor: **REJECTED**
+- enclosed mass as sufficient exterior descriptor: **CONDITIONAL ON FACTORIZATION**
+- radial moments can preserve source-shape information beyond the source boundary: **CONFIRMED AS A DESCRIPTOR POSSIBILITY**
+- exact mass-only factorization iff radial kernel is source-coordinate constant: **CONDITIONAL THEOREM UNDER LINEARITY AND PROFILE-CLASS ASSUMPTIONS**
+- asymptotic kernel flattening as a sufficient far-field universality condition: **CONFIRMED WITHIN THE LINEAR SPECIALIZATION**
+- distortion-depth universality automatically implies gradient universality: **REJECTED**
+
+### Consequence
+
+The density problem is no longer only a question of whether density is relevant. It becomes a question of how much source-internal spatial resolution the physical response bridge retains as distance increases.
+
+### Next target
+
+Remove the linearity assumption and express far-field universality directly as shrinking response oscillation on each fixed-total-mass fiber. Then combine the bounded-component partition \(B_i\) with the density profile to test which mixed internal structures remain visible to the distortion map.
