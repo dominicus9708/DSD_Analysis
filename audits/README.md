@@ -22,6 +22,7 @@ Create a domain directory only when the first case exists.
 
 ## Current records / 현재 기록
 
+- [`science/STRUCTURAL_GRAVITY_RESEARCH_LOG.md`](science/STRUCTURAL_GRAVITY_RESEARCH_LOG.md) — running project-conversation log for structural-gravity achievements, corrections, counterexamples, conditional theorems, and unresolved bottlenecks. Synchronized with the Notion `구조적 중력 연구 로그` page.
 - [`science/2026-09-03_structural-gravity-sector-describability-audit.md`](science/2026-09-03_structural-gravity-sector-describability-audit.md) — structural gravity sector-resolved describability, exterior-interface, scaling, and normalization audit (`DSD-AUDIT-20260903-PHYSICS-001`).
 - [`science/2026-09-03_mass-distortion-factorization-control.md`](science/2026-09-03_mass-distortion-factorization-control.md) — minimal bounded/density mass-partition control and mass→distortion exterior-map factorization criterion (`DSD-AUDIT-20260903-PHYSICS-002`).
 
