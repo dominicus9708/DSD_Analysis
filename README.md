@@ -39,12 +39,15 @@ DSD_Analysis/
 ├─ README.md
 ├─ methodology/
 │  ├─ GENERAL_AUDIT_FRAMEWORK.md
-│  └─ AUDIT_RECORDING_STANDARD.md
+│  ├─ AUDIT_RECORDING_STANDARD.md
+│  └─ SECTOR_RESOLVED_DESCRIBABILITY_PROTOCOL.md
 ├─ templates/
 │  └─ AUDIT_CASE_TEMPLATE.md
 ├─ protocols/
 │  └─ README.md
 └─ audits/
+   ├─ science/
+   │  └─ 2026-09-03_structural-gravity-sector-describability-audit.md
    └─ README.md
 ```
 
@@ -62,6 +65,9 @@ Read:
 
 1. [`methodology/GENERAL_AUDIT_FRAMEWORK.md`](methodology/GENERAL_AUDIT_FRAMEWORK.md)
 2. [`methodology/AUDIT_RECORDING_STANDARD.md`](methodology/AUDIT_RECORDING_STANDARD.md)
+3. [`methodology/SECTOR_RESOLVED_DESCRIBABILITY_PROTOCOL.md`](methodology/SECTOR_RESOLVED_DESCRIBABILITY_PROTOCOL.md) when the target contains multiple non-equivalent describability sectors, exterior interfaces, or aggregate-vs-structure distinctions.
+
+여러 기술가능성 섹터, 내부→외부 인터페이스, 총량과 내부구조의 분리가 핵심인 분석에서는 `SECTOR_RESOLVED_DESCRIBABILITY_PROTOCOL.md`를 함께 사용합니다.
 
 ### To start an actual audit / 실제 감사 시작
 
@@ -141,6 +147,8 @@ Do not compress independent failure types into a generic pass/fail when the caus
 
 - [General Audit Framework](methodology/GENERAL_AUDIT_FRAMEWORK.md)
 - [Audit Recording Standard](methodology/AUDIT_RECORDING_STANDARD.md)
+- [Sector-Resolved Describability Protocol](methodology/SECTOR_RESOLVED_DESCRIBABILITY_PROTOCOL.md)
+- [Structural Gravity Sector-Resolved Audit](audits/science/2026-09-03_structural-gravity-sector-describability-audit.md)
 - [Audit Case Template](templates/AUDIT_CASE_TEMPLATE.md)
 - [Domain Protocol Guide](protocols/README.md)
 - [Individual Audit Records Guide](audits/README.md)
