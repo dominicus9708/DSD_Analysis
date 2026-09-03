@@ -20,6 +20,10 @@ audits/
 
 Create a domain directory only when the first case exists.
 
+## Current records / 현재 기록
+
+- [`science/2026-09-03_structural-gravity-sector-describability-audit.md`](science/2026-09-03_structural-gravity-sector-describability-audit.md) — structural gravity sector-resolved describability, exterior-interface, scaling, and normalization audit (`DSD-AUDIT-20260903-PHYSICS-001`).
+
 ## File naming / 파일명
 
 Recommended:
