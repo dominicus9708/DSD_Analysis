@@ -344,12 +344,90 @@ Thus every zero-total density redistribution must become invisible to the far-fi
 
 Do not duplicate density and cumulative mass as independent inputs when the full spherical radial profile is already retained. Keep them separate only at pointwise/reduced-descriptor level, or when non-spherical/partial exterior descriptions lose information.
 
-### Next target
+---
 
-Test the same density-family witness against candidate distortion descriptors at three levels:
+## 2026-09-03 — Experiment 29: density descriptor sufficiency ladder
 
-1. local-density-sensitive;
-2. enclosed-mass-sensitive;
-3. total-mass-only far field;
+### Result 1 — analytic rank reversal in the control family
 
-and determine the minimal exterior source descriptor needed for the structural-distortion map without inserting a standard gravity law.
+Let \(x=r/R\), and compare each core fraction \(f_c\) with the uniform case \(f_c=1/8\).
+For the cumulative mass fraction \(m_f(x)=M_f(<r)/M\),
+
+\[
+m_f(x)-x^3=
+\begin{cases}
+(8f_c-1)x^3,&x\le1/2,\\
+\dfrac{(8f_c-1)(1-x^3)}7,&1/2<x<1.
+\end{cases}
+\]
+
+Hence the sign of the cumulative-mass deviation is fixed throughout the interior.
+The core-heavy profile stays above uniform and the envelope-heavy profile stays below uniform for all \(0<r<R\).
+
+By contrast, the local-density deviation is
+
+\[
+\frac{\rho_f-\bar\rho}{\bar\rho}=
+\begin{cases}
+8f_c-1,&r<R/2,\\
+-\dfrac{8f_c-1}{7},&r>R/2,
+\end{cases}
+\]
+
+so its sign reverses across the core boundary.
+
+Therefore a local-density-sensitive response and an enclosed-mass-sensitive response can predict qualitatively different radial ordering even before any standard gravity law is inserted.
+
+### Result 2 — global density-shape descriptor
+
+A normalized second radial mass moment is
+
+\[
+\mu_2
+=\frac1{MR^2}\int r^2\,dm
+=\frac{93-72f_c}{140}.
+\]
+
+For the three controls,
+
+\[
+\mu_2=(0.6000,\;0.4071,\;0.6386)
+\]
+
+for uniform, core-heavy, and envelope-heavy respectively.
+Thus same total mass and radius do not determine the radial mass-shape descriptor.
+
+### Result 3 — minimal descriptor ladder
+
+Within the spherical radial specialization, a useful information ladder is
+
+\[
+\rho(r)\leftrightarrow M(<r)
+\succ (M,I_2)
+\succ M,
+\]
+
+where
+
+\[
+I_2=\int r^2\,dm.
+\]
+
+The full radial profile is most informative; a finite moment set is lossy; total mass is the coarsest descriptor.
+
+For a candidate distortion map \(E_X\), test the weakest sufficient source descriptor in order:
+
+1. total mass \(T\): \(\ker T\subseteq\ker E_X\);
+2. total + moment \((T,I_2)\): \(\ker(T,I_2)\subseteq\ker E_X\);
+3. full cumulative/radial profile \(C\): \(\ker C\subseteq\ker E_X\).
+
+### Verdict
+
+- density and cumulative source are always separate upstream inputs: **REJECTED**
+- pointwise/reduced density and cumulative descriptors can disagree qualitatively: **CONFIRMED**
+- total mass and radius determine radial density structure: **REJECTED**
+- a density-descriptor sufficiency ladder can be audited without inserting Newtonian gravity: **CONFIRMED**
+
+### Consequence
+
+The next structural-gravity step should not ask whether `density matters` in the abstract. It should determine the **minimum exterior density/mass descriptor through which the distortion map factors**: total only, finite radial moments, or full radial profile.
