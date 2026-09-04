@@ -15,17 +15,36 @@ DOMAIN:
 DATE:
 AUDITOR_OR_AGENT:
 RELATED_SOURCE_OR_CASE:
-VERSION:
+AUDIT_VERSION:
+DSD_INTERFACE_PROFILE_DATE:
 ```
 
-## 1. Audit question / 감사 질문
+## 1. DSD interface lock / DSD 인터페이스 잠금
+
+Use only when DSD formal layers materially affect the case.
+
+```text
+FORMATION_LAYER: used / not used
+PROPERTY_CORE: used / not used
+STATIC_AGGREGATION_LAYER: used / not used
+DYNAMICS_LAYER: used / not used
+REALIZED_AXIS_SPECIALIZATION: supplied / not supplied
+OTHER_SPECIALIZATION:
+FORMATION_SOURCE_VERSION:
+PROPERTY_SOURCE_VERSION:
+STATIC_AGGREGATION_SOURCE_VERSION:
+DYNAMICS_SOURCE_VERSION:
+OTHER_SOURCE_VERSIONS:
+```
+
+## 2. Audit question / 감사 질문
 
 ```text
 PRIMARY_QUESTION:
 QUESTIONS_NOT_BEING_DECIDED:
 ```
 
-## 2. Scope / 범위
+## 3. Scope / 범위
 
 ```text
 TARGET_SCOPE:
@@ -37,7 +56,7 @@ EXTERNAL_STANDARD:
 ASSUMPTIONS:
 ```
 
-## 3. Original source preservation / 원자료 보존
+## 4. Original source preservation / 원자료 보존
 
 ```text
 SOURCE_CLAIM:
@@ -49,7 +68,7 @@ SOURCE_DATE:
 SOURCE_REFERENCE:
 ```
 
-## 4. Descriptive status / 기술 상태
+## 5. Evidence status / 감사 근거 상태
 
 ### Established within scope / 범위 내 확인
 
@@ -63,7 +82,31 @@ SOURCE_REFERENCE:
 
 - 
 
-## 5. Selection and exclusion / 선택·배제
+## 6. DSD object-status ledger / DSD 객체 상태 장부
+
+Do not merge this with audit evidence status.
+
+```text
+FORMATION_STATUS:
+PROPERTY_STATUS:
+DYNAMIC_STATUS:
+STATUS_SIDECAR_REQUIRED:
+STATUS_SIDECAR_SUPPLIED:
+```
+
+Useful property statuses when the general Property layer is used:
+
+```text
+UNDECLARED
+PROFILE_UNAVAILABLE
+INAPPLICABLE
+PREREQUISITE_UNSATISFIED
+APPLICABLE_BUT_UNDEFINED
+DEFINED_ZERO
+DEFINED_NONZERO_OR_OTHER_DEFINED_VALUE
+```
+
+## 7. Selection and exclusion / 선택·배제
 
 ### Available alternatives / 가능한 선택지
 
@@ -92,7 +135,23 @@ NONE / PRESENT / UNDETERMINED:
 DETAILS:
 ```
 
-## 6. Proposition layers / 명제 층위
+## 8. Bridge and allocation audit / 브리지·배정 감사
+
+Repeat this block for each material bridge.
+
+```text
+BRIDGE_NAME:
+BRIDGE_SOURCE_LAYER:
+BRIDGE_DOMAIN:
+BRIDGE_CODOMAIN:
+BRIDGE_ASSUMPTIONS:
+BRIDGE_JUSTIFICATION:
+IMPLICIT_BRIDGE_CHECK:
+MULTI_INPUT_PROPERTY_ALLOCATION_REQUIRED:
+ALLOCATION_RULE_SUPPLIED:
+```
+
+## 9. Proposition layers / 명제 층위
 
 ### Fact / 사실
 
@@ -110,7 +169,7 @@ DETAILS:
 
 - 
 
-## 7. Transition audit / 전이 감사
+## 10. Transition audit / 전이 감사
 
 | Step | Prior state or evidence / 이전 상태·근거 | Rule or reason / 전이 규칙·이유 | Next state or conclusion / 다음 상태·판단 | Status / 판정 |
 |---|---|---|---|---|
@@ -126,7 +185,30 @@ CONTRADICTED
 UNDETERMINED
 ```
 
-## 8. Alternative describabilities / 대안 기술가능성
+### DSD dynamic transition classification / DSD 동역학 전이 분류
+
+```text
+TRANSITION_CLASS:
+SAME_REGULAR_EPOCH:
+IDENTITY_PRESERVED:
+LINEAGE_REQUIRED:
+LINEAGE_SUPPLIED:
+PRE_STATE:
+POST_STATE:
+```
+
+Suggested classes:
+
+```text
+DOWNSTREAM_VALUE_EVOLUTION
+PROPERTY_ASSIGNMENT_EVOLUTION
+PROPERTY_STATUS_OR_DOMAIN_TRANSITION
+OPTIONAL_GEOMETRIC_SPECIALIZATION_TRANSITION
+CHANNEL_OR_FORMATION_LEVEL_TRANSITION
+NOT_APPLICABLE
+```
+
+## 11. Alternative describabilities / 대안 기술가능성
 
 ```text
 ALTERNATIVE_1:
@@ -138,27 +220,45 @@ ADDITIONAL_INFORMATION_NEEDED:
 
 Add more alternatives as needed.
 
-## 9. Witnesses, counterexamples, boundary cases / 증인·반례·경계 사례
+## 12. Aggregation, compression, and reconstruction / 집계·압축·복원
+
+```text
+REDUCED_READOUT_USED:
+OUTPUT_EQUALITY_CHECK:
+SUPPORT_EQUALITY_CHECK:
+DECOMPOSITION_RETENTION_CHECK:
+NEGATIVE_STATUS_RETENTION_CHECK:
+INJECTIVITY_ESTABLISHED:
+COLLISION_WITNESS:
+KERNEL_OR_INFORMATION_LOSS_CHECK:
+RECONSTRUCTION_CLAIM:
+RECONSTRUCTION_BASIS:
+```
+
+## 13. Witnesses, counterexamples, boundary cases / 증인·반례·경계 사례
 
 ```text
 MINIMAL_POSITIVE_WITNESS:
 MINIMAL_COUNTEREXAMPLE:
 BOUNDARY_CASE:
+AGGREGATE_COLLISION_WITNESS:
+BRIDGE_FAILURE_WITNESS:
 FINITE_EXHAUSTIVE_RANGE:
 UNTESTED_REGION:
 ```
 
-## 10. Contradiction audit / 모순 감사
+## 14. Contradiction audit / 모순 감사
 
 ```text
 DEFINITION_CONTRADICTION:
+INTERFACE_CONTRADICTION:
 TRANSITION_CONTRADICTION:
 STRUCTURAL_CONTRADICTION:
 CLAIM_CONTRADICTION_OR_OVERREACH:
 OMISSION:
 ```
 
-## 11. Eight-axis summary / 8축 요약
+## 15. Eight-axis summary / 8축 요약
 
 | Axis | Audit result / 감사 결과 |
 |---|---|
@@ -171,7 +271,7 @@ OMISSION:
 | N — Norm | |
 | O — Outcome | |
 
-## 12. Final verdict / 최종 판정
+## 16. Final verdict / 최종 판정
 
 Choose the narrowest suitable verdict.
 
@@ -195,7 +295,7 @@ MAXIMUM_SUPPORTED_CLAIM:
 UNSUPPORTED_OR_UNRESOLVED_CLAIMS:
 ```
 
-## 13. Reproducibility and traceability / 재현·추적
+## 17. Reproducibility and traceability / 재현·추적
 
 ```text
 REQUIRED_SOURCES:
@@ -207,21 +307,24 @@ DEPENDENCIES:
 INPUTS:
 RANDOM_SEED:
 TOLERANCE:
+BRIDGE_CONFIGURATION:
 GENERATED_OUTPUTS:
 RELATED_NOTION_PAGE:
 ```
 
 Use only the fields relevant to the audit.
 
-## 14. Follow-up / 후속 작업
+## 18. Follow-up / 후속 작업
 
 - [ ] Obtain additional material / 추가 자료 확보
 - [ ] Independent review / 독립 재검토
 - [ ] Expand counterexample search / 반례 확대
 - [ ] Compare with domain protocol / 분야별 프로토콜 대조
+- [ ] Check interface migration need / 인터페이스 마이그레이션 필요성 확인
 - [ ] Reflect in synthesis or paper preparation / 종합·논문화 반영
+- [ ] Evaluate automation candidate checks / 자동화 가능한 검사 항목 분류
 
-## 15. Revision log / 개정 기록
+## 19. Revision and migration log / 개정·마이그레이션 기록
 
 ```text
 REVISION_DATE:
@@ -229,4 +332,9 @@ CHANGED_SCOPE:
 NEW_SOURCE:
 CHANGED_VERDICT:
 REASON:
+METHODOLOGY_VERSION:
+DSD_INTERFACE_PROFILE_DATE:
+MIGRATION_STATUS:
+LEGACY_TERMINOLOGY:
+MIGRATION_NOTES:
 ```
