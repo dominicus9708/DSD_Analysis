@@ -44,10 +44,57 @@ DSD-AUDIT-YYYYMMDD-DOMAIN-NNN
 
 1. Copy `templates/AUDIT_CASE_TEMPLATE.md`.
 2. Place the copy under the appropriate domain directory in `audits/`.
-3. Lock the audit question and scope before evaluating the result.
-4. Preserve original source claims before DSD reinterpretation.
-5. Record both selected and excluded alternatives.
-6. End with the external-domain verdict, DSD structural verdict, limits, and reproducibility information.
+3. Lock the audit question, scope, time, resolution, and external standard before evaluating the result.
+4. If DSD formal layers materially affect the audit, lock the current interface profile from `methodology/DSD_INTERFACE_PROFILE.md` and record the exact predecessor-source revisions used.
+5. Preserve original source claims before DSD reinterpretation.
+6. Keep audit evidence status separate from Formation/Property/Dynamics object status.
+7. Record both selected and excluded alternatives.
+8. Record every material selector, bridge, allocation rule, aggregation/reconstruction assumption, and lineage requirement.
+9. End with the external-domain verdict, DSD structural verdict, limits, and reproducibility information.
+
+## Interface and source lock / 인터페이스·출처 잠금
+
+For a new DSD-dependent audit, record at minimum:
+
+```text
+DSD_INTERFACE_PROFILE_DATE:
+FORMATION_LAYER: used / not used
+PROPERTY_CORE: used / not used
+STATIC_AGGREGATION_LAYER: used / not used
+DYNAMICS_LAYER: used / not used
+REALIZED_AXIS_SPECIALIZATION: supplied / not supplied
+OTHER_SPECIALIZATION:
+SOURCE_VERSIONS:
+```
+
+Do not assume that the newest DSD paper revision was the basis of an older audit.
+The interface lock records the actual state under which the audit was performed.
+
+## Historical-record policy / 과거 기록 보존 원칙
+
+Older audit records may contain terminology or interfaces that were correct for the DSD revision used at that time, including earlier realized-axis or axis-property terminology.
+Do **not** rewrite those records merely to make them look current.
+
+If an older case is re-evaluated under the current General Property / Static Aggregation / Dynamics interfaces:
+
+1. preserve the original record and verdict;
+2. append a revision or migration section;
+3. state the old and new interface profiles separately;
+4. identify which conclusions survive unchanged, which require reinterpretation, and which become unsupported;
+5. do not back-project the current generalized Property core into the historical audit as if it had already been used.
+
+Recommended migration fields:
+
+```text
+METHODOLOGY_VERSION:
+PREVIOUS_DSD_INTERFACE_PROFILE:
+CURRENT_DSD_INTERFACE_PROFILE:
+MIGRATION_STATUS:
+LEGACY_TERMINOLOGY:
+MIGRATION_NOTES:
+VERDICT_CHANGED:
+REASON:
+```
 
 ## Audit status / 감사 상태
 
@@ -65,12 +112,13 @@ STATUS: REVISED
 
 ## Revision policy / 개정 원칙
 
-Do not erase a previous reasonable verdict merely because new evidence appears later.
+Do not erase a previous reasonable verdict merely because new evidence or a new DSD interface appears later.
 Instead, preserve the earlier record and add a revision entry showing:
 
-- what new information appeared
+- what new information or interface appeared
 - which earlier assumption or scope changed
 - how the verdict changed
 - whether the earlier verdict was unreasonable at the time or merely superseded by new information
+- whether terminology changed because a former specialization became a non-universal optional module
 
-This prevents hindsight information from being silently projected into the earlier audit state.
+This prevents hindsight information and later DSD generalizations from being silently projected into the earlier audit state.
