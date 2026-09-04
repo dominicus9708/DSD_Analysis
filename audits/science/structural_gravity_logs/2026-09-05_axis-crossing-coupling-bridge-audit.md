@@ -214,19 +214,29 @@ Therefore
 \operatorname{tr}\!\left(\Omega_a[P_a,P_b]\right).
 \]
 
-A gradient-flow-type reorientation consequently has the structural form
+With the convention \(\dot P=[\Omega,P]\) and the Frobenius inner product on skew generators,
+
+\[
+\operatorname{tr}(\Omega G)=-\langle\Omega,G\rangle_F.
+\]
+
+Therefore a gradient-descent reorientation has the structural form
 
 \[
 \boxed{
 \Omega_a
 \propto
--\sum_bV_{ab}'(s_{ab})[P_a,P_b]
++\sum_bV_{ab}'(s_{ab})[P_a,P_b]
 }
 \]
 
-up to the constitutive mobility/inertia choice.
+up to a positive constitutive mobility factor. A second-order inertial law can use the same torque direction with a separate inertia operator.
 
 This matches the previously identified admissible projector-commutator form: geometry determines the allowed reorientation direction once a pair potential is supplied, but not its rate.
+
+### Correction note
+
+An earlier draft of this experiment contained the opposite sign. The sign above is the corrected one for the stated \(\dot P=[\Omega,P]\) convention. The qualitative conclusions in Experiment 426 are unchanged.
 
 ---
 
