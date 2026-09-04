@@ -1,0 +1,77 @@
+# DSD Audit Records / DSD 감사 기록
+
+This directory is the authoritative location for **new DSD Audit case records** created after the audit module was separated from DSD Analysis on 2026-09-05.
+
+이 디렉터리는 2026-09-05 이후 DSD 분석론과 분리된 **새 DSD 감사 실행 기록의 기준 위치**입니다.
+
+## Recommended layout / 권장 구조
+
+```text
+audits/
+├─ mathematics/
+├─ science/
+├─ law/
+├─ software/
+├─ ai/
+├─ history_media/
+├─ administration_organization/
+└─ README.md
+```
+
+Create a domain directory when the first real audit exists.
+
+## Starting a new audit / 새 감사 시작
+
+1. Copy `../templates/AUDIT_CASE_TEMPLATE.md`.
+2. Place the copy under the appropriate domain directory.
+3. Lock audit question, scope, time, descriptive resolution, and external standard.
+4. Lock the shared DSD interface profile and exact source revisions when DSD formal layers matter.
+5. Preserve original sources before reinterpretation.
+6. Keep audit evidence status separate from DSD object status.
+7. Record selections and exclusions.
+8. Record material bridges, aggregation/reconstruction assumptions, transition classes, and lineage requirements.
+9. End with external-domain verdict, DSD structural audit verdict, limits, and reproducibility information.
+
+## File naming / 파일명
+
+Recommended:
+
+```text
+YYYY-MM-DD_short-audit-title.md
+```
+
+Formal ID:
+
+```text
+DSD-AUDIT-YYYYMMDD-DOMAIN-NNN
+```
+
+## Audit status / 감사 상태
+
+```text
+STATUS: PLANNED
+STATUS: IN_PROGRESS
+STATUS: BLOCKED_BY_MISSING_EVIDENCE
+STATUS: COMPLETED
+STATUS: REVISED
+```
+
+`BLOCKED_BY_MISSING_EVIDENCE` is not a negative verdict.
+
+## Legacy records / 기존 감사 기록
+
+Audit records created before the separated `DSD_Audit/` structure may remain in the repository's previous `audits/` paths.
+They are historical records and should not be silently relocated or rewritten simply to appear current.
+
+When a legacy case is actively re-audited under the separated DSD Audit structure:
+
+1. preserve the original file and verdict;
+2. create a new audit record or explicit migration record here;
+3. state old and current interface profiles separately;
+4. identify which conclusions survive, require reinterpretation, or become unsupported;
+5. cross-link the legacy path and new path.
+
+## Revision policy / 개정 원칙
+
+Do not erase a previous reasonable verdict when new evidence or a new DSD interface appears.
+Append a revision or migration record showing the new source, changed scope/interface, changed verdict, and reason.
