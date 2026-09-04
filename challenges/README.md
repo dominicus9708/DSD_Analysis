@@ -10,6 +10,7 @@ This directory records adversarial and repeatability-oriented challenges for **D
 - Test whether structurally irrelevant changes such as names, presentation order, or evaluative framing change the analysis.
 - Test whether structurally identical cases receive the same structural analysis.
 - Test whether a materially different formation/property/dynamic structure is actually distinguished.
+- Test whether declared symmetry transformations produce the corresponding transformed result rather than directional bias.
 - Permit `no analytical gain`, `non-correspondence`, and `undetermined` as normal outcomes.
 - Reduce post-hoc favorable reinterpretation by precommitting interface and verdict criteria before reading the result.
 
@@ -24,11 +25,16 @@ CASE_GENERATION:
 BLINDING_LEVEL:
 ANALYSIS_RESULT:
 INVARIANCE_RESULT:
+EQUIVARIANCE_RESULT:
 DISCRIMINATION_RESULT:
 ANALYTICAL_GAIN:
 FAILURES_OR_LIMITS:
 NEXT_STRENGTHENING_STEP:
 ```
+
+`INVARIANCE_RESULT` and `EQUIVARIANCE_RESULT` are distinct.
+Invariance requires a result to remain unchanged under a nonessential relabeling.
+Equivariance requires a result to transform consistently when the tested structure itself is transformed by an explicit symmetry map.
 
 ## Interpretation rule / 해석 규칙
 
@@ -53,3 +59,4 @@ A case designed and analyzed by the same person or same model session is **not**
 ## Current records / 현재 기록
 
 - [`ANL-CH-001_blind-twin-pilot.md`](ANL-CH-001_blind-twin-pilot.md) — first pilot invariance/discrimination challenge.
+- [`ANL-CH-002_symmetric-case-pilot.md`](ANL-CH-002_symmetric-case-pilot.md) — sign/orientation symmetry and composition-equivariance pilot.
