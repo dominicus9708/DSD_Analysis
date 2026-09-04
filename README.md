@@ -40,6 +40,7 @@ DSD_Analysis/
 ├─ README.md
 ├─ methodology/
 │  ├─ DSD_INTERFACE_PROFILE.md
+│  ├─ AUDIT_ALGORITHMIZATION_ROADMAP.md
 │  ├─ GENERAL_AUDIT_FRAMEWORK.md
 │  └─ AUDIT_RECORDING_STANDARD.md
 ├─ templates/
@@ -102,6 +103,15 @@ Do not convert undefinedness or absence into numerical zero merely to simplify a
 - Aggregate equality does not automatically imply equal support or decomposition; reconstruction claims require injectivity or another explicit theorem/condition.
 - Formation-level identity changes are not ordinary value evolution of one unchanged channel; successor claims require the appropriate lineage record.
 
+## Future audit algorithmization / 향후 감사 알고리즘화
+
+The planned path from structured manual audits to software-assisted checks is recorded in [`methodology/AUDIT_ALGORITHMIZATION_ROADMAP.md`](methodology/AUDIT_ALGORITHMIZATION_ROADMAP.md).
+The roadmap separates mechanically checkable record integrity, semi-automatic DSD structural rules, and external-domain judgment.
+Full implementation is deferred until the updated schema has remained stable across heterogeneous real audits.
+
+구조화된 수동 감사에서 소프트웨어 보조 검사로 발전시키는 계획은 [`methodology/AUDIT_ALGORITHMIZATION_ROADMAP.md`](methodology/AUDIT_ALGORITHMIZATION_ROADMAP.md)에 기록합니다.
+기계적으로 검사 가능한 기록 무결성, 반자동 DSD 구조 규칙, 외부 분야 판정을 분리하고 실제 이질적 감사 사례에서 스키마가 안정된 뒤 본격 구현합니다.
+
 ## Structural gravity logging / 구조적 중력 로그
 
 Structural-gravity results developed in the project conversation are recorded as a running research log rather than promoted into general DSD Analysis methodology merely because they were useful in one research line.
@@ -120,6 +130,7 @@ Read:
 1. [`methodology/DSD_INTERFACE_PROFILE.md`](methodology/DSD_INTERFACE_PROFILE.md)
 2. [`methodology/GENERAL_AUDIT_FRAMEWORK.md`](methodology/GENERAL_AUDIT_FRAMEWORK.md)
 3. [`methodology/AUDIT_RECORDING_STANDARD.md`](methodology/AUDIT_RECORDING_STANDARD.md)
+4. [`methodology/AUDIT_ALGORITHMIZATION_ROADMAP.md`](methodology/AUDIT_ALGORITHMIZATION_ROADMAP.md) when planning automation.
 
 ### To start an actual audit / 실제 감사 시작
 
@@ -182,6 +193,7 @@ OVERCLAIM
 ## Related documentation / 관련 문서
 
 - [DSD Interface Profile](methodology/DSD_INTERFACE_PROFILE.md)
+- [Audit Algorithmization Roadmap](methodology/AUDIT_ALGORITHMIZATION_ROADMAP.md)
 - [General Audit Framework](methodology/GENERAL_AUDIT_FRAMEWORK.md)
 - [Audit Recording Standard](methodology/AUDIT_RECORDING_STANDARD.md)
 - [Structural Gravity Research Log](audits/science/STRUCTURAL_GRAVITY_RESEARCH_LOG.md)
