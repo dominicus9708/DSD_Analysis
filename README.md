@@ -40,6 +40,9 @@ DSD_Analysis/
 ├─ README.md
 ├─ methodology/
 │  └─ DSD_INTERFACE_PROFILE.md        # shared DSD interface
+├─ challenges/                        # analysis objectivity/consistency challenges
+│  ├─ README.md
+│  └─ ANL-CH-001_blind-twin-pilot.md
 ├─ DSD_Audit/                         # separated audit module
 │  ├─ README.md
 │  ├─ methodology/
@@ -83,6 +86,14 @@ A case records only the layers it actually uses.
 - Preserve direct correspondence, partial correspondence, correspondence after explicit encoding, and non-correspondence.
 - Record failed mappings and boundary cases rather than collecting only DSD-favorable examples.
 
+## Objectivity and consistency challenges / 객관성·일관성 도전
+
+Dedicated adversarial and repeatability-oriented tests for DSD Analysis are stored in [`challenges/`](challenges/).
+These tests allow `PASS`, `FAIL`, `UNDETERMINED`, `NON_CORRESPONDENCE`, and `NO_ANALYTICAL_GAIN` outcomes without treating only DSD-favorable results as successful research.
+
+현재 첫 기록은 [`challenges/ANL-CH-001_blind-twin-pilot.md`](challenges/ANL-CH-001_blind-twin-pilot.md)입니다.
+이 파일럿은 구조적으로 동일한 사례에 대한 불변성과 핵심 formation admission 차이에 대한 구별력을 시험하며, 동일 세션이 사례 생성과 분석을 모두 수행했으므로 독립 blind validation으로 간주하지 않습니다.
+
 ## Structural gravity logging / 구조적 중력 로그
 
 Structural-gravity results developed in the project conversation remain recorded as a research-line log rather than being promoted automatically into general DSD Analysis or DSD Audit methodology.
@@ -99,6 +110,7 @@ When a structural-gravity case is newly re-audited, the new audit record should 
 3. Select only the DSD layers needed for the case.
 4. Build structural correspondences without replacing external standards.
 5. Preserve non-correspondence, alternatives, counterexamples, and boundary cases.
+6. For objectivity/repeatability challenges, use [`challenges/`](challenges/).
 
 ### DSD Audit / DSD 감사
 
