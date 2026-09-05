@@ -17,7 +17,8 @@ This directory records adversarial and repeatability-oriented challenges for **D
 - Test whether the minimum sufficient DSD layer set is selected without automatic upward drag or a compulsory serial-chain assumption.
 - Test whether removing an optional specialization preserves independent core claims while withdrawing only specialization-dependent claims.
 - Test DSD against the **strongest reasonable task-matched baseline**, rather than an intentionally weak strawman, and preserve DSD-losing or tied outcomes when warranted.
-- Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, `baseline preferred`, `tie`, and `undetermined` as normal outcomes.
+- Test whether a pre-locked rule set transfers to a newly selected problem without post-reveal rule drift, while explicitly recording the real holdout level.
+- Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, `baseline preferred`, `tie`, `transfer failure`, and `undetermined` as normal outcomes.
 - Reduce post-hoc favorable reinterpretation by precommitting interface and verdict criteria before reading the result.
 
 ## Common fields / 공통 기록 항목
@@ -58,6 +59,16 @@ PARISMONY_RESULT:
 NOVEL_DISCRIMINATION_RESULT:
 STRAW_MAN_BASELINE_AVOIDED:
 COMPETITIVE_RESULT:
+TRANSFER_RULESET_ID:
+HOLDOUT_STATUS:
+CASE_SELECTION_METHOD:
+CASE_SELECTION_SEED:
+CASE_DOMAIN:
+TRANSFER_RULES_APPLIED:
+TRANSFER_RULE_FAILURES:
+POST_REVEAL_RULE_CHANGE:
+POST_REVEAL_EXCEPTION_ADDED:
+TRANSFER_RESULT:
 FAILURES_OR_LIMITS:
 NEXT_STRENGTHENING_STEP:
 ```
@@ -87,6 +98,12 @@ Competing-explanation challenges must use the **strongest reasonable task-matche
 `COMPETITIVE_RESULT` uses `dsd_preferred / baseline_preferred / tie / indeterminate`.
 When possible, `ANALYTICAL_GAIN` is judged relative to the strongest reasonable baseline.
 
+Unseen-problem transfer challenges must lock the rule set and scoring criteria before case reveal or deterministic selection.
+`HOLDOUT_STATUS` records the actual level of independence; a case authored by the same analyst/session is not promoted beyond `procedural_pseudo_unseen`.
+`TRANSFER_RESULT` uses `consistent_transfer / partial_transfer / transfer_failure / indeterminate`.
+`POST_REVEAL_RULE_CHANGE` and `POST_REVEAL_EXCEPTION_ADDED` prevent a failed transfer from being rescued by silently rewriting the precommitted rules.
+A deterministic seed improves reproducibility and constrains post-hoc selection but does not create independent blinding.
+
 Recommended analytical-gain vocabulary:
 
 ```text
@@ -105,6 +122,7 @@ A non-correspondence challenge can pass precisely because the selected interface
 A layer-restraint challenge can pass only when required layers are not omitted and unnecessary layers are not introduced.
 A specialization-removal challenge can pass only when independent core claims survive, specialization-dependent claims are withdrawn, and missing optional data are not zero-filled or silently retained.
 A competing-explanation challenge can pass even when `COMPETITIVE_RESULT: baseline_preferred` or `tie`, provided the competitor was strengthened fairly and the result was not rescued post hoc.
+An unseen-problem transfer challenge can pass only when the pre-locked rules are applied without undisclosed post-reveal modification, and the record must not exaggerate a same-session procedural case into an independent holdout.
 A `FAIL` is preserved as a revision or scope-limitation signal.
 A case designed and analyzed by the same person or same model session is **not** counted as an independent blind validation.
 
@@ -130,3 +148,4 @@ A case designed and analyzed by the same person or same model session is **not**
 - [`ANL-CH-005_layer-restraint-pilot.md`](ANL-CH-005_layer-restraint-pilot.md) — casewise minimum-layer selection across Formation, Property, Static, and Dynamics without unnecessary serial-chain expansion.
 - [`ANL-CH-006_specialization-removal-pilot.md`](ANL-CH-006_specialization-removal-pilot.md) — realized-axis removal pilot preserving independent Property/Dynamics claims while withdrawing only geometric specialization claims.
 - [`ANL-CH-007_competing-explanation-pilot.md`](ANL-CH-007_competing-explanation-pilot.md) — strongest-reasonable-baseline competition pilot in which both toy cases prefer the external baseline after target-fit ties.
+- [`ANL-CH-008_unseen-problem-transfer-pilot.md`](ANL-CH-008_unseen-problem-transfer-pilot.md) — deterministic seeded procedural pseudo-unseen transfer pilot applying the ANL-CH-001~007 rules to a laboratory sample workflow without post-reveal modification.
