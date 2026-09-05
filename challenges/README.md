@@ -15,6 +15,7 @@ This directory records adversarial and repeatability-oriented challenges for **D
 - Test whether an essential external structure is genuinely preserved before granting `direct` or `partial` correspondence.
 - Keep explicit encoding, bridge insertion, and added-layer rescue distinct from direct correspondence.
 - Test whether the minimum sufficient DSD layer set is selected without automatic upward drag or a compulsory serial-chain assumption.
+- Test whether removing an optional specialization preserves independent core claims while withdrawing only specialization-dependent claims.
 - Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, and `undetermined` as normal outcomes.
 - Reduce post-hoc favorable reinterpretation by precommitting interface and verdict criteria before reading the result.
 
@@ -42,6 +43,13 @@ SELECTED_LAYER_SET:
 LAYER_SELECTION_RESULT:
 UNNECESSARY_LAYER_INTRODUCED:
 MISSING_REQUIRED_LAYER:
+SPECIALIZATION_UNDER_TEST:
+SPECIALIZATION_DEPENDENT_CLAIMS:
+SPECIALIZATION_INDEPENDENT_CLAIMS:
+POST_REMOVAL_WITHDRAWN_CLAIMS:
+POST_REMOVAL_SURVIVING_CLAIMS:
+SPECIALIZATION_REMOVAL_RESULT:
+DEFAULT_SUBSTITUTION_INTRODUCED:
 FAILURES_OR_LIMITS:
 NEXT_STRENGTHENING_STEP:
 ```
@@ -62,6 +70,10 @@ A `partial` result should preserve some structure that is genuinely relevant to 
 `LAYER_SELECTION_RESULT` uses `exact_match / over_specified / under_specified / indeterminate`.
 The current DSD interface must not be treated as a compulsory serial ladder when the source manuscripts define Property, Static, realized-axis, and other downstream interfaces as optional or selectively activated.
 
+Specialization removal also separates predecessor/core claims from specialization-dependent claims.
+`SPECIALIZATION_REMOVAL_RESULT` uses `exact_partition / over_retained / over_deleted / indeterminate`.
+A claim that becomes unsupported because optional specialization data were removed is **not** automatically false and must not be replaced by an invented default such as rank `0`.
+
 Recommended analytical-gain vocabulary:
 
 ```text
@@ -78,6 +90,7 @@ It is not evidence that DSD as a whole is true.
 A null challenge can pass precisely because DSD correctly recognizes that it is unnecessary for the tested case.
 A non-correspondence challenge can pass precisely because the selected interface correctly refuses to claim preservation of an essential structure.
 A layer-restraint challenge can pass only when required layers are not omitted and unnecessary layers are not introduced.
+A specialization-removal challenge can pass only when independent core claims survive, specialization-dependent claims are withdrawn, and missing optional data are not zero-filled or silently retained.
 A `FAIL` is preserved as a revision or scope-limitation signal.
 A case designed and analyzed by the same person or same model session is **not** counted as an independent blind validation.
 
@@ -101,3 +114,4 @@ A case designed and analyzed by the same person or same model session is **not**
 - [`ANL-CH-003_dsd-null-no-gain-pilot.md`](ANL-CH-003_dsd-null-no-gain-pilot.md) — direct correspondence with a sufficient external baseline and correctly recognized zero analytical gain.
 - [`ANL-CH-004_forced-non-correspondence-pilot.md`](ANL-CH-004_forced-non-correspondence-pilot.md) — ordered-sequence obstruction showing that essential-structure loss must be recorded as non-correspondence rather than rescued post hoc.
 - [`ANL-CH-005_layer-restraint-pilot.md`](ANL-CH-005_layer-restraint-pilot.md) — casewise minimum-layer selection across Formation, Property, Static, and Dynamics without unnecessary serial-chain expansion.
+- [`ANL-CH-006_specialization-removal-pilot.md`](ANL-CH-006_specialization-removal-pilot.md) — realized-axis removal pilot preserving independent Property/Dynamics claims while withdrawing only geometric specialization claims.
