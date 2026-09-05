@@ -16,7 +16,8 @@ This directory records adversarial and repeatability-oriented challenges for **D
 - Keep explicit encoding, bridge insertion, and added-layer rescue distinct from direct correspondence.
 - Test whether the minimum sufficient DSD layer set is selected without automatic upward drag or a compulsory serial-chain assumption.
 - Test whether removing an optional specialization preserves independent core claims while withdrawing only specialization-dependent claims.
-- Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, and `undetermined` as normal outcomes.
+- Test DSD against the **strongest reasonable task-matched baseline**, rather than an intentionally weak strawman, and preserve DSD-losing or tied outcomes when warranted.
+- Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, `baseline preferred`, `tie`, and `undetermined` as normal outcomes.
 - Reduce post-hoc favorable reinterpretation by precommitting interface and verdict criteria before reading the result.
 
 ## Common fields / 공통 기록 항목
@@ -50,6 +51,13 @@ POST_REMOVAL_WITHDRAWN_CLAIMS:
 POST_REMOVAL_SURVIVING_CLAIMS:
 SPECIALIZATION_REMOVAL_RESULT:
 DEFAULT_SUBSTITUTION_INTRODUCED:
+COMPETING_EXPLANATIONS:
+STRONGEST_REASONABLE_BASELINE:
+TARGET_FIT_RESULT:
+PARISMONY_RESULT:
+NOVEL_DISCRIMINATION_RESULT:
+STRAW_MAN_BASELINE_AVOIDED:
+COMPETITIVE_RESULT:
 FAILURES_OR_LIMITS:
 NEXT_STRENGTHENING_STEP:
 ```
@@ -74,6 +82,11 @@ Specialization removal also separates predecessor/core claims from specializatio
 `SPECIALIZATION_REMOVAL_RESULT` uses `exact_partition / over_retained / over_deleted / indeterminate`.
 A claim that becomes unsupported because optional specialization data were removed is **not** automatically false and must not be replaced by an invented default such as rank `0`.
 
+Competing-explanation challenges must use the **strongest reasonable task-matched baseline**, not merely the weakest comparator that DSD can beat.
+`TARGET_FIT_RESULT`, `PARISMONY_RESULT`, and `NOVEL_DISCRIMINATION_RESULT` are separated so that fit, simplicity, and added explanatory discrimination are not collapsed into one favorable verdict.
+`COMPETITIVE_RESULT` uses `dsd_preferred / baseline_preferred / tie / indeterminate`.
+When possible, `ANALYTICAL_GAIN` is judged relative to the strongest reasonable baseline.
+
 Recommended analytical-gain vocabulary:
 
 ```text
@@ -91,6 +104,7 @@ A null challenge can pass precisely because DSD correctly recognizes that it is 
 A non-correspondence challenge can pass precisely because the selected interface correctly refuses to claim preservation of an essential structure.
 A layer-restraint challenge can pass only when required layers are not omitted and unnecessary layers are not introduced.
 A specialization-removal challenge can pass only when independent core claims survive, specialization-dependent claims are withdrawn, and missing optional data are not zero-filled or silently retained.
+A competing-explanation challenge can pass even when `COMPETITIVE_RESULT: baseline_preferred` or `tie`, provided the competitor was strengthened fairly and the result was not rescued post hoc.
 A `FAIL` is preserved as a revision or scope-limitation signal.
 A case designed and analyzed by the same person or same model session is **not** counted as an independent blind validation.
 
@@ -115,3 +129,4 @@ A case designed and analyzed by the same person or same model session is **not**
 - [`ANL-CH-004_forced-non-correspondence-pilot.md`](ANL-CH-004_forced-non-correspondence-pilot.md) — ordered-sequence obstruction showing that essential-structure loss must be recorded as non-correspondence rather than rescued post hoc.
 - [`ANL-CH-005_layer-restraint-pilot.md`](ANL-CH-005_layer-restraint-pilot.md) — casewise minimum-layer selection across Formation, Property, Static, and Dynamics without unnecessary serial-chain expansion.
 - [`ANL-CH-006_specialization-removal-pilot.md`](ANL-CH-006_specialization-removal-pilot.md) — realized-axis removal pilot preserving independent Property/Dynamics claims while withdrawing only geometric specialization claims.
+- [`ANL-CH-007_competing-explanation-pilot.md`](ANL-CH-007_competing-explanation-pilot.md) — strongest-reasonable-baseline competition pilot in which both toy cases prefer the external baseline after target-fit ties.
