@@ -18,7 +18,8 @@ This directory records adversarial and repeatability-oriented challenges for **D
 - Test whether removing an optional specialization preserves independent core claims while withdrawing only specialization-dependent claims.
 - Test DSD against the **strongest reasonable task-matched baseline**, rather than an intentionally weak strawman, and preserve DSD-losing or tied outcomes when warranted.
 - Test whether a pre-locked rule set transfers to a newly selected problem without post-reveal rule drift, while explicitly recording the real holdout level.
-- Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, `baseline preferred`, `tie`, `transfer failure`, and `undetermined` as normal outcomes.
+- Test whether directional structural predictions are persisted **before reveal** and scored afterward without rewriting failed predictions.
+- Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, `baseline preferred`, `tie`, `transfer failure`, `prediction miss`, and `undetermined` as normal outcomes.
 - Reduce post-hoc favorable reinterpretation by precommitting interface and verdict criteria before reading the result.
 
 ## Common fields / 공통 기록 항목
@@ -69,6 +70,16 @@ TRANSFER_RULE_FAILURES:
 POST_REVEAL_RULE_CHANGE:
 POST_REVEAL_EXCEPTION_ADDED:
 TRANSFER_RESULT:
+PREDICTION_LOCK_STATUS:
+PREDICTION_LOCK_COMMIT:
+PREDICTION_SELECTOR:
+SELECTED_VARIANTS:
+PREDICTION_CASES_SCORED:
+PREDICTION_EXACT_MATCHES:
+PREDICTION_PARTIAL_MATCHES:
+PREDICTION_MISSES:
+POST_REVEAL_PREDICTION_EDIT:
+REVERSE_PREDICTION_RESULT:
 FAILURES_OR_LIMITS:
 NEXT_STRENGTHENING_STEP:
 ```
@@ -104,6 +115,12 @@ Unseen-problem transfer challenges must lock the rule set and scoring criteria b
 `POST_REVEAL_RULE_CHANGE` and `POST_REVEAL_EXCEPTION_ADDED` prevent a failed transfer from being rescued by silently rewriting the precommitted rules.
 A deterministic seed improves reproducibility and constrains post-hoc selection but does not create independent blinding.
 
+Reverse-prediction challenges should persist a **prediction-only precommit before reveal** whenever the tooling allows it.
+`PREDICTION_LOCK_COMMIT` records the original time-ordered commit, and the completed result record must not erase that history.
+`REVERSE_PREDICTION_RESULT` uses `exact_match / partial_match / prediction_miss / indeterminate`.
+A post-reveal mismatch is preserved as a miss rather than repaired by rewriting the original prediction or adding an undisclosed exception.
+A deterministic selector can reduce post-hoc variant choice, but same-session perturbation templates remain procedural calibration rather than independent predictive validity.
+
 Recommended analytical-gain vocabulary:
 
 ```text
@@ -123,6 +140,7 @@ A layer-restraint challenge can pass only when required layers are not omitted a
 A specialization-removal challenge can pass only when independent core claims survive, specialization-dependent claims are withdrawn, and missing optional data are not zero-filled or silently retained.
 A competing-explanation challenge can pass even when `COMPETITIVE_RESULT: baseline_preferred` or `tie`, provided the competitor was strengthened fairly and the result was not rescued post hoc.
 An unseen-problem transfer challenge can pass only when the pre-locked rules are applied without undisclosed post-reveal modification, and the record must not exaggerate a same-session procedural case into an independent holdout.
+A reverse-prediction challenge can pass only when the prediction was locked before reveal, the observed result was scored against that locked record, and misses were not silently edited away. A same-session template hit is not counted as independent predictive validation.
 A `FAIL` is preserved as a revision or scope-limitation signal.
 A case designed and analyzed by the same person or same model session is **not** counted as an independent blind validation.
 
@@ -149,3 +167,4 @@ A case designed and analyzed by the same person or same model session is **not**
 - [`ANL-CH-006_specialization-removal-pilot.md`](ANL-CH-006_specialization-removal-pilot.md) — realized-axis removal pilot preserving independent Property/Dynamics claims while withdrawing only geometric specialization claims.
 - [`ANL-CH-007_competing-explanation-pilot.md`](ANL-CH-007_competing-explanation-pilot.md) — strongest-reasonable-baseline competition pilot in which both toy cases prefer the external baseline after target-fit ties.
 - [`ANL-CH-008_unseen-problem-transfer-pilot.md`](ANL-CH-008_unseen-problem-transfer-pilot.md) — deterministic seeded procedural pseudo-unseen transfer pilot applying the ANL-CH-001~007 rules to a laboratory sample workflow without post-reveal modification.
+- [`ANL-CH-009_reverse-prediction-pilot.md`](ANL-CH-009_reverse-prediction-pilot.md) — prediction-only precommit followed by deterministic selection of P2/P3/P4 and exact post-reveal matches in all three scored variants.
