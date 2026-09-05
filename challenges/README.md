@@ -12,6 +12,8 @@ This directory records adversarial and repeatability-oriented challenges for **D
 - Test whether a materially different formation/property/dynamic structure is actually distinguished.
 - Test whether declared symmetry transformations produce the corresponding transformed result rather than directional bias.
 - Test whether DSD can explicitly recognize cases where an external baseline is already sufficient and DSD adds no analytical gain.
+- Test whether an essential external structure is genuinely preserved before granting `direct` or `partial` correspondence.
+- Keep explicit encoding, bridge insertion, and added-layer rescue distinct from direct correspondence.
 - Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, and `undetermined` as normal outcomes.
 - Reduce post-hoc favorable reinterpretation by precommitting interface and verdict criteria before reading the result.
 
@@ -26,6 +28,9 @@ CASE_GENERATION:
 BLINDING_LEVEL:
 ANALYSIS_RESULT:
 CORRESPONDENCE_RESULT:
+ESSENTIAL_STRUCTURE:
+ESSENTIAL_STRUCTURE_PRESERVED:
+ENCODED_EXTENSION_RESULT:
 BASELINE_SUFFICIENCY:
 INVARIANCE_RESULT:
 EQUIVARIANCE_RESULT:
@@ -43,6 +48,10 @@ Equivariance requires a result to transform consistently when the tested structu
 A direct DSD correspondence can coexist with a fully sufficient external baseline and `ANALYTICAL_GAIN: none`.
 Representability is not counted as usefulness by itself.
 
+`ESSENTIAL_STRUCTURE_PRESERVED` prevents surface alignment from being promoted into a meaningful correspondence claim.
+A `partial` result should preserve some structure that is genuinely relevant to the external target's defining distinction.
+`ENCODED_EXTENSION_RESULT` records whether a mapping requires explicit position, relation, bridge, or added-layer data; such an extension is not retroactively classified as `direct`.
+
 Recommended analytical-gain vocabulary:
 
 ```text
@@ -57,6 +66,7 @@ negative
 A `PASS` means only that the stated challenge criterion was met.
 It is not evidence that DSD as a whole is true.
 A null challenge can pass precisely because DSD correctly recognizes that it is unnecessary for the tested case.
+A non-correspondence challenge can pass precisely because the selected interface correctly refuses to claim preservation of an essential structure.
 A `FAIL` is preserved as a revision or scope-limitation signal.
 A case designed and analyzed by the same person or same model session is **not** counted as an independent blind validation.
 
@@ -78,3 +88,4 @@ A case designed and analyzed by the same person or same model session is **not**
 - [`ANL-CH-001_blind-twin-pilot.md`](ANL-CH-001_blind-twin-pilot.md) — first pilot invariance/discrimination challenge.
 - [`ANL-CH-002_symmetric-case-pilot.md`](ANL-CH-002_symmetric-case-pilot.md) — sign/orientation symmetry and composition-equivariance pilot.
 - [`ANL-CH-003_dsd-null-no-gain-pilot.md`](ANL-CH-003_dsd-null-no-gain-pilot.md) — direct correspondence with a sufficient external baseline and correctly recognized zero analytical gain.
+- [`ANL-CH-004_forced-non-correspondence-pilot.md`](ANL-CH-004_forced-non-correspondence-pilot.md) — ordered-sequence obstruction showing that essential-structure loss must be recorded as non-correspondence rather than rescued post hoc.
