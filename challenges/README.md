@@ -11,7 +11,8 @@ This directory records adversarial and repeatability-oriented challenges for **D
 - Test whether structurally identical cases receive the same structural analysis.
 - Test whether a materially different formation/property/dynamic structure is actually distinguished.
 - Test whether declared symmetry transformations produce the corresponding transformed result rather than directional bias.
-- Permit `no analytical gain`, `non-correspondence`, and `undetermined` as normal outcomes.
+- Test whether DSD can explicitly recognize cases where an external baseline is already sufficient and DSD adds no analytical gain.
+- Permit `no analytical gain`, `negative analytical gain`, `non-correspondence`, and `undetermined` as normal outcomes.
 - Reduce post-hoc favorable reinterpretation by precommitting interface and verdict criteria before reading the result.
 
 ## Common fields / 공통 기록 항목
@@ -24,6 +25,8 @@ PRECOMMITTED_CRITERIA:
 CASE_GENERATION:
 BLINDING_LEVEL:
 ANALYSIS_RESULT:
+CORRESPONDENCE_RESULT:
+BASELINE_SUFFICIENCY:
 INVARIANCE_RESULT:
 EQUIVARIANCE_RESULT:
 DISCRIMINATION_RESULT:
@@ -36,10 +39,24 @@ NEXT_STRENGTHENING_STEP:
 Invariance requires a result to remain unchanged under a nonessential relabeling.
 Equivariance requires a result to transform consistently when the tested structure itself is transformed by an explicit symmetry map.
 
+`CORRESPONDENCE_RESULT`, `BASELINE_SUFFICIENCY`, and `ANALYTICAL_GAIN` are also distinct.
+A direct DSD correspondence can coexist with a fully sufficient external baseline and `ANALYTICAL_GAIN: none`.
+Representability is not counted as usefulness by itself.
+
+Recommended analytical-gain vocabulary:
+
+```text
+substantial
+limited
+none
+negative
+```
+
 ## Interpretation rule / 해석 규칙
 
 A `PASS` means only that the stated challenge criterion was met.
 It is not evidence that DSD as a whole is true.
+A null challenge can pass precisely because DSD correctly recognizes that it is unnecessary for the tested case.
 A `FAIL` is preserved as a revision or scope-limitation signal.
 A case designed and analyzed by the same person or same model session is **not** counted as an independent blind validation.
 
@@ -60,3 +77,4 @@ A case designed and analyzed by the same person or same model session is **not**
 
 - [`ANL-CH-001_blind-twin-pilot.md`](ANL-CH-001_blind-twin-pilot.md) — first pilot invariance/discrimination challenge.
 - [`ANL-CH-002_symmetric-case-pilot.md`](ANL-CH-002_symmetric-case-pilot.md) — sign/orientation symmetry and composition-equivariance pilot.
+- [`ANL-CH-003_dsd-null-no-gain-pilot.md`](ANL-CH-003_dsd-null-no-gain-pilot.md) — direct correspondence with a sufficient external baseline and correctly recognized zero analytical gain.
